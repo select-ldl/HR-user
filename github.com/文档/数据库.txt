@@ -1,0 +1,35 @@
+```python
+import openpyxl
+import mysql.connector
+
+# 打开xlsx文件
+wb = openpyxl.load_workbook('example.xlsx')
+
+# 选择工作表
+sheet = wb['Sheet1']
+
+# 连接MySQL数据库
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  password="yourpassword",
+  database="yourdatabase"
+)
+
+# 创建游标对象
+mycursor = mydb.cursor()
+
+# 遍历行，生成SQL语句并插入到数据库
+for row in sheet.iter_rows(min_row=2, values_only=True):
+    sql = "INSERT INTO employees (name, age, salary) VALUES (%s, %s, %s)"
+    val = (row[0], row[1], row[2])
+    mycursor.execute(sql, val)
+
+# 提交更改
+mydb.commit()
+
+# 输出插入的行数
+print(mycursor.rowcount, "rows inserted.")
+```
+
+在上述代码中，我们使用了openpyxl库来读取xlsx文件的内容，并使用mysql.connector库连接MySQL数据库进行插入操作。首先，我们打开xlsx文件并选择要读取的工作表。然后，我们遍历行，逐行生成SQL语句，并使用游标对象将其插入到数据库中。最后，我们提交更改，输出插入的行数。根据实际需要修改表名、字段名和数据库连接信息即可

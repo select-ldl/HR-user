@@ -1,0 +1,69 @@
+```go
+package main
+
+import (
+    "database/sql"
+    "fmt"
+    "net/http"
+
+    "github.com/gin-gonic/gin"
+    _ "github.com/go-sql-driver/mysql"
+)
+
+// 定义一个结构体来存储表单数据
+type FormData struct {
+    Name  string `form:"name"`
+    Email string `form:"email"`
+}
+
+func main() {
+    // 连接数据库
+    db, err := sql.Open("mysql", "root:password@tcp(127.0.0.1:3306)/test")
+    if err != nil {
+        panic(err)
+    }
+    defer db.Close()
+
+    // 测试数据库连接是否正常
+    if err := db.Ping(); err != nil {
+        panic(err)
+    }
+
+    router := gin.Default()
+
+    // 定义POST请求的路由
+    router.POST("/submit", func(c *gin.Context) {
+        var form FormData
+
+        // 绑定表单数据到结构体
+        if err := c.ShouldBind(&form); err != nil {
+            c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+            return
+        }
+
+        // 将表单数据插入到MySQL数据库中
+        stmt, err := db.Prepare("INSERT INTO users(name, email) VALUES (?, ?)")
+        if err != nil {
+            panic(err)
+        }
+
+        _, err = stmt.Exec(form.Name, form.Email)
+        if err != nil {
+            panic(err)
+        }
+
+        // 返回成功信息给前端
+        c.HTML(http.StatusOK, "success.html", gin.H{
+            "message": "表单数据保存成功",
+        })
+    })
+
+    router.Run(":8080") // 启动HTTP服务器
+}
+```
+
+在上述示例中，我们使用Go语言的`database/sql`包和`github.com/go-sql-driver/mysql`包来连接MySQL数据库。接着在路由处理函数中，通过`ShouldBind()`函数将POST请求中的JSON数据绑定到构造体`FormData`中，并将其插入到MySQL数据库中。
+
+最后，我们使用Gin框架的HTML模板来渲染返回给前端的页面。需要在views文件夹下创建一个success.html模板文件。
+
+上述示例只是一个简单的示例，实际情况中应该对插入数据的结果进行判断，并根据结果返回不同的消息给前端。s

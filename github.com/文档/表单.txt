@@ -1,0 +1,49 @@
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>表单提交示例</title>
+  </head>
+  <body>
+    <form id="myForm" action="/submit" method="POST">
+      <label for="name">姓名：</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">邮箱：</label>
+      <input type="email" id="email" name="email"><br><br>
+      <button type="submit" id="submitBtn">提交</button>
+    </form>
+
+    <script>
+      // 获取表单和提交按钮元素
+      const myForm = document.getElementById("myForm");
+      const submitBtn = document.getElementById("submitBtn");
+
+      // 监听表单提交事件
+      myForm.addEventListener("submit", (event) => {
+        // 阻止表单默认提交行为
+        event.preventDefault();
+
+        // 获取表单数据
+        const formData = new FormData(myForm);
+
+        // 发送POST请求保存表单数据
+        fetch("/submit", {
+          method: "POST",
+          body: formData,
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // 处理响应结果
+            console.log("表单数据保存成功：", data);
+          })
+          .catch((error) => {
+            // 处理错误情况
+            console.error("表单数据保存失败：", error);
+          });
+      });
+    </script>
+  </body>
+</html>
+```
+
+在上面的示例中，我们创建了一个包含姓名和邮箱输入框的表单，并添加了一个提交按钮。当用户点击提交按钮时，表单数据将通过fetch函数发送到后台服务器。在fetch函数中，我们指定了请求方法为POST，请求地址为`/submit`，请求体为FormData对象。接着，我们使用Promise链式调用处理响应结果。

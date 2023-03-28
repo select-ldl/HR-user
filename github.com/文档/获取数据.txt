@@ -1,0 +1,57 @@
+对于后端获取前端提交的表单数据，对于Go语言和Python都可以使用相应的框架来实现。下面给出两个简单的示例：
+
+#### Go语言
+
+使用Go语言的Gin框架可以轻松地获取表单数据，示例代码如下：
+
+```go
+package main
+
+import (
+    "github.com/gin-gonic/gin"
+)
+
+func main() {
+    router := gin.Default()
+
+    // 定义POST请求的路由
+    router.POST("/submit", func(c *gin.Context) {
+        // 获取POST请求中的表单数据
+        name := c.PostForm("name")
+        email := c.PostForm("email")
+
+        // 处理表单数据
+        // ...
+    })
+
+    router.Run(":8080") // 启动HTTP服务器
+}
+```
+
+在上面的示例中，我们定义了一个POST请求的路由`/submit`，当有用户发起POST请求时，Gin框架会自动解析请求Body中的表单数据，并将其存储在`c.PostForm()`函数返回的map对象中。
+
+#### Python
+
+使用Python的Flask框架也可以轻松地获取表单数据，示例代码如下：
+
+```python
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/submit', methods=['POST'])
+def submit():
+    # 获取POST请求中的表单数据
+    name = request.form.get('name')
+    email = request.form.get('email')
+
+    # 处理表单数据
+    # ...
+
+    return jsonify({'message': '表单数据保存成功'})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+在上面的示例中，我们定义了一个POST请求的路由`/submit`，当有用户发起POST请求时，Flask框架会自动解析请求Body中的表单数据，并将其存储在`request.form`对象中。
