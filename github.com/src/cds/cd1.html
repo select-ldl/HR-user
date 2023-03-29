@@ -1,0 +1,103 @@
+好的，请参考下面的代码实现登入页面。
+
+HTML代码：
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Login</h1>
+		<form>
+			<label for="emp_id">Employee ID</label>
+			<input type="text" id="emp_id" placeholder="Enter Employee ID" required>
+			<label for="password">Password</label>
+			<input type="password" id="password" placeholder="Enter Password" required>
+			<button type="button" id="login_btn">Login</button>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+```
+
+CSS代码：
+
+```
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f1f1f1;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+form {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+	padding: 40px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+button[type=button] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button[type=button]:hover {
+	background-color: #45a049;
+}
+```
+
+JavaScript代码：
+
+```
+const loginButton = document.getElementById("login_btn");
+loginButton.addEventListener("click", function() {
+  const empID = document.getElementById("emp_id").value;
+  const password = document.getElementById("password").value;
+  if (empID === "" || password === "") {
+    alert("Please enter Employee ID and Password.");
+  } else {
+    alert("Login successful.");
+  }
+});
+```
+
+<!-- 以上代码实现了一个简单的登入页面，包含工号、密码和登录按钮。当用户点击登录按钮时，JavaScript代码会获取输入框的值，并检验是否有输入，若有，弹出“登录成功”的提示；若没有，弹出“请输入工号和密码”的提示。CSS代码使页面排版更加美观。 -->

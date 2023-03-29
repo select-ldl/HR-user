@@ -96,47 +96,50 @@
         </form>
     </div>
     <script>
-        L_email.onchange = function(){
-		var L_email = this.value;
-		var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
-		if(!reg.test(L_email)){
-			alert("邮箱格式不正确，请重新输入！");
-            return false;  
-		}
-	    }
-        L_pwd.onchange = function(){
-		var L_pwd = this.value;
-		var reg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,}$/;
-		if(!reg.test(L_pwd)){
-            alert("密码长度要大于6位，由数字和字母组成,请重新输入！");
-            return false;  
-		}
-	    }
+        // L_email.onchange = function(){
+		// var L_email = this.value;
+		// var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+		// if(!reg.test(L_email)){
+		// 	alert("邮箱格式不正确，请重新输入！");
+        //     return false;  
+		// }
+	    // }
+        // L_pwd.onchange = function(){
+		// var L_pwd = this.value;
+		// var reg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,}$/;
+		// if(!reg.test(L_pwd)){
+        //     alert("密码长度要大于6位，由数字和字母组成,请重新输入！");
+        //     return false;  
+		// }
+	    // }
  
-        var email=localStorage.getItem("email");
-        var password=localStorage.getItem("password");
-        console.log("email:"+email);
-        console.log("pwd:"+password);
+        // var email=localStorage.getItem("email");
+        // var password=localStorage.getItem("password");
+        // console.log("email:"+email);
+        // console.log("pwd:"+password);
  
+        // function jump1(){
+        //     console.log(document.getElementById("L_email").value);
+        //     console.log(+document.getElementById("L_pwd").value);
+ 
+        //     var Email = document.getElementById("L_email");  
+        //     var Password = document.getElementById("L_pwd");
+ 
+        //     if(email==document.getElementById("L_email").value && password==document.getElementById("L_pwd").value){
+        //        alert("登录成功，点击确定进入我的个人相册！");
+        //        window.location.href="My_Album.html";
+        //     }
+        //     else if(Email.value == "" || Password.value =="") {            
+        //             alert("邮箱或密码不能为空！");            
+        //             return false;            
+        //         }   
+        //     else{
+        //        alert("邮箱或密码错误！");
+        //        return false;  
+        //    }
+        // }
         function jump1(){
-            console.log(document.getElementById("L_email").value);
-            console.log(+document.getElementById("L_pwd").value);
- 
-            var Email = document.getElementById("L_email");  
-            var Password = document.getElementById("L_pwd");
- 
-            if(email==document.getElementById("L_email").value && password==document.getElementById("L_pwd").value){
-               alert("登录成功，点击确定进入我的个人相册！");
-               window.location.href="My_Album.html";
-            }
-            else if(Email.value == "" || Password.value =="") {            
-                    alert("邮箱或密码不能为空！");            
-                    return false;            
-                }   
-            else{
-               alert("邮箱或密码错误！");
-               return false;  
-           }
+           window.location.href="../index.html";
         }
         function jump2(){
            window.location.href="register.html";
