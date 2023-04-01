@@ -1,5 +1,7 @@
 github :: promtengineer 
 
+ai::https://ai-bot.cn/
+
 prote.me
 
 htttps://mindshow.fun/#/home
