@@ -1,0 +1,19 @@
+简单运行。从Google dorking和ARIN数据库中获取结果：
+
+python3 NetblockTool.py Company
+
+包括详细标志以打印状态更新：
+
+python3 NetblockTool.py -v Company
+
+提取目标公司子公司拥有的网络块：
+
+python3 NetblockTool.py -v Company -s
+
+提取联系人信息：
+
+python3 NetblockTool.py -v Company -p
+
+获取尽可能多的信息，包括使用通配符查询找到的网络块、联系点、地理位置数据和物理地址：
+
+python3 NetblockTool.py -wpgav Company -so
