@@ -1,0 +1,7 @@
+添加公钥
+cd ~/.ssh
+cat id_rsa/pud
+
+生成ssh  ssh-keygen -t rsa -C"XXX@qq.com"
+
+
