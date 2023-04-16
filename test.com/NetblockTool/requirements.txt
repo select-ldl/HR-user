@@ -1,6 +1,0 @@
-netaddr
-bs4
-lxml
-requests
-fuzzywuzzy
-tqdm
