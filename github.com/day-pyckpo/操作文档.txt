@@ -1,0 +1,7 @@
+先下载python驱动
+将python添加环境变量path
+将geckodriver.exe放入到下载好的python文件目录
+第一次启动 需要点击 bin.bat
+等待相关插件安装完成
+
+后面直接点击agbe.py即可
