@@ -29,7 +29,6 @@ url = "https://www.yuketang.cn/web"
 web = webdriver.Firefox()
 web.get(url)
 web.implicitly_wait(10)
-web.quit()
 web.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[1]/ul/li[1]/span').click()
 web.implicitly_wait(10)
 web.find_element(By.XPATH, '//*[@id="tab-student"]').click()
