@@ -1,0 +1,103 @@
+
+.box {
+    width: 354px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.box::before,
+.box::after {
+    position:fixed;
+    text-align: center;
+   
+
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(0deg,
+            transparent, transparent, #03e9f4, #03e9f4, #03e9f4);
+    transform-origin: bottom right;
+    animation: login 5s linear infinite;
+    margin: 0 auto;
+    
+}
+
+.box::after {
+
+    background: linear-gradient(0deg,
+            transparent, transparent, #ff2771, #ff2771#ff2771);
+    animation-delay: -3s;
+}
+
+@keyframes login {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.login-box {
+    width: 350px;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.login-box h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.user-box {
+    position: relative
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px0;
+
+    font-size: 16px;
+    color: #fff;
+
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+
+    font-size: 16px;
+    color: #fff;
+
+    pointer-events: none;
+
+    transition: .5s;
+    
+}
+
+.user-box input:focus~label.user-box input:valid~label {
+
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
