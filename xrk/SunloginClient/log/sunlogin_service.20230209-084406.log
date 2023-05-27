@@ -1,0 +1,56 @@
+2023-02-09 08:44:07.062	- Info  -	version:3.2.1.40406
+2023-02-09 08:44:07.426	* Error *	SSLStream|Remove temp(C:\Windows\TEMP\u32c.0) file ok
+2023-02-09 08:44:08.615	- Info  -	Initialize OK
+2023-02-09 08:44:08.615	- Info  -	CAcceptorRaw::set_listener
+2023-02-09 08:44:08.615	- Info  -	DesktopAgentServer created with port 0.
+2023-02-09 08:44:09.203	* Error *	[udpstack] bind 0.0.0.0:15207 error , errorno = 10048
+2023-02-09 08:44:09.205	- Info  -	[service] start listen OK,tcp:0.0.0.0:49675,udp:15318
+2023-02-09 08:44:09.407	- Info  -	[discover] Client NotifyDiscover type=5
+2023-02-09 08:44:09.448	- Info  -	[localserver] Not use proxy
+2023-02-09 08:44:09.763	- Info  -	network error, retrying login server
+2023-02-09 08:44:12.807	- Info  -	[mac] local ip:127.0.0.1
+2023-02-09 08:44:12.813	- Info  -	[mac] mac address:
+2023-02-09 08:44:12.813	- Info  -	[mac] mac address is empty,get mac address with wmi
+2023-02-09 08:44:15.061	- Info  -	get mac address: ce:d4:20:52:41:53
+2023-02-09 08:44:16.433	- Info  -	os name:Microsoft Windows 10 专业版
+2023-02-09 08:44:17.126	- Info  -	m_clientinfo.mac: ce:d4:20:52:41:53
+2023-02-09 08:44:17.169	- Info  -	Current client status: 2
+2023-02-09 08:44:17.169	- Info  -	send status_changed notify 2
+2023-02-09 08:44:17.169	- Info  -	Login task time 0
+2023-02-09 08:44:17.180	- Info  -	Do login( type: 2 ) at 379
+2023-02-09 08:44:17.180	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/remote/get-fastcode
+2023-02-09 08:44:17.181	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2023-02-09 08:44:17.184	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-02-09 09:12:03.537	- Info  -	[http call3] disconnect, error( 0 )
+2023-02-09 09:12:03.537	- Info  -	[http call3] disconnect id:1, error( 0 )
+2023-02-09 09:12:03.537	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-02-09 09:12:03.537	- Info  -	Current client status: 0
+2023-02-09 09:12:03.537	- Info  -	send status_changed notify 0
+2023-02-09 09:12:03.537	- Info  -	[OnLogout start]
+2023-02-09 09:12:03.537	- Info  -	[service] stop all projections
+2023-02-09 09:12:03.537	- Info  -	[OnLogout end]
+2023-02-09 09:12:05.251	- Info  -	[ServiceEx] the service control is 13
+2023-02-09 09:12:05.251	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-02-09 09:12:05.251	+Warning+	[service] power event, system is resumed.
+2023-02-09 09:12:07.356	- Info  -	[ServiceEx] the service control is 13
+2023-02-09 09:12:07.356	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-02-09 09:12:07.358	+Warning+	[service] power event, system is resumed.
+2023-02-09 09:12:12.267	- Info  -	retry login now......
+2023-02-09 09:12:12.267	- Info  -	Current client status: 2
+2023-02-09 09:12:12.267	- Info  -	send status_changed notify 2
+2023-02-09 09:12:12.267	- Info  -	Login task time 0
+2023-02-09 09:12:12.267	- Info  -	[service] retry login by power event
+2023-02-09 09:12:12.415	- Info  -	Do login( type: 2 ) at 379
+2023-02-09 09:12:12.415	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/remote/get-fastcode
+2023-02-09 09:12:12.415	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2023-02-09 09:12:12.417	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-02-09 09:12:18.052	- Info  -	[service] retry login by power event
+2023-02-09 09:12:42.531	- Info  -	[http call3] disconnect, error( 0 )
+2023-02-09 09:12:42.531	- Info  -	[http call3] disconnect id:2, error( 0 )
+2023-02-09 09:12:42.531	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-02-09 09:12:42.531	- Info  -	Current client status: 0
+2023-02-09 09:12:42.531	- Info  -	send status_changed notify 0
+2023-02-09 09:12:42.531	- Info  -	[OnLogout start]
+2023-02-09 09:12:42.531	- Info  -	[service] stop all projections
+2023-02-09 09:12:42.531	- Info  -	[OnLogout end]
+2023-02-09 09:12:42.770	- Info  -	[MICRO LIVE] shell send close micro_live_plugin

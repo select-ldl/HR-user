@@ -1,0 +1,525 @@
+2023-04-04 16:54:01.012	- Info  -	version:3.2.1.40406
+2023-04-04 16:54:01.055	- Info  -	DPIAwareness set 2 success.
+2023-04-04 16:54:01.062	- Info  -	config path: 0ͫg
+2023-04-04 16:54:01.168	- Info  -	[displayclt] CDisplayClient::CDisplayClient(all)
+2023-04-04 16:54:01.168	- Info  -	[desktop] CRemoteDesktopPlugin::CRemoteDesktopPlugin(all)
+2023-04-04 16:54:01.214	- Info  -	CMultiChannelStreamImpl::CMultiChannelStreamImpl
+2023-04-04 16:54:01.216	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_FORWARD, error: 0
+2023-04-04 16:54:01.216	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FORWARD, error: 0, oray errorcode: 0
+2023-04-04 16:54:01.228	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:01.253	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2023-04-04 16:54:01.274	* Error *	sensors data send failed!
+2023-04-04 16:54:01.340	- Info  -	attempt to connect server 1851915708.slp2p-east-std249.oray.net:443(117.68.2.19:443)
+2023-04-04 16:54:01.462	- Info  -	[TCPConnector] CCurStream handle client_connect
+2023-04-04 16:54:01.498	- Info  -	[MultiChannel] Forward channel shake handle 117.68.2.19:443
+2023-04-04 16:54:01.498	- Info  -	CMultiChannelStreamImpl::OnConnect()
+2023-04-04 16:54:01.498	- Info  -	CClientStream 117.68.2.19:443 OnConnect
+2023-04-04 16:54:01.499	- Info  -	CConnectorRaw::OnEvent() state: CNTS_LOGIN, error: 0, oray errorcode: 0
+2023-04-04 16:54:01.499	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:01.500	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_SHAKEHANDLE, error: 0, oray errorcode: 0
+2023-04-04 16:54:01.500	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:01.604	- Info  -	plugin_public access_token is NULL
+2023-04-04 16:54:01.613	- Info  -	[MultiChannel] Forward channel connected 117.68.2.19:443
+2023-04-04 16:54:01.613	- Info  -	CMultiChannelStreamImpl::OnConnectEvent, status: CNTS_FWD_CONNECTED, isclosed:false, HadFwdConnected: true, HadBeenHolePunch: false
+2023-04-04 16:54:01.613	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_CONNECTED, error: 0, oray errorcode: 0
+2023-04-04 16:54:01.614	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:01.614	- Info  -	CClientStream 117.68.2.19:443 OnReceive reply 1 
+2023-04-04 16:54:01.614	- Info  -	CClientStream 117.68.2.19:443 start keepalive
+2023-04-04 16:54:01.614	- Info  -	CClientStream 117.68.2.19:443 login OK
+2023-04-04 16:54:01.614	- Info  -	CConnectorRaw::OnEvent() state: CNTS_CONNECTED, error: 0, oray errorcode: 0
+2023-04-04 16:54:01.614	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:01.614	- Info  -	CPluginThreadManager start plugin thread
+2023-04-04 16:54:01.627	- Info  -	CActivePlugin prepare to init plugin
+2023-04-04 16:54:01.627	- Info  -	[desktop] create drag server OK
+2023-04-04 16:54:01.627	- Info  -	CActivePlugin prepare to run plugin
+2023-04-04 16:54:01.628	- Info  -	[desktop] sending switch desktop type message...
+2023-04-04 16:54:01.629	- Info  -	[desktop] request enumerate user list.
+2023-04-04 16:54:01.629	- Info  -	[desktop] Separation message loop start.
+2023-04-04 16:54:01.629	- Info  -	[desktop] receive enumerate user respond
+2023-04-04 16:54:01.629	- Info  -	[desktop] request switch user host message...
+2023-04-04 16:54:02.134	- Info  -	[desktop] receive switch host message res = 1 
+2023-04-04 16:54:02.134	- Info  -	[desktop] request enum screen
+2023-04-04 16:54:02.134	- Info  -	[DisplayClient] SetCompression 11/15
+2023-04-04 16:54:02.134	- Info  -	[desktop] request start stream
+2023-04-04 16:54:02.134	- Info  -	[desktop] SetCompressionParam: layer=1;encoding=4;format=1;reserved=0, size: 38
+2023-04-04 16:54:02.276	- Info  -	[desktop] OnQueryConfigRes
+2023-04-04 16:54:02.277	- Info  -	[desktop] OnQueryConfigRes
+2023-04-04 16:54:02.277	- Info  -	[desktop] recv enum screen, number is 1
+2023-04-04 16:54:02.284	- Info  -	[clipboard] start clipboard...
+2023-04-04 16:54:02.304	- Info  -	[clipboard][converter] html format 49319
+2023-04-04 16:54:02.305	- Info  -	[clipboard][converter] rtf format 49356
+2023-04-04 16:54:02.305	- Info  -	[clipboard] start clipboard ok.
+2023-04-04 16:54:02.305	- Info  -	[desktop] sync clipboard enable
+2023-04-04 16:54:02.508	* Error *	sensors data send failed!
+2023-04-04 16:54:02.856	- Info  -	SetDisplayMode() w=1440, h=900, bpp=32
+2023-04-04 16:54:02.856	- Info  -	ResetBitmap width=1440, height=900, bpp=32, srcbpp=32, Size = 5184000
+2023-04-04 16:54:02.856	- Info  -	[DisplayClient] recv image info, width: 1440, height: 900, bpp: 32
+2023-04-04 16:54:02.856	- Info  -	[DisplayClient] OnRecvCompInfo format/quality 11/15
+2023-04-04 16:54:02.857	- Info  -	[desktop][DisplayClient] recv first frame.
+2023-04-04 16:54:02.865	- Info  -	[DisplayClient] recv compimage type: ID_IMAGE_RAPIDCOMP
+2023-04-04 16:54:02.942	- Info  -	[vpx] open codec.
+2023-04-04 16:54:03.017	- Info  -	[desktop][DisplayClient] decode first frame end.
+2023-04-04 16:54:03.019	- Info  -	[desktop] receive first frame message
+2023-04-04 16:54:03.022	- Info  -	CClipboardRaw::OnReceiveQueryVersionReq 2
+2023-04-04 16:54:03.204	- Info  -	Init D3D2 OK
+2023-04-04 16:54:03.205	- Info  -	[DesktopSurface] Use DirectX Paint mode 2
+2023-04-04 16:54:03.259	- Info  -	Init D3D2 OK
+2023-04-04 16:54:03.310	- Info  -	[maindialog] draw first frame end
+2023-04-04 16:54:03.426	- Info  -	[desktop] sync clipboard enable
+2023-04-04 16:54:03.427	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/client/free-tips
+2023-04-04 16:54:03.428	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/remote/get-network
+2023-04-04 16:54:03.455	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2023-04-04 16:54:03.457	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-04 16:54:03.457	- Info  -	[http call3] id:2 use old connection : https://slapi.oray.net:443
+2023-04-04 16:54:03.615	- Info  -	CMultiChannelStreamImpl::ConnectP2PServer, thread id: 3988
+2023-04-04 16:54:03.653	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_P2P, error: 0
+2023-04-04 16:54:03.653	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P, error: 0, oray errorcode: 0
+2023-04-04 16:54:03.653	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:03.653	- Info  -	[P2PConnector] attempt to connect server PHSRC://1851915708.slp2p-east-std249.oray.net:4118/desktop(slp2p-east-std249.oray.net:4118) 
+2023-04-04 16:54:03.682	- Info  -	[http call3] id:1, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-04-04 16:54:03.696	- Info  -	[udp] support straight send in peer : no 117.68.2.19:4118 CConnection::OnConnectRes
+2023-04-04 16:54:03.697	- Info  -	[P2PHelper] detect local ip ...
+2023-04-04 16:54:03.699	- Info  -	[P2PHelper] detect local ip 172.16.77.151
+2023-04-04 16:54:03.699	- Info  -	[P2PHelper] attempt to login P2P Server...
+2023-04-04 16:54:03.724	- Info  -	[P2PHelper] Login P2P Server OK
+2023-04-04 16:54:03.724	- Info  -	[P2PHelper] OnLoginRes, receive public ip 223.82.110.30:15697
+2023-04-04 16:54:03.724	- Info  -	[P2PHelper] sending P2P request ...
+2023-04-04 16:54:03.765	- Info  -	[P2PHelper] receive peer local ip 10.21.122.3:15596, public ip 106.7.248.44:6049
+2023-04-04 16:54:03.765	- Info  -	[P2PStream] EstablishP2P local ip 223.82.110.30:15697/172.16.77.151:15697 ==> peer ip 106.7.248.44:6049/10.21.122.3:15596
+2023-04-04 16:54:03.767	- Info  -	[http call3] id:2, url:https://slapi.oray.net/remote/get-network, status code:200
+2023-04-04 16:54:04.202	+Warning+	not found upnp devices on network!
+2023-04-04 16:54:04.202	- Info  -	upnpnat_search_thread::ThreadLoop end
+2023-04-04 16:54:04.203	- Info  -	[udpwrapper] attempt to establish P2P connection via: 117.68.2.19:4118, (local)172.16.77.151:15697|(public)223.82.110.30:15697 ==> (local)10.21.122.3:15596|(public)106.7.248.44:6049
+2023-04-04 16:54:04.705	+Warning+	not found upnp devices on network!
+2023-04-04 16:54:04.705	+Warning+	[udpwrapper] UPNP discovery failed, 
+2023-04-04 16:54:04.724	- Info  -	[drag] QueryVersionRes is true
+2023-04-04 16:54:04.724	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-04-04 16:54:04.764	- Info  -	[udp] OnConnectAck working in advanced mode 2
+2023-04-04 16:54:04.764	- Info  -	[udp] support straight send in peer : yes 106.7.248.44:6049 CConnection::OnConnectRes
+2023-04-04 16:54:04.764	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-04-04 16:54:04.764	- Info  -	[udp] Disconnect
+2023-04-04 16:54:04.764	- Info  -	[udp] SendDisconnect
+2023-04-04 16:54:04.765	- Info  -	[P2PHelper] MainServer disconnect
+2023-04-04 16:54:04.765	- Info  -	[MultiChannel] P2P channel shake handle 106.7.248.44:6049
+2023-04-04 16:54:04.765	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_SHAKEHANDLE, error: 0, oray errorcode: 0
+2023-04-04 16:54:04.765	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:04.765	- Info  -	[MultiChannel] send SHAKE_HANDLES_MSG, read 630007, write 6590
+2023-04-04 16:54:04.765	- Info  -	[P2PStream] connected (by udp) 0.0.0.0:15697 <--> 106.7.248.44:6049
+2023-04-04 16:54:04.772	- Info  -	write data when p2p state is SHAKE_HANDLES @ 137
+2023-04-04 16:54:04.785	- Info  -	[udpwrapper] disconnect reason : 1
+2023-04-04 16:54:04.785	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibWrapper::OnDisconnect:833]
+2023-04-04 16:54:04.785	- Info  -	[udpwrapper] Disconnect 117.68.2.19:4118 @ 838
+2023-04-04 16:54:04.785	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibStream::Disconnect_impl:73]
+2023-04-04 16:54:04.785	- Info  -	[MultiChannel] Received SHAKE_HANDLES_MSG, read 6610 / (local write 6590), write 630051 / (local read 630007)
+2023-04-04 16:54:04.785	- Info  -	[MultiChannel] P2P channel connected 106.7.248.44:6049
+2023-04-04 16:54:04.786	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_CONNECTED, error: 0, oray errorcode: 0
+2023-04-04 16:54:04.786	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 16:54:04.786	- Info  -	[MultiChannel] forward stream read data(size:44, 44, left:44) when p2p state is CONNECTED @ 445
+2023-04-04 16:54:04.786	- Info  -	[MultiChannel] forward data read completed @ 462
+2023-04-04 16:54:04.786	- Info  -	[MultiChannel] write data when p2p state is CONNECTED, is full 0, writed data 6590 / peer read 6610, left 20, size 52 @ 153
+2023-04-04 16:54:04.786	- Info  -	[MultiChannel] forward data write completed @ 216
+2023-04-04 16:54:18.772	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-04 16:54:18.772	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-04 16:54:19.469	* Error *	sensors data send failed!
+2023-04-04 16:54:19.944	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.026	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.059	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.098	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.125	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.146	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.165	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.198	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.237	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.294	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.320	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.343	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.375	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.406	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.429	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.464	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.494	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.512	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.543	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.560	- Info  -	Init D3D2 OK
+2023-04-04 16:54:20.954	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.542	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.649	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.676	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.701	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.720	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.748	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.770	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.789	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.830	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.847	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.870	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.890	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.925	- Info  -	Init D3D2 OK
+2023-04-04 16:54:21.943	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.091	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.146	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.175	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.198	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.217	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.242	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.260	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.289	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.312	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.346	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.375	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.400	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.419	- Info  -	Init D3D2 OK
+2023-04-04 16:54:22.438	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.378	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.400	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.426	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.452	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.475	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.496	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.518	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.536	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.565	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.594	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.615	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.640	- Info  -	Init D3D2 OK
+2023-04-04 16:54:23.669	- Info  -	Init D3D2 OK
+2023-04-04 16:54:24.512	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.524	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.584	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.619	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.644	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.663	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.688	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.720	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.752	- Info  -	Init D3D2 OK
+2023-04-04 16:54:32.774	- Info  -	Init D3D2 OK
+2023-04-04 16:54:33.849	- Info  -	Init D3D2 OK
+2023-04-04 16:54:33.880	- Info  -	Init D3D2 OK
+2023-04-04 16:54:33.901	- Info  -	Init D3D2 OK
+2023-04-04 16:54:33.920	- Info  -	Init D3D2 OK
+2023-04-04 16:54:33.947	- Info  -	Init D3D2 OK
+2023-04-04 16:54:33.970	- Info  -	Init D3D2 OK
+2023-04-04 16:54:33.997	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.015	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.037	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.059	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.086	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.103	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.128	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.148	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.166	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.193	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.213	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.230	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.248	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.267	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.301	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.327	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.346	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.365	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.398	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.426	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.446	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.470	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.495	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.517	- Info  -	Init D3D2 OK
+2023-04-04 16:54:34.536	- Info  -	Init D3D2 OK
+2023-04-04 16:54:35.416	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.551	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.607	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.635	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.654	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.671	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.692	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.712	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.755	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.772	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.799	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.821	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.850	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.873	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.929	- Info  -	Init D3D2 OK
+2023-04-04 16:54:42.992	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.613	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.660	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.679	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.707	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.738	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.757	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.791	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.825	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.844	- Info  -	Init D3D2 OK
+2023-04-04 16:55:21.875	- Info  -	Init D3D2 OK
+2023-04-04 16:55:22.468	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.462	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.527	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.546	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.571	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.594	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.618	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.639	- Info  -	Init D3D2 OK
+2023-04-04 16:55:23.667	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.531	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.557	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.578	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.602	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.621	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.652	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.673	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.691	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.715	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.740	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.767	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.816	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.835	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.860	- Info  -	Init D3D2 OK
+2023-04-04 16:55:24.888	- Info  -	Init D3D2 OK
+2023-04-04 16:55:25.259	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.307	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.408	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.426	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.447	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.469	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.500	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.527	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.548	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.571	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.592	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.619	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.637	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.665	- Info  -	Init D3D2 OK
+2023-04-04 16:55:26.684	- Info  -	Init D3D2 OK
+2023-04-04 16:55:27.274	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.686	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.747	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.774	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.805	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.822	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.842	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.869	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.891	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.908	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.936	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.954	- Info  -	Init D3D2 OK
+2023-04-04 16:55:28.976	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.294	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.316	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.337	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.355	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.373	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.402	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.425	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.448	- Info  -	Init D3D2 OK
+2023-04-04 16:55:29.721	- Info  -	Init D3D2 OK
+2023-04-04 16:57:52.668	+Warning+	[BinaryPluginStream] rate reader pending data size 16 exceed 262144
+2023-04-04 16:57:52.711	+Warning+	[BinaryPluginStream] rate reader data all clear
+2023-04-04 16:59:05.689	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.753	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.786	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.806	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.835	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.857	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.889	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.908	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.932	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.952	- Info  -	Init D3D2 OK
+2023-04-04 16:59:05.974	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.004	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.026	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.047	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.171	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.866	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.890	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.919	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.943	- Info  -	Init D3D2 OK
+2023-04-04 16:59:06.968	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.009	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.069	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.087	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.116	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.134	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.189	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.216	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.235	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.275	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.293	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.321	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.550	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.598	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.617	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.644	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.670	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.690	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.716	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.740	- Info  -	Init D3D2 OK
+2023-04-04 16:59:07.759	- Info  -	Init D3D2 OK
+2023-04-04 16:59:08.209	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.365	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.410	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.443	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.467	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.500	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.525	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.575	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.599	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.621	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.650	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.671	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.708	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.733	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.756	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.793	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.822	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.846	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.870	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.889	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.918	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.942	- Info  -	Init D3D2 OK
+2023-04-04 16:59:50.985	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.005	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.076	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.099	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.131	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.180	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.219	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.242	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.271	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.299	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.319	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.363	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.587	- Info  -	Init D3D2 OK
+2023-04-04 16:59:51.866	- Info  -	Init D3D2 OK
+2023-04-04 16:59:52.005	- Info  -	Init D3D2 OK
+2023-04-04 16:59:52.045	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.101	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.336	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.409	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.433	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.461	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.484	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.509	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.531	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.553	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.582	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.602	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.627	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.645	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.671	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.689	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.717	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.740	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.763	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.783	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.810	- Info  -	Init D3D2 OK
+2023-04-04 16:59:53.882	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.363	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.498	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.529	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.549	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.568	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.596	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.623	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.646	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.680	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.698	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.719	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.746	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.767	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.796	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.821	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.841	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.867	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.885	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.933	- Info  -	Init D3D2 OK
+2023-04-04 16:59:55.992	- Info  -	Init D3D2 OK
+2023-04-04 16:59:56.059	- Info  -	Init D3D2 OK
+2023-04-04 16:59:56.135	- Info  -	Init D3D2 OK
+2023-04-04 16:59:56.210	- Info  -	Init D3D2 OK
+2023-04-04 16:59:58.208	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.515	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.683	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.708	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.733	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.754	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.772	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.816	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.839	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.857	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.878	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.896	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.924	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.946	- Info  -	Init D3D2 OK
+2023-04-04 16:59:59.971	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.153	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.177	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.196	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.215	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.241	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.264	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.300	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.317	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.346	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.363	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.384	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.410	- Info  -	Init D3D2 OK
+2023-04-04 17:00:00.433	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.024	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.047	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.072	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.094	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.112	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.134	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.155	- Info  -	Init D3D2 OK
+2023-04-04 17:00:01.175	- Info  -	Init D3D2 OK
+2023-04-04 17:00:02.091	- Info  -	Init D3D2 OK
+2023-04-04 17:00:03.183	- Info  -	Init D3D2 OK
+2023-04-04 17:20:58.833	* Error *	sensors data send failed!
+2023-04-04 17:20:58.834	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStream::Disconnect_impl:254]
+2023-04-04 17:20:58.834	- Info  -	[TCPConnector] CCurStream handle client_disconnect
+2023-04-04 17:20:58.834	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::ForwardHandler::Handle:647]
+2023-04-04 17:20:58.834	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_DISCONNECT, error: 0, oray errorcode: 0
+2023-04-04 17:20:58.834	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 17:20:58.834	+Warning+	[MultiChannel] unbind forward stream(errorcode 0) @ 651
+2023-04-04 17:20:58.834	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::Disconnect_impl:678]
+2023-04-04 17:20:58.834	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2023-04-04 17:20:58.834	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-04-04 17:20:58.834	- Info  -	[udp] Disconnect
+2023-04-04 17:20:58.834	- Info  -	[udp] SendDisconnect
+2023-04-04 17:20:58.835	- Info  -	[MultiChannel] P2P channel disconnect 106.7.248.44:6049
+2023-04-04 17:20:58.835	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::P2PHandler::Handle:834]
+2023-04-04 17:20:58.835	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::HandleDisconnect:1041]
+2023-04-04 17:20:58.835	- Info  -	CMultiChannelStreamImpl::OnDisconnect()
+2023-04-04 17:20:58.835	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStreamImpl::OnDisconnect:100]
+2023-04-04 17:20:58.835	- Info  -	CClientStream 106.7.248.44:6049 OnDisconnect, errocde:0
+2023-04-04 17:20:58.835	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [CClientStream::OnDisconnect:104]
+2023-04-04 17:20:58.835	- Info  -	OnDisconnect, error code 0
+2023-04-04 17:20:58.835	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [BinaryPluginStream::OnDisconnect:404]
+2023-04-04 17:20:58.835	- Info  -	CPluginThreadManager stop plugin thread
+2023-04-04 17:20:58.835	- Info  -	[desktop] Separation message loop stop.
+2023-04-04 17:20:58.835	- Info  -	CActivePlugin prepare to exit plugin
+2023-04-04 17:20:58.835	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. >
+2023-04-04 17:20:58.835	- Info  -	[clipboard] stop clipboard...
+2023-04-04 17:20:58.845	- Info  -	[udpwrapper] udprelay connecting 106.7.248.44:6049 via 117.68.2.19:4118
+2023-04-04 17:20:58.855	- Info  -	[clipboard] recv thread end(1).
+2023-04-04 17:20:58.855	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-04-04 17:20:58.855	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-04-04 17:20:58.856	- Info  -	[clipboard] Stop Clipboard ok
+2023-04-04 17:20:58.885	- Info  -	[desktop][thread] end.
+2023-04-04 17:20:58.885	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. <
+2023-04-04 17:20:58.885	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_DISCONNECT, error: 0, oray errorcode: 0
+2023-04-04 17:20:58.886	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 17:20:58.886	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CTCPStream::Disconnect_impl:1016]
+2023-04-04 17:20:58.886	- Info  -	CConnectorRaw::OnEvent() state: CNTS_DISCONNECTED, error: 0, oray errorcode: 0
+2023-04-04 17:20:58.886	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-04 17:20:58.886	- Info  -	CConnectorRaw::Stop in>
+2023-04-04 17:20:58.888	- Info  -	[CUDPLibWrapper] map size: 1, value: [106.7.248.44:6049/15697-2] = 0.0.0.0:15697;
+
+2023-04-04 17:20:58.888	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2023-04-04 17:20:58.888	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-04-04 17:20:58.889	- Info  -	CConnectorRaw::Stop out<
+2023-04-04 17:20:58.889	- Info  -	sensors close
+2023-04-04 17:20:58.892	* Error *	Plugin disconnect with error : 0
+2023-04-04 17:20:58.933	- Info  -	[desktop] CRemoteDesktopPlugin::~CRemoteDesktopPlugin(void)
+2023-04-04 17:20:58.934	- Info  -	[vpx][decoder] close codec.
+2023-04-04 17:20:59.040	- Info  -	CMultiChannelStreamImpl::~CMultiChannelStreamImpl
+2023-04-04 17:20:59.042	- Info  -	program remote_plugin is exit 

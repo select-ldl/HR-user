@@ -1,0 +1,23 @@
+2023-02-10 14:52:21.351	- Info  -	version:3.2.1.40406
+2023-02-10 14:52:21.396	- Info  -	[dlg_main] on_create
+2023-02-10 14:52:21.534	- Info  -	attempt to connect server 127.0.0.1:16308(127.0.0.1:16308)
+2023-02-10 14:52:21.556	- Info  -	[shell] OnConnect
+2023-02-10 14:52:21.560	- Info  -	[shell] status_changed:1
+2023-02-10 14:52:22.580	- Info  -	[dlg_main] init_fastcode_histroy
+2023-02-10 14:52:22.623	- Info  -	[http call3] new call id:1, url:https://ddns.oray.com/checkip?clean=1
+2023-02-10 14:52:22.623	- Info  -	[dlg_main] on_create end
+2023-02-10 14:52:22.659	- Info  -	[http call3] id:1 create new connection : https://ddns.oray.com:443
+2023-02-10 14:52:22.771	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2023-02-10 14:52:22.783	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/client/free-tips
+2023-02-10 14:52:22.963	- Info  -	attempt to connect server ddns.oray.com:443(114.215.199.192:443)
+2023-02-10 14:52:22.963	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2023-02-10 14:52:22.964	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-02-10 14:52:23.565	- Info  -	[http call3] id:1, url:https://ddns.oray.com/checkip?clean=1, status code:200
+2023-02-10 14:52:23.683	- Info  -	[http call3] id:2, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-02-10 14:53:00.547	+Warning+	[passive:keepalive:] 114.215.199.192:443 disconnect by keepalive timeout(96453>=59468+30000)
+2023-02-10 14:53:00.547	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-02-10 14:53:00.547	- Info  -	[http call3] disconnect, error( 57351 )
+2023-02-10 14:53:00.578	+Warning+	[passive:keepalive:] 121.40.99.129:443 disconnect by keepalive timeout(96484>=59578+30000)
+2023-02-10 14:53:00.578	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-02-10 14:53:00.578	- Info  -	[http call3] disconnect, error( 57351 )
+2023-02-10 14:54:01.819	- Info  -	[shell] status_changed:0

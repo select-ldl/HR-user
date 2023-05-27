@@ -1,0 +1,31 @@
+2023-04-14 09:48:41.065	- Info  -	version:3.2.1.40406
+2023-04-14 09:48:41.065	- Info  -	[clipboard][client] current session id 1, ProcessID 6244
+
+2023-04-14 09:48:41.068	- Info  -	attempt to connect server 127.0.0.1:65253(127.0.0.1:65253)
+2023-04-14 09:48:41.070	- Info  -	[clipboard][DesktopAgentClient] connect DesktopServer ok.
+2023-04-14 09:48:41.075	- Info  -	[clipboard][client::handler] connected sid(0), thread(2152)
+2023-04-14 09:48:41.076	- Info  -	[clipboard] start clipboard...
+2023-04-14 09:48:41.106	- Info  -	[clipboard][converter] html format 49428
+2023-04-14 09:48:41.107	- Info  -	[clipboard][converter] rtf format 49289
+2023-04-14 09:48:41.108	- Info  -	[clipboard] start clipboard ok.
+2023-04-14 09:48:41.108	- Info  -	[clipboard] stop clipboard...
+2023-04-14 09:48:41.123	- Info  -	[clipboard] recv thread end(1).
+2023-04-14 09:48:41.123	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-04-14 09:48:41.123	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-04-14 09:48:41.125	- Info  -	[clipboard] Stop Clipboard ok
+2023-04-14 09:48:41.541	- Info  -	[clipboard] start clipboard...
+2023-04-14 09:48:41.575	- Info  -	[clipboard][converter] html format 49428
+2023-04-14 09:48:41.575	- Info  -	[clipboard][converter] rtf format 49289
+2023-04-14 09:48:41.577	- Info  -	[clipboard] start clipboard ok.
+2023-04-14 09:48:41.593	- Info  -	[clipboard] recv thread end(2).
+2023-04-14 09:48:43.831	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-04-14 09:48:43.832	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-04-14 09:48:43.832	- Info  -	CClipboardRaw::OnReceiveQueryVersionReq 2
+2023-04-14 09:48:47.580	- Info  -	recv [000] file:C:\Users\Public\Desktop\
+2023-04-14 09:49:00.537	- Info  -	recv [000] file:C:\Users\Public\Desktop\
+2023-04-14 09:49:35.008	- Info  -	[clipboard][client::handler] disconnected
+2023-04-14 09:49:35.008	- Info  -	[clipboard] stop clipboard...
+2023-04-14 09:49:35.008	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-04-14 09:49:35.009	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-04-14 09:49:35.010	- Info  -	[clipboard] Stop Clipboard ok
+2023-04-14 09:49:35.010	- Info  -	[clipboard][DesktopAgentClient] on_disconnect ok.

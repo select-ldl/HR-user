@@ -1,0 +1,115 @@
+2023-03-13 10:28:17.842	- Info  -	version:3.2.1.40406
+2023-03-13 10:28:17.940	- Info  -	[dlg_main] on_create
+2023-03-13 10:28:18.050	- Info  -	attempt to connect server 127.0.0.1:16308(127.0.0.1:16308)
+2023-03-13 10:28:18.213	- Info  -	[shell] OnConnect
+2023-03-13 10:28:18.215	- Info  -	[shell] status_changed:1
+2023-03-13 10:28:19.276	- Info  -	[dlg_main] init_fastcode_histroy
+2023-03-13 10:28:19.309	- Info  -	[http call3] new call id:1, url:https://ddns.oray.com/checkip?clean=1
+2023-03-13 10:28:19.359	- Info  -	[http call3] id:1 create new connection : https://ddns.oray.com:443
+2023-03-13 10:28:19.399	- Info  -	attempt to connect server ddns.oray.com:443(114.215.189.130:443)
+2023-03-13 10:28:19.309	- Info  -	[dlg_main] on_create end
+2023-03-13 10:28:19.589	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2023-03-13 10:28:19.590	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/client/free-tips
+2023-03-13 10:28:19.593	- Info  -	[http call3] id:1, url:https://ddns.oray.com/checkip?clean=1, status code:200
+2023-03-13 10:28:19.593	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2023-03-13 10:28:19.594	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-03-13 10:28:19.791	- Info  -	[http call3] id:2, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-03-13 10:28:34.782	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-13 10:28:34.782	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-13 10:28:49.592	* Error *	SSLStream::IsWantReadWrite|peer(114.215.189.130:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-13 10:28:49.593	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-13 14:52:06.482	* Error *	sensors data send failed!
+2023-03-13 14:52:32.235	* Error *	sensors data send failed!
+2023-03-13 14:52:32.241	- Info  -	[mac] local ip:172.16.76.182
+2023-03-13 14:52:32.246	- Info  -	[mac] mac address:02:F4:2F:D2:C4:65
+2023-03-13 14:52:32.259	- Info  -	[http call3] new call id:3, url:https://slapi.oray.net/remote/get-remoteaddr
+2023-03-13 14:52:32.268	- Info  -	[http call3] id:3 create new connection : https://slapi.oray.net:443
+2023-03-13 14:52:32.283	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-03-13 14:52:32.554	- Info  -	[http call3] id:3, url:https://slapi.oray.net/remote/get-remoteaddr, status code:200
+2023-03-13 14:52:32.563	- Info  -	[http call3] new call id:4, url:https:///cgi-bin/rpc
+2023-03-13 14:52:32.565	- Info  -	[http call3] id:4 create new connection : https://:443
+2023-03-13 14:52:32.566	- Info  -	attempt to connect server :443(:0)
+2023-03-13 14:52:34.612	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_EXCEPT(57349), product=0, type=3, inner code=5 [CTCPStreamTask::Done:95]
+2023-03-13 14:52:34.612	- Info  -	[http call3] disconnect, error( 57349 )
+2023-03-13 14:52:34.612	- Info  -	[http call3] disconnect id:4, error( 57349 )
+2023-03-13 14:52:34.612	* Error *	[fastcontrol] get_fastcode_logintype err:-1
+2023-03-13 14:52:37.003	* Error *	sensors data send failed!
+2023-03-13 14:52:47.551	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-13 14:52:47.551	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-13 15:05:43.433	* Error *	sensors data send failed!
+2023-03-13 15:06:03.958	* Error *	sensors data send failed!
+2023-03-13 15:06:03.967	- Info  -	[mac] local ip:172.16.76.182
+2023-03-13 15:06:03.970	- Info  -	[mac] mac address:02:F4:2F:D2:C4:65
+2023-03-13 15:06:03.970	- Info  -	[http call3] new call id:5, url:https://slapi.oray.net/remote/get-remoteaddr
+2023-03-13 15:06:03.971	- Info  -	[http call3] id:5 create new connection : https://slapi.oray.net:443
+2023-03-13 15:06:03.981	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-03-13 15:06:04.175	- Info  -	[http call3] id:5, url:https://slapi.oray.net/remote/get-remoteaddr, status code:200
+2023-03-13 15:06:04.183	- Info  -	[mac] local ip:172.16.76.182
+2023-03-13 15:06:04.194	- Info  -	[mac] mac address:02:F4:2F:D2:C4:65
+2023-03-13 15:06:04.349	- Info  -	[http call3] new call id:6, url:https://k503471496-1513332913ls510f0f01.rc03.oray.com/express_login
+2023-03-13 15:06:04.359	- Info  -	[http call3] id:6 create new connection : https://k503471496-1513332913ls510f0f01.rc03.oray.com:443
+2023-03-13 15:06:04.359	- Info  -	attempt to connect server 1.15.15.81:443(1.15.15.81:443)
+2023-03-13 15:06:04.550	- Info  -	[http call3] id:6, url:https://k503471496-1513332913ls510f0f01.rc03.oray.com/express_login, status code:200
+2023-03-13 15:06:06.618	- Info  -	[http call3] new call id:7, url:sl-tk.oray.com/track
+2023-03-13 15:06:06.629	- Info  -	[http call3] id:7 create new connection : ://sl-tk.oray.com:80
+2023-03-13 15:06:06.637	- Info  -	attempt to connect server sl-tk.oray.com:80(121.40.63.86:80)
+2023-03-13 15:06:06.700	- Info  -	[http call3] id:7, url:sl-tk.oray.com/track, status code:200
+2023-03-13 15:06:06.701	- Info  -	upload data success!
+2023-03-13 15:06:19.165	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-13 15:06:19.165	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-13 15:06:41.893	+Warning+	[passive:keepalive:] 1.15.15.81:443 disconnect by keepalive timeout(16753812>=16716468+30000)
+2023-03-13 15:06:41.893	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-03-13 15:06:41.893	- Info  -	[http call3] disconnect, error( 57351 )
+2023-03-13 15:06:44.174	+Warning+	[passive:keepalive:] 121.40.63.86:80 disconnect by keepalive timeout(16756093>=16718609+30000)
+2023-03-13 15:06:44.174	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-03-13 15:06:44.174	- Info  -	[http call3] disconnect, error( 57351 )
+2023-03-13 15:06:50.429	- Info  -	[http call3] new call id:8, url:sl-tk.oray.com/track
+2023-03-13 15:06:50.430	- Info  -	[http call3] id:8 create new connection : ://sl-tk.oray.com:80
+2023-03-13 15:06:50.436	- Info  -	attempt to connect server sl-tk.oray.com:80(121.40.184.4:80)
+2023-03-13 15:06:50.501	- Info  -	[http call3] id:8, url:sl-tk.oray.com/track, status code:200
+2023-03-13 15:06:50.501	- Info  -	upload data success!
+2023-03-13 15:07:27.972	+Warning+	[passive:keepalive:] 121.40.184.4:80 disconnect by keepalive timeout(16799890>=16762421+30000)
+2023-03-13 15:07:27.972	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-03-13 15:07:27.972	- Info  -	[http call3] disconnect, error( 57351 )
+2023-03-13 20:21:31.713	- Info  -	[shell] status_changed:0
+2023-03-14 12:39:05.330	- Info  -	[shell] status_changed:2
+2023-03-14 12:39:24.916	* Error *	sensors data send failed!
+2023-03-14 12:39:35.582	- Info  -	[shell] status_changed:2
+2023-03-14 12:39:35.582	- Info  -	[shell] status_changed:2
+2023-03-14 12:39:36.732	- Info  -	[shell] status_changed:1
+2023-03-14 12:39:36.772	- Info  -	[http call3] new call id:9, url:https://slapi.oray.net/client/free-tips
+2023-03-14 12:39:36.773	- Info  -	[http call3] id:9 create new connection : https://slapi.oray.net:443
+2023-03-14 12:39:36.777	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-03-14 12:39:37.011	- Info  -	[http call3] id:9, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-03-14 12:39:52.023	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-14 12:39:52.023	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-14 12:40:34.738	* Error *	sensors data send failed!
+2023-03-14 12:40:34.742	- Info  -	[mac] local ip:172.16.76.182
+2023-03-14 12:40:34.749	- Info  -	[mac] mac address:02:F4:2F:D2:C4:65
+2023-03-14 12:40:34.753	- Info  -	[http call3] new call id:10, url:https://slapi.oray.net/remote/get-remoteaddr
+2023-03-14 12:40:34.754	- Info  -	[http call3] id:10 create new connection : https://slapi.oray.net:443
+2023-03-14 12:40:34.761	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-03-14 12:40:34.991	- Info  -	[http call3] id:10, url:https://slapi.oray.net/remote/get-remoteaddr, status code:200
+2023-03-14 12:40:35.011	- Info  -	[mac] local ip:172.16.76.182
+2023-03-14 12:40:35.020	- Info  -	[mac] mac address:02:F4:2F:D2:C4:65
+2023-03-14 12:40:35.341	- Info  -	[http call3] new call id:11, url:https://k749773424-676990353ls62b72b79.rc03.oray.com/express_login
+2023-03-14 12:40:35.345	- Info  -	[http call3] id:11 create new connection : https://k749773424-676990353ls62b72b79.rc03.oray.com:443
+2023-03-14 12:40:35.345	- Info  -	attempt to connect server 121.43.183.98:443(121.43.183.98:443)
+2023-03-14 12:40:35.569	- Info  -	[http call3] id:11, url:https://k749773424-676990353ls62b72b79.rc03.oray.com/express_login, status code:200
+2023-03-14 12:40:38.418	- Info  -	[http call3] new call id:12, url:sl-tk.oray.com/track
+2023-03-14 12:40:38.428	- Info  -	[http call3] id:12 create new connection : ://sl-tk.oray.com:80
+2023-03-14 12:40:38.475	- Info  -	attempt to connect server sl-tk.oray.com:80(121.40.63.86:80)
+2023-03-14 12:40:38.547	- Info  -	[http call3] id:12, url:sl-tk.oray.com/track, status code:200
+2023-03-14 12:40:38.547	- Info  -	upload data success!
+2023-03-14 12:40:49.987	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-14 12:40:49.987	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-14 12:41:04.639	- Info  -	[http call3] new call id:13, url:sl-tk.oray.com/track
+2023-03-14 12:41:04.646	- Info  -	[http call3] id:13 use old connection : ://sl-tk.oray.com:80
+2023-03-14 12:41:04.676	- Info  -	[http call3] id:13, url:sl-tk.oray.com/track, status code:200
+2023-03-14 12:41:04.676	- Info  -	upload data success!
+2023-03-14 12:41:12.875	+Warning+	[passive:keepalive:] 121.43.183.98:443 disconnect by keepalive timeout(94424937>=94387625+30000)
+2023-03-14 12:41:12.875	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-03-14 12:41:12.875	- Info  -	[http call3] disconnect, error( 57351 )
+2023-03-14 12:41:38.515	+Warning+	[passive:keepalive:] 121.40.63.86:80 disconnect by keepalive timeout(94450578>=94416734+30000)
+2023-03-14 12:41:38.515	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-03-14 12:41:38.516	- Info  -	[http call3] disconnect, error( 57351 )

@@ -1,0 +1,115 @@
+2022-11-25 21:30:09.469	- Info  -	version:3.2.1.40406
+2022-11-25 21:30:10.031	* Error *	SSLStream|Remove temp(C:\Windows\TEMP\u2vs.0) file ok
+2022-11-25 21:30:11.558	- Info  -	Initialize OK
+2022-11-25 21:30:11.558	- Info  -	CAcceptorRaw::set_listener
+2022-11-25 21:30:11.558	- Info  -	DesktopAgentServer created with port 0.
+2022-11-25 21:30:12.277	* Error *	[udpstack] bind 0.0.0.0:15349 error , errorno = 10048
+2022-11-25 21:30:12.277	- Info  -	[service] start listen OK,tcp:0.0.0.0:49675,udp:15460
+2022-11-25 21:30:12.293	- Info  -	[discover] Client NotifyDiscover type=5
+2022-11-25 21:30:12.449	- Info  -	[localserver] Not use proxy
+2022-11-25 21:30:12.543	- Info  -	[mac] local ip:192.168.0.193
+2022-11-25 21:30:12.777	- Info  -	[mac] mac address:00:F4:8D:D2:3C:CF
+2022-11-25 21:30:12.777	- Info  -	get mac address: 00:F4:8D:D2:3C:CF
+2022-11-25 21:30:17.410	- Info  -	os name:Microsoft Windows 10 专业版
+2022-11-25 21:30:18.477	- Info  -	m_clientinfo.mac: 00:F4:8D:D2:3C:CF
+2022-11-25 21:30:18.510	- Info  -	Current client status: 2
+2022-11-25 21:30:18.510	- Info  -	send status_changed notify 2
+2022-11-25 21:30:18.510	- Info  -	Login task time 0
+2022-11-25 21:30:18.520	- Info  -	Do login( type: 2 ) at 379
+2022-11-25 21:30:18.520	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/remote/get-fastcode
+2022-11-25 21:30:18.528	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2022-11-25 21:30:18.607	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-11-25 21:30:22.345	- Info  -	[http call3] id:1, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2022-11-25 21:30:22.359	- Info  -	attempt to connect server rc10-fc12.oray.com:443(47.111.1.108:443)
+2022-11-25 21:30:22.445	- Info  -	[service] attempted logon
+2022-11-25 21:30:22.485	- Info  -	[service] logon server OK. public ip:183.217.165.158
+2022-11-25 21:30:22.512	- Info  -	[online] attempted client online
+2022-11-25 21:30:22.549	- Info  -	[online] client online OK.
+2022-11-25 21:30:22.550	- Info  -	[online] received name:default , description:default .
+2022-11-25 21:30:22.565	- Info  -	[service] attempted register client to server
+2022-11-25 21:30:22.591	- Info  -	[service] registered client to server
+2022-11-25 21:30:22.592	- Info  -	[http call3] new call id:2, url:https://sl-log.oray.net/slclientlog
+2022-11-25 21:30:22.592	- Info  -	Current client status: 1
+2022-11-25 21:30:22.592	- Info  -	send status_changed notify 1
+2022-11-25 21:30:22.600	- Info  -	[http call3] id:2 create new connection : https://sl-log.oray.net:443
+2022-11-25 21:30:22.691	- Info  -	[discover] Client NotifyDiscover type=5
+2022-11-25 21:30:22.701	- Info  -	[OnLogin start]
+2022-11-25 21:30:22.702	- Info  -	[OnLogin end]
+2022-11-25 21:30:22.725	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.106.171:443)
+2022-11-25 21:30:22.785	- Info  -	[OnLogin] WaittingTask Start
+2022-11-25 21:30:22.788	- Info  -	Set auto_run : true
+2022-11-25 21:30:22.858	- Info  -	[http call3] id:2, url:https://sl-log.oray.net/slclientlog, status code:200
+2022-11-25 21:30:22.951	- Info  -	[OnLogin] WaittingTask end
+2022-11-25 21:30:37.345	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-25 21:30:37.346	- Info  -	[http call3] disconnect, error( 0 )
+2022-11-25 21:30:50.891	- Info  -	[MICRO LIVE] shell oninitdialog to get microlive info enable = 0 status = 0 timelast = 0
+2022-11-25 21:30:52.868	* Error *	SSLStream::IsWantReadWrite|peer(47.97.106.171:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-25 21:30:52.868	- Info  -	[http call3] disconnect, error( 0 )
+2022-11-25 21:31:00.168	- Info  -	[ServiceEx] the service control is 13
+2022-11-25 21:31:00.168	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2022-11-25 21:42:47.256	- Info  -	[ServiceEx] the service control is 13
+2022-11-25 21:42:47.256	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2022-11-25 21:42:47.256	+Warning+	[service] power event, system is suspending.
+2022-11-25 21:42:47.257	- Info  -	Logout ...
+2022-11-25 21:42:47.257	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2022-11-25 21:42:47.257	- Info  -	[RemoteControl] disconnected server(47.111.1.108:443),error code:0
+2022-11-25 21:42:47.258	* Error *	[online] online disconnected,error code:0
+2022-11-25 21:42:47.258	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2022-11-25 21:42:47.258	- Info  -	[service] disconnected server(47.111.1.108:443),errorcode:0
+2022-11-25 21:42:47.258	- Info  -	curStatus: 0, m_Status: 1
+2022-11-25 21:42:47.258	- Info  -	[http call3] new call id:3, url:https://sl-log.oray.net/slclientlog
+2022-11-25 21:42:47.258	- Info  -	Current client status: 0
+2022-11-25 21:42:47.258	- Info  -	send status_changed notify 0
+2022-11-25 21:42:47.258	- Info  -	[OnLogout start]
+2022-11-25 21:42:47.259	- Info  -	[service] stop all projections
+2022-11-25 21:42:47.259	- Info  -	[OnLogout end]
+2022-11-25 21:42:47.262	- Info  -	[http call3] id:3 create new connection : https://sl-log.oray.net:443
+2022-11-25 21:42:47.265	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2022-11-25 21:42:47.286	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.186.100:443)
+2022-11-25 21:42:47.412	- Info  -	[http call3] id:3, url:https://sl-log.oray.net/slclientlog, status code:200
+2022-11-25 21:54:10.521	+Warning+	[passive:keepalive:] 47.97.186.100:443 disconnect by keepalive timeout(1465328>=782218+30000)
+2022-11-25 21:54:10.521	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2022-11-25 21:54:10.522	- Info  -	[http call3] disconnect, error( 57351 )
+2022-11-25 21:54:13.642	- Info  -	[ServiceEx] the service control is 13
+2022-11-25 21:54:13.642	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2022-11-25 21:54:13.642	+Warning+	[service] power event, system is resumed.
+2022-11-25 21:54:14.600	- Info  -	retry login now......
+2022-11-25 21:54:14.600	- Info  -	Current client status: 2
+2022-11-25 21:54:14.600	- Info  -	send status_changed notify 2
+2022-11-25 21:54:14.602	- Info  -	Login task time 0
+2022-11-25 21:54:14.602	- Info  -	[service] retry login by power event
+2022-11-25 21:54:14.625	- Info  -	Do login( type: 2 ) at 379
+2022-11-25 21:54:14.625	- Info  -	[http call3] new call id:4, url:https://slapi.oray.net/remote/get-fastcode
+2022-11-25 21:54:14.635	- Info  -	[http call3] id:4 create new connection : https://slapi.oray.net:443
+2022-11-25 21:54:15.171	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-11-25 21:54:15.628	- Info  -	[http call3] id:4, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2022-11-25 21:54:16.923	- Info  -	attempt to connect server rc10-fc05.oray.com:443(47.118.71.166:443)
+2022-11-25 21:54:17.085	- Info  -	[ServiceEx] the service control is 13
+2022-11-25 21:54:17.085	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2022-11-25 21:54:17.085	+Warning+	[service] power event, system is resumed.
+2022-11-25 21:54:17.246	- Info  -	[service] retry login by power event
+2022-11-25 21:54:17.421	- Info  -	[service] attempted logon
+2022-11-25 21:54:17.499	- Info  -	[service] logon server OK. public ip:183.217.165.158
+2022-11-25 21:54:17.529	- Info  -	[online] attempted client online
+2022-11-25 21:54:17.561	- Info  -	[online] client online OK.
+2022-11-25 21:54:17.562	- Info  -	[online] received name:default , description:default .
+2022-11-25 21:54:17.574	- Info  -	[service] attempted register client to server
+2022-11-25 21:54:17.600	- Info  -	[service] registered client to server
+2022-11-25 21:54:17.600	- Info  -	[http call3] new call id:5, url:https://sl-log.oray.net/slclientlog
+2022-11-25 21:54:17.601	- Info  -	Current client status: 1
+2022-11-25 21:54:17.601	- Info  -	send status_changed notify 1
+2022-11-25 21:54:17.603	- Info  -	[http call3] id:5 create new connection : https://sl-log.oray.net:443
+2022-11-25 21:54:17.620	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.162.230:443)
+2022-11-25 21:54:17.642	- Info  -	[discover] Client NotifyDiscover type=5
+2022-11-25 21:54:17.865	- Info  -	[OnLogin start]
+2022-11-25 21:54:17.870	- Info  -	[OnLogin end]
+2022-11-25 21:54:17.875	- Info  -	[OnLogin] WaittingTask Start
+2022-11-25 21:54:18.116	- Info  -	[http call3] id:5, url:https://sl-log.oray.net/slclientlog, status code:200
+2022-11-25 21:54:18.118	- Info  -	Set auto_run : true
+2022-11-25 21:54:18.949	- Info  -	[OnLogin] WaittingTask end
+2022-11-25 21:54:20.270	- Info  -	[ServiceEx] the service control is 13
+2022-11-25 21:54:20.270	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2022-11-25 21:54:30.627	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-25 21:54:30.627	- Info  -	[http call3] disconnect, error( 0 )
+2022-11-25 21:54:48.116	* Error *	SSLStream::IsWantReadWrite|peer(47.97.162.230:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-25 21:54:48.116	- Info  -	[http call3] disconnect, error( 0 )

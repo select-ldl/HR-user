@@ -1,0 +1,64 @@
+2023-04-14 12:15:35.303	- Info  -	version:3.2.1.40406
+2023-04-14 12:15:35.308	- Info  -	DPIAwareness set 2 success.
+2023-04-14 12:15:35.317	- Info  -	config path: ²,7
+2023-04-14 12:15:35.410	- Info  -	[displayclt] CDisplayClient::CDisplayClient(all)
+2023-04-14 12:15:35.410	- Info  -	[desktop] CRemoteDesktopPlugin::CRemoteDesktopPlugin(all)
+2023-04-14 12:15:35.422	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2023-04-14 12:15:35.456	- Info  -	CMultiChannelStreamImpl::CMultiChannelStreamImpl
+2023-04-14 12:15:35.457	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_FORWARD, error: 0
+2023-04-14 12:15:35.458	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FORWARD, error: 0, oray errorcode: 0
+2023-04-14 12:15:35.458	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-14 12:15:35.479	* Error *	sensors data send failed!
+2023-04-14 12:15:35.512	- Info  -	attempt to connect server 290200492.slp2p-east-std241.oray.net:443(117.68.2.50:443)
+2023-04-14 12:15:35.569	- Info  -	[TCPConnector] CCurStream handle client_connect
+2023-04-14 12:15:35.583	- Info  -	[MultiChannel] Forward channel shake handle 117.68.2.50:443
+2023-04-14 12:15:35.583	- Info  -	CMultiChannelStreamImpl::OnConnect()
+2023-04-14 12:15:35.583	- Info  -	CClientStream 117.68.2.50:443 OnConnect
+2023-04-14 12:15:35.583	- Info  -	CConnectorRaw::OnEvent() state: CNTS_LOGIN, error: 0, oray errorcode: 0
+2023-04-14 12:15:35.583	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-14 12:15:35.583	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_SHAKEHANDLE, error: 0, oray errorcode: 0
+2023-04-14 12:15:35.583	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-14 12:15:35.620	- Info  -	plugin_public access_token is NULL
+2023-04-14 12:15:36.231	* Error *	sensors data send failed!
+2023-04-14 12:15:38.071	* Error *	sensors data send failed!
+2023-04-14 12:15:38.076	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStream::Disconnect_impl:254]
+2023-04-14 12:15:38.076	- Info  -	[TCPConnector] CCurStream handle client_disconnect
+2023-04-14 12:15:38.076	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::HandleDisconnect:1041]
+2023-04-14 12:15:38.076	- Info  -	CMultiChannelStreamImpl::OnDisconnect()
+2023-04-14 12:15:38.076	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStreamImpl::OnDisconnect:100]
+2023-04-14 12:15:38.076	- Info  -	CClientStream 117.68.2.50:443 OnDisconnect, errocde:0
+2023-04-14 12:15:38.076	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [CClientStream::OnDisconnect:104]
+2023-04-14 12:15:38.076	- Info  -	OnDisconnect, error code 0
+2023-04-14 12:15:38.076	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [BinaryPluginStream::OnDisconnect:404]
+2023-04-14 12:15:38.076	- Info  -	CPluginThreadManager start plugin thread
+2023-04-14 12:15:38.077	- Info  -	CPluginThreadManager stop plugin thread
+2023-04-14 12:15:38.077	- Info  -	CActivePlugin prepare to init plugin
+2023-04-14 12:15:38.077	- Info  -	[desktop] create drag server OK
+2023-04-14 12:15:38.077	- Info  -	CActivePlugin prepare to run plugin
+2023-04-14 12:15:38.077	- Info  -	[desktop] sending switch desktop type message...
+2023-04-14 12:15:38.077	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_SEND_DATA_FAILED(134275079), product=2, type=3, inner code=7 [CRemoteDesktopPlugin::SwitchDesktopType:2098]
+2023-04-14 12:15:38.077	- Info  -	[desktop] request enumerate user list.
+2023-04-14 12:15:38.078	* Error *	[desktop] Send2StreamRaw(Enum_Users_Message) fail.
+2023-04-14 12:15:38.078	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_SEND_DATA_FAILED(134275079), product=2, type=3, inner code=7 [CRemoteDesktopPlugin::GetUserList:920]
+2023-04-14 12:15:38.078	- Info  -	[desktop] Separation message loop start.
+2023-04-14 12:15:38.078	- Info  -	[desktop] Separation message loop stop.
+2023-04-14 12:15:41.078	- Info  -	CActivePlugin prepare to exit plugin
+2023-04-14 12:15:41.078	* Error *	[desktop] Send2StreamRaw fail, type: F2/4B .
+2023-04-14 12:15:41.078	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_SEND_DATA_FAILED(134275079), product=2, type=3, inner code=7 [CRemoteDesktopPlugin::SendThreadLoop:871]
+2023-04-14 12:15:41.078	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. >
+2023-04-14 12:15:41.090	- Info  -	[desktop] [thread] cancel.
+2023-04-14 12:15:41.090	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. <
+2023-04-14 12:15:41.091	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::ForwardHandler::Handle:647]
+2023-04-14 12:15:41.091	- Info  -	CMultiChannelStreamImpl::OnDisconnect(fwd)
+2023-04-14 12:15:41.091	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_DISCONNECT, error: 0, oray errorcode: 0
+2023-04-14 12:15:41.091	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-14 12:15:41.091	+Warning+	[MultiChannel] unbind forward stream(errorcode 0) @ 651
+2023-04-14 12:15:41.091	- Info  -	CConnectorRaw::OnEvent() state: CNTS_DISCONNECTED, error: 0, oray errorcode: 0
+2023-04-14 12:15:41.091	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-04-14 12:15:41.091	- Info  -	CConnectorRaw::Stop in>
+2023-04-14 12:15:41.091	- Info  -	CConnectorRaw::Stop out<
+2023-04-14 12:15:41.091	- Info  -	sensors close
+2023-04-14 12:15:41.100	* Error *	Plugin disconnect with error : 0
+2023-04-14 12:15:41.126	- Info  -	[desktop] CRemoteDesktopPlugin::~CRemoteDesktopPlugin(void)
+2023-04-14 12:15:41.126	- Info  -	CMultiChannelStreamImpl::~CMultiChannelStreamImpl
+2023-04-14 12:15:41.128	- Info  -	program remote_plugin is exit 

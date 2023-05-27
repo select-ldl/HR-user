@@ -1,0 +1,329 @@
+2023-05-23 09:30:15.847	- Info  -	version:3.2.1.40406
+2023-05-23 09:30:15.916	- Info  -	DPIAwareness set 2 success.
+2023-05-23 09:30:15.929	- Info  -	config path: `^‹¼÷
+2023-05-23 09:30:16.727	- Info  -	[displayclt] CDisplayClient::CDisplayClient(all)
+2023-05-23 09:30:16.728	- Info  -	[desktop] CRemoteDesktopPlugin::CRemoteDesktopPlugin(all)
+2023-05-23 09:30:16.777	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2023-05-23 09:30:16.792	- Info  -	CMultiChannelStreamImpl::CMultiChannelStreamImpl
+2023-05-23 09:30:16.793	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_FORWARD, error: 0
+2023-05-23 09:30:16.794	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FORWARD, error: 0, oray errorcode: 0
+2023-05-23 09:30:16.794	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:16.851	* Error *	sensors data send failed!
+2023-05-23 09:30:16.867	- Info  -	attempt to connect server 1844152736.slp2p-east-std204.oray.net:443(122.246.13.83:443)
+2023-05-23 09:30:16.975	- Info  -	[TCPConnector] CCurStream handle client_connect
+2023-05-23 09:30:16.996	- Info  -	[MultiChannel] Forward channel shake handle 122.246.13.83:443
+2023-05-23 09:30:16.996	- Info  -	CMultiChannelStreamImpl::OnConnect()
+2023-05-23 09:30:16.996	- Info  -	CClientStream 122.246.13.83:443 OnConnect
+2023-05-23 09:30:16.996	- Info  -	CConnectorRaw::OnEvent() state: CNTS_LOGIN, error: 0, oray errorcode: 0
+2023-05-23 09:30:16.996	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:16.996	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_SHAKEHANDLE, error: 0, oray errorcode: 0
+2023-05-23 09:30:16.996	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:17.168	- Info  -	[MultiChannel] Forward channel connected 122.246.13.83:443
+2023-05-23 09:30:17.168	- Info  -	CMultiChannelStreamImpl::OnConnectEvent, status: CNTS_FWD_CONNECTED, isclosed:false, HadFwdConnected: true, HadBeenHolePunch: false
+2023-05-23 09:30:17.168	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_CONNECTED, error: 0, oray errorcode: 0
+2023-05-23 09:30:17.168	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:17.168	* Error *	CClientStream receive invalid Logon_OK_Message
+2023-05-23 09:30:17.168	- Info  -	CClientStream 122.246.13.83:443 OnReceive reply 1 
+2023-05-23 09:30:17.168	- Info  -	CClientStream 122.246.13.83:443 start keepalive
+2023-05-23 09:30:17.168	- Info  -	CClientStream 122.246.13.83:443 login OK
+2023-05-23 09:30:17.168	- Info  -	CConnectorRaw::OnEvent() state: CNTS_CONNECTED, error: 0, oray errorcode: 0
+2023-05-23 09:30:17.168	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:17.169	- Info  -	CPluginThreadManager start plugin thread
+2023-05-23 09:30:17.257	- Info  -	plugin_public access_token is NULL
+2023-05-23 09:30:17.289	- Info  -	CActivePlugin prepare to init plugin
+2023-05-23 09:30:17.289	- Info  -	[desktop] create drag server OK
+2023-05-23 09:30:17.289	- Info  -	CActivePlugin prepare to run plugin
+2023-05-23 09:30:17.298	- Info  -	[desktop] sending switch desktop type message...
+2023-05-23 09:30:17.299	- Info  -	[desktop] Separation message loop start.
+2023-05-23 09:30:17.299	- Info  -	[desktop] request enumerate user list.
+2023-05-23 09:30:17.300	- Info  -	[desktop] receive switch host message res = 1 
+2023-05-23 09:30:17.300	- Info  -	[desktop] request enum screen
+2023-05-23 09:30:17.300	- Info  -	[DisplayClient] SetCompression 11/15
+2023-05-23 09:30:17.300	- Info  -	[desktop] request start stream
+2023-05-23 09:30:17.300	- Info  -	[desktop] SetCompressionParam: layer=1;encoding=4;format=1;reserved=0, size: 38
+2023-05-23 09:30:17.342	- Info  -	[desktop] OnQueryConfigRes
+2023-05-23 09:30:17.342	- Info  -	[desktop] OnQueryConfigRes
+2023-05-23 09:30:17.342	- Info  -	[desktop] recv enum screen, number is 1
+2023-05-23 09:30:18.287	* Error *	sensors data send failed!
+2023-05-23 09:30:19.167	- Info  -	CMultiChannelStreamImpl::ConnectP2PServer, thread id: 1000
+2023-05-23 09:30:19.376	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_P2P, error: 0
+2023-05-23 09:30:19.376	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P, error: 0, oray errorcode: 0
+2023-05-23 09:30:19.376	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:19.376	- Info  -	[P2PConnector] attempt to connect server PHSRC://1844152736.slp2p-east-std204.oray.net:4118/desktop(slp2p-east-std204.oray.net:4118) 
+2023-05-23 09:30:19.559	- Info  -	[udp] support straight send in peer : no 122.246.13.83:4118 CConnection::OnConnectRes
+2023-05-23 09:30:19.560	- Info  -	[P2PHelper] detect local ip ...
+2023-05-23 09:30:19.560	- Info  -	[P2PHelper] detect local ip 172.16.77.18
+2023-05-23 09:30:19.560	- Info  -	[P2PHelper] attempt to login P2P Server...
+2023-05-23 09:30:19.586	- Info  -	[P2PHelper] Login P2P Server OK
+2023-05-23 09:30:19.586	- Info  -	[P2PHelper] OnLoginRes, receive public ip 223.82.110.30:16046
+2023-05-23 09:30:19.586	- Info  -	[P2PHelper] sending P2P request ...
+2023-05-23 09:30:19.635	- Info  -	[P2PHelper] receive peer local ip 10.21.15.2:15135, public ip 220.177.4.123:32424
+2023-05-23 09:30:19.635	- Info  -	[P2PStream] EstablishP2P local ip 223.82.110.30:16046/172.16.77.18:16046 ==> peer ip 220.177.4.123:32424/10.21.15.2:15135
+2023-05-23 09:30:19.710	- Info  -	SetDisplayMode() w=1600, h=900, bpp=32
+2023-05-23 09:30:19.710	- Info  -	ResetBitmap width=1600, height=900, bpp=32, srcbpp=32, Size = 5760000
+2023-05-23 09:30:19.710	- Info  -	[DisplayClient] recv image info, width: 1600, height: 900, bpp: 32
+2023-05-23 09:30:19.710	- Info  -	[DisplayClient] OnRecvCompInfo format/quality 11/15
+2023-05-23 09:30:19.711	- Info  -	[desktop][DisplayClient] recv first frame.
+2023-05-23 09:30:19.719	- Info  -	[DisplayClient] recv compimage type: ID_IMAGE_RAPIDCOMP
+2023-05-23 09:30:19.803	- Info  -	[vpx] open codec.
+2023-05-23 09:30:19.949	- Info  -	[desktop][DisplayClient] decode first frame end.
+2023-05-23 09:30:19.950	- Info  -	[desktop] receive first frame message
+2023-05-23 09:30:19.951	- Info  -	[clipboard] start clipboard...
+2023-05-23 09:30:19.954	- Info  -	SetDisplayMode() w=1600, h=900, bpp=32
+2023-05-23 09:30:19.954	- Info  -	ResetBitmap width=1600, height=900, bpp=32, srcbpp=32, Size = 5760000
+2023-05-23 09:30:19.955	- Info  -	[DisplayClient] recv image info, width: 1600, height: 900, bpp: 32
+2023-05-23 09:30:19.996	- Info  -	[clipboard][converter] html format 49429
+2023-05-23 09:30:19.996	- Info  -	[clipboard][converter] rtf format 49271
+2023-05-23 09:30:19.996	- Info  -	[clipboard] start clipboard ok.
+2023-05-23 09:30:19.996	- Info  -	[desktop] sync clipboard enable
+2023-05-23 09:30:20.056	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:20.061	+Warning+	not found upnp devices on network!
+2023-05-23 09:30:20.061	- Info  -	upnpnat_search_thread::ThreadLoop end
+2023-05-23 09:30:20.064	- Info  -	[udpwrapper] attempt to establish P2P connection via: 122.246.13.83:4118, (local)172.16.77.18:16046|(public)223.82.110.30:16046 ==> (local)10.21.15.2:15135|(public)220.177.4.123:32424
+2023-05-23 09:30:20.081	- Info  -	[DisplayClient] OnRecvCompInfo format/quality 11/15
+2023-05-23 09:30:20.081	- Info  -	[desktop][DisplayClient] recv first frame.
+2023-05-23 09:30:20.089	- Info  -	[DisplayClient] recv compimage type: ID_IMAGE_RAPIDCOMP
+2023-05-23 09:30:20.205	- Info  -	[vpx] open codec.
+2023-05-23 09:30:20.300	- Info  -	[desktop][DisplayClient] decode first frame end.
+2023-05-23 09:30:20.303	- Info  -	[desktop] receive first frame message
+2023-05-23 09:30:20.381	- Info  -	[drag] QueryVersionRes is true
+2023-05-23 09:30:20.381	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-05-23 09:30:20.564	+Warning+	not found upnp devices on network!
+2023-05-23 09:30:20.564	+Warning+	[udpwrapper] UPNP discovery failed, 
+2023-05-23 09:30:20.609	- Info  -	[udp] OnConnectAck working in advanced mode 2
+2023-05-23 09:30:20.610	- Info  -	[udp] support straight send in peer : yes 220.177.4.123:32424 CConnection::OnConnectRes
+2023-05-23 09:30:20.611	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-05-23 09:30:20.611	- Info  -	[udp] Disconnect
+2023-05-23 09:30:20.611	- Info  -	[udp] SendDisconnect
+2023-05-23 09:30:20.611	- Info  -	[P2PHelper] MainServer disconnect
+2023-05-23 09:30:20.611	- Info  -	[MultiChannel] P2P channel shake handle 220.177.4.123:32424
+2023-05-23 09:30:20.611	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_SHAKEHANDLE, error: 0, oray errorcode: 0
+2023-05-23 09:30:20.611	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:20.611	- Info  -	[MultiChannel] send SHAKE_HANDLES_MSG, read 247234, write 2846
+2023-05-23 09:30:20.611	- Info  -	[P2PStream] connected (by udp) 0.0.0.0:16046 <--> 220.177.4.123:32424
+2023-05-23 09:30:20.622	- Info  -	[MultiChannel] Received SHAKE_HANDLES_MSG, read 2866 / (local write 2846), write 247214 / (local read 247234)
+2023-05-23 09:30:20.622	- Info  -	[MultiChannel] P2P channel connected 220.177.4.123:32424
+2023-05-23 09:30:20.622	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_CONNECTED, error: 0, oray errorcode: 0
+2023-05-23 09:30:20.622	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:30:20.634	- Info  -	[udpwrapper] disconnect reason : 1
+2023-05-23 09:30:20.634	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibWrapper::OnDisconnect:833]
+2023-05-23 09:30:20.634	- Info  -	[udpwrapper] Disconnect 122.246.13.83:4118 @ 838
+2023-05-23 09:30:20.634	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibStream::Disconnect_impl:73]
+2023-05-23 09:30:20.639	- Info  -	[MultiChannel] write data when p2p state is CONNECTED, is full 0, writed data 2846 / peer read 2866, left 20, size 52 @ 153
+2023-05-23 09:30:20.680	- Info  -	[MultiChannel] forward data read completed @ 462
+2023-05-23 09:30:20.709	- Info  -	[MultiChannel] forward data write completed @ 216
+2023-05-23 09:30:20.711	* Error *	[vpx] Failed to decode frame.: Corrupt frame detected
+2023-05-23 09:30:20.711	* Error *	[vpx]    Failed to decode tile data
+2023-05-23 09:30:20.711	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:20.713	+Warning+	[DisplayClient][report] transfer faild, count: 1.
+2023-05-23 09:30:20.713	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:20.736	- Info  -	[vpx] open codec.
+2023-05-23 09:30:20.737	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:20.737	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:20.737	+Warning+	[DisplayClient][report] transfer faild, count: 2.
+2023-05-23 09:30:20.737	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:20.826	- Info  -	[vpx] open codec.
+2023-05-23 09:30:20.826	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:20.827	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:20.827	+Warning+	[DisplayClient][report] transfer faild, count: 3.
+2023-05-23 09:30:20.827	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:20.916	- Info  -	[vpx] open codec.
+2023-05-23 09:30:20.916	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:20.916	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:20.916	+Warning+	[DisplayClient][report] transfer faild, count: 4.
+2023-05-23 09:30:20.916	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:20.994	- Info  -	[vpx] open codec.
+2023-05-23 09:30:20.994	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:20.995	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:20.995	+Warning+	[DisplayClient][report] transfer faild, count: 5.
+2023-05-23 09:30:20.995	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.085	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.085	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.085	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.085	+Warning+	[DisplayClient][report] transfer faild, count: 6.
+2023-05-23 09:30:21.085	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.208	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.208	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.208	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.208	+Warning+	[DisplayClient][report] transfer faild, count: 7.
+2023-05-23 09:30:21.208	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.241	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.241	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.241	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.242	+Warning+	[DisplayClient][report] transfer faild, count: 8.
+2023-05-23 09:30:21.242	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.279	- Info  -	Init D3D2 OK
+2023-05-23 09:30:21.279	- Info  -	[DesktopSurface] Use DirectX Paint mode 2
+2023-05-23 09:30:21.324	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.325	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.325	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.325	+Warning+	[DisplayClient][report] transfer faild, count: 9.
+2023-05-23 09:30:21.325	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.345	- Info  -	Init D3D2 OK
+2023-05-23 09:30:21.397	- Info  -	[maindialog] draw first frame end
+2023-05-23 09:30:21.413	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.413	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.413	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.413	+Warning+	[DisplayClient][report] transfer faild, count: 10.
+2023-05-23 09:30:21.413	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.425	- Info  -	[desktop] sync clipboard enable
+2023-05-23 09:30:21.425	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/remote/get-network
+2023-05-23 09:30:21.426	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2023-05-23 09:30:21.427	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.427	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.427	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.427	+Warning+	[DisplayClient][report] transfer faild, count: 11.
+2023-05-23 09:30:21.427	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.430	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-05-23 09:30:21.504	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.504	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.504	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.504	+Warning+	[DisplayClient][report] transfer faild, count: 12.
+2023-05-23 09:30:21.504	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.540	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.540	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.540	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.540	+Warning+	[DisplayClient][report] transfer faild, count: 13.
+2023-05-23 09:30:21.540	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.609	- Info  -	[http call3] id:1, url:https://slapi.oray.net/remote/get-network, status code:200
+2023-05-23 09:30:21.625	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.625	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.625	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.625	+Warning+	[DisplayClient][report] transfer faild, count: 14.
+2023-05-23 09:30:21.625	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.724	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.724	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.724	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.724	+Warning+	[DisplayClient][report] transfer faild, count: 15.
+2023-05-23 09:30:21.724	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.793	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.793	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.793	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.793	+Warning+	[DisplayClient][report] transfer faild, count: 16.
+2023-05-23 09:30:21.793	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:21.908	- Info  -	[vpx] open codec.
+2023-05-23 09:30:21.908	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:21.908	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:21.908	+Warning+	[DisplayClient][report] transfer faild, count: 17.
+2023-05-23 09:30:21.908	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:27.654	- Info  -	Init D3D2 OK
+2023-05-23 09:30:27.696	* Error *	sensors data send failed!
+2023-05-23 09:30:31.112	* Error *	sensors data send failed!
+2023-05-23 09:30:33.919	- Info  -	[vpx] open codec.
+2023-05-23 09:30:33.919	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:30:33.919	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:30:33.919	+Warning+	[DisplayClient][report] transfer faild, count: 18.
+2023-05-23 09:30:33.919	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:30:36.610	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-05-23 09:30:36.611	- Info  -	[http call3] disconnect, error( 0 )
+2023-05-23 09:31:54.673	+Warning+	[BinaryPluginStream] rate reader pending data size 266460 exceed 262144
+2023-05-23 09:31:54.690	+Warning+	[BinaryPluginStream] rate reader data all clear
+2023-05-23 09:32:29.975	- Info  -	[vpx] open codec.
+2023-05-23 09:32:29.975	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:32:29.975	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:32:29.975	+Warning+	[DisplayClient][report] transfer faild, count: 19.
+2023-05-23 09:32:29.975	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:43.301	- Info  -	[vpx] open codec.
+2023-05-23 09:33:43.301	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:43.301	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:43.301	+Warning+	[DisplayClient][report] transfer faild, count: 20.
+2023-05-23 09:33:43.301	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:43.346	- Info  -	[vpx] open codec.
+2023-05-23 09:33:43.346	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:43.346	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:43.346	+Warning+	[DisplayClient][report] transfer faild, count: 21.
+2023-05-23 09:33:43.346	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:43.449	- Info  -	[vpx] open codec.
+2023-05-23 09:33:43.449	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:43.449	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:43.449	+Warning+	[DisplayClient][report] transfer faild, count: 22.
+2023-05-23 09:33:43.449	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:43.523	- Info  -	[vpx] open codec.
+2023-05-23 09:33:43.523	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:43.523	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:43.523	+Warning+	[DisplayClient][report] transfer faild, count: 23.
+2023-05-23 09:33:43.523	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:43.808	- Info  -	[vpx] open codec.
+2023-05-23 09:33:43.808	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:43.808	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:43.808	+Warning+	[DisplayClient][report] transfer faild, count: 24.
+2023-05-23 09:33:43.808	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:45.036	- Info  -	[vpx] open codec.
+2023-05-23 09:33:45.036	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:45.036	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:45.036	+Warning+	[DisplayClient][report] transfer faild, count: 25.
+2023-05-23 09:33:45.036	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:45.113	- Info  -	[vpx] open codec.
+2023-05-23 09:33:45.114	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:45.114	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:45.114	+Warning+	[DisplayClient][report] transfer faild, count: 26.
+2023-05-23 09:33:45.114	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:45.212	- Info  -	[vpx] open codec.
+2023-05-23 09:33:45.212	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:45.212	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:45.212	+Warning+	[DisplayClient][report] transfer faild, count: 27.
+2023-05-23 09:33:45.212	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:45.296	- Info  -	[vpx] open codec.
+2023-05-23 09:33:45.296	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:45.296	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:45.296	+Warning+	[DisplayClient][report] transfer faild, count: 28.
+2023-05-23 09:33:45.296	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:45.380	- Info  -	[vpx] open codec.
+2023-05-23 09:33:45.380	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:45.380	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:45.380	+Warning+	[DisplayClient][report] transfer faild, count: 29.
+2023-05-23 09:33:45.380	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:45.537	- Info  -	[vpx] open codec.
+2023-05-23 09:33:45.537	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2023-05-23 09:33:45.537	- Info  -	[vpx][decoder] close codec.
+2023-05-23 09:33:45.537	+Warning+	[DisplayClient][report] transfer faild, count: 30.
+2023-05-23 09:33:45.538	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2023-05-23 09:33:52.595	* Error *	sensors data send failed!
+2023-05-23 09:33:52.596	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStream::Disconnect_impl:254]
+2023-05-23 09:33:52.596	- Info  -	[TCPConnector] CCurStream handle client_disconnect
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::ForwardHandler::Handle:647]
+2023-05-23 09:33:52.597	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_DISCONNECT, error: 0, oray errorcode: 0
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:33:52.597	+Warning+	[MultiChannel] unbind forward stream(errorcode 0) @ 651
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::Disconnect_impl:678]
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-05-23 09:33:52.597	- Info  -	[udp] Disconnect
+2023-05-23 09:33:52.597	- Info  -	[udp] SendDisconnect
+2023-05-23 09:33:52.597	- Info  -	[MultiChannel] P2P channel disconnect 220.177.4.123:32424
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::P2PHandler::Handle:834]
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::HandleDisconnect:1041]
+2023-05-23 09:33:52.597	- Info  -	CMultiChannelStreamImpl::OnDisconnect()
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStreamImpl::OnDisconnect:100]
+2023-05-23 09:33:52.597	- Info  -	CClientStream 220.177.4.123:32424 OnDisconnect, errocde:0
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [CClientStream::OnDisconnect:104]
+2023-05-23 09:33:52.597	- Info  -	OnDisconnect, error code 0
+2023-05-23 09:33:52.597	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [BinaryPluginStream::OnDisconnect:404]
+2023-05-23 09:33:52.597	- Info  -	[desktop] Separation message loop stop.
+2023-05-23 09:33:52.597	- Info  -	CPluginThreadManager stop plugin thread
+2023-05-23 09:33:52.598	- Info  -	CActivePlugin prepare to exit plugin
+2023-05-23 09:33:52.598	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. >
+2023-05-23 09:33:52.598	- Info  -	[clipboard] stop clipboard...
+2023-05-23 09:33:52.605	- Info  -	[udpwrapper] udprelay connecting 220.177.4.123:32424 via 122.246.13.83:4118
+2023-05-23 09:33:52.618	- Info  -	[clipboard] recv thread end(1).
+2023-05-23 09:33:52.619	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-05-23 09:33:52.619	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-05-23 09:33:52.622	- Info  -	[clipboard] Stop Clipboard ok
+2023-05-23 09:33:52.679	- Info  -	[desktop] [thread] cancel.
+2023-05-23 09:33:52.680	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. <
+2023-05-23 09:33:52.687	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_DISCONNECT, error: 0, oray errorcode: 0
+2023-05-23 09:33:52.690	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:33:52.690	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CTCPStream::Disconnect_impl:1016]
+2023-05-23 09:33:52.691	- Info  -	CConnectorRaw::OnEvent() state: CNTS_DISCONNECTED, error: 0, oray errorcode: 0
+2023-05-23 09:33:52.691	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-05-23 09:33:52.691	- Info  -	CConnectorRaw::Stop in>
+2023-05-23 09:33:52.701	* Error *	Plugin disconnect with error : 0
+2023-05-23 09:33:52.702	- Info  -	[CUDPLibWrapper] map size: 1, value: [220.177.4.123:32424/16046-2] = 0.0.0.0:16046;
+
+2023-05-23 09:33:52.702	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2023-05-23 09:33:52.702	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-05-23 09:33:52.710	- Info  -	CConnectorRaw::Stop out<
+2023-05-23 09:33:52.732	- Info  -	sensors close
+2023-05-23 09:33:52.867	- Info  -	[desktop] CRemoteDesktopPlugin::~CRemoteDesktopPlugin(void)
+2023-05-23 09:33:53.065	- Info  -	CMultiChannelStreamImpl::~CMultiChannelStreamImpl
+2023-05-23 09:33:53.073	- Info  -	program remote_plugin is exit 

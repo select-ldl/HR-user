@@ -1,0 +1,392 @@
+2022-10-22 12:35:47.180	- Info  -	version:3.2.1.40406
+2022-10-22 12:35:47.228	- Info  -	[dlg_main] on_create
+2022-10-22 12:35:47.340	- Info  -	attempt to connect server 127.0.0.1:16308(127.0.0.1:16308)
+2022-10-22 12:35:47.399	- Info  -	[shell] OnConnect
+2022-10-22 12:35:47.401	- Info  -	[shell] status_changed:1
+2022-10-22 12:35:48.461	- Info  -	[dlg_main] init_fastcode_histroy
+2022-10-22 12:35:48.495	- Info  -	[http call3] new call id:1, url:https://ddns.oray.com/checkip?clean=1
+2022-10-22 12:35:48.495	- Info  -	[dlg_main] on_create end
+2022-10-22 12:35:48.502	- Info  -	[http call3] id:1 create new connection : https://ddns.oray.com:443
+2022-10-22 12:35:48.536	- Info  -	attempt to connect server ddns.oray.com:443(114.215.189.130:443)
+2022-10-22 12:35:48.628	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2022-10-22 12:35:48.630	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/client/free-tips
+2022-10-22 12:35:48.655	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2022-10-22 12:35:48.702	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-10-22 12:35:48.761	- Info  -	[http call3] id:1, url:https://ddns.oray.com/checkip?clean=1, status code:200
+2022-10-22 12:35:48.890	- Info  -	[http call3] id:2, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-22 12:36:03.890	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-22 12:36:03.891	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-22 12:36:18.761	* Error *	SSLStream::IsWantReadWrite|peer(114.215.189.130:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-22 12:36:18.762	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-22 16:03:56.584	- Info  -	[shell] status_changed:2
+2022-10-22 16:03:56.589	- Info  -	[shell] status_changed:2
+2022-10-22 16:04:26.618	- Info  -	[shell] status_changed:0
+2022-10-22 16:06:27.713	- Info  -	[shell] status_changed:2
+2022-10-22 16:06:57.716	- Info  -	[shell] status_changed:0
+2022-10-22 16:08:58.730	- Info  -	[shell] status_changed:2
+2022-10-22 16:09:28.745	- Info  -	[shell] status_changed:0
+2022-10-22 16:11:29.762	- Info  -	[shell] status_changed:2
+2022-10-22 16:11:59.770	- Info  -	[shell] status_changed:0
+2022-10-22 16:14:00.845	- Info  -	[shell] status_changed:2
+2022-10-22 16:14:30.853	- Info  -	[shell] status_changed:0
+2022-10-22 16:16:31.909	- Info  -	[shell] status_changed:2
+2022-10-22 16:17:01.927	- Info  -	[shell] status_changed:0
+2022-10-22 16:19:03.001	- Info  -	[shell] status_changed:2
+2022-10-22 16:19:33.009	- Info  -	[shell] status_changed:0
+2022-10-22 16:21:34.036	- Info  -	[shell] status_changed:2
+2022-10-22 16:22:04.064	- Info  -	[shell] status_changed:0
+2022-10-22 16:24:05.114	- Info  -	[shell] status_changed:2
+2022-10-22 16:24:35.122	- Info  -	[shell] status_changed:0
+2022-10-22 16:26:36.193	- Info  -	[shell] status_changed:2
+2022-10-22 16:27:06.212	- Info  -	[shell] status_changed:0
+2022-10-22 16:29:07.253	- Info  -	[shell] status_changed:2
+2022-10-22 16:29:37.260	- Info  -	[shell] status_changed:0
+2022-10-22 16:31:38.313	- Info  -	[shell] status_changed:2
+2022-10-22 16:32:08.335	- Info  -	[shell] status_changed:0
+2022-10-22 16:34:09.445	- Info  -	[shell] status_changed:2
+2022-10-22 16:34:39.460	- Info  -	[shell] status_changed:0
+2022-10-22 16:36:40.548	- Info  -	[shell] status_changed:2
+2022-10-22 16:37:10.559	- Info  -	[shell] status_changed:0
+2022-10-22 16:39:11.579	- Info  -	[shell] status_changed:2
+2022-10-22 16:39:41.583	- Info  -	[shell] status_changed:0
+2022-10-22 16:41:42.644	- Info  -	[shell] status_changed:2
+2022-10-22 16:42:12.680	- Info  -	[shell] status_changed:0
+2022-10-22 16:44:13.739	- Info  -	[shell] status_changed:2
+2022-10-22 16:44:43.771	- Info  -	[shell] status_changed:0
+2022-10-22 16:46:44.833	- Info  -	[shell] status_changed:2
+2022-10-22 16:47:14.877	- Info  -	[shell] status_changed:0
+2022-10-22 16:49:15.900	- Info  -	[shell] status_changed:2
+2022-10-22 16:49:45.903	- Info  -	[shell] status_changed:0
+2022-10-22 16:51:46.908	- Info  -	[shell] status_changed:2
+2022-10-22 16:52:16.912	- Info  -	[shell] status_changed:0
+2022-10-22 16:54:17.926	- Info  -	[shell] status_changed:2
+2022-10-22 16:54:47.954	- Info  -	[shell] status_changed:0
+2022-10-22 16:56:49.003	- Info  -	[shell] status_changed:2
+2022-10-22 16:57:19.028	- Info  -	[shell] status_changed:0
+2022-10-22 16:59:20.036	- Info  -	[shell] status_changed:2
+2022-10-22 16:59:50.061	- Info  -	[shell] status_changed:0
+2022-10-22 17:01:51.085	- Info  -	[shell] status_changed:2
+2022-10-22 17:02:21.093	- Info  -	[shell] status_changed:0
+2022-10-22 17:04:22.162	- Info  -	[shell] status_changed:2
+2022-10-22 17:04:52.178	- Info  -	[shell] status_changed:0
+2022-10-22 17:06:53.237	- Info  -	[shell] status_changed:2
+2022-10-22 17:07:23.260	- Info  -	[shell] status_changed:0
+2022-10-22 17:09:24.316	- Info  -	[shell] status_changed:2
+2022-10-22 17:09:54.355	- Info  -	[shell] status_changed:0
+2022-10-22 17:11:55.398	- Info  -	[shell] status_changed:2
+2022-10-22 17:12:25.428	- Info  -	[shell] status_changed:0
+2022-10-22 17:14:26.529	- Info  -	[shell] status_changed:2
+2022-10-22 17:14:56.528	- Info  -	[shell] status_changed:0
+2022-10-22 17:16:57.571	- Info  -	[shell] status_changed:2
+2022-10-22 17:17:27.597	- Info  -	[shell] status_changed:0
+2022-10-22 17:19:28.658	- Info  -	[shell] status_changed:2
+2022-10-22 17:19:58.671	- Info  -	[shell] status_changed:0
+2022-10-22 17:21:59.730	- Info  -	[shell] status_changed:2
+2022-10-22 17:22:29.747	- Info  -	[shell] status_changed:0
+2022-10-22 17:24:30.814	- Info  -	[shell] status_changed:2
+2022-10-22 17:25:00.832	- Info  -	[shell] status_changed:0
+2022-10-22 17:27:01.910	- Info  -	[shell] status_changed:2
+2022-10-22 17:27:31.959	- Info  -	[shell] status_changed:0
+2022-10-22 17:29:33.012	- Info  -	[shell] status_changed:2
+2022-10-22 17:30:03.030	- Info  -	[shell] status_changed:0
+2022-10-22 17:32:04.066	- Info  -	[shell] status_changed:2
+2022-10-22 17:32:34.084	- Info  -	[shell] status_changed:0
+2022-10-22 17:34:35.173	- Info  -	[shell] status_changed:2
+2022-10-22 17:35:05.179	- Info  -	[shell] status_changed:0
+2022-10-22 17:37:06.182	- Info  -	[shell] status_changed:2
+2022-10-22 17:37:36.215	- Info  -	[shell] status_changed:0
+2022-10-22 17:39:37.299	- Info  -	[shell] status_changed:2
+2022-10-22 17:40:07.332	- Info  -	[shell] status_changed:0
+2022-10-22 17:42:08.386	- Info  -	[shell] status_changed:2
+2022-10-22 17:42:38.408	- Info  -	[shell] status_changed:0
+2022-10-22 17:44:39.498	- Info  -	[shell] status_changed:2
+2022-10-22 17:45:09.498	- Info  -	[shell] status_changed:0
+2022-10-22 17:47:10.548	- Info  -	[shell] status_changed:2
+2022-10-22 17:47:40.547	- Info  -	[shell] status_changed:0
+2022-10-22 17:49:41.625	- Info  -	[shell] status_changed:2
+2022-10-22 17:50:11.651	- Info  -	[shell] status_changed:0
+2022-10-22 17:52:12.706	- Info  -	[shell] status_changed:2
+2022-10-22 17:52:42.745	- Info  -	[shell] status_changed:0
+2022-10-22 17:54:43.990	- Info  -	[shell] status_changed:2
+2022-10-22 17:55:14.023	- Info  -	[shell] status_changed:0
+2022-10-22 17:57:15.087	- Info  -	[shell] status_changed:2
+2022-10-22 17:57:45.102	- Info  -	[shell] status_changed:0
+2022-10-22 17:59:46.211	- Info  -	[shell] status_changed:2
+2022-10-22 18:00:16.235	- Info  -	[shell] status_changed:0
+2022-10-22 18:02:17.281	- Info  -	[shell] status_changed:2
+2022-10-22 18:02:47.310	- Info  -	[shell] status_changed:0
+2022-10-22 18:04:48.397	- Info  -	[shell] status_changed:2
+2022-10-22 18:05:18.410	- Info  -	[shell] status_changed:0
+2022-10-22 18:07:19.429	- Info  -	[shell] status_changed:2
+2022-10-22 18:07:49.466	- Info  -	[shell] status_changed:0
+2022-10-22 21:12:19.737	- Info  -	[shell] status_changed:2
+2022-10-22 21:12:21.808	- Info  -	[shell] status_changed:0
+2022-10-22 21:12:24.783	- Info  -	[shell] status_changed:2
+2022-10-23 09:10:41.514	- Info  -	[shell] status_changed:0
+2022-10-23 09:11:00.423	- Info  -	[shell] status_changed:2
+2022-10-23 09:11:30.437	- Info  -	[shell] status_changed:0
+2022-10-23 09:13:31.698	- Info  -	[shell] status_changed:2
+2022-10-23 09:13:32.473	- Info  -	[shell] status_changed:1
+2022-10-23 09:13:32.521	- Info  -	[http call3] new call id:3, url:https://slapi.oray.net/client/free-tips
+2022-10-23 09:13:32.527	- Info  -	[http call3] id:3 create new connection : https://slapi.oray.net:443
+2022-10-23 09:13:32.533	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-10-23 09:13:32.780	- Info  -	[http call3] id:3, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 09:13:47.773	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 09:13:47.773	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-23 11:18:32.865	- Info  -	[shell] status_changed:2
+2022-10-23 11:18:32.867	- Info  -	[shell] status_changed:2
+2022-10-23 11:19:02.891	- Info  -	[shell] status_changed:0
+2022-10-23 11:21:03.951	- Info  -	[shell] status_changed:2
+2022-10-23 11:21:33.962	- Info  -	[shell] status_changed:0
+2022-10-23 11:23:34.995	- Info  -	[shell] status_changed:2
+2022-10-23 11:24:05.025	- Info  -	[shell] status_changed:0
+2022-10-23 11:26:06.042	- Info  -	[shell] status_changed:2
+2022-10-23 11:26:36.083	- Info  -	[shell] status_changed:0
+2022-10-23 11:28:37.136	- Info  -	[shell] status_changed:2
+2022-10-23 11:29:07.155	- Info  -	[shell] status_changed:0
+2022-10-23 11:31:08.251	- Info  -	[shell] status_changed:2
+2022-10-23 11:31:38.277	- Info  -	[shell] status_changed:0
+2022-10-23 11:33:39.323	- Info  -	[shell] status_changed:2
+2022-10-23 11:34:09.351	- Info  -	[shell] status_changed:0
+2022-10-23 11:36:10.391	- Info  -	[shell] status_changed:2
+2022-10-23 11:36:40.399	- Info  -	[shell] status_changed:0
+2022-10-23 11:38:41.518	- Info  -	[shell] status_changed:2
+2022-10-23 11:39:11.536	- Info  -	[shell] status_changed:0
+2022-10-23 11:41:12.580	- Info  -	[shell] status_changed:2
+2022-10-23 11:41:42.621	- Info  -	[shell] status_changed:0
+2022-10-23 11:43:43.670	- Info  -	[shell] status_changed:2
+2022-10-23 11:44:13.706	- Info  -	[shell] status_changed:0
+2022-10-23 11:46:14.747	- Info  -	[shell] status_changed:2
+2022-10-23 11:46:44.761	- Info  -	[shell] status_changed:0
+2022-10-23 11:48:45.795	- Info  -	[shell] status_changed:2
+2022-10-23 11:49:15.790	- Info  -	[shell] status_changed:0
+2022-10-23 11:51:16.812	- Info  -	[shell] status_changed:2
+2022-10-23 11:51:46.839	- Info  -	[shell] status_changed:0
+2022-10-23 11:53:47.954	- Info  -	[shell] status_changed:2
+2022-10-23 11:54:17.984	- Info  -	[shell] status_changed:0
+2022-10-23 11:56:19.003	- Info  -	[shell] status_changed:2
+2022-10-23 11:56:49.046	- Info  -	[shell] status_changed:0
+2022-10-23 11:58:50.092	- Info  -	[shell] status_changed:2
+2022-10-23 11:59:20.119	- Info  -	[shell] status_changed:0
+2022-10-23 12:01:21.195	- Info  -	[shell] status_changed:2
+2022-10-23 12:01:51.237	- Info  -	[shell] status_changed:0
+2022-10-23 12:03:52.395	- Info  -	[shell] status_changed:2
+2022-10-23 12:04:22.446	- Info  -	[shell] status_changed:0
+2022-10-23 12:06:23.506	- Info  -	[shell] status_changed:2
+2022-10-23 12:06:53.540	- Info  -	[shell] status_changed:0
+2022-10-23 12:08:54.610	- Info  -	[shell] status_changed:2
+2022-10-23 12:09:24.629	- Info  -	[shell] status_changed:0
+2022-10-23 12:11:26.315	- Info  -	[shell] status_changed:2
+2022-10-23 12:11:56.350	- Info  -	[shell] status_changed:0
+2022-10-23 12:13:57.382	- Info  -	[shell] status_changed:2
+2022-10-23 12:14:27.415	- Info  -	[shell] status_changed:0
+2022-10-23 12:16:28.447	- Info  -	[shell] status_changed:2
+2022-10-23 12:16:58.488	- Info  -	[shell] status_changed:0
+2022-10-23 12:18:59.699	- Info  -	[shell] status_changed:2
+2022-10-23 12:19:29.740	- Info  -	[shell] status_changed:0
+2022-10-23 12:21:30.840	- Info  -	[shell] status_changed:2
+2022-10-23 12:22:00.881	- Info  -	[shell] status_changed:0
+2022-10-23 12:24:01.909	- Info  -	[shell] status_changed:2
+2022-10-23 12:24:31.931	- Info  -	[shell] status_changed:0
+2022-10-23 12:26:32.965	- Info  -	[shell] status_changed:2
+2022-10-23 12:27:02.993	- Info  -	[shell] status_changed:0
+2022-10-23 12:29:04.045	- Info  -	[shell] status_changed:2
+2022-10-23 12:29:34.082	- Info  -	[shell] status_changed:0
+2022-10-23 12:31:35.145	- Info  -	[shell] status_changed:2
+2022-10-23 12:32:05.192	- Info  -	[shell] status_changed:0
+2022-10-23 12:34:06.264	- Info  -	[shell] status_changed:2
+2022-10-23 12:34:36.280	- Info  -	[shell] status_changed:0
+2022-10-23 12:36:37.346	- Info  -	[shell] status_changed:2
+2022-10-23 12:37:07.392	- Info  -	[shell] status_changed:0
+2022-10-23 12:39:08.420	- Info  -	[shell] status_changed:2
+2022-10-23 12:39:38.447	- Info  -	[shell] status_changed:0
+2022-10-23 12:41:39.520	- Info  -	[shell] status_changed:2
+2022-10-23 12:42:09.545	- Info  -	[shell] status_changed:0
+2022-10-23 12:44:10.672	- Info  -	[shell] status_changed:2
+2022-10-23 12:44:40.710	- Info  -	[shell] status_changed:0
+2022-10-23 12:46:41.817	- Info  -	[shell] status_changed:2
+2022-10-23 12:47:11.845	- Info  -	[shell] status_changed:0
+2022-10-23 12:49:12.855	- Info  -	[shell] status_changed:2
+2022-10-23 12:49:42.885	- Info  -	[shell] status_changed:0
+2022-10-23 12:51:43.995	- Info  -	[shell] status_changed:2
+2022-10-23 12:52:14.012	- Info  -	[shell] status_changed:0
+2022-10-23 12:54:15.034	- Info  -	[shell] status_changed:2
+2022-10-23 12:54:45.064	- Info  -	[shell] status_changed:0
+2022-10-23 12:56:46.084	- Info  -	[shell] status_changed:2
+2022-10-23 12:57:16.134	- Info  -	[shell] status_changed:0
+2022-10-23 12:59:17.213	- Info  -	[shell] status_changed:2
+2022-10-23 12:59:47.250	- Info  -	[shell] status_changed:0
+2022-10-23 13:01:48.247	- Info  -	[shell] status_changed:2
+2022-10-23 13:02:18.280	- Info  -	[shell] status_changed:0
+2022-10-23 13:04:19.322	- Info  -	[shell] status_changed:2
+2022-10-23 13:04:49.346	- Info  -	[shell] status_changed:0
+2022-10-23 13:06:50.420	- Info  -	[shell] status_changed:2
+2022-10-23 13:07:20.448	- Info  -	[shell] status_changed:0
+2022-10-23 13:09:21.572	- Info  -	[shell] status_changed:2
+2022-10-23 13:09:51.613	- Info  -	[shell] status_changed:0
+2022-10-23 13:11:52.681	- Info  -	[shell] status_changed:2
+2022-10-23 13:12:22.723	- Info  -	[shell] status_changed:0
+2022-10-23 13:14:23.770	- Info  -	[shell] status_changed:2
+2022-10-23 13:14:53.809	- Info  -	[shell] status_changed:0
+2022-10-23 13:16:54.883	- Info  -	[shell] status_changed:2
+2022-10-23 13:17:24.902	- Info  -	[shell] status_changed:0
+2022-10-23 13:19:26.010	- Info  -	[shell] status_changed:2
+2022-10-23 13:19:56.027	- Info  -	[shell] status_changed:0
+2022-10-23 13:21:57.100	- Info  -	[shell] status_changed:2
+2022-10-23 13:22:27.106	- Info  -	[shell] status_changed:0
+2022-10-23 13:24:28.201	- Info  -	[shell] status_changed:2
+2022-10-23 13:24:58.228	- Info  -	[shell] status_changed:0
+2022-10-23 13:26:59.300	- Info  -	[shell] status_changed:2
+2022-10-23 13:27:29.330	- Info  -	[shell] status_changed:0
+2022-10-23 13:29:30.420	- Info  -	[shell] status_changed:2
+2022-10-23 13:30:00.448	- Info  -	[shell] status_changed:0
+2022-10-23 13:32:01.478	- Info  -	[shell] status_changed:2
+2022-10-23 13:32:31.521	- Info  -	[shell] status_changed:0
+2022-10-23 13:34:32.621	- Info  -	[shell] status_changed:2
+2022-10-23 13:35:02.657	- Info  -	[shell] status_changed:0
+2022-10-23 13:37:03.703	- Info  -	[shell] status_changed:2
+2022-10-23 13:37:33.713	- Info  -	[shell] status_changed:0
+2022-10-23 13:39:34.775	- Info  -	[shell] status_changed:2
+2022-10-23 13:40:04.820	- Info  -	[shell] status_changed:0
+2022-10-23 13:42:05.851	- Info  -	[shell] status_changed:2
+2022-10-23 13:42:35.887	- Info  -	[shell] status_changed:0
+2022-10-23 13:44:36.936	- Info  -	[shell] status_changed:2
+2022-10-23 13:45:06.972	- Info  -	[shell] status_changed:0
+2022-10-23 13:47:07.995	- Info  -	[shell] status_changed:2
+2022-10-23 13:47:38.036	- Info  -	[shell] status_changed:0
+2022-10-23 13:49:39.108	- Info  -	[shell] status_changed:2
+2022-10-23 13:50:09.145	- Info  -	[shell] status_changed:0
+2022-10-23 13:52:10.184	- Info  -	[shell] status_changed:2
+2022-10-23 13:52:40.212	- Info  -	[shell] status_changed:0
+2022-10-23 13:54:41.294	- Info  -	[shell] status_changed:2
+2022-10-23 13:55:11.325	- Info  -	[shell] status_changed:0
+2022-10-23 13:57:12.367	- Info  -	[shell] status_changed:2
+2022-10-23 13:57:42.379	- Info  -	[shell] status_changed:0
+2022-10-23 13:59:43.422	- Info  -	[shell] status_changed:2
+2022-10-23 14:00:13.432	- Info  -	[shell] status_changed:0
+2022-10-23 14:02:14.471	- Info  -	[shell] status_changed:2
+2022-10-23 14:02:44.518	- Info  -	[shell] status_changed:0
+2022-10-23 14:04:45.568	- Info  -	[shell] status_changed:2
+2022-10-23 14:05:15.614	- Info  -	[shell] status_changed:0
+2022-10-23 14:07:16.649	- Info  -	[shell] status_changed:2
+2022-10-23 14:07:46.690	- Info  -	[shell] status_changed:0
+2022-10-23 14:09:47.724	- Info  -	[shell] status_changed:2
+2022-10-23 14:10:17.763	- Info  -	[shell] status_changed:0
+2022-10-23 14:12:18.908	- Info  -	[shell] status_changed:2
+2022-10-23 14:12:48.930	- Info  -	[shell] status_changed:0
+2022-10-23 14:14:49.975	- Info  -	[shell] status_changed:2
+2022-10-23 14:15:20.010	- Info  -	[shell] status_changed:0
+2022-10-23 14:17:21.085	- Info  -	[shell] status_changed:2
+2022-10-23 14:17:51.122	- Info  -	[shell] status_changed:0
+2022-10-23 14:19:52.153	- Info  -	[shell] status_changed:2
+2022-10-23 14:20:22.187	- Info  -	[shell] status_changed:0
+2022-10-23 14:22:23.224	- Info  -	[shell] status_changed:2
+2022-10-23 14:22:53.264	- Info  -	[shell] status_changed:0
+2022-10-23 14:24:54.313	- Info  -	[shell] status_changed:2
+2022-10-23 14:25:24.324	- Info  -	[shell] status_changed:0
+2022-10-23 14:27:25.387	- Info  -	[shell] status_changed:2
+2022-10-23 14:27:55.422	- Info  -	[shell] status_changed:0
+2022-10-23 14:29:56.493	- Info  -	[shell] status_changed:2
+2022-10-23 14:30:26.526	- Info  -	[shell] status_changed:0
+2022-10-23 14:32:27.568	- Info  -	[shell] status_changed:2
+2022-10-23 14:32:57.606	- Info  -	[shell] status_changed:0
+2022-10-23 14:34:58.659	- Info  -	[shell] status_changed:2
+2022-10-23 14:35:28.682	- Info  -	[shell] status_changed:0
+2022-10-23 14:37:29.765	- Info  -	[shell] status_changed:2
+2022-10-23 14:37:59.802	- Info  -	[shell] status_changed:0
+2022-10-23 14:40:00.832	- Info  -	[shell] status_changed:2
+2022-10-23 14:40:30.878	- Info  -	[shell] status_changed:0
+2022-10-23 14:42:31.975	- Info  -	[shell] status_changed:2
+2022-10-23 14:43:01.997	- Info  -	[shell] status_changed:0
+2022-10-23 14:45:03.048	- Info  -	[shell] status_changed:2
+2022-10-23 14:45:33.066	- Info  -	[shell] status_changed:0
+2022-10-23 14:47:34.100	- Info  -	[shell] status_changed:2
+2022-10-23 14:48:04.125	- Info  -	[shell] status_changed:0
+2022-10-23 14:50:05.168	- Info  -	[shell] status_changed:2
+2022-10-23 14:50:35.170	- Info  -	[shell] status_changed:0
+2022-10-23 14:52:36.216	- Info  -	[shell] status_changed:2
+2022-10-23 14:53:06.249	- Info  -	[shell] status_changed:0
+2022-10-23 14:55:07.262	- Info  -	[shell] status_changed:2
+2022-10-23 14:55:37.281	- Info  -	[shell] status_changed:0
+2022-10-23 14:57:38.322	- Info  -	[shell] status_changed:2
+2022-10-23 14:58:08.341	- Info  -	[shell] status_changed:0
+2022-10-23 15:00:09.409	- Info  -	[shell] status_changed:2
+2022-10-23 15:00:39.424	- Info  -	[shell] status_changed:0
+2022-10-23 15:02:40.512	- Info  -	[shell] status_changed:2
+2022-10-23 15:03:10.543	- Info  -	[shell] status_changed:0
+2022-10-23 15:05:11.630	- Info  -	[shell] status_changed:2
+2022-10-23 15:05:41.652	- Info  -	[shell] status_changed:0
+2022-10-23 15:07:42.672	- Info  -	[shell] status_changed:2
+2022-10-23 15:08:12.703	- Info  -	[shell] status_changed:0
+2022-10-23 15:10:13.804	- Info  -	[shell] status_changed:2
+2022-10-23 15:10:43.814	- Info  -	[shell] status_changed:0
+2022-10-23 15:12:44.873	- Info  -	[shell] status_changed:2
+2022-10-23 15:13:14.889	- Info  -	[shell] status_changed:0
+2022-10-23 15:15:15.966	- Info  -	[shell] status_changed:2
+2022-10-23 15:15:46.007	- Info  -	[shell] status_changed:0
+2022-10-23 15:17:47.108	- Info  -	[shell] status_changed:2
+2022-10-23 15:18:17.143	- Info  -	[shell] status_changed:0
+2022-10-23 15:20:18.184	- Info  -	[shell] status_changed:2
+2022-10-23 15:20:35.547	- Info  -	[shell] status_changed:0
+2022-10-23 16:45:35.922	- Info  -	[shell] status_changed:2
+2022-10-23 16:45:38.866	- Info  -	[shell] status_changed:1
+2022-10-23 16:45:38.899	- Info  -	[http call3] new call id:4, url:https://slapi.oray.net/client/free-tips
+2022-10-23 16:45:39.090	- Info  -	[http call3] id:4 create new connection : https://slapi.oray.net:443
+2022-10-23 16:45:39.407	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-10-23 16:45:40.073	- Info  -	[http call3] id:4, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 16:45:55.090	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 16:45:55.091	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-23 20:51:38.148	- Info  -	[shell] status_changed:0
+2022-10-23 20:51:49.385	- Info  -	[shell] status_changed:2
+2022-10-23 20:51:50.417	- Info  -	[shell] status_changed:1
+2022-10-23 20:51:50.445	- Info  -	[http call3] new call id:5, url:https://slapi.oray.net/client/free-tips
+2022-10-23 20:51:50.448	- Info  -	[http call3] id:5 create new connection : https://slapi.oray.net:443
+2022-10-23 20:51:50.471	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-10-23 20:51:50.854	- Info  -	[http call3] id:5, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 20:52:05.851	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 20:52:05.852	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-23 20:52:27.382	- Info  -	[shell] status_changed:0
+2022-10-23 20:52:39.635	- Info  -	[shell] status_changed:2
+2022-10-23 20:52:41.357	- Info  -	[shell] status_changed:1
+2022-10-23 20:52:41.383	- Info  -	[http call3] new call id:6, url:https://slapi.oray.net/client/free-tips
+2022-10-23 20:52:41.388	- Info  -	[http call3] id:6 create new connection : https://slapi.oray.net:443
+2022-10-23 20:52:41.437	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-10-23 20:52:41.699	- Info  -	[http call3] id:6, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 20:52:56.693	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 20:52:56.693	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-23 20:53:09.392	- Info  -	[shell] status_changed:0
+2022-10-23 20:53:26.318	- Info  -	[shell] status_changed:2
+2022-10-23 20:53:26.961	- Info  -	[shell] status_changed:1
+2022-10-23 20:53:26.994	- Info  -	[http call3] new call id:7, url:https://slapi.oray.net/client/free-tips
+2022-10-23 20:53:26.996	- Info  -	[http call3] id:7 create new connection : https://slapi.oray.net:443
+2022-10-23 20:53:27.063	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-10-23 20:53:27.368	- Info  -	[http call3] id:7, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 20:53:42.361	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 20:53:42.362	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-23 21:01:09.243	- Info  -	[shell] status_changed:0
+2022-10-23 21:01:50.641	- Info  -	[shell] status_changed:2
+2022-10-23 21:01:51.999	- Info  -	[shell] status_changed:1
+2022-10-23 21:01:52.018	- Info  -	[http call3] new call id:8, url:https://slapi.oray.net/client/free-tips
+2022-10-23 21:01:52.026	- Info  -	[http call3] id:8 create new connection : https://slapi.oray.net:443
+2022-10-23 21:01:52.027	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-10-23 21:01:52.351	- Info  -	[http call3] id:8, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 21:02:07.349	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 21:02:07.349	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-23 21:03:36.697	- Info  -	[shell] status_changed:0
+2022-10-23 21:04:07.925	- Info  -	[shell] status_changed:2
+2022-10-23 21:04:08.825	- Info  -	[shell] status_changed:1
+2022-10-23 21:04:08.863	- Info  -	[http call3] new call id:9, url:https://slapi.oray.net/client/free-tips
+2022-10-23 21:04:08.869	- Info  -	[http call3] id:9 create new connection : https://slapi.oray.net:443
+2022-10-23 21:04:08.893	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-10-23 21:04:09.203	- Info  -	[http call3] id:9, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 21:04:24.196	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 21:04:24.196	- Info  -	[http call3] disconnect, error( 0 )
+2022-10-23 21:21:26.888	- Info  -	[shell] status_changed:0
+2022-10-23 21:27:55.325	- Info  -	[shell] status_changed:2
+2022-10-23 21:27:56.157	- Info  -	[shell] status_changed:1
+2022-10-23 21:27:56.187	- Info  -	[http call3] new call id:10, url:https://slapi.oray.net/client/free-tips
+2022-10-23 21:27:56.217	- Info  -	[http call3] id:10 create new connection : https://slapi.oray.net:443
+2022-10-23 21:27:56.218	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-10-23 21:27:56.468	- Info  -	[http call3] id:10, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-10-23 21:28:11.465	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-10-23 21:28:11.466	- Info  -	[http call3] disconnect, error( 0 )

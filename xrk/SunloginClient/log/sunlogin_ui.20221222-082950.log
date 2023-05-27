@@ -1,0 +1,139 @@
+2022-12-22 08:29:51.166	- Info  -	version:3.2.1.40406
+2022-12-22 08:29:51.311	- Info  -	[dlg_main] on_create
+2022-12-22 08:29:51.397	- Info  -	attempt to connect server 127.0.0.1:16308(127.0.0.1:16308)
+2022-12-22 08:29:51.423	- Info  -	[shell] OnConnect
+2022-12-22 08:29:51.426	- Info  -	[shell] status_changed:1
+2022-12-22 08:29:52.651	- Info  -	[dlg_main] init_fastcode_histroy
+2022-12-22 08:29:52.684	- Info  -	[http call3] new call id:1, url:https://ddns.oray.com/checkip?clean=1
+2022-12-22 08:29:52.684	- Info  -	[dlg_main] on_create end
+2022-12-22 08:29:52.694	- Info  -	[http call3] id:1 create new connection : https://ddns.oray.com:443
+2022-12-22 08:29:52.808	- Info  -	attempt to connect server ddns.oray.com:443(114.215.199.192:443)
+2022-12-22 08:29:52.843	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2022-12-22 08:29:52.845	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/client/free-tips
+2022-12-22 08:29:53.440	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2022-12-22 08:29:53.458	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-12-22 08:29:53.514	- Info  -	[http call3] id:1, url:https://ddns.oray.com/checkip?clean=1, status code:200
+2022-12-22 08:29:53.646	- Info  -	[http call3] id:2, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 08:30:08.646	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 08:30:08.647	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 08:30:23.511	* Error *	SSLStream::IsWantReadWrite|peer(114.215.199.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 08:30:23.511	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 08:55:19.568	- Info  -	[shell] status_changed:2
+2022-12-22 08:55:19.570	- Info  -	[shell] status_changed:2
+2022-12-22 08:55:49.598	- Info  -	[shell] status_changed:0
+2022-12-22 09:32:29.273	- Info  -	[shell] status_changed:2
+2022-12-22 09:32:30.310	- Info  -	[shell] status_changed:1
+2022-12-22 09:32:30.346	- Info  -	[http call3] new call id:3, url:https://slapi.oray.net/client/free-tips
+2022-12-22 09:32:30.353	- Info  -	[http call3] id:3 create new connection : https://slapi.oray.net:443
+2022-12-22 09:32:30.676	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-12-22 09:32:31.236	- Info  -	[http call3] id:3, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 09:32:46.227	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 09:32:46.227	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 09:39:00.990	- Info  -	[shell] status_changed:0
+2022-12-22 09:39:48.742	- Info  -	[shell] status_changed:2
+2022-12-22 09:39:49.850	- Info  -	[shell] status_changed:1
+2022-12-22 09:39:49.875	- Info  -	[http call3] new call id:4, url:https://slapi.oray.net/client/free-tips
+2022-12-22 09:39:49.899	- Info  -	[http call3] id:4 create new connection : https://slapi.oray.net:443
+2022-12-22 09:39:50.044	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-12-22 09:39:50.491	- Info  -	[http call3] id:4, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 09:40:05.490	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 09:40:05.492	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 11:01:20.499	- Info  -	[shell] status_changed:0
+2022-12-22 11:03:42.857	- Info  -	[shell] status_changed:2
+2022-12-22 11:03:44.138	- Info  -	[shell] status_changed:1
+2022-12-22 11:03:44.173	- Info  -	[http call3] new call id:5, url:https://slapi.oray.net/client/free-tips
+2022-12-22 11:03:44.183	- Info  -	[http call3] id:5 create new connection : https://slapi.oray.net:443
+2022-12-22 11:03:44.302	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-12-22 11:03:44.836	- Info  -	[http call3] id:5, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 11:03:59.836	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 11:03:59.837	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 11:08:14.106	- Info  -	[shell] status_changed:2
+2022-12-22 11:08:14.106	- Info  -	[shell] status_changed:2
+2022-12-22 11:08:44.140	- Info  -	[shell] status_changed:0
+2022-12-22 11:10:45.163	- Info  -	[shell] status_changed:2
+2022-12-22 11:11:15.203	- Info  -	[shell] status_changed:0
+2022-12-22 11:13:16.221	- Info  -	[shell] status_changed:2
+2022-12-22 11:13:46.263	- Info  -	[shell] status_changed:0
+2022-12-22 11:15:47.342	- Info  -	[shell] status_changed:2
+2022-12-22 11:16:17.363	- Info  -	[shell] status_changed:0
+2022-12-22 11:18:18.503	- Info  -	[shell] status_changed:2
+2022-12-22 11:18:48.547	- Info  -	[shell] status_changed:0
+2022-12-22 11:20:49.616	- Info  -	[shell] status_changed:2
+2022-12-22 11:21:19.642	- Info  -	[shell] status_changed:0
+2022-12-22 11:23:20.724	- Info  -	[shell] status_changed:2
+2022-12-22 11:23:50.748	- Info  -	[shell] status_changed:0
+2022-12-22 11:25:51.804	- Info  -	[shell] status_changed:2
+2022-12-22 11:26:21.836	- Info  -	[shell] status_changed:0
+2022-12-22 11:28:22.967	- Info  -	[shell] status_changed:2
+2022-12-22 11:28:53.010	- Info  -	[shell] status_changed:0
+2022-12-22 11:30:54.104	- Info  -	[shell] status_changed:2
+2022-12-22 11:31:24.139	- Info  -	[shell] status_changed:0
+2022-12-22 11:33:25.166	- Info  -	[shell] status_changed:2
+2022-12-22 11:33:55.189	- Info  -	[shell] status_changed:0
+2022-12-22 11:35:56.207	- Info  -	[shell] status_changed:2
+2022-12-22 11:36:26.242	- Info  -	[shell] status_changed:0
+2022-12-22 11:38:27.291	- Info  -	[shell] status_changed:2
+2022-12-22 11:38:57.315	- Info  -	[shell] status_changed:0
+2022-12-22 11:40:58.430	- Info  -	[shell] status_changed:2
+2022-12-22 11:40:59.085	- Info  -	[shell] status_changed:1
+2022-12-22 11:40:59.120	- Info  -	[http call3] new call id:6, url:https://slapi.oray.net/client/free-tips
+2022-12-22 11:40:59.128	- Info  -	[http call3] id:6 create new connection : https://slapi.oray.net:443
+2022-12-22 11:40:59.130	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-12-22 11:40:59.343	- Info  -	[http call3] id:6, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 11:41:14.334	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 11:41:14.334	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 11:58:06.623	- Info  -	[shell] status_changed:0
+2022-12-22 13:30:02.186	- Info  -	[shell] status_changed:2
+2022-12-22 13:30:05.173	- Info  -	[shell] status_changed:1
+2022-12-22 13:30:05.202	- Info  -	[http call3] new call id:7, url:https://slapi.oray.net/client/free-tips
+2022-12-22 13:30:05.239	- Info  -	[http call3] id:7 create new connection : https://slapi.oray.net:443
+2022-12-22 13:30:05.408	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-12-22 13:30:05.963	- Info  -	[http call3] id:7, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 13:30:20.962	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 13:30:20.962	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 15:43:38.278	- Info  -	[shell] status_changed:0
+2022-12-22 16:12:26.184	- Info  -	[shell] status_changed:2
+2022-12-22 16:12:27.793	- Info  -	[shell] status_changed:1
+2022-12-22 16:12:27.827	- Info  -	[http call3] new call id:8, url:https://slapi.oray.net/client/free-tips
+2022-12-22 16:12:27.846	- Info  -	[http call3] id:8 create new connection : https://slapi.oray.net:443
+2022-12-22 16:12:27.854	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-12-22 16:12:28.156	- Info  -	[http call3] id:8, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 16:12:43.155	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 16:12:43.155	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 16:16:26.084	- Info  -	[shell] status_changed:0
+2022-12-22 16:17:40.511	- Info  -	[shell] status_changed:2
+2022-12-22 16:17:41.716	- Info  -	[shell] status_changed:1
+2022-12-22 16:17:41.747	- Info  -	[http call3] new call id:9, url:https://slapi.oray.net/client/free-tips
+2022-12-22 16:17:41.766	- Info  -	[http call3] id:9 create new connection : https://slapi.oray.net:443
+2022-12-22 16:17:41.767	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-12-22 16:17:42.043	- Info  -	[http call3] id:9, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 16:17:57.040	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 16:17:57.040	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 16:22:23.825	- Info  -	[shell] status_changed:0
+2022-12-22 16:22:40.398	- Info  -	[shell] status_changed:2
+2022-12-22 16:22:42.033	- Info  -	[shell] status_changed:1
+2022-12-22 16:22:42.064	- Info  -	[http call3] new call id:10, url:https://slapi.oray.net/client/free-tips
+2022-12-22 16:22:42.076	- Info  -	[http call3] id:10 create new connection : https://slapi.oray.net:443
+2022-12-22 16:22:42.078	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-12-22 16:22:42.358	- Info  -	[http call3] id:10, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 16:22:57.351	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-22 16:22:57.351	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-22 16:23:54.645	- Info  -	[shell] status_changed:0
+2022-12-22 16:24:02.862	- Info  -	[shell] status_changed:2
+2022-12-22 16:24:03.706	- Info  -	[shell] status_changed:1
+2022-12-22 16:24:03.730	- Info  -	[http call3] new call id:11, url:https://slapi.oray.net/client/free-tips
+2022-12-22 16:24:03.749	- Info  -	[http call3] id:11 create new connection : https://slapi.oray.net:443
+2022-12-22 16:24:03.750	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-12-22 16:24:04.008	- Info  -	[http call3] id:11, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 16:24:09.146	- Info  -	[shell] status_changed:0
+2022-12-22 16:24:16.955	- Info  -	[shell] status_changed:2
+2022-12-22 16:24:17.833	- Info  -	[shell] status_changed:1
+2022-12-22 16:24:17.862	- Info  -	[http call3] new call id:12, url:https://slapi.oray.net/client/free-tips
+2022-12-22 16:24:17.864	- Info  -	[http call3] id:12 use old connection : https://slapi.oray.net:443
+2022-12-22 16:24:17.959	- Info  -	[http call3] id:12, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-22 16:24:19.355	- Info  -	[shell] status_changed:0
+2022-12-22 16:24:29.652	- Info  -	[shell] status_changed:2
+2022-12-22 16:24:30.713	- Info  -	[shell] status_changed:1
+2022-12-22 16:24:30.748	- Info  -	[http call3] new call id:13, url:https://slapi.oray.net/client/free-tips
+2022-12-22 16:24:30.758	- Info  -	[http call3] id:13 use old connection : https://slapi.oray.net:443
+2022-12-22 16:24:30.859	- Info  -	[http call3] id:13, url:https://slapi.oray.net/client/free-tips, status code:200
