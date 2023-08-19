@@ -1,0 +1,20 @@
+count="""
+1、亲爱的：最近我牙齿痛，因为常常晚上想你，那感觉太甜蜜了，会蛀牙。
+"""
+
+import pyautogui
+import pyperclip
+import time
+
+time.sleep(3)
+
+
+for lin in (count)*1:
+    if lin:
+        print(lin)
+        pyperclip.copy(lin)
+        pyautogui.hotkey("ctrl","v")
+        pyautogui.typewrite("")
+        time.sleep(0.001)
+
+

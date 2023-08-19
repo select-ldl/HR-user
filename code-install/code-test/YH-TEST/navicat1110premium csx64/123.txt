@@ -1,0 +1,9 @@
+
+ set password for 'root'@'localhost'=password('123');
+
+set character_set_database=utf8;
+set character_set_server=utf8;
+set character_set_client=gb2312;
+set character_set_connection=gb2312;
+set character_set_results=gb2312;
+

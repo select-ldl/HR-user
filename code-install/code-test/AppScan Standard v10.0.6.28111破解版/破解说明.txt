@@ -1,0 +1,1 @@
+注：把破解补丁复制粘贴到[C:\Program Files (x86)\HCL\AppScan Standard]里面即可

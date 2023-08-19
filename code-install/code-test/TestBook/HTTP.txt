@@ -1,0 +1,210 @@
+某班有47人，每寝室能住6人，请在192.168.18网段下合理划分合理的子网。
+要求通过vtp及vlan划分
+掩码：255.255.255.240
+三层交换机：
+switch>en
+switch#conf t
+switch(config-if)#int range f0/1-8
+switch(config-if-range)#sw tr en do
+switch(config-if-range)#sw mo tr
+switch(config-if-range)#no shut
+switch(config-if-range)#exit
+switch(config)#vtp mode server
+switch(config)#no shut
+switch(config)#exit
+switch(config)#vtp domain wenxin
+switch(config)#no shut
+switch(config)#exit
+switch(config-vlan)#vlan 10
+switch(config-vlan)#vlan 20
+switch(config-vlan)#vlan 30
+switch(config-vlan)#vlan 40
+switch(config-vlan)#vlan 50
+switch(config-vlan)#vlan 60
+switch(config-vlan)#vlan 70
+switch(config-vlan)#vlan 80
+switch(config-vlan)#exit
+switch(config)#int vlan 10
+switch(config-vlan)#ip add 192.168.18.14  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#int vlan 20
+switch(config-vlan)#ip add 192.168.18.30  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#int vlan 30
+switch(config-vlan)#ip add 192.168.18.46  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#int vlan 40
+switch(config-vlan)#ip add 192.168.18.62  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#int vlan 50
+switch(config-vlan)#ip add 192.168.18.78  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#int vlan 60
+switch(config-vlan)#ip add 192.168.18.94  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#int vlan 70
+switch(config-vlan)#ip add 192.168.18.110  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#int vlan 80
+switch(config-vlan)#ip add 192.168.18.126  255.255.255.240
+switch(config-vlan)#no shut
+switch(config-vlan)#exit
+switch(config)#ip routing
+switch(config)#end
+
+
+二层交换机1：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 10
+Switch(config-if)#end
+
+二层交换机2：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 20
+Switch(config-if)#end
+
+二层交换机3：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 30
+Switch(config-if)#end
+
+
+二层交换机4：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 40
+Switch(config-if)#end
+
+
+二层交换机5：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 50
+Switch(config-if)#end
+
+
+二层交换机6：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 60
+Switch(config-if)#end
+
+二层交换机7：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 70
+Switch(config-if)#end
+
+二层交换机8：
+Switch>en
+Switch#conf t
+Switch(config)#vtp domain wenxin
+Switch(config)#int f0/1
+Switch(config-if)#sw mo tr
+Switch(config-if)#no shut
+Switch(config-if)#exit
+Switch(config)#int f0/2
+Switch(config-if)#sw mo ac
+Switch(config-if)#sw ac vlan 80
+Switch(config-if)#end
+PC1:
+IP:192.168.18.1
+子网掩码：255.255.255.240
+默认网关192.168.19.14
+
+PC2:
+IP:192.168.18.17
+子网掩码：255.255.255.240
+默认网关192.168.19.30
+
+PC3:
+IP:192.168.18.33
+子网掩码：255.255.255.240
+默认网关192.168.19.46
+
+PC4:
+IP:192.168.18.49
+子网掩码：255.255.255.240
+默认网关192.168.19.62
+
+PC5:
+IP:192.168.18.65
+子网掩码：255.255.255.240
+默认网关192.168.19.78
+
+PC6:
+IP:192.168.18.81
+子网掩码：255.255.255.240
+默认网关192.168.19.94
+
+PC7:
+IP:192.168.18.97
+子网掩码：255.255.255.240
+默认网关192.168.19.110
+
+PC8:
+IP:192.168.19.113
+子网掩码：255.255.255.240
+默认网关192.168.19.126
+
+
+

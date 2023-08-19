@@ -1,0 +1,38 @@
+==============================================
+Advanced RAR Repair - Version 1.2
+==============================================
+File: HISTORY.TXT
+
+Version 1.2
+==================================
+- Support to upload corrupt RAR or SFX archives to our ftp server.
+- Support to recover directories in RAR archives.
+- Improve the error recovery mechanism.
+- Fix some minor bugs
+
+Version 1.1
+==================================
+- Improve the recovery engine
+- Support to recover password-encrypted archives
+- Support to find and select the RAR and SFX archives to be repaired on the local computer.
+- Fix some minor bugs
+
+Version 1.0(First release)
+==================================
+- Support to repair all versions of RAR and SFX archives.
+- Support to recover multi-volume and solid archives.
+- Support to repair RAR and SFX archives on corrupted medias, such as floppy disks, Zip disks, CDROMs, etc.
+- Support to repair a batch of RAR and SFX archives.
+- Support to repair RAR archives as large as 16777216 TB (i.e. 17179869184 GB).
+- Support integration with Windows Explorer, so you can repair a RAR 
+  archive with the context menu of Windows Explorer easily.
+- Support drag & drop operation.
+- Support command line parameters.
+
+=================================================================================
+
+Copyright 2001 - 2006 DataNumen, Inc., All rights reserved.
+homepage: http://www.datanumen.com/arar/index.htm
+Support E-mail: support@datanumen.com
+download the newest version: http://www.datanumen.com/arar/arar.exe
+buy ARAR: http://www.datanumen.com/arar/order.htm

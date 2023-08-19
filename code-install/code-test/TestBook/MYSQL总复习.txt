@@ -1,0 +1,183 @@
+本周知识点：
+1，创建数据库
+  create database 数据库名
+  charset gb2312
+  collate gb2312_chinese_ci;
+2,使用库
+  use 数据库名;
+3,查看所有的库
+  show databases;
+4,删除库
+  drop database 数据库名;
+5,修改字符集及校对规则
+  alter database 数据库名 charset utf8 collate utf8_general_ci;
+6,查看所有的字符集及校对规则
+  show charset;
+7,创建表
+  create table 表名
+ （
+    字段名 数据类型(长度),
+    .....
+  ）charset = gb2312 engine = innodb;
+8,修改表
+  1),添加字段
+   alter table 表名 add 字段名 数据类型(长度);
+  2),删除字段
+   alter table 表名 drop 字段名;
+  3),修改数据类型
+   alter table 表名 modify 原有字段 新数据类型(长度);
+  4),修改字段名
+   alter table 表名 change 原字段名 新字段名 新数据类型(长度);
+  5),修改字段位置
+   alter table 表名 modify 字段名 数据类型    first;
+  alter table 表名 modify 字段名 数据类型    after 现有字段;
+9,查看表的基本信息及详细信息
+   desc 表名;
+   show create table 表名;
+10,删除表
+   drop table 表名;
+11,常用的数据类型:int ,bigint,smallint,float,double,boolean,
+char,varchar,date,timestamp,decimal(5,2)...
+12,重命名表
+  rename table 原表名 to 新表名, 原表名 to 新表名;
+13,约束（主键,候选键,自增,非空,外键,默认值）
+  1),修改表时增加主键约束
+   alter table 表名 add [constraint 约束名] primary key(字段名);
+  2).修改表时增加候选键约束
+   alter table 表名 add unique(字段名);
+  3),修改表时增加自增约束（必须为整型）
+   alter table 表名 modify 字段名 数据类型 auto increment;
+  4),修改表时增加外键约束
+   alter table 表名 add constraint 外键约束名 foreign key(参照表的字段名) references 被参照表（字段名）
+14，删除约束
+  1），删除主键约束
+   alter table 表名 drop primary key; 
+  2),删除候选键
+   alter table 表名 drop index 约束名|字段名;
+  3),删除外键约束
+   alter table 表名 drop foreign key 外键约束名;
+  4),删除自增约束
+    1，修改数据类型
+       alter table 表名 modify 字段名 新数据类型;
+    2，删除主键或候选键
+      alter table 表名 drop primary key| index 约束名|字段名; 
+14, 修改表时增加索引（普通索引，唯一，主键，全文，多列）
+  1),增加普通索引
+   alter table 表名 add index 索引名(字段名);
+   create index 索引名 on 表名(字段名);
+  2),增加唯一索引
+  alter table 表名 add unique index 索引名(字段名);
+  3),增加全文索引(类型必须是char,varchar,text，存储引擎必须是myisam)
+  alter table 表名 add fulltext index 索引名(字段名);
+  4),增加多列索引
+  alter table 表名 add index 索引名(字段名1,..);
+15,删除索引
+  drop index 索引名 on 表名;
+16,简单的数据操作
+  1),插入数据
+  insert into 表名(字段名,...)
+  values(值1,...);
+  insert into 表名 values(值1,...);//值必须全写
+  insert into 表名 values(值1,...)，(值1,...)..;
+  2),更新数据
+   update 表名 set 字段名1 = 值1，字段名2 = 值2 where 字段名 = 值 [and | or | !=]..;
+  3),删除数据
+  delete from 表名 where 过滤条件;
+  4),查询数据
+  select * from  表名 where 过滤条件;
+17,聚合函数： 
+  count(): 求记录数
+  max():  最大值
+  min():  最小值
+  sum():   求和
+  avg():   求平均值
+  abs(): 绝对值
+  floor(): 向下取整
+  rand(): 随机函数  
+  now(): 当前电脑的时间
+  curdate(): 当前电脑的年月日
+  .....
+18, 交叉查询：
+  内连接： 
+     select * from 表1 [inner] join 表2 on 连接条件 where 过滤条件;
+  外连接:（左外，右外）
+  select * from 表1  left outer join 表2 on 连接条件 where 过滤条件;
+
+select * from 表1  right outer join 表2 on 连接条件 where 过滤条件;
+
+  自然连接：(有相同的字段名)
+     select * from 表1 natural join 表2;
+19，子查询： in ,not in,any,all,exists,not exists , =,>=,<=,<>,!=
+20,视图
+ 1),创建视图
+  create view 视图名
+  as 
+  查询语句;
+ 2),修改视图
+  create or replace| alter view 视图名
+  as
+  新查询语句; 
+ 3),删除视图
+  drop view 视图名;
+ 4),查看视图
+  desc  视图名;
+  show create view 视图名;
+21,触发器
+  1),创建触发器:基于某个表操作
+   create trigger 触发器名
+   before|after insert|delete|update 
+   on 表名
+   for each row
+   trigger_body;
+  2). 查看触发器
+   show triggers;
+  3),删除触发器
+   drop trigger 触发器名;
+22,事件
+  1),创建事件
+     create event 事件名 
+     on schedule 
+     at timestamp【+interval interval】...|every interval【starts timestamp【+interval interval】...】【ends timestamp【+interval interval】...】
+     do 
+    sql语句;
+*interval语法格式
+数值｛year/quarter/month/day/hour/minute/week/second/year_month/day_hour/day_minute/day_seconde/hour_minute/hour_second/minute_second｝
+  2),删除事件
+  drop event 事件名;
+ 3),修改事件
+  ALTER EVENT 事件名【ON SCHEDULE schedule】
+【RENAME TO  新事件名称】
+【ENABLE|DISABLE|DISABLE ON SLAVE】
+【DO 事件】
+ 4),开启事件调度
+  set global event_scheduler = 1 或 true;
+23,存储过程
+  1），创建存储过程
+delimiter$$
+   create procedure 存储过程名（in|out|inout 参数 数据类型）
+      begin
+存储过程体;
+      end$$
+  2)调用存储过程
+   call 存储过程名;
+24,游标的使用步骤
+ 1，声明
+     declare 游标名 cursor for 查询语句;
+ 2，打开
+     open 游标名;
+ 3，读取
+     fetch 游标名 into 变量1,...
+ 4，关闭
+     close 游标名;
+25, 存储函数
+  1),创建存储函数
+delimiter$$
+   create function 存储过程名（ 参数 数据类型）
+   returns 返回值的数据类型
+      begin
+       存储函数体;
+       return 返回值;
+      end$$
+ 2),删除
+  drop function 函数名;
+

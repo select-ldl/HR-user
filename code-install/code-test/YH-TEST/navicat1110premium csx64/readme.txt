@@ -1,0 +1,1 @@
+1、安装navicat111_premium_cs_x64.exe，安装结束后用navicat.exe替换安装目录下的navicat.exe。
