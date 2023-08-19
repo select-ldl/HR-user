@@ -1,0 +1,42 @@
+Charles 的官网：https://www.charlesproxy.com
+一：Charles抓HTTPS包原理
+
+
+Charles本身是一个协议代理工具，如果只是普通的HTTP请求，因为数据本身没经过再次加密，因此作为代理可以知道所有客户端发送到服务端的请求内容以及服务端返回给客户端的数据内容，这也就是抓包工具能够将数据传输内容直接展现出来的原因。
+对于HTTPS请求，数据已经经过了加密，代理如果什么都不做的话是无法获取到其中的内容的。
+为了实现这个过程的数据获取，Charles需要做的事情是对客户端伪装服务端，对服务端伪装客户端，具体
+
+
+截获真实客户端的HTTPS请求；
+伪装客户端向真实服务端发送HTTPS请求；
+
+HTTPS(Hyper Text Transfer Protocol Secure)，是一种基于SSL/TLS的HTTP，所有的HTTP数据都是在SSL/TLS协议封装之上进行传输的。HTTPS协议是在HTTP协议的基础上，添加了SSL/TLS握手以及数据加密传输，也属于应用层协议。所以，研究HTTPS协议原理，最终就是研究SSL/TLS协议。
+
+Charles 是一款比较常用的全平台的网络封包截取工具，而我们在做移动开发的时候，我们为了调试、测试、分析等目的，经常需要与服务端的网络通讯协议打交道。Charles 可以帮我们截取网络数据包来进行分析。
+
+Charles 通过将软件本身设置成系统的网络访问代理服务器，使得所有的网络请求都会走一遍 Charles 代理，从而 Charles 可以截取经过它的请求，然后我们就可以对其进行网络包的分析。
+
+
+二、安装证书：
+1、首先电脑安装证书，help-ssl proxy-install，然后手机安装证书；
+2、手机安装证书：
+2.1、浏览器输入http://charlesproxy.com/getssl
+或者输入chls.pro/ssl
+2.2、安卓端手机（iOS不支持此方法），点击工具栏help-ssl proxy-save保存证书到电脑，保存时注意修改证书后缀为.cer，如果保存到桌面看不见保存的证书，则保存任意如d盘e盘某个位置。然后将保存的证书放到手机，从手机设置-安全-从...导入，选中之前导出的证书，安装；
+
+3、相关设置，端口、启用ssl代理能力,两种方法：
+3.1、Proxy-SSL Proxying Settings，允许ssl proxying，并自己Add需要抓取的服务地址；
+3.2、自己运行app做一些操作，在需要截取Https的请求上，右键，点击enable ssl proxying
+
+4、查看IP，cmd打开命令窗口，输入ipconfig查看IP或者Help → Local IP Address查看，每台电脑的IP不一样
+charles-tools-proxy setting看设置的端口，一般为8888，也可以自己设置；
+
+5、手机连接；
+5.1、iOS：设置-无线局域网-选择连接的wifi，点击后面的详情按钮，HTTP代理-手动-输入服务器和端口；
+5.2、安卓：设置-wifi-长按或者点击icon进入相应wifi详情页面，点击高级设置-HTTP代理-手动-输入服务器和端口；
+
+6.注意尽可能是手机和电脑处于同一网段，可以电脑分享出一个WiFi给手机连接；
+
+7.如果一致连接不上，可以尝试把防火墙关闭；
+
+

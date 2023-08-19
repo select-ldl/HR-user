@@ -1,0 +1,50 @@
+2022-11-16 13:15:14.099	- Info  -	version:3.2.1.40406
+2022-11-16 13:15:14.200	* Error *	SSLStream|Remove temp(C:\Windows\TEMP\u2qg.0) file ok
+2022-11-16 13:15:14.412	- Info  -	Initialize OK
+2022-11-16 13:15:14.412	- Info  -	CAcceptorRaw::set_listener
+2022-11-16 13:15:14.414	- Info  -	DesktopAgentServer created with port 0.
+2022-11-16 13:15:14.616	* Error *	[udpstack] bind 0.0.0.0:15632 error , errorno = 10048
+2022-11-16 13:15:14.616	- Info  -	[service] start listen OK,tcp:0.0.0.0:49675,udp:15743
+2022-11-16 13:15:14.707	- Info  -	[discover] Client NotifyDiscover type=5
+2022-11-16 13:15:14.735	- Info  -	[localserver] Not use proxy
+2022-11-16 13:15:14.818	- Info  -	network error, retrying login server
+2022-11-16 13:15:17.824	- Info  -	[mac] local ip:192.168.0.193
+2022-11-16 13:15:17.934	- Info  -	[mac] mac address:00:F4:8D:D2:3C:CF
+2022-11-16 13:15:17.934	- Info  -	get mac address: 00:F4:8D:D2:3C:CF
+2022-11-16 13:15:21.109	- Info  -	os name:Microsoft Windows 10 专业版
+2022-11-16 13:15:22.777	- Info  -	m_clientinfo.mac: 00:F4:8D:D2:3C:CF
+2022-11-16 13:15:22.838	- Info  -	Current client status: 2
+2022-11-16 13:15:22.838	- Info  -	send status_changed notify 2
+2022-11-16 13:15:22.838	- Info  -	Login task time 0
+2022-11-16 13:15:22.855	- Info  -	Do login( type: 2 ) at 379
+2022-11-16 13:15:22.855	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/remote/get-fastcode
+2022-11-16 13:15:22.931	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2022-11-16 13:15:22.982	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-11-16 13:15:23.301	- Info  -	[http call3] id:1, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2022-11-16 13:15:23.313	- Info  -	attempt to connect server rc10-fc06.oray.com:443(120.26.127.51:443)
+2022-11-16 13:15:23.412	- Info  -	[service] attempted logon
+2022-11-16 13:15:23.449	- Info  -	[service] logon server OK. public ip:183.217.165.179
+2022-11-16 13:15:23.474	- Info  -	[online] attempted client online
+2022-11-16 13:15:23.502	- Info  -	[online] client online OK.
+2022-11-16 13:15:23.502	- Info  -	[online] received name:default , description:default .
+2022-11-16 13:15:23.506	- Info  -	[service] attempted register client to server
+2022-11-16 13:15:23.530	- Info  -	[service] registered client to server
+2022-11-16 13:15:23.531	- Info  -	[http call3] new call id:2, url:https://sl-log.oray.net/slclientlog
+2022-11-16 13:15:23.531	- Info  -	Current client status: 1
+2022-11-16 13:15:23.531	- Info  -	send status_changed notify 1
+2022-11-16 13:15:23.535	- Info  -	[http call3] id:2 create new connection : https://sl-log.oray.net:443
+2022-11-16 13:15:23.553	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.162.230:443)
+2022-11-16 13:15:23.555	- Info  -	[discover] Client NotifyDiscover type=5
+2022-11-16 13:15:23.634	- Info  -	[OnLogin start]
+2022-11-16 13:15:23.636	- Info  -	[OnLogin end]
+2022-11-16 13:15:23.649	- Info  -	[OnLogin] WaittingTask Start
+2022-11-16 13:15:23.652	- Info  -	Set auto_run : true
+2022-11-16 13:15:23.670	- Info  -	[http call3] id:2, url:https://sl-log.oray.net/slclientlog, status code:200
+2022-11-16 13:15:23.703	- Info  -	[OnLogin] WaittingTask end
+2022-11-16 13:15:38.305	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-16 13:15:38.305	- Info  -	[http call3] disconnect, error( 0 )
+2022-11-16 13:15:53.669	* Error *	SSLStream::IsWantReadWrite|peer(47.97.162.230:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-16 13:15:53.670	- Info  -	[http call3] disconnect, error( 0 )
+2022-11-16 13:15:57.340	- Info  -	[MICRO LIVE] shell oninitdialog to get microlive info enable = 0 status = 0 timelast = 0
+2022-11-16 14:49:54.713	- Info  -	[ServiceEx] the service control is 13
+2022-11-16 14:49:54.715	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10

@@ -1,7 +1,0 @@
-2023-01-24 11:33:36.197	- Info  -	version:3.2.1.40406
-2023-01-24 11:33:36.458	* Error *	SSLStream|Remove temp(C:\Windows\TEMP\u2qo.0) file ok
-2023-01-24 11:33:36.958	- Info  -	Initialize OK
-2023-01-24 11:33:36.958	- Info  -	CAcceptorRaw::set_listener
-2023-01-24 11:33:36.958	- Info  -	DesktopAgentServer created with port 0.
-2023-01-24 11:33:37.396	- Info  -	[service] start listen OK,tcp:0.0.0.0:49677,udp:15222
-2023-01-24 11:33:37.396	- Info  -	[discover] Client NotifyDiscover type=5

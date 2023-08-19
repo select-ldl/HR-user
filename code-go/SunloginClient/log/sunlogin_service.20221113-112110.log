@@ -1,0 +1,50 @@
+2022-11-13 11:21:10.808	- Info  -	version:3.2.1.40406
+2022-11-13 11:21:10.901	* Error *	SSLStream|Remove temp(C:\Windows\TEMP\u2r0.0) file ok
+2022-11-13 11:21:11.183	- Info  -	Initialize OK
+2022-11-13 11:21:11.183	- Info  -	CAcceptorRaw::set_listener
+2022-11-13 11:21:11.183	- Info  -	DesktopAgentServer created with port 0.
+2022-11-13 11:21:11.401	* Error *	[udpstack] bind 0.0.0.0:15439 error , errorno = 10048
+2022-11-13 11:21:11.401	- Info  -	[service] start listen OK,tcp:0.0.0.0:49674,udp:15550
+2022-11-13 11:21:11.542	- Info  -	[discover] Client NotifyDiscover type=5
+2022-11-13 11:21:11.651	- Info  -	[localserver] Not use proxy
+2022-11-13 11:21:11.886	- Info  -	network error, retrying login server
+2022-11-13 11:21:14.886	- Info  -	[mac] local ip:192.168.0.193
+2022-11-13 11:21:14.933	- Info  -	[mac] mac address:00:F4:8D:D2:3C:CF
+2022-11-13 11:21:14.933	- Info  -	get mac address: 00:F4:8D:D2:3C:CF
+2022-11-13 11:21:19.388	- Info  -	os name:Microsoft Windows 10 专业版
+2022-11-13 11:21:21.032	- Info  -	m_clientinfo.mac: 00:F4:8D:D2:3C:CF
+2022-11-13 11:21:21.108	- Info  -	Current client status: 2
+2022-11-13 11:21:21.108	- Info  -	send status_changed notify 2
+2022-11-13 11:21:21.108	- Info  -	Login task time 0
+2022-11-13 11:21:21.123	- Info  -	Do login( type: 2 ) at 379
+2022-11-13 11:21:21.123	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/remote/get-fastcode
+2022-11-13 11:21:21.193	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2022-11-13 11:21:21.257	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-11-13 11:21:21.506	- Info  -	[http call3] id:1, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2022-11-13 11:21:21.520	- Info  -	attempt to connect server rc10-fc12.oray.com:443(47.111.1.108:443)
+2022-11-13 11:21:21.641	- Info  -	[service] attempted logon
+2022-11-13 11:21:21.677	- Info  -	[service] logon server OK. public ip:183.217.165.179
+2022-11-13 11:21:21.703	- Info  -	[online] attempted client online
+2022-11-13 11:21:21.730	- Info  -	[online] client online OK.
+2022-11-13 11:21:21.730	- Info  -	[online] received name:default , description:default .
+2022-11-13 11:21:21.740	- Info  -	[service] attempted register client to server
+2022-11-13 11:21:21.766	- Info  -	[service] registered client to server
+2022-11-13 11:21:21.766	- Info  -	[http call3] new call id:2, url:https://sl-log.oray.net/slclientlog
+2022-11-13 11:21:21.766	- Info  -	Current client status: 1
+2022-11-13 11:21:21.766	- Info  -	send status_changed notify 1
+2022-11-13 11:21:21.772	- Info  -	[http call3] id:2 create new connection : https://sl-log.oray.net:443
+2022-11-13 11:21:21.787	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.186.100:443)
+2022-11-13 11:21:21.819	- Info  -	[discover] Client NotifyDiscover type=5
+2022-11-13 11:21:21.830	- Info  -	[OnLogin start]
+2022-11-13 11:21:21.849	- Info  -	[OnLogin end]
+2022-11-13 11:21:21.852	- Info  -	[OnLogin] WaittingTask Start
+2022-11-13 11:21:21.855	- Info  -	Set auto_run : true
+2022-11-13 11:21:21.893	- Info  -	[OnLogin] WaittingTask end
+2022-11-13 11:21:21.905	- Info  -	[http call3] id:2, url:https://sl-log.oray.net/slclientlog, status code:200
+2022-11-13 11:21:24.186	- Info  -	[ServiceEx] the service control is 13
+2022-11-13 11:21:24.186	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2022-11-13 11:21:36.505	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-13 11:21:36.505	- Info  -	[http call3] disconnect, error( 0 )
+2022-11-13 11:21:51.914	* Error *	SSLStream::IsWantReadWrite|peer(47.97.186.100:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-11-13 11:21:51.914	- Info  -	[http call3] disconnect, error( 0 )
+2022-11-13 11:21:51.915	- Info  -	[MICRO LIVE] shell oninitdialog to get microlive info enable = 0 status = 0 timelast = 0

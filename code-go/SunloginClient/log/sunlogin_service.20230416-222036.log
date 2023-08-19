@@ -1,0 +1,2281 @@
+2023-04-16 22:20:36.498	- Info  -	version:3.2.1.40406
+2023-04-16 22:20:36.685	* Error *	SSLStream|Remove temp(C:\Windows\TEMP\u2bw.0) file ok
+2023-04-16 22:20:37.185	- Info  -	Initialize OK
+2023-04-16 22:20:37.185	- Info  -	CAcceptorRaw::set_listener
+2023-04-16 22:20:37.185	- Info  -	DesktopAgentServer created with port 0.
+2023-04-16 22:20:37.435	* Error *	[udpstack] bind 0.0.0.0:15714 error , errorno = 10048
+2023-04-16 22:20:37.435	- Info  -	[service] start listen OK,tcp:0.0.0.0:49671,udp:15825
+2023-04-16 22:20:37.529	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-16 22:20:37.623	- Info  -	[localserver] Not use proxy
+2023-04-16 22:20:37.638	- Info  -	network error, retrying login server
+2023-04-16 22:20:42.073	- Info  -	network error, retrying login server
+2023-04-16 22:20:45.577	- Info  -	network error, retrying login server
+2023-04-16 22:20:48.766	- Info  -	network error, retrying login server
+2023-04-16 22:20:51.781	- Info  -	network error, retrying login server
+2023-04-16 22:20:54.776	- Info  -	network error, retrying login server
+2023-04-16 22:20:57.777	- Info  -	network error, retrying login server
+2023-04-16 22:21:00.784	- Info  -	network error, retrying login server
+2023-04-16 22:21:03.859	- Info  -	network error, retrying login server
+2023-04-16 22:21:05.464	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 22:21:06.884	- Info  -	[mac] local ip:127.0.0.1
+2023-04-16 22:21:06.904	- Info  -	[mac] mac address:
+2023-04-16 22:21:06.904	- Info  -	[mac] mac address is empty,get mac address with wmi
+2023-04-16 22:21:07.494	- Info  -	get mac address: d2:67:20:52:41:53
+2023-04-16 22:21:08.139	- Info  -	os name:Microsoft Windows 10 专业版
+2023-04-16 22:21:11.262	- Info  -	m_clientinfo.mac: d2:67:20:52:41:53
+2023-04-16 22:21:11.439	- Info  -	Current client status: 2
+2023-04-16 22:21:11.439	- Info  -	send status_changed notify 2
+2023-04-16 22:21:11.439	- Info  -	Login task time 0
+2023-04-16 22:21:11.451	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 22:21:11.451	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 22:21:11.502	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2023-04-16 22:21:11.503	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 22:21:41.610	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 22:21:41.610	- Info  -	[http call3] disconnect id:1, error( 0 )
+2023-04-16 22:21:41.610	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 22:21:41.610	- Info  -	Current client status: 0
+2023-04-16 22:21:41.610	- Info  -	send status_changed notify 0
+2023-04-16 22:21:41.610	- Info  -	[OnLogout start]
+2023-04-16 22:21:41.611	- Info  -	[service] stop all projections
+2023-04-16 22:21:41.611	- Info  -	[OnLogout end]
+2023-04-16 22:21:41.617	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 22:23:43.843	- Info  -	[localserver] Not use proxy
+2023-04-16 22:23:43.843	- Info  -	retry login now......
+2023-04-16 22:23:43.843	- Info  -	Current client status: 2
+2023-04-16 22:23:43.843	- Info  -	send status_changed notify 2
+2023-04-16 22:23:43.844	- Info  -	Login task time 0
+2023-04-16 22:23:43.858	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 22:23:43.858	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 22:23:43.874	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2023-04-16 22:23:43.970	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-16 22:23:44.378	- Info  -	[http call3] id:2, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-16 22:23:44.483	- Info  -	attempt to connect server rc10-fc07.oray.com:443(120.27.214.20:443)
+2023-04-16 22:23:44.695	- Info  -	[service] attempted logon
+2023-04-16 22:23:44.788	+Warning+	[service] logon failed: error password(2)
+2023-04-16 22:23:44.788	- Info  -	Current client status: 0
+2023-04-16 22:23:44.788	- Info  -	send status_changed notify 0
+2023-04-16 22:23:44.788	- Info  -	[OnLogout start]
+2023-04-16 22:23:44.788	- Info  -	[service] stop all projections
+2023-04-16 22:23:44.788	* Error *	[Logout] No relogon error is 19
+2023-04-16 22:23:44.788	- Info  -	[OnLogout end]
+2023-04-16 22:23:44.789	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_SL_LOGIN_FAILED(134307841), product=2, type=5, inner code=1 [CLogonHandler::OnLoginRes:251]
+2023-04-16 22:23:44.790	- Info  -	[service] disconnected server(120.27.214.20:443),errorcode:134307841
+2023-04-16 22:23:44.793	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 22:23:47.089	- Info  -	Logout ...
+2023-04-16 22:23:47.100	- Info  -	Current client status: 2
+2023-04-16 22:23:47.100	- Info  -	send status_changed notify 2
+2023-04-16 22:23:47.101	- Info  -	Login task time 0
+2023-04-16 22:23:47.120	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 22:23:47.120	- Info  -	[http call3] new call id:3, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 22:23:47.131	- Info  -	[http call3] id:3 use old connection : https://slapi.oray.net:443
+2023-04-16 22:23:47.294	- Info  -	[http call3] id:3, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-16 22:23:47.302	- Info  -	attempt to connect server rc10-fc07.oray.com:443(120.27.214.20:443)
+2023-04-16 22:23:47.524	- Info  -	[service] attempted logon
+2023-04-16 22:23:47.626	- Info  -	[service] logon server OK. public ip:223.104.10.241
+2023-04-16 22:23:47.688	- Info  -	[online] attempted client online
+2023-04-16 22:23:47.750	- Info  -	[online] client online OK.
+2023-04-16 22:23:47.750	- Info  -	[online] received name:default , description:default .
+2023-04-16 22:23:47.755	- Info  -	[service] attempted register client to server
+2023-04-16 22:23:47.822	- Info  -	[service] registered client to server
+2023-04-16 22:23:47.822	- Info  -	[http call3] new call id:4, url:https://sl-log.oray.net/slclientlog
+2023-04-16 22:23:47.822	- Info  -	Current client status: 1
+2023-04-16 22:23:47.822	- Info  -	send status_changed notify 1
+2023-04-16 22:23:47.829	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-16 22:23:47.835	- Info  -	[http call3] id:4 create new connection : https://sl-log.oray.net:443
+2023-04-16 22:23:47.889	- Info  -	[OnLogin start]
+2023-04-16 22:23:47.889	- Info  -	[http call3] new call id:5, url:https://slapi.oray.net/sunlogin/remote-info.update
+2023-04-16 22:23:47.889	- Info  -	[OnLogin end]
+2023-04-16 22:23:47.891	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.162.230:443)
+2023-04-16 22:23:47.892	- Info  -	[http call3] id:5 use old connection : https://slapi.oray.net:443
+2023-04-16 22:23:47.895	- Info  -	[OnLogin] WaittingTask Start
+2023-04-16 22:23:47.906	- Info  -	Set auto_run : true
+2023-04-16 22:23:48.017	- Info  -	[OnLogin] WaittingTask end
+2023-04-16 22:23:48.079	- Info  -	[http call3] id:5, url:https://slapi.oray.net/sunlogin/remote-info.update, status code:200
+2023-04-16 22:23:48.079	- Info  -	upload remote info ok
+2023-04-16 22:23:48.217	- Info  -	[http call3] id:4, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-16 22:24:03.074	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-16 22:24:03.074	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 22:24:18.223	* Error *	SSLStream::IsWantReadWrite|peer(47.97.162.230:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-16 22:24:18.224	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:05:13.627	* Error *	[online] online disconnected,error code:0
+2023-04-16 23:05:13.627	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-16 23:05:13.627	- Info  -	[RemoteControl] disconnected server(120.27.214.20:443),error code:0
+2023-04-16 23:05:13.627	- Info  -	[service] disconnected server(120.27.214.20:443),errorcode:10054
+2023-04-16 23:05:13.627	- Info  -	curStatus: 0, m_Status: 1
+2023-04-16 23:05:13.628	- Info  -	[http call3] new call id:6, url:https://sl-log.oray.net/slclientlog
+2023-04-16 23:05:13.628	- Info  -	Current client status: 0
+2023-04-16 23:05:13.628	- Info  -	send status_changed notify 0
+2023-04-16 23:05:13.628	- Info  -	[OnLogout start]
+2023-04-16 23:05:13.631	- Info  -	[service] stop all projections
+2023-04-16 23:05:13.631	- Info  -	retry login now......
+2023-04-16 23:05:13.631	- Info  -	Current client status: 2
+2023-04-16 23:05:13.631	- Info  -	send status_changed notify 2
+2023-04-16 23:05:13.632	- Info  -	Login task time 0
+2023-04-16 23:05:13.632	- Info  -	[OnLogout end]
+2023-04-16 23:05:13.646	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:05:13.649	- Info  -	[http call3] new call id:7, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:05:13.753	- Info  -	[http call3] id:6 create new connection : https://sl-log.oray.net:443
+2023-04-16 23:05:13.872	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:05:13.872	- Info  -	[http call3] id:7 create new connection : https://slapi.oray.net:443
+2023-04-16 23:05:14.214	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:05:43.878	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:05:43.878	- Info  -	[http call3] disconnect id:6, error( 0 )
+2023-04-16 23:05:44.212	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:05:44.212	- Info  -	[http call3] disconnect id:7, error( 0 )
+2023-04-16 23:05:44.212	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:05:44.212	- Info  -	Current client status: 0
+2023-04-16 23:05:44.212	- Info  -	send status_changed notify 0
+2023-04-16 23:05:44.212	- Info  -	[OnLogout start]
+2023-04-16 23:05:44.212	- Info  -	[service] stop all projections
+2023-04-16 23:05:44.212	- Info  -	[OnLogout end]
+2023-04-16 23:05:44.221	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:08:13.079	- Info  -	[localserver] Not use proxy
+2023-04-16 23:08:13.079	- Info  -	retry login now......
+2023-04-16 23:08:13.079	- Info  -	Current client status: 2
+2023-04-16 23:08:13.079	- Info  -	send status_changed notify 2
+2023-04-16 23:08:13.079	- Info  -	Login task time 0
+2023-04-16 23:08:13.088	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:08:13.105	- Info  -	[http call3] new call id:8, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:08:13.119	- Info  -	[http call3] id:8 create new connection : https://slapi.oray.net:443
+2023-04-16 23:08:13.119	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:08:43.126	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:08:43.126	- Info  -	[http call3] disconnect id:8, error( 0 )
+2023-04-16 23:08:43.126	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:08:43.126	- Info  -	Current client status: 0
+2023-04-16 23:08:43.126	- Info  -	send status_changed notify 0
+2023-04-16 23:08:43.126	- Info  -	[OnLogout start]
+2023-04-16 23:08:43.127	- Info  -	[service] stop all projections
+2023-04-16 23:08:43.127	- Info  -	[OnLogout end]
+2023-04-16 23:08:43.135	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:10:47.224	- Info  -	[localserver] Not use proxy
+2023-04-16 23:10:47.224	- Info  -	retry login now......
+2023-04-16 23:10:47.224	- Info  -	Current client status: 2
+2023-04-16 23:10:47.224	- Info  -	send status_changed notify 2
+2023-04-16 23:10:47.224	- Info  -	Login task time 0
+2023-04-16 23:10:47.240	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:10:47.241	- Info  -	[http call3] new call id:9, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:10:47.255	- Info  -	[http call3] id:9 create new connection : https://slapi.oray.net:443
+2023-04-16 23:10:47.256	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:11:17.256	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:11:17.256	- Info  -	[http call3] disconnect id:9, error( 0 )
+2023-04-16 23:11:17.256	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:11:17.256	- Info  -	Current client status: 0
+2023-04-16 23:11:17.256	- Info  -	send status_changed notify 0
+2023-04-16 23:11:17.256	- Info  -	[OnLogout start]
+2023-04-16 23:11:17.257	- Info  -	[service] stop all projections
+2023-04-16 23:11:17.257	- Info  -	[OnLogout end]
+2023-04-16 23:11:17.266	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:13:18.348	- Info  -	[localserver] Not use proxy
+2023-04-16 23:13:18.348	- Info  -	retry login now......
+2023-04-16 23:13:18.348	- Info  -	Current client status: 2
+2023-04-16 23:13:18.348	- Info  -	send status_changed notify 2
+2023-04-16 23:13:18.348	- Info  -	Login task time 0
+2023-04-16 23:13:18.363	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:13:18.363	- Info  -	[http call3] new call id:10, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:13:18.379	- Info  -	[http call3] id:10 create new connection : https://slapi.oray.net:443
+2023-04-16 23:13:18.380	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:13:48.380	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:13:48.380	- Info  -	[http call3] disconnect id:10, error( 0 )
+2023-04-16 23:13:48.380	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:13:48.380	- Info  -	Current client status: 0
+2023-04-16 23:13:48.380	- Info  -	send status_changed notify 0
+2023-04-16 23:13:48.380	- Info  -	[OnLogout start]
+2023-04-16 23:13:48.380	- Info  -	[service] stop all projections
+2023-04-16 23:13:48.380	- Info  -	[OnLogout end]
+2023-04-16 23:13:48.390	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:15:49.403	- Info  -	[localserver] Not use proxy
+2023-04-16 23:15:49.403	- Info  -	retry login now......
+2023-04-16 23:15:49.403	- Info  -	Current client status: 2
+2023-04-16 23:15:49.403	- Info  -	send status_changed notify 2
+2023-04-16 23:15:49.403	- Info  -	Login task time 0
+2023-04-16 23:15:49.419	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:15:49.419	- Info  -	[http call3] new call id:11, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:15:49.435	- Info  -	[http call3] id:11 create new connection : https://slapi.oray.net:443
+2023-04-16 23:15:49.435	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:16:19.440	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:16:19.440	- Info  -	[http call3] disconnect id:11, error( 0 )
+2023-04-16 23:16:19.440	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:16:19.440	- Info  -	Current client status: 0
+2023-04-16 23:16:19.440	- Info  -	send status_changed notify 0
+2023-04-16 23:16:19.441	- Info  -	[OnLogout start]
+2023-04-16 23:16:19.441	- Info  -	[service] stop all projections
+2023-04-16 23:16:19.441	- Info  -	[OnLogout end]
+2023-04-16 23:16:19.448	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:18:20.518	- Info  -	[localserver] Not use proxy
+2023-04-16 23:18:20.518	- Info  -	retry login now......
+2023-04-16 23:18:20.519	- Info  -	Current client status: 2
+2023-04-16 23:18:20.519	- Info  -	send status_changed notify 2
+2023-04-16 23:18:20.519	- Info  -	Login task time 0
+2023-04-16 23:18:20.533	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:18:20.533	- Info  -	[http call3] new call id:12, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:18:20.548	- Info  -	[http call3] id:12 create new connection : https://slapi.oray.net:443
+2023-04-16 23:18:20.550	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:18:50.565	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:18:50.565	- Info  -	[http call3] disconnect id:12, error( 0 )
+2023-04-16 23:18:50.565	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:18:50.565	- Info  -	Current client status: 0
+2023-04-16 23:18:50.565	- Info  -	send status_changed notify 0
+2023-04-16 23:18:50.565	- Info  -	[OnLogout start]
+2023-04-16 23:18:50.566	- Info  -	[service] stop all projections
+2023-04-16 23:18:50.566	- Info  -	[OnLogout end]
+2023-04-16 23:18:50.574	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:20:51.714	- Info  -	[localserver] Not use proxy
+2023-04-16 23:20:51.714	- Info  -	retry login now......
+2023-04-16 23:20:51.714	- Info  -	Current client status: 2
+2023-04-16 23:20:51.714	- Info  -	send status_changed notify 2
+2023-04-16 23:20:51.714	- Info  -	Login task time 0
+2023-04-16 23:20:51.730	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:20:51.730	- Info  -	[http call3] new call id:13, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:20:51.745	- Info  -	[http call3] id:13 create new connection : https://slapi.oray.net:443
+2023-04-16 23:20:51.746	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:21:21.753	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:21:21.753	- Info  -	[http call3] disconnect id:13, error( 0 )
+2023-04-16 23:21:21.753	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:21:21.753	- Info  -	Current client status: 0
+2023-04-16 23:21:21.753	- Info  -	send status_changed notify 0
+2023-04-16 23:21:21.753	- Info  -	[OnLogout start]
+2023-04-16 23:21:21.753	- Info  -	[service] stop all projections
+2023-04-16 23:21:21.753	- Info  -	[OnLogout end]
+2023-04-16 23:21:21.766	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:23:25.020	- Info  -	[localserver] Not use proxy
+2023-04-16 23:23:25.020	- Info  -	retry login now......
+2023-04-16 23:23:25.020	- Info  -	Current client status: 2
+2023-04-16 23:23:25.020	- Info  -	send status_changed notify 2
+2023-04-16 23:23:25.020	- Info  -	Login task time 0
+2023-04-16 23:23:25.035	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:23:25.035	- Info  -	[http call3] new call id:14, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:23:25.051	- Info  -	[http call3] id:14 create new connection : https://slapi.oray.net:443
+2023-04-16 23:23:25.052	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:23:55.059	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:23:55.059	- Info  -	[http call3] disconnect id:14, error( 0 )
+2023-04-16 23:23:55.059	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:23:55.059	- Info  -	Current client status: 0
+2023-04-16 23:23:55.059	- Info  -	send status_changed notify 0
+2023-04-16 23:23:55.059	- Info  -	[OnLogout start]
+2023-04-16 23:23:55.060	- Info  -	[service] stop all projections
+2023-04-16 23:23:55.060	- Info  -	[OnLogout end]
+2023-04-16 23:23:55.072	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:25:56.111	- Info  -	[localserver] Not use proxy
+2023-04-16 23:25:56.111	- Info  -	retry login now......
+2023-04-16 23:25:56.111	- Info  -	Current client status: 2
+2023-04-16 23:25:56.111	- Info  -	send status_changed notify 2
+2023-04-16 23:25:56.111	- Info  -	Login task time 0
+2023-04-16 23:25:56.126	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:25:56.126	- Info  -	[http call3] new call id:15, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:25:56.142	- Info  -	[http call3] id:15 create new connection : https://slapi.oray.net:443
+2023-04-16 23:25:56.143	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:26:26.138	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:26:26.138	- Info  -	[http call3] disconnect id:15, error( 0 )
+2023-04-16 23:26:26.138	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:26:26.138	- Info  -	Current client status: 0
+2023-04-16 23:26:26.138	- Info  -	send status_changed notify 0
+2023-04-16 23:26:26.138	- Info  -	[OnLogout start]
+2023-04-16 23:26:26.139	- Info  -	[service] stop all projections
+2023-04-16 23:26:26.139	- Info  -	[OnLogout end]
+2023-04-16 23:26:26.151	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:28:27.394	- Info  -	[localserver] Not use proxy
+2023-04-16 23:28:27.394	- Info  -	retry login now......
+2023-04-16 23:28:27.394	- Info  -	Current client status: 2
+2023-04-16 23:28:27.394	- Info  -	send status_changed notify 2
+2023-04-16 23:28:27.395	- Info  -	Login task time 0
+2023-04-16 23:28:27.408	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:28:27.409	- Info  -	[http call3] new call id:16, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:28:27.424	- Info  -	[http call3] id:16 create new connection : https://slapi.oray.net:443
+2023-04-16 23:28:27.524	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-16 23:28:27.958	- Info  -	[http call3] id:16, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-16 23:28:28.016	- Info  -	attempt to connect server rc10-fc04.oray.com:443(47.114.34.123:443)
+2023-04-16 23:28:28.243	- Info  -	[service] attempted logon
+2023-04-16 23:28:28.350	- Info  -	[service] logon server OK. public ip:223.104.10.241
+2023-04-16 23:28:28.393	- Info  -	[online] attempted client online
+2023-04-16 23:28:28.453	- Info  -	[online] client online OK.
+2023-04-16 23:28:28.454	- Info  -	[online] received name:default , description:default .
+2023-04-16 23:28:28.462	- Info  -	[service] attempted register client to server
+2023-04-16 23:28:28.922	- Info  -	[service] registered client to server
+2023-04-16 23:28:28.922	- Info  -	[http call3] new call id:17, url:https://sl-log.oray.net/slclientlog
+2023-04-16 23:28:28.922	- Info  -	Current client status: 1
+2023-04-16 23:28:28.922	- Info  -	send status_changed notify 1
+2023-04-16 23:28:28.924	- Info  -	[http call3] id:17 create new connection : https://sl-log.oray.net:443
+2023-04-16 23:28:28.931	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-16 23:28:28.938	- Info  -	[OnLogin start]
+2023-04-16 23:28:28.939	- Info  -	[OnLogin] WaittingTask Start
+2023-04-16 23:28:28.941	- Info  -	Set auto_run : true
+2023-04-16 23:28:28.941	- Info  -	[OnLogin end]
+2023-04-16 23:28:28.977	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.106.171:443)
+2023-04-16 23:28:29.311	- Info  -	[http call3] id:17, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-16 23:28:29.644	- Info  -	[OnLogin] WaittingTask end
+2023-04-16 23:28:42.937	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-16 23:28:42.937	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:28:59.305	* Error *	SSLStream::IsWantReadWrite|peer(47.97.106.171:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-16 23:28:59.305	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:31:24.287	* Error *	[online] online disconnected,error code:0
+2023-04-16 23:31:24.287	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-16 23:31:24.287	- Info  -	[RemoteControl] disconnected server(47.114.34.123:443),error code:0
+2023-04-16 23:31:24.287	- Info  -	[service] disconnected server(47.114.34.123:443),errorcode:10054
+2023-04-16 23:31:24.287	- Info  -	curStatus: 0, m_Status: 1
+2023-04-16 23:31:24.288	- Info  -	[http call3] new call id:18, url:https://sl-log.oray.net/slclientlog
+2023-04-16 23:31:24.288	- Info  -	Current client status: 0
+2023-04-16 23:31:24.288	- Info  -	send status_changed notify 0
+2023-04-16 23:31:24.288	- Info  -	[OnLogout start]
+2023-04-16 23:31:24.288	- Info  -	[service] stop all projections
+2023-04-16 23:31:24.288	- Info  -	retry login now......
+2023-04-16 23:31:24.288	- Info  -	Current client status: 2
+2023-04-16 23:31:24.288	- Info  -	send status_changed notify 2
+2023-04-16 23:31:24.288	- Info  -	Login task time 0
+2023-04-16 23:31:24.288	- Info  -	[OnLogout end]
+2023-04-16 23:31:24.297	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:31:24.297	- Info  -	[http call3] new call id:19, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:31:24.384	- Info  -	[http call3] id:18 create new connection : https://sl-log.oray.net:443
+2023-04-16 23:31:24.466	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:31:24.466	- Info  -	[http call3] id:19 create new connection : https://slapi.oray.net:443
+2023-04-16 23:31:24.513	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:31:54.468	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:31:54.468	- Info  -	[http call3] disconnect id:18, error( 0 )
+2023-04-16 23:31:54.516	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:31:54.516	- Info  -	[http call3] disconnect id:19, error( 0 )
+2023-04-16 23:31:54.516	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:31:54.516	- Info  -	Current client status: 0
+2023-04-16 23:31:54.516	- Info  -	send status_changed notify 0
+2023-04-16 23:31:54.516	- Info  -	[OnLogout start]
+2023-04-16 23:31:54.517	- Info  -	[service] stop all projections
+2023-04-16 23:31:54.517	- Info  -	[OnLogout end]
+2023-04-16 23:31:54.521	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:33:55.884	- Info  -	[localserver] Not use proxy
+2023-04-16 23:33:55.884	- Info  -	retry login now......
+2023-04-16 23:33:55.884	- Info  -	Current client status: 2
+2023-04-16 23:33:55.884	- Info  -	send status_changed notify 2
+2023-04-16 23:33:55.884	- Info  -	Login task time 0
+2023-04-16 23:33:55.900	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:33:55.900	- Info  -	[http call3] new call id:20, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:33:55.916	- Info  -	[http call3] id:20 create new connection : https://slapi.oray.net:443
+2023-04-16 23:33:55.921	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:34:25.920	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:34:25.920	- Info  -	[http call3] disconnect id:20, error( 0 )
+2023-04-16 23:34:25.920	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:34:25.920	- Info  -	Current client status: 0
+2023-04-16 23:34:25.920	- Info  -	send status_changed notify 0
+2023-04-16 23:34:25.920	- Info  -	[OnLogout start]
+2023-04-16 23:34:25.921	- Info  -	[service] stop all projections
+2023-04-16 23:34:25.921	- Info  -	[OnLogout end]
+2023-04-16 23:34:25.926	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:36:27.043	- Info  -	[localserver] Not use proxy
+2023-04-16 23:36:27.043	- Info  -	retry login now......
+2023-04-16 23:36:27.043	- Info  -	Current client status: 2
+2023-04-16 23:36:27.043	- Info  -	send status_changed notify 2
+2023-04-16 23:36:27.044	- Info  -	Login task time 0
+2023-04-16 23:36:27.058	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:36:27.058	- Info  -	[http call3] new call id:21, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:36:27.074	- Info  -	[http call3] id:21 create new connection : https://slapi.oray.net:443
+2023-04-16 23:36:27.083	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:36:57.092	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:36:57.092	- Info  -	[http call3] disconnect id:21, error( 0 )
+2023-04-16 23:36:57.092	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:36:57.092	- Info  -	Current client status: 0
+2023-04-16 23:36:57.092	- Info  -	send status_changed notify 0
+2023-04-16 23:36:57.092	- Info  -	[OnLogout start]
+2023-04-16 23:36:57.093	- Info  -	[service] stop all projections
+2023-04-16 23:36:57.093	- Info  -	[OnLogout end]
+2023-04-16 23:36:57.102	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:38:58.214	- Info  -	[localserver] Not use proxy
+2023-04-16 23:38:58.214	- Info  -	retry login now......
+2023-04-16 23:38:58.214	- Info  -	Current client status: 2
+2023-04-16 23:38:58.214	- Info  -	send status_changed notify 2
+2023-04-16 23:38:58.215	- Info  -	Login task time 0
+2023-04-16 23:38:58.231	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:38:58.231	- Info  -	[http call3] new call id:22, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:38:58.231	- Info  -	[http call3] id:22 create new connection : https://slapi.oray.net:443
+2023-04-16 23:38:58.232	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:39:28.236	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:39:28.236	- Info  -	[http call3] disconnect id:22, error( 0 )
+2023-04-16 23:39:28.236	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:39:28.236	- Info  -	Current client status: 0
+2023-04-16 23:39:28.236	- Info  -	send status_changed notify 0
+2023-04-16 23:39:28.236	- Info  -	[OnLogout start]
+2023-04-16 23:39:28.236	- Info  -	[service] stop all projections
+2023-04-16 23:39:28.236	- Info  -	[OnLogout end]
+2023-04-16 23:39:28.239	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:41:29.291	- Info  -	[localserver] Not use proxy
+2023-04-16 23:41:29.291	- Info  -	retry login now......
+2023-04-16 23:41:29.291	- Info  -	Current client status: 2
+2023-04-16 23:41:29.291	- Info  -	send status_changed notify 2
+2023-04-16 23:41:29.291	- Info  -	Login task time 0
+2023-04-16 23:41:29.304	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:41:29.304	- Info  -	[http call3] new call id:23, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:41:29.320	- Info  -	[http call3] id:23 create new connection : https://slapi.oray.net:443
+2023-04-16 23:41:29.321	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:41:59.327	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:41:59.327	- Info  -	[http call3] disconnect id:23, error( 0 )
+2023-04-16 23:41:59.327	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:41:59.327	- Info  -	Current client status: 0
+2023-04-16 23:41:59.327	- Info  -	send status_changed notify 0
+2023-04-16 23:41:59.327	- Info  -	[OnLogout start]
+2023-04-16 23:41:59.328	- Info  -	[service] stop all projections
+2023-04-16 23:41:59.328	- Info  -	[OnLogout end]
+2023-04-16 23:41:59.333	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:44:00.450	- Info  -	[localserver] Not use proxy
+2023-04-16 23:44:00.450	- Info  -	retry login now......
+2023-04-16 23:44:00.450	- Info  -	Current client status: 2
+2023-04-16 23:44:00.450	- Info  -	send status_changed notify 2
+2023-04-16 23:44:00.451	- Info  -	Login task time 0
+2023-04-16 23:44:00.463	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:44:00.463	- Info  -	[http call3] new call id:24, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:44:00.479	- Info  -	[http call3] id:24 create new connection : https://slapi.oray.net:443
+2023-04-16 23:44:00.479	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:44:30.479	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:44:30.479	- Info  -	[http call3] disconnect id:24, error( 0 )
+2023-04-16 23:44:30.479	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:44:30.479	- Info  -	Current client status: 0
+2023-04-16 23:44:30.479	- Info  -	send status_changed notify 0
+2023-04-16 23:44:30.479	- Info  -	[OnLogout start]
+2023-04-16 23:44:30.480	- Info  -	[service] stop all projections
+2023-04-16 23:44:30.480	- Info  -	[OnLogout end]
+2023-04-16 23:44:30.484	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:46:31.537	- Info  -	[localserver] Not use proxy
+2023-04-16 23:46:31.537	- Info  -	retry login now......
+2023-04-16 23:46:31.537	- Info  -	Current client status: 2
+2023-04-16 23:46:31.537	- Info  -	send status_changed notify 2
+2023-04-16 23:46:31.537	- Info  -	Login task time 0
+2023-04-16 23:46:31.552	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:46:31.552	- Info  -	[http call3] new call id:25, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:46:31.552	- Info  -	[http call3] id:25 create new connection : https://slapi.oray.net:443
+2023-04-16 23:46:31.561	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:47:01.550	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:47:01.550	- Info  -	[http call3] disconnect id:25, error( 0 )
+2023-04-16 23:47:01.550	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:47:01.550	- Info  -	Current client status: 0
+2023-04-16 23:47:01.550	- Info  -	send status_changed notify 0
+2023-04-16 23:47:01.550	- Info  -	[OnLogout start]
+2023-04-16 23:47:01.550	- Info  -	[service] stop all projections
+2023-04-16 23:47:01.550	- Info  -	[OnLogout end]
+2023-04-16 23:47:01.562	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:49:02.629	- Info  -	[localserver] Not use proxy
+2023-04-16 23:49:02.629	- Info  -	retry login now......
+2023-04-16 23:49:02.629	- Info  -	Current client status: 2
+2023-04-16 23:49:02.629	- Info  -	send status_changed notify 2
+2023-04-16 23:49:02.629	- Info  -	Login task time 0
+2023-04-16 23:49:02.644	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:49:02.644	- Info  -	[http call3] new call id:26, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:49:02.644	- Info  -	[http call3] id:26 create new connection : https://slapi.oray.net:443
+2023-04-16 23:49:02.645	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:49:32.646	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:49:32.646	- Info  -	[http call3] disconnect id:26, error( 0 )
+2023-04-16 23:49:32.646	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:49:32.646	- Info  -	Current client status: 0
+2023-04-16 23:49:32.646	- Info  -	send status_changed notify 0
+2023-04-16 23:49:32.646	- Info  -	[OnLogout start]
+2023-04-16 23:49:32.646	- Info  -	[service] stop all projections
+2023-04-16 23:49:32.646	- Info  -	[OnLogout end]
+2023-04-16 23:49:32.656	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:51:33.752	- Info  -	[localserver] Not use proxy
+2023-04-16 23:51:33.753	- Info  -	retry login now......
+2023-04-16 23:51:33.753	- Info  -	Current client status: 2
+2023-04-16 23:51:33.753	- Info  -	send status_changed notify 2
+2023-04-16 23:51:33.753	- Info  -	Login task time 0
+2023-04-16 23:51:33.767	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:51:33.767	- Info  -	[http call3] new call id:27, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:51:33.783	- Info  -	[http call3] id:27 create new connection : https://slapi.oray.net:443
+2023-04-16 23:51:33.794	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:52:03.791	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:52:03.791	- Info  -	[http call3] disconnect id:27, error( 0 )
+2023-04-16 23:52:03.791	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:52:03.791	- Info  -	Current client status: 0
+2023-04-16 23:52:03.791	- Info  -	send status_changed notify 0
+2023-04-16 23:52:03.791	- Info  -	[OnLogout start]
+2023-04-16 23:52:03.792	- Info  -	[service] stop all projections
+2023-04-16 23:52:03.792	- Info  -	[OnLogout end]
+2023-04-16 23:52:03.797	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:54:04.903	- Info  -	[localserver] Not use proxy
+2023-04-16 23:54:04.903	- Info  -	retry login now......
+2023-04-16 23:54:04.904	- Info  -	Current client status: 2
+2023-04-16 23:54:04.904	- Info  -	send status_changed notify 2
+2023-04-16 23:54:04.904	- Info  -	Login task time 0
+2023-04-16 23:54:04.919	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:54:04.919	- Info  -	[http call3] new call id:28, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:54:04.935	- Info  -	[http call3] id:28 create new connection : https://slapi.oray.net:443
+2023-04-16 23:54:04.936	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:54:34.926	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:54:34.926	- Info  -	[http call3] disconnect id:28, error( 0 )
+2023-04-16 23:54:34.926	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:54:34.926	- Info  -	Current client status: 0
+2023-04-16 23:54:34.926	- Info  -	send status_changed notify 0
+2023-04-16 23:54:34.926	- Info  -	[OnLogout start]
+2023-04-16 23:54:34.927	- Info  -	[service] stop all projections
+2023-04-16 23:54:34.927	- Info  -	[OnLogout end]
+2023-04-16 23:54:34.932	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:56:36.034	- Info  -	[localserver] Not use proxy
+2023-04-16 23:56:36.034	- Info  -	retry login now......
+2023-04-16 23:56:36.034	- Info  -	Current client status: 2
+2023-04-16 23:56:36.034	- Info  -	send status_changed notify 2
+2023-04-16 23:56:36.034	- Info  -	Login task time 0
+2023-04-16 23:56:36.049	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:56:36.049	- Info  -	[http call3] new call id:29, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:56:36.065	- Info  -	[http call3] id:29 create new connection : https://slapi.oray.net:443
+2023-04-16 23:56:36.072	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:57:06.072	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:57:06.072	- Info  -	[http call3] disconnect id:29, error( 0 )
+2023-04-16 23:57:06.072	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:57:06.072	- Info  -	Current client status: 0
+2023-04-16 23:57:06.072	- Info  -	send status_changed notify 0
+2023-04-16 23:57:06.072	- Info  -	[OnLogout start]
+2023-04-16 23:57:06.073	- Info  -	[service] stop all projections
+2023-04-16 23:57:06.073	- Info  -	[OnLogout end]
+2023-04-16 23:57:06.083	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-16 23:59:07.189	- Info  -	[localserver] Not use proxy
+2023-04-16 23:59:07.189	- Info  -	retry login now......
+2023-04-16 23:59:07.189	- Info  -	Current client status: 2
+2023-04-16 23:59:07.189	- Info  -	send status_changed notify 2
+2023-04-16 23:59:07.189	- Info  -	Login task time 0
+2023-04-16 23:59:07.204	- Info  -	Do login( type: 2 ) at 379
+2023-04-16 23:59:07.204	- Info  -	[http call3] new call id:30, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-16 23:59:07.220	- Info  -	[http call3] id:30 create new connection : https://slapi.oray.net:443
+2023-04-16 23:59:07.230	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-16 23:59:37.227	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-16 23:59:37.227	- Info  -	[http call3] disconnect id:30, error( 0 )
+2023-04-16 23:59:37.227	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-16 23:59:37.227	- Info  -	Current client status: 0
+2023-04-16 23:59:37.227	- Info  -	send status_changed notify 0
+2023-04-16 23:59:37.227	- Info  -	[OnLogout start]
+2023-04-16 23:59:37.228	- Info  -	[service] stop all projections
+2023-04-16 23:59:37.228	- Info  -	[OnLogout end]
+2023-04-16 23:59:37.238	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:01:53.861	- Info  -	[localserver] Not use proxy
+2023-04-17 00:01:53.861	- Info  -	retry login now......
+2023-04-17 00:01:53.861	- Info  -	Current client status: 2
+2023-04-17 00:01:53.861	- Info  -	send status_changed notify 2
+2023-04-17 00:01:53.862	- Info  -	Login task time 0
+2023-04-17 00:01:53.862	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:01:53.862	- Info  -	[http call3] new call id:31, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:01:54.682	- Info  -	[http call3] id:31 create new connection : https://slapi.oray.net:443
+2023-04-17 00:01:54.937	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:02:24.953	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:02:24.954	- Info  -	[http call3] disconnect id:31, error( 0 )
+2023-04-17 00:02:24.954	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:02:24.954	- Info  -	Current client status: 0
+2023-04-17 00:02:24.954	- Info  -	send status_changed notify 0
+2023-04-17 00:02:24.954	- Info  -	[OnLogout start]
+2023-04-17 00:02:24.954	- Info  -	[service] stop all projections
+2023-04-17 00:02:24.954	- Info  -	[OnLogout end]
+2023-04-17 00:02:24.962	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:04:26.211	- Info  -	[localserver] Not use proxy
+2023-04-17 00:04:26.211	- Info  -	retry login now......
+2023-04-17 00:04:26.211	- Info  -	Current client status: 2
+2023-04-17 00:04:26.212	- Info  -	send status_changed notify 2
+2023-04-17 00:04:26.212	- Info  -	Login task time 0
+2023-04-17 00:04:26.227	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:04:26.227	- Info  -	[http call3] new call id:32, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:04:26.243	- Info  -	[http call3] id:32 create new connection : https://slapi.oray.net:443
+2023-04-17 00:04:26.253	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:04:56.603	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:04:56.603	- Info  -	[http call3] disconnect id:32, error( 0 )
+2023-04-17 00:04:56.603	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:04:56.603	- Info  -	Current client status: 0
+2023-04-17 00:04:56.603	- Info  -	send status_changed notify 0
+2023-04-17 00:04:56.603	- Info  -	[OnLogout start]
+2023-04-17 00:04:56.604	- Info  -	[service] stop all projections
+2023-04-17 00:04:56.604	- Info  -	[OnLogout end]
+2023-04-17 00:04:56.903	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:06:57.960	- Info  -	[localserver] Not use proxy
+2023-04-17 00:06:57.961	- Info  -	retry login now......
+2023-04-17 00:06:57.961	- Info  -	Current client status: 2
+2023-04-17 00:06:57.961	- Info  -	send status_changed notify 2
+2023-04-17 00:06:57.961	- Info  -	Login task time 0
+2023-04-17 00:06:57.976	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:06:57.976	- Info  -	[http call3] new call id:33, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:06:57.992	- Info  -	[http call3] id:33 create new connection : https://slapi.oray.net:443
+2023-04-17 00:06:58.000	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:07:27.992	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:07:27.992	- Info  -	[http call3] disconnect id:33, error( 0 )
+2023-04-17 00:07:27.992	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:07:27.992	- Info  -	Current client status: 0
+2023-04-17 00:07:27.992	- Info  -	send status_changed notify 0
+2023-04-17 00:07:27.992	- Info  -	[OnLogout start]
+2023-04-17 00:07:27.992	- Info  -	[service] stop all projections
+2023-04-17 00:07:27.992	- Info  -	[OnLogout end]
+2023-04-17 00:07:28.014	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:09:29.051	- Info  -	[localserver] Not use proxy
+2023-04-17 00:09:29.051	- Info  -	retry login now......
+2023-04-17 00:09:29.052	- Info  -	Current client status: 2
+2023-04-17 00:09:29.052	- Info  -	send status_changed notify 2
+2023-04-17 00:09:29.052	- Info  -	Login task time 0
+2023-04-17 00:09:29.067	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:09:29.067	- Info  -	[http call3] new call id:34, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:09:29.083	- Info  -	[http call3] id:34 create new connection : https://slapi.oray.net:443
+2023-04-17 00:09:29.092	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:09:59.083	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:09:59.083	- Info  -	[http call3] disconnect id:34, error( 0 )
+2023-04-17 00:09:59.083	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:09:59.083	- Info  -	Current client status: 0
+2023-04-17 00:09:59.083	- Info  -	send status_changed notify 0
+2023-04-17 00:09:59.083	- Info  -	[OnLogout start]
+2023-04-17 00:09:59.083	- Info  -	[service] stop all projections
+2023-04-17 00:09:59.083	- Info  -	[OnLogout end]
+2023-04-17 00:09:59.092	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:12:00.369	- Info  -	[localserver] Not use proxy
+2023-04-17 00:12:00.369	- Info  -	retry login now......
+2023-04-17 00:12:00.370	- Info  -	Current client status: 2
+2023-04-17 00:12:00.370	- Info  -	send status_changed notify 2
+2023-04-17 00:12:00.370	- Info  -	Login task time 0
+2023-04-17 00:12:00.370	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:12:00.370	- Info  -	[http call3] new call id:35, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:12:00.370	- Info  -	[http call3] id:35 create new connection : https://slapi.oray.net:443
+2023-04-17 00:12:00.384	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:12:30.386	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:12:30.386	- Info  -	[http call3] disconnect id:35, error( 0 )
+2023-04-17 00:12:30.386	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:12:30.386	- Info  -	Current client status: 0
+2023-04-17 00:12:30.386	- Info  -	send status_changed notify 0
+2023-04-17 00:12:30.386	- Info  -	[OnLogout start]
+2023-04-17 00:12:30.387	- Info  -	[service] stop all projections
+2023-04-17 00:12:30.387	- Info  -	[OnLogout end]
+2023-04-17 00:12:30.393	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:14:39.471	- Info  -	[localserver] Not use proxy
+2023-04-17 00:14:39.471	- Info  -	retry login now......
+2023-04-17 00:14:39.471	- Info  -	Current client status: 2
+2023-04-17 00:14:39.471	- Info  -	send status_changed notify 2
+2023-04-17 00:14:39.472	- Info  -	Login task time 0
+2023-04-17 00:14:39.472	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:14:39.473	- Info  -	[http call3] new call id:36, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:14:39.473	- Info  -	[http call3] id:36 create new connection : https://slapi.oray.net:443
+2023-04-17 00:14:39.653	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:15:09.650	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:15:09.650	- Info  -	[http call3] disconnect id:36, error( 0 )
+2023-04-17 00:15:09.650	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:15:09.650	- Info  -	Current client status: 0
+2023-04-17 00:15:09.650	- Info  -	send status_changed notify 0
+2023-04-17 00:15:09.650	- Info  -	[OnLogout start]
+2023-04-17 00:15:09.651	- Info  -	[service] stop all projections
+2023-04-17 00:15:09.651	- Info  -	[OnLogout end]
+2023-04-17 00:15:09.654	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:17:18.749	- Info  -	[localserver] Not use proxy
+2023-04-17 00:17:18.749	- Info  -	retry login now......
+2023-04-17 00:17:18.749	- Info  -	Current client status: 2
+2023-04-17 00:17:18.749	- Info  -	send status_changed notify 2
+2023-04-17 00:17:18.749	- Info  -	Login task time 0
+2023-04-17 00:17:18.759	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:17:18.759	- Info  -	[http call3] new call id:37, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:17:18.775	- Info  -	[http call3] id:37 create new connection : https://slapi.oray.net:443
+2023-04-17 00:17:18.787	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:17:48.787	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:17:48.787	- Info  -	[http call3] disconnect id:37, error( 0 )
+2023-04-17 00:17:48.787	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:17:48.787	- Info  -	Current client status: 0
+2023-04-17 00:17:48.787	- Info  -	send status_changed notify 0
+2023-04-17 00:17:48.787	- Info  -	[OnLogout start]
+2023-04-17 00:17:48.787	- Info  -	[service] stop all projections
+2023-04-17 00:17:48.787	- Info  -	[OnLogout end]
+2023-04-17 00:17:48.807	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:19:50.595	- Info  -	[localserver] Not use proxy
+2023-04-17 00:19:50.595	- Info  -	retry login now......
+2023-04-17 00:19:50.595	- Info  -	Current client status: 2
+2023-04-17 00:19:50.595	- Info  -	send status_changed notify 2
+2023-04-17 00:19:50.596	- Info  -	Login task time 0
+2023-04-17 00:19:50.624	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:19:50.625	- Info  -	[http call3] new call id:38, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:19:50.629	- Info  -	[http call3] id:38 create new connection : https://slapi.oray.net:443
+2023-04-17 00:19:50.648	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:20:20.771	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:20:20.771	- Info  -	[http call3] disconnect id:38, error( 0 )
+2023-04-17 00:20:20.771	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:20:20.771	- Info  -	Current client status: 0
+2023-04-17 00:20:20.771	- Info  -	send status_changed notify 0
+2023-04-17 00:20:20.771	- Info  -	[OnLogout start]
+2023-04-17 00:20:20.772	- Info  -	[service] stop all projections
+2023-04-17 00:20:20.772	- Info  -	[OnLogout end]
+2023-04-17 00:20:20.786	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:22:22.855	- Info  -	[localserver] Not use proxy
+2023-04-17 00:22:22.855	- Info  -	retry login now......
+2023-04-17 00:22:22.855	- Info  -	Current client status: 2
+2023-04-17 00:22:22.855	- Info  -	send status_changed notify 2
+2023-04-17 00:22:22.855	- Info  -	Login task time 0
+2023-04-17 00:22:22.859	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:22:22.860	- Info  -	[http call3] new call id:39, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:22:22.860	- Info  -	[http call3] id:39 create new connection : https://slapi.oray.net:443
+2023-04-17 00:22:22.887	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:22:53.210	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:22:53.210	- Info  -	[http call3] disconnect id:39, error( 0 )
+2023-04-17 00:22:53.210	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:22:53.210	- Info  -	Current client status: 0
+2023-04-17 00:22:53.210	- Info  -	send status_changed notify 0
+2023-04-17 00:22:53.210	- Info  -	[OnLogout start]
+2023-04-17 00:22:53.211	- Info  -	[service] stop all projections
+2023-04-17 00:22:53.211	- Info  -	[OnLogout end]
+2023-04-17 00:22:53.261	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:24:58.436	- Info  -	[localserver] Not use proxy
+2023-04-17 00:24:58.436	- Info  -	retry login now......
+2023-04-17 00:24:58.436	- Info  -	Current client status: 2
+2023-04-17 00:24:58.436	- Info  -	send status_changed notify 2
+2023-04-17 00:24:58.436	- Info  -	Login task time 0
+2023-04-17 00:24:58.451	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:24:58.451	- Info  -	[http call3] new call id:40, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:24:58.467	- Info  -	[http call3] id:40 create new connection : https://slapi.oray.net:443
+2023-04-17 00:24:58.477	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:25:28.486	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:25:28.486	- Info  -	[http call3] disconnect id:40, error( 0 )
+2023-04-17 00:25:28.486	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:25:28.486	- Info  -	Current client status: 0
+2023-04-17 00:25:28.486	- Info  -	send status_changed notify 0
+2023-04-17 00:25:28.486	- Info  -	[OnLogout start]
+2023-04-17 00:25:28.487	- Info  -	[service] stop all projections
+2023-04-17 00:25:28.487	- Info  -	[OnLogout end]
+2023-04-17 00:25:28.491	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:27:32.115	- Info  -	[localserver] Not use proxy
+2023-04-17 00:27:32.115	- Info  -	retry login now......
+2023-04-17 00:27:32.115	- Info  -	Current client status: 2
+2023-04-17 00:27:32.115	- Info  -	send status_changed notify 2
+2023-04-17 00:27:32.116	- Info  -	Login task time 0
+2023-04-17 00:27:32.169	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:27:32.169	- Info  -	[http call3] new call id:41, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:27:32.213	- Info  -	[http call3] id:41 create new connection : https://slapi.oray.net:443
+2023-04-17 00:27:32.215	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:28:02.214	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:28:02.214	- Info  -	[http call3] disconnect id:41, error( 0 )
+2023-04-17 00:28:02.214	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:28:02.215	- Info  -	Current client status: 0
+2023-04-17 00:28:02.215	- Info  -	send status_changed notify 0
+2023-04-17 00:28:02.215	- Info  -	[OnLogout start]
+2023-04-17 00:28:02.215	- Info  -	[service] stop all projections
+2023-04-17 00:28:02.215	- Info  -	[OnLogout end]
+2023-04-17 00:28:02.218	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:30:06.475	- Info  -	[localserver] Not use proxy
+2023-04-17 00:30:06.475	- Info  -	retry login now......
+2023-04-17 00:30:06.475	- Info  -	Current client status: 2
+2023-04-17 00:30:06.475	- Info  -	send status_changed notify 2
+2023-04-17 00:30:06.475	- Info  -	Login task time 0
+2023-04-17 00:30:06.475	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:30:06.475	- Info  -	[http call3] new call id:42, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:30:06.489	- Info  -	[http call3] id:42 create new connection : https://slapi.oray.net:443
+2023-04-17 00:30:06.506	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:30:36.512	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:30:36.512	- Info  -	[http call3] disconnect id:42, error( 0 )
+2023-04-17 00:30:36.512	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:30:36.512	- Info  -	Current client status: 0
+2023-04-17 00:30:36.512	- Info  -	send status_changed notify 0
+2023-04-17 00:30:36.512	- Info  -	[OnLogout start]
+2023-04-17 00:30:36.513	- Info  -	[service] stop all projections
+2023-04-17 00:30:36.513	- Info  -	[OnLogout end]
+2023-04-17 00:30:36.557	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:32:38.994	- Info  -	[localserver] Not use proxy
+2023-04-17 00:32:38.994	- Info  -	retry login now......
+2023-04-17 00:32:38.994	- Info  -	Current client status: 2
+2023-04-17 00:32:38.994	- Info  -	send status_changed notify 2
+2023-04-17 00:32:38.995	- Info  -	Login task time 0
+2023-04-17 00:32:39.032	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:32:39.032	- Info  -	[http call3] new call id:43, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:32:39.032	- Info  -	[http call3] id:43 create new connection : https://slapi.oray.net:443
+2023-04-17 00:32:39.033	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:33:09.036	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:33:09.036	- Info  -	[http call3] disconnect id:43, error( 0 )
+2023-04-17 00:33:09.036	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:33:09.036	- Info  -	Current client status: 0
+2023-04-17 00:33:09.036	- Info  -	send status_changed notify 0
+2023-04-17 00:33:09.036	- Info  -	[OnLogout start]
+2023-04-17 00:33:09.037	- Info  -	[service] stop all projections
+2023-04-17 00:33:09.037	- Info  -	[OnLogout end]
+2023-04-17 00:33:09.046	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:35:10.410	- Info  -	[localserver] Not use proxy
+2023-04-17 00:35:10.410	- Info  -	retry login now......
+2023-04-17 00:35:10.410	- Info  -	Current client status: 2
+2023-04-17 00:35:10.410	- Info  -	send status_changed notify 2
+2023-04-17 00:35:10.411	- Info  -	Login task time 0
+2023-04-17 00:35:10.426	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:35:10.426	- Info  -	[http call3] new call id:44, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:35:10.442	- Info  -	[http call3] id:44 create new connection : https://slapi.oray.net:443
+2023-04-17 00:35:10.450	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:35:40.442	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:35:40.443	- Info  -	[http call3] disconnect id:44, error( 0 )
+2023-04-17 00:35:40.443	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:35:40.443	- Info  -	Current client status: 0
+2023-04-17 00:35:40.443	- Info  -	send status_changed notify 0
+2023-04-17 00:35:40.443	- Info  -	[OnLogout start]
+2023-04-17 00:35:40.443	- Info  -	[service] stop all projections
+2023-04-17 00:35:40.443	- Info  -	[OnLogout end]
+2023-04-17 00:35:40.453	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:37:41.825	- Info  -	[localserver] Not use proxy
+2023-04-17 00:37:41.825	- Info  -	retry login now......
+2023-04-17 00:37:41.826	- Info  -	Current client status: 2
+2023-04-17 00:37:41.826	- Info  -	send status_changed notify 2
+2023-04-17 00:37:41.826	- Info  -	Login task time 0
+2023-04-17 00:37:41.839	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:37:41.839	- Info  -	[http call3] new call id:45, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:37:41.854	- Info  -	[http call3] id:45 create new connection : https://slapi.oray.net:443
+2023-04-17 00:37:41.864	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:38:11.870	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:38:11.870	- Info  -	[http call3] disconnect id:45, error( 0 )
+2023-04-17 00:38:11.870	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:38:11.870	- Info  -	Current client status: 0
+2023-04-17 00:38:11.870	- Info  -	send status_changed notify 0
+2023-04-17 00:38:11.870	- Info  -	[OnLogout start]
+2023-04-17 00:38:11.871	- Info  -	[service] stop all projections
+2023-04-17 00:38:11.871	- Info  -	[OnLogout end]
+2023-04-17 00:38:11.876	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:39:27.443	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 00:39:27.444	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 00:40:13.132	- Info  -	[localserver] Not use proxy
+2023-04-17 00:40:13.132	- Info  -	retry login now......
+2023-04-17 00:40:13.132	- Info  -	Current client status: 2
+2023-04-17 00:40:13.132	- Info  -	send status_changed notify 2
+2023-04-17 00:40:13.133	- Info  -	Login task time 0
+2023-04-17 00:40:13.172	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:40:13.172	- Info  -	[http call3] new call id:46, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:40:13.188	- Info  -	[http call3] id:46 create new connection : https://slapi.oray.net:443
+2023-04-17 00:40:13.195	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:40:43.202	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:40:43.202	- Info  -	[http call3] disconnect id:46, error( 0 )
+2023-04-17 00:40:43.202	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:40:43.202	- Info  -	Current client status: 0
+2023-04-17 00:40:43.202	- Info  -	send status_changed notify 0
+2023-04-17 00:40:43.202	- Info  -	[OnLogout start]
+2023-04-17 00:40:43.203	- Info  -	[service] stop all projections
+2023-04-17 00:40:43.203	- Info  -	[OnLogout end]
+2023-04-17 00:40:43.206	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:42:45.237	- Info  -	[localserver] Not use proxy
+2023-04-17 00:42:45.237	- Info  -	retry login now......
+2023-04-17 00:42:45.237	- Info  -	Current client status: 2
+2023-04-17 00:42:45.237	- Info  -	send status_changed notify 2
+2023-04-17 00:42:45.237	- Info  -	Login task time 0
+2023-04-17 00:42:45.254	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:42:45.254	- Info  -	[http call3] new call id:47, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:42:45.268	- Info  -	[http call3] id:47 create new connection : https://slapi.oray.net:443
+2023-04-17 00:42:45.278	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:43:15.284	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:43:15.284	- Info  -	[http call3] disconnect id:47, error( 0 )
+2023-04-17 00:43:15.284	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:43:15.284	- Info  -	Current client status: 0
+2023-04-17 00:43:15.284	- Info  -	send status_changed notify 0
+2023-04-17 00:43:15.284	- Info  -	[OnLogout start]
+2023-04-17 00:43:15.285	- Info  -	[service] stop all projections
+2023-04-17 00:43:15.285	- Info  -	[OnLogout end]
+2023-04-17 00:43:15.296	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:45:17.195	- Info  -	[localserver] Not use proxy
+2023-04-17 00:45:17.195	- Info  -	retry login now......
+2023-04-17 00:45:17.195	- Info  -	Current client status: 2
+2023-04-17 00:45:17.195	- Info  -	send status_changed notify 2
+2023-04-17 00:45:17.195	- Info  -	Login task time 0
+2023-04-17 00:45:17.209	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:45:17.209	- Info  -	[http call3] new call id:48, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:45:17.209	- Info  -	[http call3] id:48 create new connection : https://slapi.oray.net:443
+2023-04-17 00:45:17.217	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:45:47.213	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:45:47.213	- Info  -	[http call3] disconnect id:48, error( 0 )
+2023-04-17 00:45:47.213	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:45:47.213	- Info  -	Current client status: 0
+2023-04-17 00:45:47.214	- Info  -	send status_changed notify 0
+2023-04-17 00:45:47.214	- Info  -	[OnLogout start]
+2023-04-17 00:45:47.214	- Info  -	[service] stop all projections
+2023-04-17 00:45:47.214	- Info  -	[OnLogout end]
+2023-04-17 00:45:47.218	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:47:48.282	- Info  -	[localserver] Not use proxy
+2023-04-17 00:47:48.283	- Info  -	retry login now......
+2023-04-17 00:47:48.283	- Info  -	Current client status: 2
+2023-04-17 00:47:48.283	- Info  -	send status_changed notify 2
+2023-04-17 00:47:48.283	- Info  -	Login task time 0
+2023-04-17 00:47:48.298	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:47:48.298	- Info  -	[http call3] new call id:49, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:47:48.314	- Info  -	[http call3] id:49 create new connection : https://slapi.oray.net:443
+2023-04-17 00:47:48.320	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:48:18.319	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:48:18.319	- Info  -	[http call3] disconnect id:49, error( 0 )
+2023-04-17 00:48:18.319	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:48:18.319	- Info  -	Current client status: 0
+2023-04-17 00:48:18.319	- Info  -	send status_changed notify 0
+2023-04-17 00:48:18.319	- Info  -	[OnLogout start]
+2023-04-17 00:48:18.320	- Info  -	[service] stop all projections
+2023-04-17 00:48:18.320	- Info  -	[OnLogout end]
+2023-04-17 00:48:18.327	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:50:19.447	- Info  -	[localserver] Not use proxy
+2023-04-17 00:50:19.447	- Info  -	retry login now......
+2023-04-17 00:50:19.447	- Info  -	Current client status: 2
+2023-04-17 00:50:19.447	- Info  -	send status_changed notify 2
+2023-04-17 00:50:19.448	- Info  -	Login task time 0
+2023-04-17 00:50:19.462	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:50:19.462	- Info  -	[http call3] new call id:50, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:50:19.478	- Info  -	[http call3] id:50 create new connection : https://slapi.oray.net:443
+2023-04-17 00:50:19.487	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:50:49.479	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:50:49.479	- Info  -	[http call3] disconnect id:50, error( 0 )
+2023-04-17 00:50:49.479	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:50:49.479	- Info  -	Current client status: 0
+2023-04-17 00:50:49.479	- Info  -	send status_changed notify 0
+2023-04-17 00:50:49.479	- Info  -	[OnLogout start]
+2023-04-17 00:50:49.479	- Info  -	[service] stop all projections
+2023-04-17 00:50:49.480	- Info  -	[OnLogout end]
+2023-04-17 00:50:49.482	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:52:50.571	- Info  -	[localserver] Not use proxy
+2023-04-17 00:52:50.571	- Info  -	retry login now......
+2023-04-17 00:52:50.571	- Info  -	Current client status: 2
+2023-04-17 00:52:50.571	- Info  -	send status_changed notify 2
+2023-04-17 00:52:50.571	- Info  -	Login task time 0
+2023-04-17 00:52:50.586	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:52:50.586	- Info  -	[http call3] new call id:51, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:52:50.601	- Info  -	[http call3] id:51 create new connection : https://slapi.oray.net:443
+2023-04-17 00:52:50.607	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:53:20.601	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:53:20.601	- Info  -	[http call3] disconnect id:51, error( 0 )
+2023-04-17 00:53:20.601	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:53:20.601	- Info  -	Current client status: 0
+2023-04-17 00:53:20.601	- Info  -	send status_changed notify 0
+2023-04-17 00:53:20.601	- Info  -	[OnLogout start]
+2023-04-17 00:53:20.602	- Info  -	[service] stop all projections
+2023-04-17 00:53:20.602	- Info  -	[OnLogout end]
+2023-04-17 00:53:20.610	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:55:21.746	- Info  -	[localserver] Not use proxy
+2023-04-17 00:55:21.746	- Info  -	retry login now......
+2023-04-17 00:55:21.746	- Info  -	Current client status: 2
+2023-04-17 00:55:21.746	- Info  -	send status_changed notify 2
+2023-04-17 00:55:21.746	- Info  -	Login task time 0
+2023-04-17 00:55:21.761	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:55:21.761	- Info  -	[http call3] new call id:52, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:55:21.778	- Info  -	[http call3] id:52 create new connection : https://slapi.oray.net:443
+2023-04-17 00:55:21.788	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:55:51.784	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:55:51.784	- Info  -	[http call3] disconnect id:52, error( 0 )
+2023-04-17 00:55:51.784	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:55:51.784	- Info  -	Current client status: 0
+2023-04-17 00:55:51.784	- Info  -	send status_changed notify 0
+2023-04-17 00:55:51.784	- Info  -	[OnLogout start]
+2023-04-17 00:55:51.785	- Info  -	[service] stop all projections
+2023-04-17 00:55:51.785	- Info  -	[OnLogout end]
+2023-04-17 00:55:51.794	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 00:57:52.908	- Info  -	[localserver] Not use proxy
+2023-04-17 00:57:52.908	- Info  -	retry login now......
+2023-04-17 00:57:52.908	- Info  -	Current client status: 2
+2023-04-17 00:57:52.908	- Info  -	send status_changed notify 2
+2023-04-17 00:57:52.908	- Info  -	Login task time 0
+2023-04-17 00:57:52.960	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 00:57:52.960	- Info  -	[http call3] new call id:53, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 00:57:52.960	- Info  -	[http call3] id:53 create new connection : https://slapi.oray.net:443
+2023-04-17 00:57:52.989	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 00:58:22.987	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 00:58:22.987	- Info  -	[http call3] disconnect id:53, error( 0 )
+2023-04-17 00:58:22.987	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 00:58:22.987	- Info  -	Current client status: 0
+2023-04-17 00:58:22.987	- Info  -	send status_changed notify 0
+2023-04-17 00:58:22.987	- Info  -	[OnLogout start]
+2023-04-17 00:58:22.988	- Info  -	[service] stop all projections
+2023-04-17 00:58:22.988	- Info  -	[OnLogout end]
+2023-04-17 00:58:22.994	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:00:24.129	- Info  -	[localserver] Not use proxy
+2023-04-17 01:00:24.129	- Info  -	retry login now......
+2023-04-17 01:00:24.129	- Info  -	Current client status: 2
+2023-04-17 01:00:24.129	- Info  -	send status_changed notify 2
+2023-04-17 01:00:24.129	- Info  -	Login task time 0
+2023-04-17 01:00:24.129	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:00:24.129	- Info  -	[http call3] new call id:54, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:00:24.130	- Info  -	[http call3] id:54 create new connection : https://slapi.oray.net:443
+2023-04-17 01:00:24.138	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:00:54.130	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:00:54.130	- Info  -	[http call3] disconnect id:54, error( 0 )
+2023-04-17 01:00:54.130	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:00:54.130	- Info  -	Current client status: 0
+2023-04-17 01:00:54.130	- Info  -	send status_changed notify 0
+2023-04-17 01:00:54.130	- Info  -	[OnLogout start]
+2023-04-17 01:00:54.130	- Info  -	[service] stop all projections
+2023-04-17 01:00:54.130	- Info  -	[OnLogout end]
+2023-04-17 01:00:54.141	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:02:55.215	- Info  -	[localserver] Not use proxy
+2023-04-17 01:02:55.215	- Info  -	retry login now......
+2023-04-17 01:02:55.215	- Info  -	Current client status: 2
+2023-04-17 01:02:55.215	- Info  -	send status_changed notify 2
+2023-04-17 01:02:55.215	- Info  -	Login task time 0
+2023-04-17 01:02:55.216	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:02:55.216	- Info  -	[http call3] new call id:55, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:02:55.230	- Info  -	[http call3] id:55 create new connection : https://slapi.oray.net:443
+2023-04-17 01:02:55.231	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:03:25.222	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:03:25.222	- Info  -	[http call3] disconnect id:55, error( 0 )
+2023-04-17 01:03:25.222	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:03:25.222	- Info  -	Current client status: 0
+2023-04-17 01:03:25.222	- Info  -	send status_changed notify 0
+2023-04-17 01:03:25.222	- Info  -	[OnLogout start]
+2023-04-17 01:03:25.224	- Info  -	[service] stop all projections
+2023-04-17 01:03:25.224	- Info  -	[OnLogout end]
+2023-04-17 01:03:25.247	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:05:26.632	- Info  -	[localserver] Not use proxy
+2023-04-17 01:05:26.632	- Info  -	retry login now......
+2023-04-17 01:05:26.632	- Info  -	Current client status: 2
+2023-04-17 01:05:26.632	- Info  -	send status_changed notify 2
+2023-04-17 01:05:26.632	- Info  -	Login task time 0
+2023-04-17 01:05:26.647	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:05:26.648	- Info  -	[http call3] new call id:56, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:05:26.648	- Info  -	[http call3] id:56 create new connection : https://slapi.oray.net:443
+2023-04-17 01:05:26.649	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:05:56.647	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:05:56.647	- Info  -	[http call3] disconnect id:56, error( 0 )
+2023-04-17 01:05:56.647	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:05:56.647	- Info  -	Current client status: 0
+2023-04-17 01:05:56.647	- Info  -	send status_changed notify 0
+2023-04-17 01:05:56.647	- Info  -	[OnLogout start]
+2023-04-17 01:05:56.647	- Info  -	[service] stop all projections
+2023-04-17 01:05:56.647	- Info  -	[OnLogout end]
+2023-04-17 01:05:56.656	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:07:57.727	- Info  -	[localserver] Not use proxy
+2023-04-17 01:07:57.727	- Info  -	retry login now......
+2023-04-17 01:07:57.727	- Info  -	Current client status: 2
+2023-04-17 01:07:57.728	- Info  -	send status_changed notify 2
+2023-04-17 01:07:57.728	- Info  -	Login task time 0
+2023-04-17 01:07:57.743	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:07:57.743	- Info  -	[http call3] new call id:57, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:07:57.759	- Info  -	[http call3] id:57 create new connection : https://slapi.oray.net:443
+2023-04-17 01:07:57.760	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:08:27.767	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:08:27.767	- Info  -	[http call3] disconnect id:57, error( 0 )
+2023-04-17 01:08:27.767	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:08:27.767	- Info  -	Current client status: 0
+2023-04-17 01:08:27.767	- Info  -	send status_changed notify 0
+2023-04-17 01:08:27.767	- Info  -	[OnLogout start]
+2023-04-17 01:08:27.768	- Info  -	[service] stop all projections
+2023-04-17 01:08:27.768	- Info  -	[OnLogout end]
+2023-04-17 01:08:27.775	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:10:28.886	- Info  -	[localserver] Not use proxy
+2023-04-17 01:10:28.886	- Info  -	retry login now......
+2023-04-17 01:10:28.886	- Info  -	Current client status: 2
+2023-04-17 01:10:28.886	- Info  -	send status_changed notify 2
+2023-04-17 01:10:28.886	- Info  -	Login task time 0
+2023-04-17 01:10:28.901	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:10:28.901	- Info  -	[http call3] new call id:58, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:10:28.917	- Info  -	[http call3] id:58 create new connection : https://slapi.oray.net:443
+2023-04-17 01:10:28.918	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:10:58.911	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:10:58.911	- Info  -	[http call3] disconnect id:58, error( 0 )
+2023-04-17 01:10:58.911	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:10:58.911	- Info  -	Current client status: 0
+2023-04-17 01:10:58.911	- Info  -	send status_changed notify 0
+2023-04-17 01:10:58.911	- Info  -	[OnLogout start]
+2023-04-17 01:10:58.912	- Info  -	[service] stop all projections
+2023-04-17 01:10:58.912	- Info  -	[OnLogout end]
+2023-04-17 01:10:58.920	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:12:59.932	- Info  -	[localserver] Not use proxy
+2023-04-17 01:12:59.932	- Info  -	retry login now......
+2023-04-17 01:12:59.932	- Info  -	Current client status: 2
+2023-04-17 01:12:59.932	- Info  -	send status_changed notify 2
+2023-04-17 01:12:59.932	- Info  -	Login task time 0
+2023-04-17 01:12:59.947	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:12:59.947	- Info  -	[http call3] new call id:59, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:12:59.963	- Info  -	[http call3] id:59 create new connection : https://slapi.oray.net:443
+2023-04-17 01:12:59.963	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:13:29.970	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:13:29.970	- Info  -	[http call3] disconnect id:59, error( 0 )
+2023-04-17 01:13:29.970	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:13:29.970	- Info  -	Current client status: 0
+2023-04-17 01:13:29.970	- Info  -	send status_changed notify 0
+2023-04-17 01:13:29.970	- Info  -	[OnLogout start]
+2023-04-17 01:13:29.971	- Info  -	[service] stop all projections
+2023-04-17 01:13:29.971	- Info  -	[OnLogout end]
+2023-04-17 01:13:29.977	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:15:39.179	- Info  -	[localserver] Not use proxy
+2023-04-17 01:15:39.179	- Info  -	retry login now......
+2023-04-17 01:15:39.179	- Info  -	Current client status: 2
+2023-04-17 01:15:39.179	- Info  -	send status_changed notify 2
+2023-04-17 01:15:39.180	- Info  -	Login task time 0
+2023-04-17 01:15:39.547	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:15:39.547	- Info  -	[http call3] new call id:60, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:15:39.547	- Info  -	[http call3] id:60 create new connection : https://slapi.oray.net:443
+2023-04-17 01:15:39.549	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:16:11.974	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:16:12.050	- Info  -	[http call3] disconnect id:60, error( 0 )
+2023-04-17 01:16:12.050	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:16:12.050	- Info  -	Current client status: 0
+2023-04-17 01:16:12.050	- Info  -	send status_changed notify 0
+2023-04-17 01:16:12.050	- Info  -	[OnLogout start]
+2023-04-17 01:16:12.051	- Info  -	[service] stop all projections
+2023-04-17 01:16:12.052	- Info  -	[OnLogout end]
+2023-04-17 01:16:12.138	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:18:17.095	- Info  -	[localserver] Not use proxy
+2023-04-17 01:18:17.098	- Info  -	retry login now......
+2023-04-17 01:18:17.098	- Info  -	Current client status: 2
+2023-04-17 01:18:17.098	- Info  -	send status_changed notify 2
+2023-04-17 01:18:17.099	- Info  -	Login task time 0
+2023-04-17 01:18:17.114	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 01:18:17.116	- Info  -	[http call3] new call id:61, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 01:18:17.127	- Info  -	[http call3] id:61 create new connection : https://slapi.oray.net:443
+2023-04-17 01:18:17.130	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 01:18:47.133	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 01:18:47.134	- Info  -	[http call3] disconnect id:61, error( 0 )
+2023-04-17 01:18:47.134	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 01:18:47.134	- Info  -	Current client status: 0
+2023-04-17 01:18:47.134	- Info  -	send status_changed notify 0
+2023-04-17 01:18:47.134	- Info  -	[OnLogout start]
+2023-04-17 01:18:47.135	- Info  -	[service] stop all projections
+2023-04-17 01:18:47.136	- Info  -	[OnLogout end]
+2023-04-17 01:18:47.154	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 01:19:16.653	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 01:19:16.653	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 01:19:19.381	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 01:19:19.381	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 01:20:05.638	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 01:20:05.638	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2023-04-17 01:20:05.638	+Warning+	[service] power event, system is suspending.
+2023-04-17 01:20:05.642	- Info  -	Logout ...
+2023-04-17 08:41:09.007	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 08:41:09.007	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-04-17 08:41:09.007	+Warning+	[service] power event, system is resumed.
+2023-04-17 08:41:10.682	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 08:41:10.682	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-04-17 08:41:10.682	+Warning+	[service] power event, system is resumed.
+2023-04-17 08:41:11.436	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 08:41:11.436	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 08:41:14.174	- Info  -	retry login now......
+2023-04-17 08:41:14.174	- Info  -	Current client status: 2
+2023-04-17 08:41:14.174	- Info  -	send status_changed notify 2
+2023-04-17 08:41:14.174	- Info  -	Login task time 0
+2023-04-17 08:41:14.174	- Info  -	[service] retry login by power event
+2023-04-17 08:41:14.190	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 08:41:14.190	- Info  -	[http call3] new call id:62, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 08:41:14.206	- Info  -	[http call3] id:62 create new connection : https://slapi.oray.net:443
+2023-04-17 08:41:14.207	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 08:41:19.211	- Info  -	[service] retry login by power event
+2023-04-17 08:41:44.218	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 08:41:44.218	- Info  -	[http call3] disconnect id:62, error( 0 )
+2023-04-17 08:41:44.218	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 08:41:44.218	- Info  -	Current client status: 0
+2023-04-17 08:41:44.218	- Info  -	send status_changed notify 0
+2023-04-17 08:41:44.218	- Info  -	[OnLogout start]
+2023-04-17 08:41:44.219	- Info  -	[service] stop all projections
+2023-04-17 08:41:44.219	- Info  -	[OnLogout end]
+2023-04-17 08:41:44.224	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 08:43:45.399	- Info  -	[localserver] Not use proxy
+2023-04-17 08:43:45.399	- Info  -	retry login now......
+2023-04-17 08:43:45.399	- Info  -	Current client status: 2
+2023-04-17 08:43:45.399	- Info  -	send status_changed notify 2
+2023-04-17 08:43:45.399	- Info  -	Login task time 0
+2023-04-17 08:43:45.400	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 08:43:45.400	- Info  -	[http call3] new call id:63, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 08:43:45.417	- Info  -	[http call3] id:63 create new connection : https://slapi.oray.net:443
+2023-04-17 08:43:45.417	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-17 08:44:15.424	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 08:44:15.424	- Info  -	[http call3] disconnect id:63, error( 0 )
+2023-04-17 08:44:15.424	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-17 08:44:15.424	- Info  -	Current client status: 0
+2023-04-17 08:44:15.424	- Info  -	send status_changed notify 0
+2023-04-17 08:44:15.424	- Info  -	[OnLogout start]
+2023-04-17 08:44:15.425	- Info  -	[service] stop all projections
+2023-04-17 08:44:15.425	- Info  -	[OnLogout end]
+2023-04-17 08:44:15.429	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 08:46:16.914	- Info  -	[localserver] Not use proxy
+2023-04-17 08:46:16.914	- Info  -	retry login now......
+2023-04-17 08:46:16.914	- Info  -	Current client status: 2
+2023-04-17 08:46:16.914	- Info  -	send status_changed notify 2
+2023-04-17 08:46:16.914	- Info  -	Login task time 0
+2023-04-17 08:46:16.929	- Info  -	Do login( type: 2 ) at 379
+2023-04-17 08:46:16.929	- Info  -	[http call3] new call id:64, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-17 08:46:16.945	- Info  -	[http call3] id:64 create new connection : https://slapi.oray.net:443
+2023-04-17 08:46:16.955	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-04-17 08:46:17.315	- Info  -	[http call3] id:64, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-17 08:46:17.344	- Info  -	attempt to connect server rc10-fc11.oray.com:443(120.55.59.130:443)
+2023-04-17 08:46:17.450	- Info  -	[service] attempted logon
+2023-04-17 08:46:17.497	- Info  -	[service] logon server OK. public ip:223.82.110.30
+2023-04-17 08:46:17.521	- Info  -	[online] attempted client online
+2023-04-17 08:46:17.548	- Info  -	[online] client online OK.
+2023-04-17 08:46:17.548	- Info  -	[online] received name:default , description:default .
+2023-04-17 08:46:17.554	- Info  -	[service] attempted register client to server
+2023-04-17 08:46:17.582	- Info  -	[service] registered client to server
+2023-04-17 08:46:17.582	- Info  -	[http call3] new call id:65, url:https://sl-log.oray.net/slclientlog
+2023-04-17 08:46:17.582	- Info  -	Current client status: 1
+2023-04-17 08:46:17.582	- Info  -	send status_changed notify 1
+2023-04-17 08:46:17.585	- Info  -	[http call3] id:65 create new connection : https://sl-log.oray.net:443
+2023-04-17 08:46:17.597	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.186.100:443)
+2023-04-17 08:46:17.606	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-17 08:46:17.624	- Info  -	[OnLogin start]
+2023-04-17 08:46:17.625	- Info  -	[OnLogin end]
+2023-04-17 08:46:17.632	- Info  -	[OnLogin] WaittingTask Start
+2023-04-17 08:46:17.637	- Info  -	Set auto_run : true
+2023-04-17 08:46:18.033	- Info  -	[http call3] id:65, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-17 08:46:18.165	- Info  -	[OnLogin] WaittingTask end
+2023-04-17 08:46:32.309	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-17 08:46:32.309	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 08:46:48.033	* Error *	SSLStream::IsWantReadWrite|peer(47.97.186.100:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-17 08:46:48.033	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-17 13:41:20.181	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:41:20.193	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:42:04.369	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:42:04.370	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:42:48.615	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:42:48.615	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:43:30.930	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:43:30.930	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:44:13.309	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:44:13.310	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:44:57.503	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:44:57.503	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:45:41.742	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:45:41.742	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:46:24.065	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:46:24.065	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:47:06.366	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:47:06.366	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:47:50.596	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:47:50.596	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 13:48:34.830	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 13:48:34.830	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:41:20.849	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:41:20.849	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:41:51.624	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:41:51.624	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:42:20.476	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:42:20.476	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:42:49.324	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:42:49.324	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:43:18.172	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:43:18.172	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:43:48.942	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:43:48.942	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:44:17.799	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:44:17.799	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:44:46.649	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:44:46.649	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:45:15.500	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:45:15.501	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:45:44.344	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:45:44.344	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:46:15.112	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:46:15.112	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:46:43.963	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:46:43.963	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:47:12.818	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:47:12.819	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:47:43.591	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:47:43.591	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:48:12.445	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:48:12.445	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 18:48:41.301	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 18:48:41.301	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-17 20:26:35.071	- Info  -	[ServiceEx] the service control is 13
+2023-04-17 20:26:35.073	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2023-04-17 20:26:35.073	+Warning+	[service] power event, system is suspending.
+2023-04-17 20:26:35.195	- Info  -	Logout ...
+2023-04-17 20:26:35.213	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2023-04-17 20:26:35.214	- Info  -	[RemoteControl] disconnected server(120.55.59.130:443),error code:0
+2023-04-17 20:26:35.219	* Error *	[online] online disconnected,error code:0
+2023-04-17 20:26:35.219	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-17 20:26:35.277	- Info  -	[service] disconnected server(120.55.59.130:443),errorcode:0
+2023-04-17 20:26:35.279	- Info  -	curStatus: 0, m_Status: 1
+2023-04-17 20:26:35.319	- Info  -	[http call3] new call id:66, url:https://sl-log.oray.net/slclientlog
+2023-04-17 20:26:35.321	- Info  -	Current client status: 0
+2023-04-17 20:26:35.322	- Info  -	send status_changed notify 0
+2023-04-17 20:26:35.322	- Info  -	[OnLogout start]
+2023-04-17 20:26:35.323	- Info  -	[service] stop all projections
+2023-04-17 20:26:35.326	- Info  -	[OnLogout end]
+2023-04-17 20:26:35.341	- Info  -	[http call3] id:66 create new connection : https://sl-log.oray.net:443
+2023-04-17 20:26:35.349	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-17 20:26:35.373	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.183.66:443)
+2023-04-17 20:26:35.649	- Info  -	[http call3] id:66, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-18 13:30:36.035	+Warning+	[passive:keepalive:] 47.97.183.66:443 disconnect by keepalive timeout(141020546>=79580156+30000)
+2023-04-18 13:30:36.035	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-18 13:30:36.035	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-18 13:30:49.323	- Info  -	[ServiceEx] the service control is 13
+2023-04-18 13:30:49.323	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-04-18 13:30:49.323	+Warning+	[service] power event, system is resumed.
+2023-04-18 13:30:57.472	- Info  -	[ServiceEx] the service control is 13
+2023-04-18 13:30:57.472	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-04-18 13:30:57.472	+Warning+	[service] power event, system is resumed.
+2023-04-18 13:30:58.362	- Info  -	[ServiceEx] the service control is 13
+2023-04-18 13:30:58.362	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-18 13:31:12.313	- Info  -	retry login now......
+2023-04-18 13:31:12.313	- Info  -	Current client status: 2
+2023-04-18 13:31:12.313	- Info  -	send status_changed notify 2
+2023-04-18 13:31:12.313	- Info  -	Login task time 0
+2023-04-18 13:31:12.315	- Info  -	[service] retry login by power event
+2023-04-18 13:31:12.320	- Info  -	Do login( type: 2 ) at 379
+2023-04-18 13:31:12.337	- Info  -	[service] retry login by power event
+2023-04-18 13:31:12.353	- Info  -	[http call3] new call id:67, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-18 13:31:12.363	- Info  -	[http call3] id:67 create new connection : https://slapi.oray.net:443
+2023-04-18 13:31:12.371	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-04-18 13:31:12.608	- Info  -	[http call3] id:67, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-18 13:31:12.772	- Info  -	attempt to connect server rc10-fc10.oray.com:443(121.40.171.186:443)
+2023-04-18 13:31:12.977	- Info  -	[service] attempted logon
+2023-04-18 13:31:13.022	- Info  -	[service] logon server OK. public ip:223.82.110.30
+2023-04-18 13:31:13.060	- Info  -	[online] attempted client online
+2023-04-18 13:31:13.090	- Info  -	[online] client online OK.
+2023-04-18 13:31:13.091	- Info  -	[online] received name:default , description:default .
+2023-04-18 13:31:13.096	- Info  -	[service] attempted register client to server
+2023-04-18 13:31:13.128	- Info  -	[service] registered client to server
+2023-04-18 13:31:13.128	- Info  -	[http call3] new call id:68, url:https://sl-log.oray.net/slclientlog
+2023-04-18 13:31:13.128	- Info  -	Current client status: 1
+2023-04-18 13:31:13.128	- Info  -	send status_changed notify 1
+2023-04-18 13:31:13.143	- Info  -	[http call3] id:68 create new connection : https://sl-log.oray.net:443
+2023-04-18 13:31:13.147	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-18 13:31:13.192	- Info  -	[OnLogin start]
+2023-04-18 13:31:13.212	- Info  -	[OnLogin end]
+2023-04-18 13:31:13.286	- Info  -	[OnLogin] WaittingTask Start
+2023-04-18 13:31:13.294	- Info  -	attempt to connect server sl-log.oray.net:443(121.41.32.171:443)
+2023-04-18 13:31:13.298	- Info  -	Set auto_run : true
+2023-04-18 13:31:13.448	- Info  -	[http call3] id:68, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-18 13:31:14.021	- Info  -	[OnLogin] WaittingTask end
+2023-04-18 13:31:27.610	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-18 13:31:27.610	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-18 13:31:43.434	* Error *	SSLStream::IsWantReadWrite|peer(121.41.32.171:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-18 13:31:43.434	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-18 14:51:50.968	- Info  -	[ServiceEx] the service control is 13
+2023-04-18 14:51:50.968	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-18 14:58:57.491	- Info  -	[ServiceEx] the service control is 13
+2023-04-18 14:58:57.491	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-18 17:56:28.909	- Info  -	[ServiceEx] the service control is 13
+2023-04-18 17:56:28.909	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2023-04-18 17:56:28.909	+Warning+	[service] power event, system is suspending.
+2023-04-18 17:56:28.909	- Info  -	Logout ...
+2023-04-18 17:56:28.909	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2023-04-18 17:56:28.909	- Info  -	[RemoteControl] disconnected server(121.40.171.186:443),error code:0
+2023-04-18 17:56:28.910	* Error *	[online] online disconnected,error code:0
+2023-04-18 17:56:28.910	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-18 17:56:28.910	- Info  -	[service] disconnected server(121.40.171.186:443),errorcode:0
+2023-04-18 17:56:28.910	- Info  -	curStatus: 0, m_Status: 1
+2023-04-18 17:56:28.910	- Info  -	[http call3] new call id:69, url:https://sl-log.oray.net/slclientlog
+2023-04-18 17:56:28.910	- Info  -	Current client status: 0
+2023-04-18 17:56:28.910	- Info  -	send status_changed notify 0
+2023-04-18 17:56:28.910	- Info  -	[OnLogout start]
+2023-04-18 17:56:28.911	- Info  -	[service] stop all projections
+2023-04-18 17:56:28.911	- Info  -	[OnLogout end]
+2023-04-18 17:56:28.918	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-18 17:56:28.924	- Info  -	[http call3] id:69 create new connection : https://sl-log.oray.net:443
+2023-04-18 17:56:28.932	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.183.66:443)
+2023-04-18 17:56:29.034	- Info  -	[http call3] id:69, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-26 08:32:36.261	+Warning+	[passive:keepalive:] 47.97.183.66:443 disconnect by keepalive timeout(814340640>=156973406+30000)
+2023-04-26 08:32:36.261	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-26 08:32:36.261	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-26 08:33:18.095	- Info  -	[ServiceEx] the service control is 13
+2023-04-26 08:33:18.095	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-04-26 08:33:18.095	+Warning+	[service] power event, system is resumed.
+2023-04-26 08:34:39.937	- Info  -	[ServiceEx] the service control is 13
+2023-04-26 08:34:42.754	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-04-26 08:34:42.756	+Warning+	[service] power event, system is resumed.
+2023-04-26 08:35:09.840	- Info  -	retry login now......
+2023-04-26 08:35:09.841	- Info  -	Current client status: 2
+2023-04-26 08:35:09.842	- Info  -	send status_changed notify 2
+2023-04-26 08:35:09.843	- Info  -	Login task time 0
+2023-04-26 08:35:09.844	- Info  -	[service] retry login by power event
+2023-04-26 08:35:10.559	- Info  -	Do login( type: 2 ) at 379
+2023-04-26 08:35:10.562	- Info  -	[http call3] new call id:70, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-26 08:35:11.895	- Info  -	[http call3] id:70 create new connection : https://slapi.oray.net:443
+2023-04-26 08:35:58.220	- Info  -	[service] retry login by power event
+2023-04-26 08:35:58.497	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-26 08:35:58.716	- Info  -	[http call3] id:70, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-26 08:36:23.175	- Info  -	attempt to connect server rc10-fc14.oray.com:443(81.69.183.65:443)
+2023-04-26 08:36:23.181	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-26 08:36:23.183	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-26 08:36:24.609	- Info  -	[service] attempted logon
+2023-04-26 08:36:24.684	- Info  -	[service] logon server OK. public ip:223.82.110.30
+2023-04-26 08:36:24.727	- Info  -	[online] attempted client online
+2023-04-26 08:36:24.775	- Info  -	[online] client online OK.
+2023-04-26 08:36:24.776	- Info  -	[online] received name:default , description:default .
+2023-04-26 08:36:25.944	- Info  -	[service] attempted register client to server
+2023-04-26 08:36:25.973	- Info  -	[service] registered client to server
+2023-04-26 08:36:25.974	- Info  -	[http call3] new call id:71, url:https://sl-log.oray.net/slclientlog
+2023-04-26 08:36:25.974	- Info  -	Current client status: 1
+2023-04-26 08:36:25.974	- Info  -	send status_changed notify 1
+2023-04-26 08:36:26.043	- Info  -	[http call3] id:71 create new connection : https://sl-log.oray.net:443
+2023-04-26 08:36:26.167	- Info  -	[ServiceEx] the service control is 13
+2023-04-26 08:36:26.167	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-26 08:36:26.199	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-26 08:36:26.283	- Info  -	[OnLogin start]
+2023-04-26 08:36:26.356	- Info  -	[OnLogin end]
+2023-04-26 08:36:26.357	- Info  -	[OnLogin] WaittingTask Start
+2023-04-26 08:36:26.360	- Info  -	Set auto_run : true
+2023-04-26 08:36:26.809	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.186.100:443)
+2023-04-26 08:36:26.944	- Info  -	[http call3] id:71, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-26 08:36:27.061	- Info  -	[OnLogin] WaittingTask end
+2023-04-26 08:36:56.936	* Error *	SSLStream::IsWantReadWrite|peer(47.97.186.100:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-26 08:36:56.936	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-26 10:01:56.200	- Info  -	[ServiceEx] the service control is 13
+2023-04-26 10:01:56.213	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-26 10:28:02.659	- Info  -	[ServiceEx] the service control is 13
+2023-04-26 10:28:02.660	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-26 10:28:04.673	- Info  -	[ServiceEx] the service control is 13
+2023-04-26 10:28:04.673	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-26 13:02:51.032	- Info  -	[ServiceEx] the service control is 13
+2023-04-26 13:02:51.032	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2023-04-26 13:02:51.032	+Warning+	[service] power event, system is suspending.
+2023-04-26 13:02:51.059	- Info  -	Logout ...
+2023-04-26 13:02:51.062	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2023-04-26 13:02:51.062	- Info  -	[RemoteControl] disconnected server(81.69.183.65:443),error code:0
+2023-04-26 13:02:51.065	* Error *	[online] online disconnected,error code:0
+2023-04-26 13:02:51.065	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-26 13:02:51.068	- Info  -	[service] disconnected server(81.69.183.65:443),errorcode:0
+2023-04-26 13:02:51.070	- Info  -	curStatus: 0, m_Status: 1
+2023-04-26 13:02:51.089	- Info  -	[http call3] new call id:72, url:https://sl-log.oray.net/slclientlog
+2023-04-26 13:02:51.092	- Info  -	Current client status: 0
+2023-04-26 13:02:51.093	- Info  -	send status_changed notify 0
+2023-04-26 13:02:51.093	- Info  -	[OnLogout start]
+2023-04-26 13:02:51.094	- Info  -	[service] stop all projections
+2023-04-26 13:02:51.094	- Info  -	[http call3] id:72 create new connection : https://sl-log.oray.net:443
+2023-04-26 13:02:51.096	- Info  -	[OnLogout end]
+2023-04-26 13:02:51.122	- Info  -	attempt to connect server sl-log.oray.net:443(121.40.118.44:443)
+2023-04-26 13:02:51.137	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-26 13:02:51.475	- Info  -	[http call3] id:72, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-27 08:16:37.394	+Warning+	[passive:keepalive:] 121.40.118.44:443 disconnect by keepalive timeout(899793359>=830567437+30000)
+2023-04-27 08:16:37.394	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-27 08:16:37.394	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-27 08:17:00.707	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 08:17:00.707	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-04-27 08:17:00.708	+Warning+	[service] power event, system is resumed.
+2023-04-27 08:17:01.551	- Info  -	retry login now......
+2023-04-27 08:17:01.551	- Info  -	Current client status: 2
+2023-04-27 08:17:01.551	- Info  -	send status_changed notify 2
+2023-04-27 08:17:01.552	- Info  -	Login task time 0
+2023-04-27 08:17:01.553	- Info  -	[service] retry login by power event
+2023-04-27 08:17:01.624	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 08:17:01.637	- Info  -	[http call3] new call id:73, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 08:17:01.678	- Info  -	[http call3] id:73 create new connection : https://slapi.oray.net:443
+2023-04-27 08:17:02.091	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 08:17:02.091	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-04-27 08:17:02.091	+Warning+	[service] power event, system is resumed.
+2023-04-27 08:17:02.403	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-27 08:17:02.604	- Info  -	[http call3] id:73, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-27 08:17:03.558	- Info  -	[service] retry login by power event
+2023-04-27 08:17:03.992	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 08:17:03.992	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-27 08:17:04.605	- Info  -	attempt to connect server rc10-fc15.oray.com:443(81.69.184.11:443)
+2023-04-27 08:17:04.712	- Info  -	[service] attempted logon
+2023-04-27 08:17:04.843	- Info  -	[service] logon server OK. public ip:223.82.110.30
+2023-04-27 08:17:04.864	- Info  -	[online] attempted client online
+2023-04-27 08:17:04.888	- Info  -	[online] client online OK.
+2023-04-27 08:17:04.889	- Info  -	[online] received name:default , description:default .
+2023-04-27 08:17:04.893	- Info  -	[service] attempted register client to server
+2023-04-27 08:17:04.921	- Info  -	[service] registered client to server
+2023-04-27 08:17:04.922	- Info  -	[http call3] new call id:74, url:https://sl-log.oray.net/slclientlog
+2023-04-27 08:17:04.922	- Info  -	Current client status: 1
+2023-04-27 08:17:04.922	- Info  -	send status_changed notify 1
+2023-04-27 08:17:04.927	- Info  -	[http call3] id:74 create new connection : https://sl-log.oray.net:443
+2023-04-27 08:17:04.944	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-27 08:17:05.236	- Info  -	[OnLogin start]
+2023-04-27 08:17:05.240	- Info  -	[OnLogin end]
+2023-04-27 08:17:05.256	- Info  -	[OnLogin] WaittingTask Start
+2023-04-27 08:17:05.271	- Info  -	Set auto_run : true
+2023-04-27 08:17:05.600	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.186.100:443)
+2023-04-27 08:17:05.729	- Info  -	[OnLogin] WaittingTask end
+2023-04-27 08:17:05.736	- Info  -	[http call3] id:74, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-27 08:17:17.603	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-27 08:17:17.603	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 08:17:34.420	* Error *	SSLStream::IsWantReadWrite|peer(47.97.186.100:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-27 08:17:34.420	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 11:31:45.877	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 11:31:45.878	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-27 16:32:06.593	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 16:32:06.602	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-27 17:21:00.933	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 17:21:00.934	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-27 17:21:03.642	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 17:21:03.642	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-27 17:21:30.157	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 17:21:30.157	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2023-04-27 17:21:30.157	+Warning+	[service] power event, system is suspending.
+2023-04-27 17:21:30.168	- Info  -	Logout ...
+2023-04-27 17:21:30.173	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2023-04-27 17:21:30.173	- Info  -	[RemoteControl] disconnected server(81.69.184.11:443),error code:0
+2023-04-27 17:21:30.176	* Error *	[online] online disconnected,error code:0
+2023-04-27 17:21:30.176	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-27 17:21:30.178	- Info  -	[service] disconnected server(81.69.184.11:443),errorcode:0
+2023-04-27 17:21:30.179	- Info  -	curStatus: 0, m_Status: 1
+2023-04-27 17:21:30.183	- Info  -	[http call3] new call id:75, url:https://sl-log.oray.net/slclientlog
+2023-04-27 17:21:30.184	- Info  -	Current client status: 0
+2023-04-27 17:21:30.185	- Info  -	send status_changed notify 0
+2023-04-27 17:21:30.186	- Info  -	[OnLogout start]
+2023-04-27 17:21:30.186	- Info  -	[http call3] id:75 create new connection : https://sl-log.oray.net:443
+2023-04-27 17:21:30.187	- Info  -	[service] stop all projections
+2023-04-27 17:21:30.190	- Info  -	[OnLogout end]
+2023-04-27 17:21:30.200	- Info  -	attempt to connect server sl-log.oray.net:443(121.199.72.21:443)
+2023-04-27 17:21:30.206	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 17:21:30.420	- Info  -	[http call3] id:75, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-27 21:46:38.176	+Warning+	[passive:keepalive:] 121.199.72.21:443 disconnect by keepalive timeout(948395468>=932487703+30000)
+2023-04-27 21:46:38.177	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-27 21:46:38.177	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-27 21:46:44.614	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 21:46:44.614	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-04-27 21:46:44.614	+Warning+	[service] power event, system is resumed.
+2023-04-27 21:46:46.694	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 21:46:46.694	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-04-27 21:46:46.694	+Warning+	[service] power event, system is resumed.
+2023-04-27 21:46:50.681	- Info  -	retry login now......
+2023-04-27 21:46:50.681	- Info  -	Current client status: 2
+2023-04-27 21:46:50.681	- Info  -	send status_changed notify 2
+2023-04-27 21:46:50.682	- Info  -	Login task time 0
+2023-04-27 21:46:50.684	- Info  -	[service] retry login by power event
+2023-04-27 21:46:50.696	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 21:46:50.704	- Info  -	[http call3] new call id:76, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 21:46:50.710	- Info  -	[http call3] id:76 create new connection : https://slapi.oray.net:443
+2023-04-27 21:46:50.711	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 21:46:53.853	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 21:46:53.853	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-27 21:46:55.741	- Info  -	[service] retry login by power event
+2023-04-27 21:47:20.716	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 21:47:20.716	- Info  -	[http call3] disconnect id:76, error( 0 )
+2023-04-27 21:47:20.716	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 21:47:20.716	- Info  -	Current client status: 0
+2023-04-27 21:47:20.716	- Info  -	send status_changed notify 0
+2023-04-27 21:47:20.716	- Info  -	[OnLogout start]
+2023-04-27 21:47:20.717	- Info  -	[service] stop all projections
+2023-04-27 21:47:20.717	- Info  -	retry login now......
+2023-04-27 21:47:20.717	- Info  -	Current client status: 2
+2023-04-27 21:47:20.717	- Info  -	send status_changed notify 2
+2023-04-27 21:47:20.717	- Info  -	Login task time 0
+2023-04-27 21:47:20.717	- Info  -	[OnLogout end]
+2023-04-27 21:47:20.732	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 21:47:20.732	- Info  -	[http call3] new call id:77, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 21:47:20.748	- Info  -	[http call3] id:77 create new connection : https://slapi.oray.net:443
+2023-04-27 21:47:20.749	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 21:47:50.747	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 21:47:50.747	- Info  -	[http call3] disconnect id:77, error( 0 )
+2023-04-27 21:47:50.747	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 21:47:50.747	- Info  -	Current client status: 0
+2023-04-27 21:47:50.747	- Info  -	send status_changed notify 0
+2023-04-27 21:47:50.747	- Info  -	[OnLogout start]
+2023-04-27 21:47:50.748	- Info  -	[service] stop all projections
+2023-04-27 21:47:50.748	- Info  -	[OnLogout end]
+2023-04-27 21:47:50.752	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 21:49:51.777	- Info  -	[localserver] Not use proxy
+2023-04-27 21:49:51.777	- Info  -	retry login now......
+2023-04-27 21:49:51.777	- Info  -	Current client status: 2
+2023-04-27 21:49:51.777	- Info  -	send status_changed notify 2
+2023-04-27 21:49:51.777	- Info  -	Login task time 0
+2023-04-27 21:49:51.791	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 21:49:51.791	- Info  -	[http call3] new call id:78, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 21:49:51.807	- Info  -	[http call3] id:78 create new connection : https://slapi.oray.net:443
+2023-04-27 21:49:51.809	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 21:50:21.810	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 21:50:21.810	- Info  -	[http call3] disconnect id:78, error( 0 )
+2023-04-27 21:50:21.810	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 21:50:21.810	- Info  -	Current client status: 0
+2023-04-27 21:50:21.810	- Info  -	send status_changed notify 0
+2023-04-27 21:50:21.810	- Info  -	[OnLogout start]
+2023-04-27 21:50:21.811	- Info  -	[service] stop all projections
+2023-04-27 21:50:21.811	- Info  -	[OnLogout end]
+2023-04-27 21:50:21.822	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 21:52:22.879	- Info  -	[localserver] Not use proxy
+2023-04-27 21:52:22.879	- Info  -	retry login now......
+2023-04-27 21:52:22.879	- Info  -	Current client status: 2
+2023-04-27 21:52:22.879	- Info  -	send status_changed notify 2
+2023-04-27 21:52:22.880	- Info  -	Login task time 0
+2023-04-27 21:52:22.894	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 21:52:22.894	- Info  -	[http call3] new call id:79, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 21:52:22.910	- Info  -	[http call3] id:79 create new connection : https://slapi.oray.net:443
+2023-04-27 21:52:22.911	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 21:52:52.916	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 21:52:52.916	- Info  -	[http call3] disconnect id:79, error( 0 )
+2023-04-27 21:52:52.916	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 21:52:52.916	- Info  -	Current client status: 0
+2023-04-27 21:52:52.916	- Info  -	send status_changed notify 0
+2023-04-27 21:52:52.916	- Info  -	[OnLogout start]
+2023-04-27 21:52:52.917	- Info  -	[service] stop all projections
+2023-04-27 21:52:52.917	- Info  -	[OnLogout end]
+2023-04-27 21:52:52.920	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 21:54:53.973	- Info  -	[localserver] Not use proxy
+2023-04-27 21:54:53.973	- Info  -	retry login now......
+2023-04-27 21:54:53.973	- Info  -	Current client status: 2
+2023-04-27 21:54:53.973	- Info  -	send status_changed notify 2
+2023-04-27 21:54:53.973	- Info  -	Login task time 0
+2023-04-27 21:54:53.987	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 21:54:53.988	- Info  -	[http call3] new call id:80, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 21:54:54.004	- Info  -	[http call3] id:80 create new connection : https://slapi.oray.net:443
+2023-04-27 21:54:54.005	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 21:55:24.014	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 21:55:24.014	- Info  -	[http call3] disconnect id:80, error( 0 )
+2023-04-27 21:55:24.014	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 21:55:24.014	- Info  -	Current client status: 0
+2023-04-27 21:55:24.014	- Info  -	send status_changed notify 0
+2023-04-27 21:55:24.014	- Info  -	[OnLogout start]
+2023-04-27 21:55:24.015	- Info  -	[service] stop all projections
+2023-04-27 21:55:24.015	- Info  -	[OnLogout end]
+2023-04-27 21:55:24.022	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 21:57:25.086	- Info  -	[localserver] Not use proxy
+2023-04-27 21:57:25.086	- Info  -	retry login now......
+2023-04-27 21:57:25.086	- Info  -	Current client status: 2
+2023-04-27 21:57:25.086	- Info  -	send status_changed notify 2
+2023-04-27 21:57:25.087	- Info  -	Login task time 0
+2023-04-27 21:57:25.101	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 21:57:25.101	- Info  -	[http call3] new call id:81, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 21:57:25.117	- Info  -	[http call3] id:81 create new connection : https://slapi.oray.net:443
+2023-04-27 21:57:25.118	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 21:57:55.119	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 21:57:55.119	- Info  -	[http call3] disconnect id:81, error( 0 )
+2023-04-27 21:57:55.119	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 21:57:55.119	- Info  -	Current client status: 0
+2023-04-27 21:57:55.119	- Info  -	send status_changed notify 0
+2023-04-27 21:57:55.119	- Info  -	[OnLogout start]
+2023-04-27 21:57:55.120	- Info  -	[service] stop all projections
+2023-04-27 21:57:55.120	- Info  -	[OnLogout end]
+2023-04-27 21:57:55.129	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 21:59:56.200	- Info  -	[localserver] Not use proxy
+2023-04-27 21:59:56.200	- Info  -	retry login now......
+2023-04-27 21:59:56.200	- Info  -	Current client status: 2
+2023-04-27 21:59:56.200	- Info  -	send status_changed notify 2
+2023-04-27 21:59:56.201	- Info  -	Login task time 0
+2023-04-27 21:59:56.215	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 21:59:56.215	- Info  -	[http call3] new call id:82, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 21:59:56.231	- Info  -	[http call3] id:82 create new connection : https://slapi.oray.net:443
+2023-04-27 21:59:56.232	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:00:26.229	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:00:26.229	- Info  -	[http call3] disconnect id:82, error( 0 )
+2023-04-27 22:00:26.229	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:00:26.229	- Info  -	Current client status: 0
+2023-04-27 22:00:26.229	- Info  -	send status_changed notify 0
+2023-04-27 22:00:26.229	- Info  -	[OnLogout start]
+2023-04-27 22:00:26.230	- Info  -	[service] stop all projections
+2023-04-27 22:00:26.230	- Info  -	[OnLogout end]
+2023-04-27 22:00:26.242	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:02:27.317	- Info  -	[localserver] Not use proxy
+2023-04-27 22:02:27.317	- Info  -	retry login now......
+2023-04-27 22:02:27.317	- Info  -	Current client status: 2
+2023-04-27 22:02:27.317	- Info  -	send status_changed notify 2
+2023-04-27 22:02:27.317	- Info  -	Login task time 0
+2023-04-27 22:02:27.333	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:02:27.333	- Info  -	[http call3] new call id:83, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:02:27.349	- Info  -	[http call3] id:83 create new connection : https://slapi.oray.net:443
+2023-04-27 22:02:27.349	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:02:57.351	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:02:57.351	- Info  -	[http call3] disconnect id:83, error( 0 )
+2023-04-27 22:02:57.351	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:02:57.351	- Info  -	Current client status: 0
+2023-04-27 22:02:57.351	- Info  -	send status_changed notify 0
+2023-04-27 22:02:57.351	- Info  -	[OnLogout start]
+2023-04-27 22:02:57.352	- Info  -	[service] stop all projections
+2023-04-27 22:02:57.352	- Info  -	[OnLogout end]
+2023-04-27 22:02:57.366	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:04:58.438	- Info  -	[localserver] Not use proxy
+2023-04-27 22:04:58.438	- Info  -	retry login now......
+2023-04-27 22:04:58.438	- Info  -	Current client status: 2
+2023-04-27 22:04:58.438	- Info  -	send status_changed notify 2
+2023-04-27 22:04:58.438	- Info  -	Login task time 0
+2023-04-27 22:04:58.453	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:04:58.453	- Info  -	[http call3] new call id:84, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:04:58.469	- Info  -	[http call3] id:84 create new connection : https://slapi.oray.net:443
+2023-04-27 22:04:58.471	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:05:28.460	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:05:28.460	- Info  -	[http call3] disconnect id:84, error( 0 )
+2023-04-27 22:05:28.460	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:05:28.460	- Info  -	Current client status: 0
+2023-04-27 22:05:28.460	- Info  -	send status_changed notify 0
+2023-04-27 22:05:28.460	- Info  -	[OnLogout start]
+2023-04-27 22:05:28.461	- Info  -	[service] stop all projections
+2023-04-27 22:05:28.461	- Info  -	[OnLogout end]
+2023-04-27 22:05:28.468	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:07:29.589	- Info  -	[localserver] Not use proxy
+2023-04-27 22:07:29.589	- Info  -	retry login now......
+2023-04-27 22:07:29.589	- Info  -	Current client status: 2
+2023-04-27 22:07:29.589	- Info  -	send status_changed notify 2
+2023-04-27 22:07:29.589	- Info  -	Login task time 0
+2023-04-27 22:07:29.604	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:07:29.604	- Info  -	[http call3] new call id:85, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:07:29.620	- Info  -	[http call3] id:85 create new connection : https://slapi.oray.net:443
+2023-04-27 22:07:29.621	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:07:59.621	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:07:59.621	- Info  -	[http call3] disconnect id:85, error( 0 )
+2023-04-27 22:07:59.621	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:07:59.621	- Info  -	Current client status: 0
+2023-04-27 22:07:59.621	- Info  -	send status_changed notify 0
+2023-04-27 22:07:59.621	- Info  -	[OnLogout start]
+2023-04-27 22:07:59.622	- Info  -	[service] stop all projections
+2023-04-27 22:07:59.622	- Info  -	[OnLogout end]
+2023-04-27 22:07:59.626	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:10:00.668	- Info  -	[localserver] Not use proxy
+2023-04-27 22:10:00.668	- Info  -	retry login now......
+2023-04-27 22:10:00.668	- Info  -	Current client status: 2
+2023-04-27 22:10:00.668	- Info  -	send status_changed notify 2
+2023-04-27 22:10:00.669	- Info  -	Login task time 0
+2023-04-27 22:10:00.684	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:10:00.684	- Info  -	[http call3] new call id:86, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:10:00.700	- Info  -	[http call3] id:86 create new connection : https://slapi.oray.net:443
+2023-04-27 22:10:00.701	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:10:30.691	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:10:30.691	- Info  -	[http call3] disconnect id:86, error( 0 )
+2023-04-27 22:10:30.691	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:10:30.691	- Info  -	Current client status: 0
+2023-04-27 22:10:30.691	- Info  -	send status_changed notify 0
+2023-04-27 22:10:30.691	- Info  -	[OnLogout start]
+2023-04-27 22:10:30.692	- Info  -	[service] stop all projections
+2023-04-27 22:10:30.692	- Info  -	[OnLogout end]
+2023-04-27 22:10:30.703	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:12:31.771	- Info  -	[localserver] Not use proxy
+2023-04-27 22:12:31.771	- Info  -	retry login now......
+2023-04-27 22:12:31.771	- Info  -	Current client status: 2
+2023-04-27 22:12:31.771	- Info  -	send status_changed notify 2
+2023-04-27 22:12:31.772	- Info  -	Login task time 0
+2023-04-27 22:12:31.772	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:12:31.772	- Info  -	[http call3] new call id:87, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:12:31.786	- Info  -	[http call3] id:87 create new connection : https://slapi.oray.net:443
+2023-04-27 22:12:31.787	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:13:01.786	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:13:01.786	- Info  -	[http call3] disconnect id:87, error( 0 )
+2023-04-27 22:13:01.786	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:13:01.786	- Info  -	Current client status: 0
+2023-04-27 22:13:01.786	- Info  -	send status_changed notify 0
+2023-04-27 22:13:01.786	- Info  -	[OnLogout start]
+2023-04-27 22:13:01.787	- Info  -	[service] stop all projections
+2023-04-27 22:13:01.787	- Info  -	[OnLogout end]
+2023-04-27 22:13:01.798	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:15:02.789	- Info  -	[localserver] Not use proxy
+2023-04-27 22:15:02.789	- Info  -	retry login now......
+2023-04-27 22:15:02.789	- Info  -	Current client status: 2
+2023-04-27 22:15:02.789	- Info  -	send status_changed notify 2
+2023-04-27 22:15:02.789	- Info  -	Login task time 0
+2023-04-27 22:15:02.804	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:15:02.804	- Info  -	[http call3] new call id:88, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:15:02.820	- Info  -	[http call3] id:88 create new connection : https://slapi.oray.net:443
+2023-04-27 22:15:02.820	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:15:32.823	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:15:32.823	- Info  -	[http call3] disconnect id:88, error( 0 )
+2023-04-27 22:15:32.823	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:15:32.823	- Info  -	Current client status: 0
+2023-04-27 22:15:32.823	- Info  -	send status_changed notify 0
+2023-04-27 22:15:32.823	- Info  -	[OnLogout start]
+2023-04-27 22:15:32.824	- Info  -	[service] stop all projections
+2023-04-27 22:15:32.824	- Info  -	[OnLogout end]
+2023-04-27 22:15:32.834	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:17:33.891	- Info  -	[localserver] Not use proxy
+2023-04-27 22:17:33.891	- Info  -	retry login now......
+2023-04-27 22:17:33.891	- Info  -	Current client status: 2
+2023-04-27 22:17:33.891	- Info  -	send status_changed notify 2
+2023-04-27 22:17:33.891	- Info  -	Login task time 0
+2023-04-27 22:17:33.907	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:17:33.907	- Info  -	[http call3] new call id:89, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:17:33.923	- Info  -	[http call3] id:89 create new connection : https://slapi.oray.net:443
+2023-04-27 22:17:33.923	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:18:03.917	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:18:03.917	- Info  -	[http call3] disconnect id:89, error( 0 )
+2023-04-27 22:18:03.917	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:18:03.917	- Info  -	Current client status: 0
+2023-04-27 22:18:03.917	- Info  -	send status_changed notify 0
+2023-04-27 22:18:03.917	- Info  -	[OnLogout start]
+2023-04-27 22:18:03.918	- Info  -	[service] stop all projections
+2023-04-27 22:18:03.918	- Info  -	[OnLogout end]
+2023-04-27 22:18:03.927	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:20:04.967	- Info  -	[localserver] Not use proxy
+2023-04-27 22:20:04.967	- Info  -	retry login now......
+2023-04-27 22:20:04.967	- Info  -	Current client status: 2
+2023-04-27 22:20:04.967	- Info  -	send status_changed notify 2
+2023-04-27 22:20:04.968	- Info  -	Login task time 0
+2023-04-27 22:20:04.982	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:20:04.982	- Info  -	[http call3] new call id:90, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:20:04.998	- Info  -	[http call3] id:90 create new connection : https://slapi.oray.net:443
+2023-04-27 22:20:04.999	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:20:34.996	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:20:34.996	- Info  -	[http call3] disconnect id:90, error( 0 )
+2023-04-27 22:20:34.996	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:20:34.996	- Info  -	Current client status: 0
+2023-04-27 22:20:34.996	- Info  -	send status_changed notify 0
+2023-04-27 22:20:34.996	- Info  -	[OnLogout start]
+2023-04-27 22:20:34.997	- Info  -	[service] stop all projections
+2023-04-27 22:20:34.997	- Info  -	[OnLogout end]
+2023-04-27 22:20:35.007	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:22:36.050	- Info  -	[localserver] Not use proxy
+2023-04-27 22:22:36.050	- Info  -	retry login now......
+2023-04-27 22:22:36.050	- Info  -	Current client status: 2
+2023-04-27 22:22:36.050	- Info  -	send status_changed notify 2
+2023-04-27 22:22:36.050	- Info  -	Login task time 0
+2023-04-27 22:22:36.065	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:22:36.065	- Info  -	[http call3] new call id:91, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:22:36.081	- Info  -	[http call3] id:91 create new connection : https://slapi.oray.net:443
+2023-04-27 22:22:36.082	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:23:06.085	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:23:06.085	- Info  -	[http call3] disconnect id:91, error( 0 )
+2023-04-27 22:23:06.085	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:23:06.085	- Info  -	Current client status: 0
+2023-04-27 22:23:06.085	- Info  -	send status_changed notify 0
+2023-04-27 22:23:06.085	- Info  -	[OnLogout start]
+2023-04-27 22:23:06.086	- Info  -	[service] stop all projections
+2023-04-27 22:23:06.086	- Info  -	[OnLogout end]
+2023-04-27 22:23:06.096	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:25:07.109	- Info  -	[localserver] Not use proxy
+2023-04-27 22:25:07.109	- Info  -	retry login now......
+2023-04-27 22:25:07.109	- Info  -	Current client status: 2
+2023-04-27 22:25:07.109	- Info  -	send status_changed notify 2
+2023-04-27 22:25:07.109	- Info  -	Login task time 0
+2023-04-27 22:25:07.124	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:25:07.124	- Info  -	[http call3] new call id:92, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:25:07.140	- Info  -	[http call3] id:92 create new connection : https://slapi.oray.net:443
+2023-04-27 22:25:07.141	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:25:37.136	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:25:37.136	- Info  -	[http call3] disconnect id:92, error( 0 )
+2023-04-27 22:25:37.136	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:25:37.136	- Info  -	Current client status: 0
+2023-04-27 22:25:37.136	- Info  -	send status_changed notify 0
+2023-04-27 22:25:37.136	- Info  -	[OnLogout start]
+2023-04-27 22:25:37.137	- Info  -	[service] stop all projections
+2023-04-27 22:25:37.137	- Info  -	[OnLogout end]
+2023-04-27 22:25:37.147	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:27:38.179	- Info  -	[localserver] Not use proxy
+2023-04-27 22:27:38.179	- Info  -	retry login now......
+2023-04-27 22:27:38.179	- Info  -	Current client status: 2
+2023-04-27 22:27:38.179	- Info  -	send status_changed notify 2
+2023-04-27 22:27:38.179	- Info  -	Login task time 0
+2023-04-27 22:27:38.194	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:27:38.194	- Info  -	[http call3] new call id:93, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:27:38.211	- Info  -	[http call3] id:93 create new connection : https://slapi.oray.net:443
+2023-04-27 22:27:38.212	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:28:08.212	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:28:08.213	- Info  -	[http call3] disconnect id:93, error( 0 )
+2023-04-27 22:28:08.213	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:28:08.213	- Info  -	Current client status: 0
+2023-04-27 22:28:08.213	- Info  -	send status_changed notify 0
+2023-04-27 22:28:08.213	- Info  -	[OnLogout start]
+2023-04-27 22:28:08.213	- Info  -	[service] stop all projections
+2023-04-27 22:28:08.213	- Info  -	[OnLogout end]
+2023-04-27 22:28:08.219	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:30:09.303	- Info  -	[localserver] Not use proxy
+2023-04-27 22:30:09.303	- Info  -	retry login now......
+2023-04-27 22:30:09.303	- Info  -	Current client status: 2
+2023-04-27 22:30:09.303	- Info  -	send status_changed notify 2
+2023-04-27 22:30:09.304	- Info  -	Login task time 0
+2023-04-27 22:30:09.317	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:30:09.317	- Info  -	[http call3] new call id:94, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:30:09.333	- Info  -	[http call3] id:94 create new connection : https://slapi.oray.net:443
+2023-04-27 22:30:09.334	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:30:39.346	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:30:39.346	- Info  -	[http call3] disconnect id:94, error( 0 )
+2023-04-27 22:30:39.346	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:30:39.347	- Info  -	Current client status: 0
+2023-04-27 22:30:39.347	- Info  -	send status_changed notify 0
+2023-04-27 22:30:39.347	- Info  -	[OnLogout start]
+2023-04-27 22:30:39.347	- Info  -	[service] stop all projections
+2023-04-27 22:30:39.347	- Info  -	[OnLogout end]
+2023-04-27 22:30:39.355	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:32:40.400	- Info  -	[localserver] Not use proxy
+2023-04-27 22:32:40.400	- Info  -	retry login now......
+2023-04-27 22:32:40.400	- Info  -	Current client status: 2
+2023-04-27 22:32:40.400	- Info  -	send status_changed notify 2
+2023-04-27 22:32:40.400	- Info  -	Login task time 0
+2023-04-27 22:32:40.415	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:32:40.415	- Info  -	[http call3] new call id:95, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:32:40.431	- Info  -	[http call3] id:95 create new connection : https://slapi.oray.net:443
+2023-04-27 22:32:40.432	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:33:10.436	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:33:10.437	- Info  -	[http call3] disconnect id:95, error( 0 )
+2023-04-27 22:33:10.437	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:33:10.437	- Info  -	Current client status: 0
+2023-04-27 22:33:10.437	- Info  -	send status_changed notify 0
+2023-04-27 22:33:10.437	- Info  -	[OnLogout start]
+2023-04-27 22:33:10.437	- Info  -	[service] stop all projections
+2023-04-27 22:33:10.437	- Info  -	[OnLogout end]
+2023-04-27 22:33:10.441	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:35:11.516	- Info  -	[localserver] Not use proxy
+2023-04-27 22:35:11.516	- Info  -	retry login now......
+2023-04-27 22:35:11.516	- Info  -	Current client status: 2
+2023-04-27 22:35:11.516	- Info  -	send status_changed notify 2
+2023-04-27 22:35:11.516	- Info  -	Login task time 0
+2023-04-27 22:35:11.531	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:35:11.531	- Info  -	[http call3] new call id:96, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:35:11.532	- Info  -	[http call3] id:96 create new connection : https://slapi.oray.net:443
+2023-04-27 22:35:11.533	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:35:41.530	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:35:41.530	- Info  -	[http call3] disconnect id:96, error( 0 )
+2023-04-27 22:35:41.530	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:35:41.530	- Info  -	Current client status: 0
+2023-04-27 22:35:41.530	- Info  -	send status_changed notify 0
+2023-04-27 22:35:41.530	- Info  -	[OnLogout start]
+2023-04-27 22:35:41.530	- Info  -	[service] stop all projections
+2023-04-27 22:35:41.530	- Info  -	[OnLogout end]
+2023-04-27 22:35:41.541	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:37:42.546	- Info  -	[localserver] Not use proxy
+2023-04-27 22:37:42.546	- Info  -	retry login now......
+2023-04-27 22:37:42.546	- Info  -	Current client status: 2
+2023-04-27 22:37:42.546	- Info  -	send status_changed notify 2
+2023-04-27 22:37:42.547	- Info  -	Login task time 0
+2023-04-27 22:37:42.561	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:37:42.561	- Info  -	[http call3] new call id:97, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:37:42.577	- Info  -	[http call3] id:97 create new connection : https://slapi.oray.net:443
+2023-04-27 22:37:42.578	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:38:12.574	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:38:12.575	- Info  -	[http call3] disconnect id:97, error( 0 )
+2023-04-27 22:38:12.575	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:38:12.575	- Info  -	Current client status: 0
+2023-04-27 22:38:12.575	- Info  -	send status_changed notify 0
+2023-04-27 22:38:12.575	- Info  -	[OnLogout start]
+2023-04-27 22:38:12.575	- Info  -	[service] stop all projections
+2023-04-27 22:38:12.575	- Info  -	[OnLogout end]
+2023-04-27 22:38:12.584	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:40:13.584	- Info  -	[localserver] Not use proxy
+2023-04-27 22:40:13.584	- Info  -	retry login now......
+2023-04-27 22:40:13.584	- Info  -	Current client status: 2
+2023-04-27 22:40:13.584	- Info  -	send status_changed notify 2
+2023-04-27 22:40:13.584	- Info  -	Login task time 0
+2023-04-27 22:40:13.600	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:40:13.600	- Info  -	[http call3] new call id:98, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:40:13.615	- Info  -	[http call3] id:98 create new connection : https://slapi.oray.net:443
+2023-04-27 22:40:13.616	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:40:43.626	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:40:43.626	- Info  -	[http call3] disconnect id:98, error( 0 )
+2023-04-27 22:40:43.626	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:40:43.627	- Info  -	Current client status: 0
+2023-04-27 22:40:43.627	- Info  -	send status_changed notify 0
+2023-04-27 22:40:43.627	- Info  -	[OnLogout start]
+2023-04-27 22:40:43.627	- Info  -	[service] stop all projections
+2023-04-27 22:40:43.627	- Info  -	[OnLogout end]
+2023-04-27 22:40:43.634	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:42:46.079	- Info  -	[localserver] Not use proxy
+2023-04-27 22:42:46.079	- Info  -	retry login now......
+2023-04-27 22:42:46.079	- Info  -	Current client status: 2
+2023-04-27 22:42:46.079	- Info  -	send status_changed notify 2
+2023-04-27 22:42:46.079	- Info  -	Login task time 0
+2023-04-27 22:42:46.094	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:42:46.094	- Info  -	[http call3] new call id:99, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:42:46.095	- Info  -	[http call3] id:99 create new connection : https://slapi.oray.net:443
+2023-04-27 22:42:46.096	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:43:16.088	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:43:16.088	- Info  -	[http call3] disconnect id:99, error( 0 )
+2023-04-27 22:43:16.088	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:43:16.088	- Info  -	Current client status: 0
+2023-04-27 22:43:16.088	- Info  -	send status_changed notify 0
+2023-04-27 22:43:16.088	- Info  -	[OnLogout start]
+2023-04-27 22:43:16.089	- Info  -	[service] stop all projections
+2023-04-27 22:43:16.089	- Info  -	[OnLogout end]
+2023-04-27 22:43:16.094	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:45:17.127	- Info  -	[localserver] Not use proxy
+2023-04-27 22:45:17.127	- Info  -	retry login now......
+2023-04-27 22:45:17.127	- Info  -	Current client status: 2
+2023-04-27 22:45:17.127	- Info  -	send status_changed notify 2
+2023-04-27 22:45:17.127	- Info  -	Login task time 0
+2023-04-27 22:45:17.143	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:45:17.143	- Info  -	[http call3] new call id:100, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:45:17.159	- Info  -	[http call3] id:100 create new connection : https://slapi.oray.net:443
+2023-04-27 22:45:17.159	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:45:47.175	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:45:47.175	- Info  -	[http call3] disconnect id:100, error( 0 )
+2023-04-27 22:45:47.175	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:45:47.175	- Info  -	Current client status: 0
+2023-04-27 22:45:47.175	- Info  -	send status_changed notify 0
+2023-04-27 22:45:47.175	- Info  -	[OnLogout start]
+2023-04-27 22:45:47.175	- Info  -	[service] stop all projections
+2023-04-27 22:45:47.175	- Info  -	[OnLogout end]
+2023-04-27 22:45:47.178	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:47:48.210	- Info  -	[localserver] Not use proxy
+2023-04-27 22:47:48.210	- Info  -	retry login now......
+2023-04-27 22:47:48.210	- Info  -	Current client status: 2
+2023-04-27 22:47:48.210	- Info  -	send status_changed notify 2
+2023-04-27 22:47:48.210	- Info  -	Login task time 0
+2023-04-27 22:47:48.225	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:47:48.225	- Info  -	[http call3] new call id:101, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:47:48.226	- Info  -	[http call3] id:101 create new connection : https://slapi.oray.net:443
+2023-04-27 22:47:48.226	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:48:18.222	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:48:18.222	- Info  -	[http call3] disconnect id:101, error( 0 )
+2023-04-27 22:48:18.222	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:48:18.222	- Info  -	Current client status: 0
+2023-04-27 22:48:18.222	- Info  -	send status_changed notify 0
+2023-04-27 22:48:18.222	- Info  -	[OnLogout start]
+2023-04-27 22:48:18.223	- Info  -	[service] stop all projections
+2023-04-27 22:48:18.223	- Info  -	[OnLogout end]
+2023-04-27 22:48:18.233	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:50:19.275	- Info  -	[localserver] Not use proxy
+2023-04-27 22:50:19.275	- Info  -	retry login now......
+2023-04-27 22:50:19.275	- Info  -	Current client status: 2
+2023-04-27 22:50:19.275	- Info  -	send status_changed notify 2
+2023-04-27 22:50:19.275	- Info  -	Login task time 0
+2023-04-27 22:50:19.291	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:50:19.291	- Info  -	[http call3] new call id:102, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:50:19.306	- Info  -	[http call3] id:102 create new connection : https://slapi.oray.net:443
+2023-04-27 22:50:19.307	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:50:49.306	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:50:49.306	- Info  -	[http call3] disconnect id:102, error( 0 )
+2023-04-27 22:50:49.306	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:50:49.306	- Info  -	Current client status: 0
+2023-04-27 22:50:49.306	- Info  -	send status_changed notify 0
+2023-04-27 22:50:49.306	- Info  -	[OnLogout start]
+2023-04-27 22:50:49.307	- Info  -	[service] stop all projections
+2023-04-27 22:50:49.307	- Info  -	[OnLogout end]
+2023-04-27 22:50:49.314	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:52:50.346	- Info  -	[localserver] Not use proxy
+2023-04-27 22:52:50.346	- Info  -	retry login now......
+2023-04-27 22:52:50.346	- Info  -	Current client status: 2
+2023-04-27 22:52:50.346	- Info  -	send status_changed notify 2
+2023-04-27 22:52:50.347	- Info  -	Login task time 0
+2023-04-27 22:52:50.361	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:52:50.361	- Info  -	[http call3] new call id:103, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:52:50.377	- Info  -	[http call3] id:103 create new connection : https://slapi.oray.net:443
+2023-04-27 22:52:50.378	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:53:20.379	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:53:20.379	- Info  -	[http call3] disconnect id:103, error( 0 )
+2023-04-27 22:53:20.379	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:53:20.379	- Info  -	Current client status: 0
+2023-04-27 22:53:20.379	- Info  -	send status_changed notify 0
+2023-04-27 22:53:20.379	- Info  -	[OnLogout start]
+2023-04-27 22:53:20.380	- Info  -	[service] stop all projections
+2023-04-27 22:53:20.380	- Info  -	[OnLogout end]
+2023-04-27 22:53:20.389	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:55:21.474	- Info  -	[localserver] Not use proxy
+2023-04-27 22:55:21.474	- Info  -	retry login now......
+2023-04-27 22:55:21.474	- Info  -	Current client status: 2
+2023-04-27 22:55:21.474	- Info  -	send status_changed notify 2
+2023-04-27 22:55:21.474	- Info  -	Login task time 0
+2023-04-27 22:55:21.474	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:55:21.474	- Info  -	[http call3] new call id:104, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:55:21.489	- Info  -	[http call3] id:104 create new connection : https://slapi.oray.net:443
+2023-04-27 22:55:21.490	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:55:51.488	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:55:51.488	- Info  -	[http call3] disconnect id:104, error( 0 )
+2023-04-27 22:55:51.488	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:55:51.488	- Info  -	Current client status: 0
+2023-04-27 22:55:51.488	- Info  -	send status_changed notify 0
+2023-04-27 22:55:51.488	- Info  -	[OnLogout start]
+2023-04-27 22:55:51.489	- Info  -	[service] stop all projections
+2023-04-27 22:55:51.489	- Info  -	[OnLogout end]
+2023-04-27 22:55:51.492	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 22:57:52.560	- Info  -	[localserver] Not use proxy
+2023-04-27 22:57:52.560	- Info  -	retry login now......
+2023-04-27 22:57:52.560	- Info  -	Current client status: 2
+2023-04-27 22:57:52.560	- Info  -	send status_changed notify 2
+2023-04-27 22:57:52.560	- Info  -	Login task time 0
+2023-04-27 22:57:52.575	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 22:57:52.575	- Info  -	[http call3] new call id:105, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 22:57:52.591	- Info  -	[http call3] id:105 create new connection : https://slapi.oray.net:443
+2023-04-27 22:57:52.592	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 22:58:22.581	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 22:58:22.581	- Info  -	[http call3] disconnect id:105, error( 0 )
+2023-04-27 22:58:22.581	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 22:58:22.581	- Info  -	Current client status: 0
+2023-04-27 22:58:22.581	- Info  -	send status_changed notify 0
+2023-04-27 22:58:22.581	- Info  -	[OnLogout start]
+2023-04-27 22:58:22.582	- Info  -	[service] stop all projections
+2023-04-27 22:58:22.582	- Info  -	[OnLogout end]
+2023-04-27 22:58:22.590	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 23:00:23.628	- Info  -	[localserver] Not use proxy
+2023-04-27 23:00:23.628	- Info  -	retry login now......
+2023-04-27 23:00:23.628	- Info  -	Current client status: 2
+2023-04-27 23:00:23.628	- Info  -	send status_changed notify 2
+2023-04-27 23:00:23.628	- Info  -	Login task time 0
+2023-04-27 23:00:23.643	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 23:00:23.643	- Info  -	[http call3] new call id:106, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 23:00:23.659	- Info  -	[http call3] id:106 create new connection : https://slapi.oray.net:443
+2023-04-27 23:00:23.660	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 23:00:53.672	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 23:00:53.672	- Info  -	[http call3] disconnect id:106, error( 0 )
+2023-04-27 23:00:53.672	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 23:00:53.672	- Info  -	Current client status: 0
+2023-04-27 23:00:53.672	- Info  -	send status_changed notify 0
+2023-04-27 23:00:53.672	- Info  -	[OnLogout start]
+2023-04-27 23:00:53.672	- Info  -	[service] stop all projections
+2023-04-27 23:00:53.673	- Info  -	[OnLogout end]
+2023-04-27 23:00:53.683	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 23:01:27.985	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 23:01:27.985	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-27 23:02:54.759	- Info  -	[localserver] Not use proxy
+2023-04-27 23:02:54.759	- Info  -	retry login now......
+2023-04-27 23:02:54.760	- Info  -	Current client status: 2
+2023-04-27 23:02:54.760	- Info  -	send status_changed notify 2
+2023-04-27 23:02:54.760	- Info  -	Login task time 0
+2023-04-27 23:02:54.775	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 23:02:54.775	- Info  -	[http call3] new call id:107, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 23:02:54.791	- Info  -	[http call3] id:107 create new connection : https://slapi.oray.net:443
+2023-04-27 23:02:54.791	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 23:03:24.790	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 23:03:24.790	- Info  -	[http call3] disconnect id:107, error( 0 )
+2023-04-27 23:03:24.790	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 23:03:24.790	- Info  -	Current client status: 0
+2023-04-27 23:03:24.790	- Info  -	send status_changed notify 0
+2023-04-27 23:03:24.791	- Info  -	[OnLogout start]
+2023-04-27 23:03:24.792	- Info  -	[service] stop all projections
+2023-04-27 23:03:24.792	- Info  -	[OnLogout end]
+2023-04-27 23:03:24.799	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 23:05:25.887	- Info  -	[localserver] Not use proxy
+2023-04-27 23:05:25.887	- Info  -	retry login now......
+2023-04-27 23:05:25.887	- Info  -	Current client status: 2
+2023-04-27 23:05:25.887	- Info  -	send status_changed notify 2
+2023-04-27 23:05:25.888	- Info  -	Login task time 0
+2023-04-27 23:05:25.903	- Info  -	Do login( type: 2 ) at 379
+2023-04-27 23:05:25.903	- Info  -	[http call3] new call id:108, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-27 23:05:25.919	- Info  -	[http call3] id:108 create new connection : https://slapi.oray.net:443
+2023-04-27 23:05:25.920	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-27 23:05:55.923	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-27 23:05:55.923	- Info  -	[http call3] disconnect id:108, error( 0 )
+2023-04-27 23:05:55.923	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-27 23:05:55.924	- Info  -	Current client status: 0
+2023-04-27 23:05:55.924	- Info  -	send status_changed notify 0
+2023-04-27 23:05:55.924	- Info  -	[OnLogout start]
+2023-04-27 23:05:55.924	- Info  -	[service] stop all projections
+2023-04-27 23:05:55.924	- Info  -	[OnLogout end]
+2023-04-27 23:05:55.934	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-27 23:07:13.612	- Info  -	[ServiceEx] the service control is 13
+2023-04-27 23:07:13.612	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2023-04-27 23:07:13.612	+Warning+	[service] power event, system is suspending.
+2023-04-27 23:07:13.613	- Info  -	Logout ...
+2023-04-28 09:24:15.995	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 09:24:15.995	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-04-28 09:24:15.995	+Warning+	[service] power event, system is resumed.
+2023-04-28 09:24:19.326	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 09:24:19.326	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-04-28 09:24:19.326	+Warning+	[service] power event, system is resumed.
+2023-04-28 09:24:22.173	- Info  -	retry login now......
+2023-04-28 09:24:22.173	- Info  -	Current client status: 2
+2023-04-28 09:24:22.173	- Info  -	send status_changed notify 2
+2023-04-28 09:24:22.173	- Info  -	Login task time 0
+2023-04-28 09:24:22.174	- Info  -	[service] retry login by power event
+2023-04-28 09:24:22.190	- Info  -	Do login( type: 2 ) at 379
+2023-04-28 09:24:22.190	- Info  -	[http call3] new call id:109, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-28 09:24:22.190	- Info  -	[http call3] id:109 create new connection : https://slapi.oray.net:443
+2023-04-28 09:24:22.191	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-28 09:24:27.459	- Info  -	[service] retry login by power event
+2023-04-28 09:24:52.196	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-28 09:24:52.196	- Info  -	[http call3] disconnect id:109, error( 0 )
+2023-04-28 09:24:52.196	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-28 09:24:52.196	- Info  -	Current client status: 0
+2023-04-28 09:24:52.196	- Info  -	send status_changed notify 0
+2023-04-28 09:24:52.196	- Info  -	[OnLogout start]
+2023-04-28 09:24:52.197	- Info  -	[service] stop all projections
+2023-04-28 09:24:52.197	- Info  -	[OnLogout end]
+2023-04-28 09:24:52.205	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-28 09:26:53.350	- Info  -	[localserver] Not use proxy
+2023-04-28 09:26:53.350	- Info  -	retry login now......
+2023-04-28 09:26:53.350	- Info  -	Current client status: 2
+2023-04-28 09:26:53.350	- Info  -	send status_changed notify 2
+2023-04-28 09:26:53.351	- Info  -	Login task time 0
+2023-04-28 09:26:53.365	- Info  -	Do login( type: 2 ) at 379
+2023-04-28 09:26:53.366	- Info  -	[http call3] new call id:110, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-28 09:26:53.366	- Info  -	[http call3] id:110 create new connection : https://slapi.oray.net:443
+2023-04-28 09:26:53.367	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-28 09:27:23.372	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-28 09:27:23.372	- Info  -	[http call3] disconnect id:110, error( 0 )
+2023-04-28 09:27:23.372	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-28 09:27:23.372	- Info  -	Current client status: 0
+2023-04-28 09:27:23.372	- Info  -	send status_changed notify 0
+2023-04-28 09:27:23.372	- Info  -	[OnLogout start]
+2023-04-28 09:27:23.373	- Info  -	[service] stop all projections
+2023-04-28 09:27:23.373	- Info  -	[OnLogout end]
+2023-04-28 09:27:23.381	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-28 09:29:24.420	- Info  -	[localserver] Not use proxy
+2023-04-28 09:29:24.420	- Info  -	retry login now......
+2023-04-28 09:29:24.420	- Info  -	Current client status: 2
+2023-04-28 09:29:24.420	- Info  -	send status_changed notify 2
+2023-04-28 09:29:24.420	- Info  -	Login task time 0
+2023-04-28 09:29:24.433	- Info  -	Do login( type: 2 ) at 379
+2023-04-28 09:29:24.434	- Info  -	[http call3] new call id:111, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-28 09:29:24.449	- Info  -	[http call3] id:111 create new connection : https://slapi.oray.net:443
+2023-04-28 09:29:24.450	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_DOMAIN_RESOLVED_FAILED(57394), product=0, type=3, inner code=50 [CSockConnector::ConnectSock:229]
+2023-04-28 09:29:54.449	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-28 09:29:54.449	- Info  -	[http call3] disconnect id:111, error( 0 )
+2023-04-28 09:29:54.449	* Error *	GetFastcode failed! error:-1, msg:net error
+2023-04-28 09:29:54.449	- Info  -	Current client status: 0
+2023-04-28 09:29:54.450	- Info  -	send status_changed notify 0
+2023-04-28 09:29:54.450	- Info  -	[OnLogout start]
+2023-04-28 09:29:54.451	- Info  -	[service] stop all projections
+2023-04-28 09:29:54.451	- Info  -	[OnLogout end]
+2023-04-28 09:29:54.462	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-28 09:31:54.469	- Info  -	[localserver] Not use proxy
+2023-04-28 09:31:54.469	- Info  -	retry login now......
+2023-04-28 09:31:54.469	- Info  -	Current client status: 2
+2023-04-28 09:31:54.469	- Info  -	send status_changed notify 2
+2023-04-28 09:31:54.470	- Info  -	Login task time 0
+2023-04-28 09:31:54.483	- Info  -	Do login( type: 2 ) at 379
+2023-04-28 09:31:54.483	- Info  -	[http call3] new call id:112, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-28 09:31:54.483	- Info  -	[http call3] id:112 create new connection : https://slapi.oray.net:443
+2023-04-28 09:31:54.503	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-28 09:31:54.710	- Info  -	[http call3] id:112, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-28 09:31:54.748	- Info  -	attempt to connect server rc10-fc11.oray.com:443(120.55.59.130:443)
+2023-04-28 09:31:54.840	- Info  -	[service] attempted logon
+2023-04-28 09:31:54.876	- Info  -	[service] logon server OK. public ip:106.4.220.117
+2023-04-28 09:31:54.896	- Info  -	[online] attempted client online
+2023-04-28 09:31:54.918	- Info  -	[online] client online OK.
+2023-04-28 09:31:54.918	- Info  -	[online] received name:default , description:default .
+2023-04-28 09:31:54.928	- Info  -	[service] attempted register client to server
+2023-04-28 09:31:54.946	- Info  -	[service] registered client to server
+2023-04-28 09:31:54.946	- Info  -	[http call3] new call id:113, url:https://sl-log.oray.net/slclientlog
+2023-04-28 09:31:54.946	- Info  -	Current client status: 1
+2023-04-28 09:31:54.946	- Info  -	send status_changed notify 1
+2023-04-28 09:31:54.959	- Info  -	[http call3] id:113 create new connection : https://sl-log.oray.net:443
+2023-04-28 09:31:54.963	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-28 09:31:54.979	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.183.66:443)
+2023-04-28 09:31:54.983	- Info  -	[OnLogin start]
+2023-04-28 09:31:54.984	- Info  -	[OnLogin end]
+2023-04-28 09:31:55.006	- Info  -	[OnLogin] WaittingTask Start
+2023-04-28 09:31:55.033	- Info  -	Set auto_run : true
+2023-04-28 09:31:55.068	- Info  -	[http call3] id:113, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-28 09:31:55.873	- Info  -	[OnLogin] WaittingTask end
+2023-04-28 09:32:09.748	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-28 09:32:09.748	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-28 09:32:25.063	* Error *	SSLStream::IsWantReadWrite|peer(47.97.183.66:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-28 09:32:25.063	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-28 10:48:33.341	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 10:48:33.341	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:4
+2023-04-28 10:48:33.341	+Warning+	[service] power event, system is suspending.
+2023-04-28 10:48:33.342	- Info  -	Logout ...
+2023-04-28 10:48:33.342	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2023-04-28 10:48:33.342	- Info  -	[RemoteControl] disconnected server(120.55.59.130:443),error code:0
+2023-04-28 10:48:33.343	* Error *	[online] online disconnected,error code:0
+2023-04-28 10:48:33.343	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-28 10:48:33.343	- Info  -	[service] disconnected server(120.55.59.130:443),errorcode:0
+2023-04-28 10:48:33.343	- Info  -	curStatus: 0, m_Status: 1
+2023-04-28 10:48:33.343	- Info  -	[http call3] new call id:114, url:https://sl-log.oray.net/slclientlog
+2023-04-28 10:48:33.343	- Info  -	Current client status: 0
+2023-04-28 10:48:33.343	- Info  -	send status_changed notify 0
+2023-04-28 10:48:33.344	- Info  -	[OnLogout start]
+2023-04-28 10:48:33.344	- Info  -	[service] stop all projections
+2023-04-28 10:48:33.344	- Info  -	[OnLogout end]
+2023-04-28 10:48:33.347	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-04-28 10:48:33.351	- Info  -	[http call3] id:114 create new connection : https://sl-log.oray.net:443
+2023-04-28 10:48:33.368	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.106.171:443)
+2023-04-28 10:48:33.439	- Info  -	[http call3] id:114, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-28 13:54:34.141	+Warning+	[passive:keepalive:] 47.97.106.171:443 disconnect by keepalive timeout(1006473156>=995312453+30000)
+2023-04-28 13:54:34.141	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-28 13:54:34.141	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-28 13:54:39.385	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 13:54:39.385	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:18
+2023-04-28 13:54:39.385	+Warning+	[service] power event, system is resumed.
+2023-04-28 13:54:42.463	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 13:54:42.463	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:7
+2023-04-28 13:54:42.463	+Warning+	[service] power event, system is resumed.
+2023-04-28 13:54:44.445	- Info  -	retry login now......
+2023-04-28 13:54:44.445	- Info  -	Current client status: 2
+2023-04-28 13:54:44.445	- Info  -	send status_changed notify 2
+2023-04-28 13:54:44.445	- Info  -	Login task time 0
+2023-04-28 13:54:44.445	- Info  -	[service] retry login by power event
+2023-04-28 13:54:44.484	- Info  -	Do login( type: 2 ) at 379
+2023-04-28 13:54:44.484	- Info  -	[http call3] new call id:115, url:https://slapi.oray.net/remote/get-fastcode
+2023-04-28 13:54:44.534	- Info  -	[http call3] id:115 create new connection : https://slapi.oray.net:443
+2023-04-28 13:54:44.835	- Info  -	[service] retry login by power event
+2023-04-28 13:54:45.161	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 13:54:45.161	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-28 13:54:46.083	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-04-28 13:54:46.324	- Info  -	[http call3] id:115, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-04-28 13:54:47.382	- Info  -	attempt to connect server rc10-fc06.oray.com:443(120.26.127.51:443)
+2023-04-28 13:54:47.480	- Info  -	[service] attempted logon
+2023-04-28 13:54:47.535	- Info  -	[service] logon server OK. public ip:223.82.110.30
+2023-04-28 13:54:47.558	- Info  -	[online] attempted client online
+2023-04-28 13:54:47.583	- Info  -	[online] client online OK.
+2023-04-28 13:54:47.584	- Info  -	[online] received name:default , description:default .
+2023-04-28 13:54:47.587	- Info  -	[service] attempted register client to server
+2023-04-28 13:54:47.610	- Info  -	[service] registered client to server
+2023-04-28 13:54:47.610	- Info  -	[http call3] new call id:116, url:https://sl-log.oray.net/slclientlog
+2023-04-28 13:54:47.610	- Info  -	Current client status: 1
+2023-04-28 13:54:47.610	- Info  -	send status_changed notify 1
+2023-04-28 13:54:47.618	- Info  -	[discover] Client NotifyDiscover type=5
+2023-04-28 13:54:47.619	- Info  -	[http call3] id:116 create new connection : https://sl-log.oray.net:443
+2023-04-28 13:54:47.640	- Info  -	[OnLogin start]
+2023-04-28 13:54:47.644	- Info  -	[OnLogin end]
+2023-04-28 13:54:47.655	- Info  -	[OnLogin] WaittingTask Start
+2023-04-28 13:54:47.658	- Info  -	Set auto_run : true
+2023-04-28 13:54:48.642	- Info  -	attempt to connect server sl-log.oray.net:443(120.26.160.74:443)
+2023-04-28 13:54:48.761	- Info  -	[http call3] id:116, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-28 13:54:49.100	- Info  -	[OnLogin] WaittingTask end
+2023-04-28 13:55:01.317	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-28 13:55:01.317	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-28 13:55:18.770	* Error *	SSLStream::IsWantReadWrite|peer(120.26.160.74:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-28 13:55:18.770	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-28 14:53:57.603	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 14:53:57.604	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-28 15:19:49.470	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 15:19:49.470	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-28 17:01:51.317	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 17:01:51.319	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-28 17:01:54.960	- Info  -	[ServiceEx] the service control is 13
+2023-04-28 17:01:54.970	- Info  -	SERVICE_CONTROL_POWEREVENT************dwEventType:10
+2023-04-28 17:02:01.980	- Info  -	[ServiceEx] the service control is 5
+2023-04-28 17:02:01.980	- Info  -	SERVICE_CONTROL_SHUTDOWN************
+2023-04-28 17:02:01.993	- Info  -	[discover] Client NotifyDiscover type=6
+2023-04-28 17:02:02.004	- Info  -	Logout ...
+2023-04-28 17:02:02.004	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2023-04-28 17:02:02.004	- Info  -	[RemoteControl] disconnected server(120.26.127.51:443),error code:0
+2023-04-28 17:02:02.005	* Error *	[online] online disconnected,error code:0
+2023-04-28 17:02:02.005	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-04-28 17:02:02.005	- Info  -	[service] disconnected server(120.26.127.51:443),errorcode:0
+2023-04-28 17:02:02.005	- Info  -	curStatus: 0, m_Status: 1
+2023-04-28 17:02:02.005	- Info  -	[http call3] new call id:117, url:https://sl-log.oray.net/slclientlog
+2023-04-28 17:02:02.005	- Info  -	Current client status: 0
+2023-04-28 17:02:02.061	- Info  -	[http call3] id:117 create new connection : https://sl-log.oray.net:443
+2023-04-28 17:02:02.196	- Info  -	[CUDPLibWrapper] map size: 0, value: 
+2023-04-28 17:02:02.200	- Info  -	[service] stop listen OK
+2023-04-28 17:02:02.207	- Info  -	[service] stop all projections
+2023-04-28 17:02:02.207	- Info  -	[discover] Client NotifyDiscover type=6
+2023-04-28 17:02:02.216	- Info  -	attempt to connect server sl-log.oray.net:443(120.26.160.74:443)
+2023-04-28 17:02:02.468	- Info  -	[http call3] id:117, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-04-28 17:02:04.017	- Info  -	[http call3] disconnect, error( 10054 )
+2023-04-28 17:02:05.267	* Error *	[hidden_wnd] Message Thread Exit wrong: 258
+2023-04-28 17:02:05.291	- Info  -	[CUDPLibWrapper] map size: 0, value: 
+2023-04-28 17:02:05.294	- Info  -	Terminate OK
+2023-04-28 17:02:05.302	- Info  -	Terminate OK
+2023-04-28 17:02:05.316	- Info  -	[service] stop all projections
+2023-04-28 17:02:05.353	- Info  -	program service is exit 

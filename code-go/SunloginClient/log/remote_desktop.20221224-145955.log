@@ -1,0 +1,1148 @@
+2022-12-24 14:59:55.470	- Info  -	version:3.2.1.40406
+2022-12-24 14:59:55.479	- Info  -	DPIAwareness set 2 success.
+2022-12-24 14:59:55.488	- Info  -	config path: €3×Tv
+2022-12-24 14:59:55.592	- Info  -	[displayclt] CDisplayClient::CDisplayClient(all)
+2022-12-24 14:59:55.592	- Info  -	[desktop] CRemoteDesktopPlugin::CRemoteDesktopPlugin(all)
+2022-12-24 14:59:55.628	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2022-12-24 14:59:55.651	- Info  -	CMultiChannelStreamImpl::CMultiChannelStreamImpl
+2022-12-24 14:59:55.653	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_FORWARD, error: 0
+2022-12-24 14:59:55.653	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FORWARD, error: 0, oray errorcode: 0
+2022-12-24 14:59:55.654	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:55.695	* Error *	sensors data send failed!
+2022-12-24 14:59:55.980	- Info  -	attempt to connect server 476411340.slp2p-east-std236.oray.net:443(122.246.13.45:443)
+2022-12-24 14:59:56.021	- Info  -	plugin_public access_token is NULL
+2022-12-24 14:59:56.089	- Info  -	[TCPConnector] CCurStream handle client_connect
+2022-12-24 14:59:56.123	- Info  -	[MultiChannel] Forward channel shake handle 122.246.13.45:443
+2022-12-24 14:59:56.123	- Info  -	CMultiChannelStreamImpl::OnConnect()
+2022-12-24 14:59:56.123	- Info  -	CClientStream 122.246.13.45:443 OnConnect
+2022-12-24 14:59:56.123	- Info  -	CConnectorRaw::OnEvent() state: CNTS_LOGIN, error: 0, oray errorcode: 0
+2022-12-24 14:59:56.123	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:56.123	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_SHAKEHANDLE, error: 0, oray errorcode: 0
+2022-12-24 14:59:56.123	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:56.279	- Info  -	[MultiChannel] Forward channel connected 122.246.13.45:443
+2022-12-24 14:59:56.279	- Info  -	CMultiChannelStreamImpl::OnConnectEvent, status: CNTS_FWD_CONNECTED, isclosed:false, HadFwdConnected: true, HadBeenHolePunch: false
+2022-12-24 14:59:56.280	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_CONNECTED, error: 0, oray errorcode: 0
+2022-12-24 14:59:56.280	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:56.280	* Error *	CClientStream receive invalid Logon_OK_Message
+2022-12-24 14:59:56.280	- Info  -	CClientStream 122.246.13.45:443 OnReceive reply 1 
+2022-12-24 14:59:56.280	- Info  -	CClientStream 122.246.13.45:443 start keepalive
+2022-12-24 14:59:56.280	- Info  -	CClientStream 122.246.13.45:443 login OK
+2022-12-24 14:59:56.280	- Info  -	CConnectorRaw::OnEvent() state: CNTS_CONNECTED, error: 0, oray errorcode: 0
+2022-12-24 14:59:56.280	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:56.280	- Info  -	CPluginThreadManager start plugin thread
+2022-12-24 14:59:56.290	- Info  -	CActivePlugin prepare to init plugin
+2022-12-24 14:59:56.293	- Info  -	[desktop] create drag server OK
+2022-12-24 14:59:56.293	- Info  -	CActivePlugin prepare to run plugin
+2022-12-24 14:59:56.300	- Info  -	[desktop] sending switch desktop type message...
+2022-12-24 14:59:56.301	- Info  -	[desktop] request enumerate user list.
+2022-12-24 14:59:56.301	- Info  -	[desktop] Separation message loop start.
+2022-12-24 14:59:56.375	- Info  -	[desktop] receive switch host message res = 1 
+2022-12-24 14:59:56.375	- Info  -	[desktop] request enum screen
+2022-12-24 14:59:56.375	- Info  -	[DisplayClient] SetCompression 11/15
+2022-12-24 14:59:56.375	- Info  -	[desktop] request start stream
+2022-12-24 14:59:56.375	- Info  -	[desktop] SetCompressionParam: layer=1;encoding=4;format=1;reserved=0, size: 38
+2022-12-24 14:59:56.417	- Info  -	[desktop] OnQueryConfigRes
+2022-12-24 14:59:56.419	- Info  -	[desktop] OnQueryConfigRes
+2022-12-24 14:59:56.419	- Info  -	[desktop] recv enum screen, number is 1
+2022-12-24 14:59:56.420	- Info  -	[clipboard] start clipboard...
+2022-12-24 14:59:56.458	- Info  -	[clipboard][converter] html format 49452
+2022-12-24 14:59:56.458	- Info  -	[clipboard][converter] rtf format 49289
+2022-12-24 14:59:56.459	- Info  -	[clipboard] start clipboard ok.
+2022-12-24 14:59:56.459	- Info  -	[desktop] sync clipboard enable
+2022-12-24 14:59:56.723	- Info  -	SetDisplayMode() w=1366, h=768, bpp=32
+2022-12-24 14:59:56.723	- Info  -	ResetBitmap width=1366, height=768, bpp=32, srcbpp=32, Size = 4196352
+2022-12-24 14:59:56.723	- Info  -	[DisplayClient] recv image info, width: 1366, height: 768, bpp: 32
+2022-12-24 14:59:56.724	- Info  -	[DisplayClient] OnRecvCompInfo format/quality 11/15
+2022-12-24 14:59:56.724	- Info  -	[desktop][DisplayClient] recv first frame.
+2022-12-24 14:59:56.735	- Info  -	[DisplayClient] recv compimage type: ID_IMAGE_RAPIDCOMP
+2022-12-24 14:59:56.830	- Info  -	[vpx] open codec.
+2022-12-24 14:59:56.914	- Info  -	[desktop][DisplayClient] decode first frame end.
+2022-12-24 14:59:56.916	- Info  -	[desktop] receive first frame message
+2022-12-24 14:59:56.946	- Info  -	CClipboardRaw::OnReceiveQueryVersionReq 2
+2022-12-24 14:59:57.638	* Error *	sensors data send failed!
+2022-12-24 14:59:58.266	- Info  -	CMultiChannelStreamImpl::ConnectP2PServer, thread id: 6756
+2022-12-24 14:59:58.323	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_P2P, error: 0
+2022-12-24 14:59:58.323	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P, error: 0, oray errorcode: 0
+2022-12-24 14:59:58.323	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:58.323	- Info  -	[P2PConnector] attempt to connect server PHSRC://476411340.slp2p-east-std236.oray.net:4118/desktop(slp2p-east-std236.oray.net:4118) 
+2022-12-24 14:59:58.399	- Info  -	[udp] support straight send in peer : no 122.246.13.45:4118 CConnection::OnConnectRes
+2022-12-24 14:59:58.401	- Info  -	[P2PHelper] detect local ip ...
+2022-12-24 14:59:58.402	- Info  -	[P2PHelper] detect local ip 192.168.0.193
+2022-12-24 14:59:58.402	- Info  -	[P2PHelper] attempt to login P2P Server...
+2022-12-24 14:59:58.428	- Info  -	[P2PHelper] Login P2P Server OK
+2022-12-24 14:59:58.428	- Info  -	[P2PHelper] OnLoginRes, receive public ip 183.217.165.82:22429
+2022-12-24 14:59:58.428	- Info  -	[P2PHelper] sending P2P request ...
+2022-12-24 14:59:58.479	- Info  -	[P2PHelper] receive peer local ip 10.21.141.2:15679, public ip 106.5.128.34:20530
+2022-12-24 14:59:58.479	- Info  -	[P2PStream] EstablishP2P local ip 183.217.165.82:22429/192.168.0.193:15852 ==> peer ip 106.5.128.34:20530/10.21.141.2:15679
+2022-12-24 14:59:59.332	- Info  -	Init D3D2 OK
+2022-12-24 14:59:59.333	- Info  -	[DesktopSurface] Use DirectX Paint mode 2
+2022-12-24 14:59:59.353	- Info  -	[drag] QueryVersionRes is true
+2022-12-24 14:59:59.353	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2022-12-24 14:59:59.374	- Info  -	Init D3D2 OK
+2022-12-24 14:59:59.391	- Info  -	[maindialog] draw first frame end
+2022-12-24 14:59:59.472	- Info  -	[desktop] sync clipboard enable
+2022-12-24 14:59:59.472	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/client/free-tips
+2022-12-24 14:59:59.473	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2022-12-24 14:59:59.473	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/remote/get-network
+2022-12-24 14:59:59.474	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2022-12-24 14:59:59.475	- Info  -	[http call3] id:2 use old connection : https://slapi.oray.net:443
+2022-12-24 14:59:59.552	- Info  -	Init D3D2 OK
+2022-12-24 14:59:59.608	- Info  -	upnpnat_search_thread::ThreadLoop end
+2022-12-24 14:59:59.612	- Info  -	[udpwrapper] attempt to establish P2P connection via: 122.246.13.45:4118, (local)192.168.0.193:15852|(public)183.217.165.82:22429 ==> (local)10.21.141.2:15679|(public)106.5.128.34:20530
+2022-12-24 14:59:59.702	- Info  -	[udp] OnConnectAck working in advanced mode 2
+2022-12-24 14:59:59.703	- Info  -	[udp] support straight send in peer : yes 106.5.128.34:20530 CConnection::OnConnectRes
+2022-12-24 14:59:59.703	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2022-12-24 14:59:59.703	- Info  -	[udp] Disconnect
+2022-12-24 14:59:59.703	- Info  -	[udp] SendDisconnect
+2022-12-24 14:59:59.704	- Info  -	[P2PHelper] MainServer disconnect
+2022-12-24 14:59:59.704	- Info  -	[MultiChannel] P2P channel shake handle 106.5.128.34:20530
+2022-12-24 14:59:59.704	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_SHAKEHANDLE, error: 0, oray errorcode: 0
+2022-12-24 14:59:59.704	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:59.704	- Info  -	[MultiChannel] send SHAKE_HANDLES_MSG, read 96268, write 2468
+2022-12-24 14:59:59.704	- Info  -	[P2PStream] connected (by udp) 0.0.0.0:15852 <--> 106.5.128.34:20530
+2022-12-24 14:59:59.716	- Info  -	[MultiChannel] Received SHAKE_HANDLES_MSG, read 2488 / (local write 2468), write 96248 / (local read 96268)
+2022-12-24 14:59:59.716	- Info  -	[MultiChannel] P2P channel connected 106.5.128.34:20530
+2022-12-24 14:59:59.717	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_CONNECTED, error: 0, oray errorcode: 0
+2022-12-24 14:59:59.717	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 14:59:59.732	- Info  -	[udpwrapper] disconnect reason : 1
+2022-12-24 14:59:59.732	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibWrapper::OnDisconnect:833]
+2022-12-24 14:59:59.732	- Info  -	[udpwrapper] Disconnect 122.246.13.45:4118 @ 838
+2022-12-24 14:59:59.732	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibStream::Disconnect_impl:73]
+2022-12-24 15:00:00.001	- Info  -	[http call3] id:1, url:https://slapi.oray.net/client/free-tips, status code:200
+2022-12-24 15:00:00.042	- Info  -	[MultiChannel] forward data read completed @ 462
+2022-12-24 15:00:00.060	- Info  -	[MultiChannel] write data when p2p state is CONNECTED, is full 0, writed data 2468 / peer read 2488, left 20, size 52 @ 153
+2022-12-24 15:00:00.061	* Error *	[vpx] Failed to decode frame.: Corrupt frame detected
+2022-12-24 15:00:00.061	* Error *	[vpx]    Failed to decode tile data
+2022-12-24 15:00:00.061	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:00:00.062	+Warning+	[DisplayClient][report] transfer faild, count: 1.
+2022-12-24 15:00:00.062	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:00:00.062	- Info  -	[MultiChannel] forward data write completed @ 216
+2022-12-24 15:00:00.068	- Info  -	[http call3] id:2, url:https://slapi.oray.net/remote/get-network, status code:200
+2022-12-24 15:00:00.796	- Info  -	[vpx] open codec.
+2022-12-24 15:00:00.796	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:00:00.796	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:00:00.796	+Warning+	[DisplayClient][report] transfer faild, count: 2.
+2022-12-24 15:00:00.796	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:00:00.840	- Info  -	[vpx] open codec.
+2022-12-24 15:00:00.840	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:00:00.840	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:00:00.840	+Warning+	[DisplayClient][report] transfer faild, count: 3.
+2022-12-24 15:00:00.840	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:00:02.894	* Error *	sensors data send failed!
+2022-12-24 15:00:03.031	- Info  -	Init D3D2 OK
+2022-12-24 15:00:07.203	* Error *	sensors data send failed!
+2022-12-24 15:00:10.245	- Info  -	Init D3D2 OK
+2022-12-24 15:00:10.449	- Info  -	Init D3D2 OK
+2022-12-24 15:00:10.473	- Info  -	Init D3D2 OK
+2022-12-24 15:00:10.498	- Info  -	Init D3D2 OK
+2022-12-24 15:00:10.985	- Info  -	Init D3D2 OK
+2022-12-24 15:00:15.070	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2022-12-24 15:00:15.070	- Info  -	[http call3] disconnect, error( 0 )
+2022-12-24 15:00:16.036	- Info  -	[vpx] open codec.
+2022-12-24 15:00:16.036	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:00:16.036	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:00:16.036	+Warning+	[DisplayClient][report] transfer faild, count: 4.
+2022-12-24 15:00:16.036	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:00:17.537	- Info  -	[vpx] open codec.
+2022-12-24 15:00:17.537	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:00:17.537	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:00:17.537	+Warning+	[DisplayClient][report] transfer faild, count: 5.
+2022-12-24 15:00:17.537	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:00:19.774	* Error *	sensors data send failed!
+2022-12-24 15:00:23.049	* Error *	sensors data send failed!
+2022-12-24 15:00:33.109	- Info  -	Init D3D2 OK
+2022-12-24 15:00:33.316	- Info  -	Init D3D2 OK
+2022-12-24 15:00:33.367	- Info  -	Init D3D2 OK
+2022-12-24 15:00:33.914	- Info  -	Init D3D2 OK
+2022-12-24 15:01:02.808	- Info  -	Init D3D2 OK
+2022-12-24 15:01:02.981	- Info  -	Init D3D2 OK
+2022-12-24 15:01:03.002	- Info  -	Init D3D2 OK
+2022-12-24 15:01:03.021	- Info  -	Init D3D2 OK
+2022-12-24 15:01:03.250	- Info  -	Init D3D2 OK
+2022-12-24 15:01:04.469	* Error *	sensors data send failed!
+2022-12-24 15:01:07.154	* Error *	sensors data send failed!
+2022-12-24 15:01:07.825	* Error *	sensors data send failed!
+2022-12-24 15:01:09.599	- Info  -	[vpx] open codec.
+2022-12-24 15:01:09.600	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:09.600	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:09.600	+Warning+	[DisplayClient][report] transfer faild, count: 6.
+2022-12-24 15:01:09.600	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:10.303	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.495	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.514	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.537	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.556	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.578	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.607	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.642	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.665	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.687	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.707	- Info  -	Init D3D2 OK
+2022-12-24 15:01:10.726	- Info  -	Init D3D2 OK
+2022-12-24 15:01:11.116	- Info  -	Init D3D2 OK
+2022-12-24 15:01:11.364	- Info  -	[vpx] open codec.
+2022-12-24 15:01:11.364	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:11.364	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:11.364	+Warning+	[DisplayClient][report] transfer faild, count: 7.
+2022-12-24 15:01:11.364	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:15.854	- Info  -	[vpx] open codec.
+2022-12-24 15:01:15.854	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:15.854	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:15.855	+Warning+	[DisplayClient][report] transfer faild, count: 8.
+2022-12-24 15:01:15.855	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:53.853	- Info  -	[vpx] open codec.
+2022-12-24 15:01:53.854	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:53.854	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:53.854	+Warning+	[DisplayClient][report] transfer faild, count: 9.
+2022-12-24 15:01:53.854	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:54.054	- Info  -	[vpx] open codec.
+2022-12-24 15:01:54.054	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:54.054	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:54.054	+Warning+	[DisplayClient][report] transfer faild, count: 10.
+2022-12-24 15:01:54.054	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:55.873	- Info  -	[vpx] open codec.
+2022-12-24 15:01:55.873	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:55.873	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:55.873	+Warning+	[DisplayClient][report] transfer faild, count: 11.
+2022-12-24 15:01:55.873	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:55.957	- Info  -	[vpx] open codec.
+2022-12-24 15:01:55.957	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:55.957	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:55.957	+Warning+	[DisplayClient][report] transfer faild, count: 12.
+2022-12-24 15:01:55.957	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:56.010	- Info  -	[vpx] open codec.
+2022-12-24 15:01:56.011	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:56.011	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:56.011	+Warning+	[DisplayClient][report] transfer faild, count: 13.
+2022-12-24 15:01:56.011	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:56.024	- Info  -	[vpx] open codec.
+2022-12-24 15:01:56.024	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:56.024	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:56.024	+Warning+	[DisplayClient][report] transfer faild, count: 14.
+2022-12-24 15:01:56.024	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:56.072	- Info  -	[vpx] open codec.
+2022-12-24 15:01:56.072	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:56.072	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:56.072	+Warning+	[DisplayClient][report] transfer faild, count: 15.
+2022-12-24 15:01:56.072	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:56.159	- Info  -	[vpx] open codec.
+2022-12-24 15:01:56.159	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:56.159	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:56.159	+Warning+	[DisplayClient][report] transfer faild, count: 16.
+2022-12-24 15:01:56.159	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:56.738	- Info  -	[vpx] open codec.
+2022-12-24 15:01:56.738	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:56.738	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:56.738	+Warning+	[DisplayClient][report] transfer faild, count: 17.
+2022-12-24 15:01:56.738	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:01:58.681	- Info  -	[vpx] open codec.
+2022-12-24 15:01:58.681	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:01:58.681	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:01:58.681	+Warning+	[DisplayClient][report] transfer faild, count: 18.
+2022-12-24 15:01:58.681	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:00.853	- Info  -	[vpx] open codec.
+2022-12-24 15:02:00.853	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:00.853	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:00.853	+Warning+	[DisplayClient][report] transfer faild, count: 19.
+2022-12-24 15:02:00.853	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:00.917	- Info  -	[vpx] open codec.
+2022-12-24 15:02:00.917	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:00.917	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:00.917	+Warning+	[DisplayClient][report] transfer faild, count: 20.
+2022-12-24 15:02:00.917	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:00.950	- Info  -	[vpx] open codec.
+2022-12-24 15:02:00.950	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:00.950	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:00.950	+Warning+	[DisplayClient][report] transfer faild, count: 21.
+2022-12-24 15:02:00.950	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:00.981	- Info  -	[vpx] open codec.
+2022-12-24 15:02:00.981	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:00.981	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:00.981	+Warning+	[DisplayClient][report] transfer faild, count: 22.
+2022-12-24 15:02:00.981	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:01.014	- Info  -	[vpx] open codec.
+2022-12-24 15:02:01.014	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:01.014	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:01.014	+Warning+	[DisplayClient][report] transfer faild, count: 23.
+2022-12-24 15:02:01.014	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:01.048	- Info  -	[vpx] open codec.
+2022-12-24 15:02:01.049	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:01.049	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:01.049	+Warning+	[DisplayClient][report] transfer faild, count: 24.
+2022-12-24 15:02:01.049	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:02.382	- Info  -	[vpx] open codec.
+2022-12-24 15:02:02.382	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:02.382	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:02.382	+Warning+	[DisplayClient][report] transfer faild, count: 25.
+2022-12-24 15:02:02.382	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:02.429	- Info  -	[vpx] open codec.
+2022-12-24 15:02:02.429	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:02.429	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:02.429	+Warning+	[DisplayClient][report] transfer faild, count: 26.
+2022-12-24 15:02:02.429	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:02.467	- Info  -	[vpx] open codec.
+2022-12-24 15:02:02.467	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:02.467	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:02.467	+Warning+	[DisplayClient][report] transfer faild, count: 27.
+2022-12-24 15:02:02.467	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:02.499	- Info  -	[vpx] open codec.
+2022-12-24 15:02:02.499	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:02.499	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:02.499	+Warning+	[DisplayClient][report] transfer faild, count: 28.
+2022-12-24 15:02:02.499	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:02.528	- Info  -	[vpx] open codec.
+2022-12-24 15:02:02.528	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:02.528	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:02.528	+Warning+	[DisplayClient][report] transfer faild, count: 29.
+2022-12-24 15:02:02.529	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:02.554	- Info  -	[vpx] open codec.
+2022-12-24 15:02:02.554	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:02.554	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:02.554	+Warning+	[DisplayClient][report] transfer faild, count: 30.
+2022-12-24 15:02:02.554	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:02.673	- Info  -	[vpx] open codec.
+2022-12-24 15:02:02.673	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:02.673	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:02.673	+Warning+	[DisplayClient][report] transfer faild, count: 31.
+2022-12-24 15:02:02.673	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.182	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.182	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.182	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.182	+Warning+	[DisplayClient][report] transfer faild, count: 32.
+2022-12-24 15:02:04.183	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.209	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.209	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.209	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.209	+Warning+	[DisplayClient][report] transfer faild, count: 33.
+2022-12-24 15:02:04.209	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.250	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.250	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.250	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.250	+Warning+	[DisplayClient][report] transfer faild, count: 34.
+2022-12-24 15:02:04.250	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.278	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.278	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.278	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.278	+Warning+	[DisplayClient][report] transfer faild, count: 35.
+2022-12-24 15:02:04.278	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.346	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.346	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.346	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.346	+Warning+	[DisplayClient][report] transfer faild, count: 36.
+2022-12-24 15:02:04.346	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.361	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.361	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.361	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.361	+Warning+	[DisplayClient][report] transfer faild, count: 37.
+2022-12-24 15:02:04.362	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.406	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.406	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.406	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.406	+Warning+	[DisplayClient][report] transfer faild, count: 38.
+2022-12-24 15:02:04.406	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.439	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.439	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.439	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.439	+Warning+	[DisplayClient][report] transfer faild, count: 39.
+2022-12-24 15:02:04.439	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:04.488	- Info  -	[vpx] open codec.
+2022-12-24 15:02:04.488	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:04.488	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:04.488	+Warning+	[DisplayClient][report] transfer faild, count: 40.
+2022-12-24 15:02:04.488	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:11.665	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.665	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.665	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.665	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.666	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.666	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.666	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.666	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:02:11.711	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:11.711	- Info  -	[clipboard] RenderFormat, win format 13, 19859625
+2022-12-24 15:02:11.726	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:11.726	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:11.726	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:11.726	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:11.768	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:11.768	- Info  -	[clipboard] RenderFormat, win format 13, 19859687
+2022-12-24 15:02:11.780	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:11.780	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:11.780	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:11.780	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:11.820	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:11.820	- Info  -	[clipboard] RenderFormat, win format 13, 19859734
+2022-12-24 15:02:11.837	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:11.838	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:11.838	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:11.838	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:11.897	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:11.897	- Info  -	[clipboard] RenderFormat, win format 13, 19859812
+2022-12-24 15:02:11.917	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:11.917	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:11.917	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:11.917	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:11.952	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:11.952	- Info  -	[clipboard] RenderFormat, win format 13, 19859859
+2022-12-24 15:02:11.964	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:11.964	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:11.964	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:11.964	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:12.015	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:12.016	- Info  -	[clipboard] RenderFormat, win format 13, 19859937
+2022-12-24 15:02:12.028	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:12.028	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:12.028	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:12.028	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:12.070	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:12.070	- Info  -	[clipboard] RenderFormat, win format 13, 19859984
+2022-12-24 15:02:12.086	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:12.086	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:12.086	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:12.086	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:12.122	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:02:12.123	- Info  -	[clipboard] RenderFormat, win format 13, 19860031
+2022-12-24 15:02:12.133	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:02:12.134	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:02:12.134	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:02:12.134	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:02:12.402	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.708	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.727	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.748	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.769	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.789	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.810	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.838	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.860	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.888	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.911	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.931	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.954	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.973	- Info  -	Init D3D2 OK
+2022-12-24 15:02:12.993	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.016	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.038	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.060	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.079	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.103	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.123	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.143	- Info  -	Init D3D2 OK
+2022-12-24 15:02:13.595	- Info  -	Init D3D2 OK
+2022-12-24 15:02:17.444	- Info  -	[vpx] open codec.
+2022-12-24 15:02:17.444	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:17.444	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:17.444	+Warning+	[DisplayClient][report] transfer faild, count: 41.
+2022-12-24 15:02:17.445	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:18.241	* Error *	sensors data send failed!
+2022-12-24 15:02:18.666	- Info  -	[vpx] open codec.
+2022-12-24 15:02:18.666	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:18.666	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:18.666	+Warning+	[DisplayClient][report] transfer faild, count: 42.
+2022-12-24 15:02:18.666	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:46.458	- Info  -	[vpx] open codec.
+2022-12-24 15:02:46.458	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:46.458	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:46.459	+Warning+	[DisplayClient][report] transfer faild, count: 43.
+2022-12-24 15:02:46.459	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:46.473	- Info  -	[vpx] open codec.
+2022-12-24 15:02:46.473	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:46.473	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:46.473	+Warning+	[DisplayClient][report] transfer faild, count: 44.
+2022-12-24 15:02:46.473	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:46.522	- Info  -	[vpx] open codec.
+2022-12-24 15:02:46.522	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:46.522	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:46.522	+Warning+	[DisplayClient][report] transfer faild, count: 45.
+2022-12-24 15:02:46.522	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:46.576	- Info  -	[vpx] open codec.
+2022-12-24 15:02:46.576	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:46.576	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:46.576	+Warning+	[DisplayClient][report] transfer faild, count: 46.
+2022-12-24 15:02:46.576	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:46.616	- Info  -	[vpx] open codec.
+2022-12-24 15:02:46.616	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:46.616	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:46.616	+Warning+	[DisplayClient][report] transfer faild, count: 47.
+2022-12-24 15:02:46.616	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:46.720	- Info  -	[vpx] open codec.
+2022-12-24 15:02:46.720	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:46.720	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:46.720	+Warning+	[DisplayClient][report] transfer faild, count: 48.
+2022-12-24 15:02:46.720	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.562	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.562	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.562	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.562	+Warning+	[DisplayClient][report] transfer faild, count: 49.
+2022-12-24 15:02:52.562	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.585	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.586	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.586	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.586	+Warning+	[DisplayClient][report] transfer faild, count: 50.
+2022-12-24 15:02:52.586	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.605	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.605	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.605	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.605	+Warning+	[DisplayClient][report] transfer faild, count: 51.
+2022-12-24 15:02:52.605	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.651	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.652	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.652	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.652	+Warning+	[DisplayClient][report] transfer faild, count: 52.
+2022-12-24 15:02:52.652	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.672	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.672	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.672	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.672	+Warning+	[DisplayClient][report] transfer faild, count: 53.
+2022-12-24 15:02:52.672	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.732	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.732	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.732	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.732	+Warning+	[DisplayClient][report] transfer faild, count: 54.
+2022-12-24 15:02:52.732	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.735	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.735	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.735	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.735	+Warning+	[DisplayClient][report] transfer faild, count: 55.
+2022-12-24 15:02:52.735	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.781	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.782	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.782	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.782	+Warning+	[DisplayClient][report] transfer faild, count: 56.
+2022-12-24 15:02:52.782	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.839	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.839	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.839	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.839	+Warning+	[DisplayClient][report] transfer faild, count: 57.
+2022-12-24 15:02:52.839	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.910	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.911	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.911	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.911	+Warning+	[DisplayClient][report] transfer faild, count: 58.
+2022-12-24 15:02:52.911	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:52.916	- Info  -	[vpx] open codec.
+2022-12-24 15:02:52.916	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:52.916	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:52.916	+Warning+	[DisplayClient][report] transfer faild, count: 59.
+2022-12-24 15:02:52.916	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:53.842	- Info  -	[vpx] open codec.
+2022-12-24 15:02:53.842	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:53.842	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:53.842	+Warning+	[DisplayClient][report] transfer faild, count: 60.
+2022-12-24 15:02:53.842	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:53.890	- Info  -	[vpx] open codec.
+2022-12-24 15:02:53.890	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:53.890	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:53.890	+Warning+	[DisplayClient][report] transfer faild, count: 61.
+2022-12-24 15:02:53.890	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:53.942	- Info  -	[vpx] open codec.
+2022-12-24 15:02:53.942	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:53.942	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:53.942	+Warning+	[DisplayClient][report] transfer faild, count: 62.
+2022-12-24 15:02:53.942	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:53.948	- Info  -	[vpx] open codec.
+2022-12-24 15:02:53.948	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:53.948	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:53.948	+Warning+	[DisplayClient][report] transfer faild, count: 63.
+2022-12-24 15:02:53.948	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.002	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.002	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.002	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.002	+Warning+	[DisplayClient][report] transfer faild, count: 64.
+2022-12-24 15:02:54.002	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.027	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.027	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.027	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.027	+Warning+	[DisplayClient][report] transfer faild, count: 65.
+2022-12-24 15:02:54.027	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.052	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.052	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.052	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.052	+Warning+	[DisplayClient][report] transfer faild, count: 66.
+2022-12-24 15:02:54.052	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.081	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.081	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.081	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.081	+Warning+	[DisplayClient][report] transfer faild, count: 67.
+2022-12-24 15:02:54.081	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.732	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.732	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.732	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.732	+Warning+	[DisplayClient][report] transfer faild, count: 68.
+2022-12-24 15:02:54.732	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.795	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.795	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.795	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.795	+Warning+	[DisplayClient][report] transfer faild, count: 69.
+2022-12-24 15:02:54.795	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.826	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.827	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.827	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.827	+Warning+	[DisplayClient][report] transfer faild, count: 70.
+2022-12-24 15:02:54.827	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.855	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.855	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.855	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.855	+Warning+	[DisplayClient][report] transfer faild, count: 71.
+2022-12-24 15:02:54.855	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:54.919	- Info  -	[vpx] open codec.
+2022-12-24 15:02:54.919	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:54.919	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:54.919	+Warning+	[DisplayClient][report] transfer faild, count: 72.
+2022-12-24 15:02:54.919	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:02:55.001	- Info  -	[vpx] open codec.
+2022-12-24 15:02:55.001	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:02:55.001	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:02:55.001	+Warning+	[DisplayClient][report] transfer faild, count: 73.
+2022-12-24 15:02:55.001	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:01.541	- Info  -	[vpx] open codec.
+2022-12-24 15:03:01.541	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:01.541	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:01.541	+Warning+	[DisplayClient][report] transfer faild, count: 74.
+2022-12-24 15:03:01.541	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:01.624	- Info  -	[vpx] open codec.
+2022-12-24 15:03:01.624	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:01.624	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:01.624	+Warning+	[DisplayClient][report] transfer faild, count: 75.
+2022-12-24 15:03:01.624	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:01.649	- Info  -	[vpx] open codec.
+2022-12-24 15:03:01.649	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:01.649	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:01.649	+Warning+	[DisplayClient][report] transfer faild, count: 76.
+2022-12-24 15:03:01.649	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:01.681	- Info  -	[vpx] open codec.
+2022-12-24 15:03:01.681	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:01.681	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:01.681	+Warning+	[DisplayClient][report] transfer faild, count: 77.
+2022-12-24 15:03:01.681	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:02.634	- Info  -	[vpx] open codec.
+2022-12-24 15:03:02.634	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:02.634	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:02.635	+Warning+	[DisplayClient][report] transfer faild, count: 78.
+2022-12-24 15:03:02.635	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:02.721	- Info  -	[vpx] open codec.
+2022-12-24 15:03:02.721	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:02.721	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:02.721	+Warning+	[DisplayClient][report] transfer faild, count: 79.
+2022-12-24 15:03:02.721	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:02.759	- Info  -	[vpx] open codec.
+2022-12-24 15:03:02.759	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:02.759	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:02.759	+Warning+	[DisplayClient][report] transfer faild, count: 80.
+2022-12-24 15:03:02.759	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:02.838	- Info  -	[vpx] open codec.
+2022-12-24 15:03:02.838	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:02.838	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:02.838	+Warning+	[DisplayClient][report] transfer faild, count: 81.
+2022-12-24 15:03:02.838	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:02.925	- Info  -	[vpx] open codec.
+2022-12-24 15:03:02.925	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:02.925	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:02.925	+Warning+	[DisplayClient][report] transfer faild, count: 82.
+2022-12-24 15:03:02.925	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.108	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.108	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.109	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.109	+Warning+	[DisplayClient][report] transfer faild, count: 83.
+2022-12-24 15:03:04.109	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.162	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.162	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.162	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.162	+Warning+	[DisplayClient][report] transfer faild, count: 84.
+2022-12-24 15:03:04.162	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.190	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.190	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.190	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.190	+Warning+	[DisplayClient][report] transfer faild, count: 85.
+2022-12-24 15:03:04.190	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.252	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.252	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.252	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.252	+Warning+	[DisplayClient][report] transfer faild, count: 86.
+2022-12-24 15:03:04.252	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.314	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.315	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.315	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.315	+Warning+	[DisplayClient][report] transfer faild, count: 87.
+2022-12-24 15:03:04.315	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.319	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.320	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.320	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.320	+Warning+	[DisplayClient][report] transfer faild, count: 88.
+2022-12-24 15:03:04.320	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.367	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.367	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.367	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.367	+Warning+	[DisplayClient][report] transfer faild, count: 89.
+2022-12-24 15:03:04.367	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.396	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.396	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.396	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.396	+Warning+	[DisplayClient][report] transfer faild, count: 90.
+2022-12-24 15:03:04.396	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:04.438	- Info  -	[vpx] open codec.
+2022-12-24 15:03:04.438	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:04.438	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:04.438	+Warning+	[DisplayClient][report] transfer faild, count: 91.
+2022-12-24 15:03:04.438	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:11.417	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:11.423	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:11.424	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:11.424	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:11.424	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:11.424	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:11.424	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:11.456	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:03:11.456	- Info  -	[clipboard] RenderFormat, win format 13, 19919375
+2022-12-24 15:03:11.469	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 122
+2022-12-24 15:03:11.469	- Info  -	[clipboard] format 13, data size: 122
+2022-12-24 15:03:11.469	- Info  -	[clipboard] setClipboardData, format 13, oray format 13
+2022-12-24 15:03:11.470	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:03:11.470	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:03:11.540	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:03:18.958	- Info  -	[vpx] open codec.
+2022-12-24 15:03:18.958	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:03:18.958	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:03:18.958	+Warning+	[DisplayClient][report] transfer faild, count: 92.
+2022-12-24 15:03:18.958	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:03:25.439	- Info  -	Init D3D2 OK
+2022-12-24 15:03:25.624	- Info  -	Init D3D2 OK
+2022-12-24 15:03:25.686	- Info  -	Init D3D2 OK
+2022-12-24 15:03:25.710	- Info  -	Init D3D2 OK
+2022-12-24 15:03:25.750	- Info  -	Init D3D2 OK
+2022-12-24 15:03:25.977	- Info  -	Init D3D2 OK
+2022-12-24 15:04:01.583	- Info  -	[vpx] open codec.
+2022-12-24 15:04:01.583	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:01.583	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:01.583	+Warning+	[DisplayClient][report] transfer faild, count: 93.
+2022-12-24 15:04:01.583	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:08.553	* Error *	sensors data send failed!
+2022-12-24 15:04:11.388	* Error *	sensors data send failed!
+2022-12-24 15:04:34.622	- Info  -	[vpx] open codec.
+2022-12-24 15:04:34.622	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:34.623	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:34.623	+Warning+	[DisplayClient][report] transfer faild, count: 94.
+2022-12-24 15:04:34.623	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:34.640	- Info  -	[vpx] open codec.
+2022-12-24 15:04:34.640	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:34.640	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:34.640	+Warning+	[DisplayClient][report] transfer faild, count: 95.
+2022-12-24 15:04:34.640	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:34.973	- Info  -	[vpx] open codec.
+2022-12-24 15:04:34.973	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:34.973	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:34.973	+Warning+	[DisplayClient][report] transfer faild, count: 96.
+2022-12-24 15:04:34.973	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:35.027	- Info  -	[vpx] open codec.
+2022-12-24 15:04:35.027	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:35.027	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:35.027	+Warning+	[DisplayClient][report] transfer faild, count: 97.
+2022-12-24 15:04:35.027	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:35.068	- Info  -	[vpx] open codec.
+2022-12-24 15:04:35.068	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:35.068	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:35.068	+Warning+	[DisplayClient][report] transfer faild, count: 98.
+2022-12-24 15:04:35.068	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:35.091	- Info  -	[vpx] open codec.
+2022-12-24 15:04:35.092	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:35.092	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:35.092	+Warning+	[DisplayClient][report] transfer faild, count: 99.
+2022-12-24 15:04:35.092	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:41.439	- Info  -	Init D3D2 OK
+2022-12-24 15:04:41.705	- Info  -	Init D3D2 OK
+2022-12-24 15:04:41.773	- Info  -	Init D3D2 OK
+2022-12-24 15:04:41.818	- Info  -	Init D3D2 OK
+2022-12-24 15:04:41.840	- Info  -	Init D3D2 OK
+2022-12-24 15:04:41.886	- Info  -	Init D3D2 OK
+2022-12-24 15:04:41.956	- Info  -	Init D3D2 OK
+2022-12-24 15:04:41.986	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.006	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.030	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.049	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.068	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.087	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.107	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.131	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.156	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.177	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.197	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.220	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.240	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.262	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.283	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.302	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.320	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.340	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.363	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.415	- Info  -	Init D3D2 OK
+2022-12-24 15:04:42.434	- Info  -	Init D3D2 OK
+2022-12-24 15:04:52.053	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.053	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.053	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.053	+Warning+	[DisplayClient][report] transfer faild, count: 100.
+2022-12-24 15:04:52.053	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.079	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.079	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.079	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.079	+Warning+	[DisplayClient][report] transfer faild, count: 101.
+2022-12-24 15:04:52.080	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.110	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.110	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.110	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.110	+Warning+	[DisplayClient][report] transfer faild, count: 102.
+2022-12-24 15:04:52.110	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.140	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.141	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.141	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.141	+Warning+	[DisplayClient][report] transfer faild, count: 103.
+2022-12-24 15:04:52.141	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.167	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.167	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.167	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.167	+Warning+	[DisplayClient][report] transfer faild, count: 104.
+2022-12-24 15:04:52.167	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.208	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.209	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.209	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.209	+Warning+	[DisplayClient][report] transfer faild, count: 105.
+2022-12-24 15:04:52.209	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.238	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.238	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.238	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.238	+Warning+	[DisplayClient][report] transfer faild, count: 106.
+2022-12-24 15:04:52.238	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.278	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.278	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.278	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.278	+Warning+	[DisplayClient][report] transfer faild, count: 107.
+2022-12-24 15:04:52.278	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.305	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.305	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.305	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.305	+Warning+	[DisplayClient][report] transfer faild, count: 108.
+2022-12-24 15:04:52.305	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.345	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.345	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.345	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.345	+Warning+	[DisplayClient][report] transfer faild, count: 109.
+2022-12-24 15:04:52.345	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:04:52.363	- Info  -	[vpx] open codec.
+2022-12-24 15:04:52.363	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:04:52.363	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:04:52.363	+Warning+	[DisplayClient][report] transfer faild, count: 110.
+2022-12-24 15:04:52.363	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:22.250	- Info  -	[vpx] open codec.
+2022-12-24 15:06:22.250	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:22.250	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:22.250	+Warning+	[DisplayClient][report] transfer faild, count: 111.
+2022-12-24 15:06:22.250	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:23.901	- Info  -	[vpx] open codec.
+2022-12-24 15:06:23.901	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:23.901	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:23.901	+Warning+	[DisplayClient][report] transfer faild, count: 112.
+2022-12-24 15:06:23.901	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:23.945	- Info  -	[vpx] open codec.
+2022-12-24 15:06:23.945	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:23.945	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:23.946	+Warning+	[DisplayClient][report] transfer faild, count: 113.
+2022-12-24 15:06:23.946	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:24.035	- Info  -	[vpx] open codec.
+2022-12-24 15:06:24.035	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:24.035	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:24.035	+Warning+	[DisplayClient][report] transfer faild, count: 114.
+2022-12-24 15:06:24.035	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:24.080	- Info  -	[vpx] open codec.
+2022-12-24 15:06:24.080	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:24.080	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:24.080	+Warning+	[DisplayClient][report] transfer faild, count: 115.
+2022-12-24 15:06:24.080	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:24.633	- Info  -	[vpx] open codec.
+2022-12-24 15:06:24.633	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:24.633	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:24.633	+Warning+	[DisplayClient][report] transfer faild, count: 116.
+2022-12-24 15:06:24.633	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:25.306	- Info  -	[vpx] open codec.
+2022-12-24 15:06:25.306	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:25.306	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:25.306	+Warning+	[DisplayClient][report] transfer faild, count: 117.
+2022-12-24 15:06:25.306	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:37.807	- Info  -	Init D3D2 OK
+2022-12-24 15:06:37.979	- Info  -	Init D3D2 OK
+2022-12-24 15:06:38.009	- Info  -	Init D3D2 OK
+2022-12-24 15:06:38.028	- Info  -	Init D3D2 OK
+2022-12-24 15:06:38.460	- Info  -	Init D3D2 OK
+2022-12-24 15:06:47.348	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.348	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.348	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.348	+Warning+	[DisplayClient][report] transfer faild, count: 118.
+2022-12-24 15:06:47.349	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.394	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.394	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.394	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.394	+Warning+	[DisplayClient][report] transfer faild, count: 119.
+2022-12-24 15:06:47.394	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.421	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.421	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.421	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.421	+Warning+	[DisplayClient][report] transfer faild, count: 120.
+2022-12-24 15:06:47.421	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.455	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.455	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.455	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.455	+Warning+	[DisplayClient][report] transfer faild, count: 121.
+2022-12-24 15:06:47.455	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.486	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.486	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.486	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.486	+Warning+	[DisplayClient][report] transfer faild, count: 122.
+2022-12-24 15:06:47.486	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.522	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.522	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.522	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.522	+Warning+	[DisplayClient][report] transfer faild, count: 123.
+2022-12-24 15:06:47.522	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.595	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.595	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.595	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.595	+Warning+	[DisplayClient][report] transfer faild, count: 124.
+2022-12-24 15:06:47.595	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.596	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.596	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.596	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.596	+Warning+	[DisplayClient][report] transfer faild, count: 125.
+2022-12-24 15:06:47.596	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.625	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.625	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.625	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.625	+Warning+	[DisplayClient][report] transfer faild, count: 126.
+2022-12-24 15:06:47.626	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:47.648	- Info  -	[vpx] open codec.
+2022-12-24 15:06:47.648	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:47.649	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:47.649	+Warning+	[DisplayClient][report] transfer faild, count: 127.
+2022-12-24 15:06:47.649	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:50.047	- Info  -	[vpx] open codec.
+2022-12-24 15:06:50.047	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:50.047	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:50.047	+Warning+	[DisplayClient][report] transfer faild, count: 128.
+2022-12-24 15:06:50.047	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:59.032	- Info  -	[vpx] open codec.
+2022-12-24 15:06:59.032	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:59.032	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:59.032	+Warning+	[DisplayClient][report] transfer faild, count: 129.
+2022-12-24 15:06:59.032	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:06:59.083	- Info  -	[vpx] open codec.
+2022-12-24 15:06:59.084	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:06:59.084	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:06:59.084	+Warning+	[DisplayClient][report] transfer faild, count: 130.
+2022-12-24 15:06:59.084	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:01.728	- Info  -	[vpx] open codec.
+2022-12-24 15:07:01.728	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:01.728	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:01.728	+Warning+	[DisplayClient][report] transfer faild, count: 131.
+2022-12-24 15:07:01.728	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:04.635	- Info  -	[vpx] open codec.
+2022-12-24 15:07:04.635	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:04.635	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:04.635	+Warning+	[DisplayClient][report] transfer faild, count: 132.
+2022-12-24 15:07:04.635	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:04.652	- Info  -	[vpx] open codec.
+2022-12-24 15:07:04.652	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:04.652	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:04.652	+Warning+	[DisplayClient][report] transfer faild, count: 133.
+2022-12-24 15:07:04.652	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:07.165	- Info  -	[vpx] open codec.
+2022-12-24 15:07:07.165	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:07.165	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:07.165	+Warning+	[DisplayClient][report] transfer faild, count: 134.
+2022-12-24 15:07:07.165	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:07.193	- Info  -	[vpx] open codec.
+2022-12-24 15:07:07.194	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:07.194	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:07.194	+Warning+	[DisplayClient][report] transfer faild, count: 135.
+2022-12-24 15:07:07.194	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:07.207	- Info  -	[vpx] open codec.
+2022-12-24 15:07:07.208	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:07.208	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:07.208	+Warning+	[DisplayClient][report] transfer faild, count: 136.
+2022-12-24 15:07:07.208	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:08.639	- Info  -	[vpx] open codec.
+2022-12-24 15:07:08.640	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:08.640	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:08.640	+Warning+	[DisplayClient][report] transfer faild, count: 137.
+2022-12-24 15:07:08.640	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:08.681	- Info  -	[vpx] open codec.
+2022-12-24 15:07:08.681	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:08.681	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:08.681	+Warning+	[DisplayClient][report] transfer faild, count: 138.
+2022-12-24 15:07:08.681	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:08.726	- Info  -	[vpx] open codec.
+2022-12-24 15:07:08.726	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:08.726	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:08.726	+Warning+	[DisplayClient][report] transfer faild, count: 139.
+2022-12-24 15:07:08.727	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:08.727	- Info  -	[vpx] open codec.
+2022-12-24 15:07:08.727	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:08.727	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:08.728	+Warning+	[DisplayClient][report] transfer faild, count: 140.
+2022-12-24 15:07:08.728	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:09.020	- Info  -	[vpx] open codec.
+2022-12-24 15:07:09.020	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:09.020	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:09.020	+Warning+	[DisplayClient][report] transfer faild, count: 141.
+2022-12-24 15:07:09.020	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:09.078	- Info  -	[vpx] open codec.
+2022-12-24 15:07:09.078	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:09.078	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:09.078	+Warning+	[DisplayClient][report] transfer faild, count: 142.
+2022-12-24 15:07:09.078	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:09.079	- Info  -	[vpx] open codec.
+2022-12-24 15:07:09.079	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:09.079	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:09.079	+Warning+	[DisplayClient][report] transfer faild, count: 143.
+2022-12-24 15:07:09.079	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:09.110	- Info  -	[vpx] open codec.
+2022-12-24 15:07:09.110	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:09.110	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:09.110	+Warning+	[DisplayClient][report] transfer faild, count: 144.
+2022-12-24 15:07:09.110	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:09.903	- Info  -	[vpx] open codec.
+2022-12-24 15:07:09.903	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:09.903	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:09.903	+Warning+	[DisplayClient][report] transfer faild, count: 145.
+2022-12-24 15:07:09.903	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:11.527	- Info  -	[vpx] open codec.
+2022-12-24 15:07:11.527	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:11.527	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:11.527	+Warning+	[DisplayClient][report] transfer faild, count: 146.
+2022-12-24 15:07:11.527	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:11.552	- Info  -	[vpx] open codec.
+2022-12-24 15:07:11.552	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:11.552	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:11.552	+Warning+	[DisplayClient][report] transfer faild, count: 147.
+2022-12-24 15:07:11.553	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:16.160	- Info  -	[vpx] open codec.
+2022-12-24 15:07:16.160	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:16.160	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:16.160	+Warning+	[DisplayClient][report] transfer faild, count: 148.
+2022-12-24 15:07:16.160	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:07:24.303	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.491	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.514	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.535	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.555	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.577	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.597	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.616	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.635	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.655	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.678	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.697	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.716	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.736	- Info  -	Init D3D2 OK
+2022-12-24 15:07:24.758	- Info  -	Init D3D2 OK
+2022-12-24 15:07:25.131	- Info  -	Init D3D2 OK
+2022-12-24 15:07:46.380	- Info  -	[vpx] open codec.
+2022-12-24 15:07:46.380	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:07:46.380	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:07:46.380	+Warning+	[DisplayClient][report] transfer faild, count: 149.
+2022-12-24 15:07:46.380	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:08:02.605	- Info  -	[vpx] open codec.
+2022-12-24 15:08:02.605	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:08:02.605	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:08:02.606	+Warning+	[DisplayClient][report] transfer faild, count: 150.
+2022-12-24 15:08:02.606	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:08:35.669	- Info  -	[vpx] open codec.
+2022-12-24 15:08:35.669	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:08:35.669	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:08:35.669	+Warning+	[DisplayClient][report] transfer faild, count: 151.
+2022-12-24 15:08:35.669	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:08:41.108	- Info  -	[vpx] open codec.
+2022-12-24 15:08:41.108	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:08:41.108	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:08:41.108	+Warning+	[DisplayClient][report] transfer faild, count: 152.
+2022-12-24 15:08:41.108	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:08:58.705	- Info  -	[vpx] open codec.
+2022-12-24 15:08:58.705	* Error *	[vpx] Failed to decode frame.: Unspecified internal error
+2022-12-24 15:08:58.705	- Info  -	[vpx][decoder] close codec.
+2022-12-24 15:08:58.705	+Warning+	[DisplayClient][report] transfer faild, count: 153.
+2022-12-24 15:08:58.705	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_CTRLDESKTOP_DECODE_FRAME_FAILED(134275073), product=2, type=3, inner code=1 [CDisplayClient::DecodeFrameData:628]
+2022-12-24 15:09:21.455	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:09:21.455	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:09:21.455	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:09:21.455	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2022-12-24 15:09:21.500	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:09:21.500	- Info  -	[clipboard] RenderFormat, win format 13, 20289421
+2022-12-24 15:09:21.517	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:09:21.517	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:09:21.517	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:09:21.517	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:09:21.544	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:09:21.544	- Info  -	[clipboard] RenderFormat, win format 13, 20289453
+2022-12-24 15:09:21.566	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:09:21.566	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:09:21.566	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:09:21.566	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:09:21.597	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:09:21.597	- Info  -	[clipboard] RenderFormat, win format 13, 20289515
+2022-12-24 15:09:21.614	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:09:21.614	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:09:21.614	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:09:21.614	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:09:21.691	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2022-12-24 15:09:21.691	- Info  -	[clipboard] RenderFormat, win format 13, 20289609
+2022-12-24 15:09:21.708	- Info  -	[clipboard] OnReceiveClipData, type 2705829396493, size 0
+2022-12-24 15:09:21.708	- Info  -	[clipboard] format 13, data size: 0
+2022-12-24 15:09:21.708	- Info  -	[clipboard] RenderFormat end
+2022-12-24 15:09:21.708	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2022-12-24 15:10:37.153	* Error *	sensors data send failed!
+2022-12-24 15:10:39.541	* Error *	sensors data send failed!
+2022-12-24 15:10:41.825	* Error *	sensors data send failed!
+2022-12-24 15:10:41.829	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStream::Disconnect_impl:254]
+2022-12-24 15:10:41.859	- Info  -	[TCPConnector] CCurStream handle client_disconnect
+2022-12-24 15:10:41.859	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::ForwardHandler::Handle:647]
+2022-12-24 15:10:41.859	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_DISCONNECT, error: 0, oray errorcode: 0
+2022-12-24 15:10:41.859	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 15:10:41.859	+Warning+	[MultiChannel] unbind forward stream(errorcode 0) @ 651
+2022-12-24 15:10:41.859	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::Disconnect_impl:678]
+2022-12-24 15:10:41.859	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2022-12-24 15:10:41.859	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2022-12-24 15:10:41.859	- Info  -	[udp] Disconnect
+2022-12-24 15:10:41.908	- Info  -	[udp] SendDisconnect
+2022-12-24 15:10:41.909	- Info  -	[MultiChannel] P2P channel disconnect 106.5.128.34:20530
+2022-12-24 15:10:41.909	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::P2PHandler::Handle:834]
+2022-12-24 15:10:41.909	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::HandleDisconnect:1041]
+2022-12-24 15:10:41.909	- Info  -	CMultiChannelStreamImpl::OnDisconnect()
+2022-12-24 15:10:41.909	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStreamImpl::OnDisconnect:100]
+2022-12-24 15:10:41.909	- Info  -	CClientStream 106.5.128.34:20530 OnDisconnect, errocde:0
+2022-12-24 15:10:41.909	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [CClientStream::OnDisconnect:104]
+2022-12-24 15:10:41.909	- Info  -	OnDisconnect, error code 0
+2022-12-24 15:10:41.909	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [BinaryPluginStream::OnDisconnect:404]
+2022-12-24 15:10:41.909	- Info  -	[desktop] Separation message loop stop.
+2022-12-24 15:10:41.910	- Info  -	CPluginThreadManager stop plugin thread
+2022-12-24 15:10:41.910	- Info  -	CActivePlugin prepare to exit plugin
+2022-12-24 15:10:41.910	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. >
+2022-12-24 15:10:41.910	- Info  -	[clipboard] stop clipboard...
+2022-12-24 15:10:41.926	- Info  -	[udpwrapper] udprelay connecting 106.5.128.34:20530 via 122.246.13.45:4118
+2022-12-24 15:10:42.105	- Info  -	[clipboard] recv thread end(2).
+2022-12-24 15:10:42.157	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2022-12-24 15:10:42.157	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2022-12-24 15:10:42.189	- Info  -	[clipboard] Stop Clipboard ok
+2022-12-24 15:10:42.207	- Info  -	[desktop] [thread] cancel.
+2022-12-24 15:10:42.207	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. <
+2022-12-24 15:10:42.209	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_DISCONNECT, error: 0, oray errorcode: 0
+2022-12-24 15:10:42.209	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 15:10:42.209	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CTCPStream::Disconnect_impl:1016]
+2022-12-24 15:10:42.209	- Info  -	CConnectorRaw::OnEvent() state: CNTS_DISCONNECTED, error: 0, oray errorcode: 0
+2022-12-24 15:10:42.209	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2022-12-24 15:10:42.209	- Info  -	CConnectorRaw::Stop in>
+2022-12-24 15:10:42.224	* Error *	Plugin disconnect with error : 0
+2022-12-24 15:10:42.224	- Info  -	[CUDPLibWrapper] map size: 1, value: [106.5.128.34:20530/15852-2] = 0.0.0.0:15852;
+
+2022-12-24 15:10:42.224	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2022-12-24 15:10:42.225	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2022-12-24 15:10:42.225	- Info  -	CConnectorRaw::Stop out<
+2022-12-24 15:10:42.227	- Info  -	sensors close
+2022-12-24 15:10:42.290	- Info  -	[desktop] CRemoteDesktopPlugin::~CRemoteDesktopPlugin(void)
+2022-12-24 15:10:42.467	- Info  -	CMultiChannelStreamImpl::~CMultiChannelStreamImpl
+2022-12-24 15:10:42.493	- Info  -	program remote_plugin is exit 

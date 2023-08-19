@@ -1,0 +1,86 @@
+2023-05-06 17:59:02.496	- Info  -	version:3.2.1.40406
+2023-05-06 17:59:02.496	- Info  -	[client] current session id 1, ProcessID 7776
+
+2023-05-06 17:59:02.499	- Info  -	attempt to connect server 127.0.0.1:49672(127.0.0.1:49672)
+2023-05-06 17:59:02.499	- Info  -	[DesktopAgentClient] connect DesktopServer ok.
+2023-05-06 17:59:02.500	- Info  -	[client::handler] connected sid(1), thread(3432)
+2023-05-06 17:59:02.500	- Info  -	[DesktopAgentClient] on_connect ok. sid:1, id:1
+2023-05-06 17:59:02.509	- Info  -	[agent]client::handler::OnPluginStop.
+2023-05-06 17:59:02.510	- Info  -	[agent] start new plugin.
+2023-05-06 17:59:02.530	- Info  -	[DesktopMonitorServer] set compression 8/100->8/100
+2023-05-06 17:59:02.530	- Info  -	[DesktopMonitorServer] set capture mode 1 --> 2
+2023-05-06 17:59:02.530	- Info  -	[desktop] display core OK
+2023-05-06 17:59:02.536	- Info  -	[desktop] control core OK
+2023-05-06 17:59:02.540	- Info  -	[desktop] system manager core OK
+2023-05-06 17:59:02.544	- Info  -	[desktop] disable_clipboard:0, disable_file:0, disable_print:0
+2023-05-06 17:59:02.552	- Info  -	[clipboard] clipboard_agent_server created with port 0.
+2023-05-06 17:59:02.552	- Info  -	[CDragServer::Run] Get port ok 1069
+2023-05-06 17:59:02.614	- Info  -	[desktop] OnCtrlMessage ctrl 1,type 1
+2023-05-06 17:59:02.614	- Info  -	[DesktopMonitorServer] bDelayedRun_Sendconfig = TRUE
+2023-05-06 17:59:02.614	- Info  -	[desktop/13b0d770] GetInitBuffer() image header compress size(12) time(121013390).
+2023-05-06 17:59:02.615	- Info  -	[DesktopMonitorServer] delay send config
+2023-05-06 17:59:02.623	- Info  -	[clipboard::clipboard_router::OnConnect] new agent client connected!
+
+2023-05-06 17:59:02.626	- Info  -	[clipboard] stop plugin
+2023-05-06 17:59:02.641	- Info  -	[desktop] OnCtrlMessage ctrl 1,type 3
+2023-05-06 17:59:02.641	- Info  -	[desktop] OnCtrlMessage ctrl 1,type 6
+2023-05-06 17:59:02.641	- Info  -	[desktop] OnCtrlMessage ctrl 1,type 7
+2023-05-06 17:59:02.642	- Info  -	[desktop] receive Enum Screen Request
+2023-05-06 17:59:02.643	- Info  -	[DesktopMonitorServer] set compression 8/100->10/15
+2023-05-06 17:59:02.643	- Info  -	[desktop] ID_SET_COMPRESSION, 10 / 15 at 2206 .
+2023-05-06 17:59:02.750	- Info  -	[DesktopMonitorServer] bDelayedRun_Sendconfig = FALSE
+2023-05-06 17:59:02.750	- Info  -	DesktopMonitorServer::Build, captue mode = 2
+2023-05-06 17:59:02.857	- Info  -	[output(0)]left(0), top(0), right(1280), bottom(720), rotation(1)
+2023-05-06 17:59:02.905	- Info  -	[dxgi] Current desktop(0) size -> (1280, 720)
+2023-05-06 17:59:02.974	- Info  -	[DXGI] Initialize DXGI duplication device ok! oray::plugin::remotedesktop::DXGIScreenCapture::GetScreenBuffer
+2023-05-06 17:59:02.974	- Info  -	[DesktopMonitorServer] using 2 mode. (0-full, 1-gditracer, 2-mirrortracer, 3-dwm) with watermark(no)
+2023-05-06 17:59:02.974	- Info  -	No need resize screen buffer, dpi=96, [1280, 720]
+2023-05-06 17:59:02.974	- Info  -	ChangeRegion::FormatBuffer, color: 32
+2023-05-06 17:59:02.983	- Info  -	[DesktopMonitorServer] using x264 encoder and vpx encoder
+2023-05-06 17:59:02.984	- Info  -	[DesktopMonitorServer] ID_START_DESKTOP_STREAM 121013765
+2023-05-06 17:59:02.984	- Info  -	[DesktopMonitorServer] set compression 10/15->10/15
+2023-05-06 17:59:02.984	- Info  -	[vpx] SetCompressionParam, layer=1, encoding=3, format=1.
+2023-05-06 17:59:02.984	- Info  -	[dxgi] Uninitialize device.
+2023-05-06 17:59:03.000	- Info  -	[dxgi] Uninitialize device end
+2023-05-06 17:59:03.000	- Info  -	[dxgi] Current desktop(0) size -> (1280, 720)
+2023-05-06 17:59:03.065	- Info  -	[DXGI] Initialize DXGI duplication device ok! oray::plugin::remotedesktop::DXGIScreenCapture::Reset
+2023-05-06 17:59:03.065	- Info  -	[dxgi] Uninitialize device.
+2023-05-06 17:59:03.077	- Info  -	[ipc][dragclient] point(0,0) size(1280,720)
+2023-05-06 17:59:03.078	- Info  -	[singledesktop]Run Keyboard and mouse control ok
+2023-05-06 17:59:03.078	- Info  -	[clipboard] stop plugin
+2023-05-06 17:59:03.080	- Info  -	[dxgi] Uninitialize device end
+2023-05-06 17:59:03.080	- Info  -	[dxgi] Current desktop(0) size -> (1280, 720)
+2023-05-06 17:59:03.144	- Info  -	[DXGI] Initialize DXGI duplication device ok! oray::plugin::remotedesktop::DXGIScreenCapture::Reset
+2023-05-06 17:59:03.144	- Info  -	No need resize screen buffer, dpi=96, [1280, 720]
+2023-05-06 17:59:03.144	- Info  -	[desktop/13b50c30] GetInitBuffer() image header compress size(28).
+2023-05-06 17:59:03.145	- Info  -	[output(0)]left(0), top(0), right(1280), bottom(720), rotation(1)
+2023-05-06 17:59:03.165	- Info  -	[DXGI] Support gpu resize
+2023-05-06 17:59:03.165	- Info  -	[dxgi] use dxgi mode
+2023-05-06 17:59:03.165	- Info  -	[DXGI] Display Changed -> 1
+2023-05-06 17:59:03.192	- Info  -	[dxgi] need reset
+2023-05-06 17:59:03.192	- Info  -	[dxgi] Uninitialize device.
+2023-05-06 17:59:03.211	- Info  -	[dxgi] Uninitialize device end
+2023-05-06 17:59:03.212	- Info  -	[dxgi] Current desktop(0) size -> (1280, 720)
+2023-05-06 17:59:03.280	- Info  -	[DXGI] Initialize DXGI duplication device ok! oray::plugin::remotedesktop::DXGIScreenCapture::Reset
+2023-05-06 17:59:03.280	- Info  -	[output(0)]left(0), top(0), right(1280), bottom(720), rotation(1)
+2023-05-06 17:59:03.304	- Info  -	[DXGI] Support gpu resize
+2023-05-06 17:59:03.304	- Info  -	[dxgi] use dxgi mode
+2023-05-06 17:59:03.305	- Info  -	[DXGI] Display Changed -> 1
+2023-05-06 17:59:03.342	- Info  -	[DesktopMonitorServer] rf control received first remote frame count.
+2023-05-06 17:59:03.492	- Info  -	[desktop] EnableBlackScreen state: enable
+2023-05-06 17:59:03.492	- Info  -	[desktop] OnQueryDpmsState
+2023-05-06 17:59:03.492	- Info  -	[desktop] NotifyBlackScreen state:power_normal
+2023-05-06 17:59:12.763	+Warning+	[controlsvr] init uu hardware failed, reason:open hid device failed, forcing to software input simulation
+2023-05-06 17:59:12.763	- Info  -	[softmouseproxy] SetMouseMoveRelative false
+2023-05-06 18:02:38.902	- Info  -	[client::handler] disconnected
+2023-05-06 18:02:38.902	- Info  -	[DesktopAgentClient] on_disconnect ok.
+2023-05-06 18:02:38.902	* Error *	m_queInput.PopFrontBuffer == 0, timeout( -1 )
+2023-05-06 18:02:38.916	- Info  -	[agent] stop last plugin.
+2023-05-06 18:02:39.043	- Info  -	[DesktopMonitorServer] ResumeDisktopThemes
+2023-05-06 18:02:39.043	- Info  -	[dxgi] Uninitialize device.
+2023-05-06 18:02:39.043	- Info  -	[dxgi] Uninitialize device end
+2023-05-06 18:02:39.091	- Info  -	[clipboard::handler] agent(0) client disconnected!
+
+2023-05-06 18:02:41.126	- Info  -	[messagethread] recv WM_CLOSE, end thread.
+2023-05-06 18:02:41.128	- Info  -	[agent] Exit program
+2023-05-06 18:02:41.128	* Error *	[desktopagent]Invalid module desktopagent

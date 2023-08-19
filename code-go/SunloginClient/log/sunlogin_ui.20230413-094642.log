@@ -1,0 +1,337 @@
+2023-04-13 09:46:42.342	- Info  -	version:3.2.1.40406
+2023-04-13 09:46:42.379	- Info  -	[dlg_main] on_create
+2023-04-13 09:46:42.480	- Info  -	attempt to connect server 127.0.0.1:16308(127.0.0.1:16308)
+2023-04-13 09:46:42.494	- Info  -	[shell] OnConnect
+2023-04-13 09:46:42.502	- Info  -	[shell] status_changed:2
+2023-04-13 09:46:43.505	- Info  -	[dlg_main] init_fastcode_histroy
+2023-04-13 09:46:43.526	- Info  -	[http call3] new call id:1, url:https://ddns.oray.com/checkip?clean=1
+2023-04-13 09:46:43.526	- Info  -	[dlg_main] on_create end
+2023-04-13 09:46:43.545	- Info  -	[http call3] id:1 create new connection : https://ddns.oray.com:443
+2023-04-13 09:46:43.589	- Info  -	attempt to connect server ddns.oray.com:443(114.215.189.130:443)
+2023-04-13 09:46:43.739	- Info  -	[http call3] id:1, url:https://ddns.oray.com/checkip?clean=1, status code:200
+2023-04-13 09:46:55.149	- Info  -	[shell] status_changed:0
+2023-04-13 09:47:13.737	* Error *	SSLStream::IsWantReadWrite|peer(114.215.189.130:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-13 09:47:13.737	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-13 09:48:55.949	- Info  -	[shell] status_changed:2
+2023-04-13 09:48:56.295	- Info  -	[shell] status_changed:0
+2023-04-13 09:50:01.914	- Info  -	[shell] status_changed:2
+2023-04-13 09:50:01.914	- Info  -	[http call3] new call id:2, url:sl-tk.oray.com/track
+2023-04-13 09:50:01.921	- Info  -	[http call3] id:2 create new connection : ://sl-tk.oray.com:80
+2023-04-13 09:50:01.935	- Info  -	attempt to connect server sl-tk.oray.com:80(47.99.51.142:80)
+2023-04-13 09:50:02.445	- Info  -	[shell] status_changed:1
+2023-04-13 09:50:02.468	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2023-04-13 09:50:02.469	- Info  -	[http call3] new call id:3, url:https://slapi.oray.net/client/free-tips
+2023-04-13 09:50:02.473	- Info  -	[http call3] id:3 create new connection : https://slapi.oray.net:443
+2023-04-13 09:50:02.474	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-04-13 09:50:02.657	- Info  -	[http call3] id:3, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-04-13 09:50:03.672	- Info  -	[http call3] id:2, url:sl-tk.oray.com/track, status code:200
+2023-04-13 09:50:03.672	- Info  -	upload data success!
+2023-04-13 09:50:17.651	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-13 09:50:17.651	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-13 09:50:39.990	+Warning+	[passive:keepalive:] 47.99.51.142:80 disconnect by keepalive timeout(289265>=252953+30000)
+2023-04-13 09:50:39.990	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-13 09:50:39.990	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-13 13:00:26.600	- Info  -	[shell] status_changed:0
+2023-04-14 09:38:58.412	- Info  -	[shell] status_changed:2
+2023-04-14 09:39:00.404	- Info  -	[shell] status_changed:1
+2023-04-14 09:39:00.473	- Info  -	[http call3] new call id:4, url:https://slapi.oray.net/client/free-tips
+2023-04-14 09:39:00.492	- Info  -	[http call3] id:4 create new connection : https://slapi.oray.net:443
+2023-04-14 09:39:01.057	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-14 09:39:01.216	- Info  -	[http call3] id:4, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-04-14 09:39:14.954	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-14 09:39:14.954	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-14 09:48:39.969	* Error *	sensors data send failed!
+2023-04-14 09:48:41.383	- Info  -	Control voice return 0
+2023-04-14 09:48:43.832	- Info  -	Control voice return 0
+2023-04-14 09:48:45.881	* Error *	sensors data send failed!
+2023-04-14 11:48:47.065	* Error *	sensors data send failed!
+2023-04-14 11:48:47.920	- Info  -	Control voice return 0
+2023-04-14 11:48:47.921	- Info  -	Control voice return 0
+2023-04-14 11:48:50.384	- Info  -	Control voice return 0
+2023-04-14 11:48:52.354	* Error *	sensors data send failed!
+2023-04-14 12:15:26.122	* Error *	sensors data send failed!
+2023-04-14 12:15:33.310	* Error *	sensors data send failed!
+2023-04-14 12:15:33.326	* Error *	sensors data send failed!
+2023-04-14 12:15:33.332	- Info  -	[mac] local ip:192.168.0.102
+2023-04-14 12:15:33.377	- Info  -	[mac] mac address:02:F4:06:D2:23:AC
+2023-04-14 12:15:33.380	- Info  -	[http call3] new call id:5, url:https://slapi.oray.net/remote/get-remoteaddr
+2023-04-14 12:15:33.383	- Info  -	[http call3] id:5 create new connection : https://slapi.oray.net:443
+2023-04-14 12:15:33.393	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-04-14 12:15:33.573	- Info  -	[http call3] id:5, url:https://slapi.oray.net/remote/get-remoteaddr, status code:200
+2023-04-14 12:15:33.578	- Info  -	[mac] local ip:192.168.0.102
+2023-04-14 12:15:33.585	- Info  -	[mac] mac address:02:F4:06:D2:23:AC
+2023-04-14 12:15:33.738	- Info  -	[http call3] new call id:6, url:https://k847855856-1154964656lsdfdc3e74.rc03.oray.com/express_login
+2023-04-14 12:15:33.740	- Info  -	[http call3] id:6 create new connection : https://k847855856-1154964656lsdfdc3e74.rc03.oray.com:443
+2023-04-14 12:15:33.740	- Info  -	attempt to connect server 116.62.220.223:443(116.62.220.223:443)
+2023-04-14 12:15:34.584	- Info  -	[http call3] id:6, url:https://k847855856-1154964656lsdfdc3e74.rc03.oray.com/express_login, status code:200
+2023-04-14 12:15:38.087	- Info  -	[http call3] new call id:7, url:sl-tk.oray.com/track
+2023-04-14 12:15:38.089	- Info  -	[http call3] id:7 create new connection : ://sl-tk.oray.com:80
+2023-04-14 12:15:38.096	- Info  -	attempt to connect server sl-tk.oray.com:80(120.26.124.112:80)
+2023-04-14 12:15:38.148	- Info  -	[http call3] id:7, url:sl-tk.oray.com/track, status code:200
+2023-04-14 12:15:38.148	- Info  -	upload data success!
+2023-04-14 12:15:40.461	* Error *	sensors data send failed!
+2023-04-14 12:15:41.474	* Error *	sensors data send failed!
+2023-04-14 12:15:48.567	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-14 12:15:48.567	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-14 12:15:51.274	* Error *	sensors data send failed!
+2023-04-14 12:15:51.334	* Error *	sensors data send failed!
+2023-04-14 12:16:11.271	+Warning+	[passive:keepalive:] 116.62.220.223:443 disconnect by keepalive timeout(95421812>=95385125+30000)
+2023-04-14 12:16:11.271	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-14 12:16:11.271	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-14 12:16:15.628	+Warning+	[passive:keepalive:] 120.26.124.112:80 disconnect by keepalive timeout(95426171>=95388687+30000)
+2023-04-14 12:16:15.628	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-14 12:16:15.628	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-14 12:50:51.055	* Error *	sensors data send failed!
+2023-04-14 12:50:51.692	- Info  -	Control voice return 0
+2023-04-14 12:50:51.694	- Info  -	Control voice return 0
+2023-04-14 12:50:54.469	- Info  -	Control voice return 0
+2023-04-14 12:50:56.333	* Error *	sensors data send failed!
+2023-04-14 13:06:35.792	* Error *	sensors data send failed!
+2023-04-14 13:06:40.113	* Error *	sensors data send failed!
+2023-04-14 13:06:40.113	- Info  -	[mac] local ip:192.168.0.102
+2023-04-14 13:06:40.119	- Info  -	[mac] mac address:02:F4:06:D2:23:AC
+2023-04-14 13:06:40.120	- Info  -	[http call3] new call id:8, url:https://slapi.oray.net/remote/get-remoteaddr
+2023-04-14 13:06:40.120	- Info  -	[http call3] id:8 create new connection : https://slapi.oray.net:443
+2023-04-14 13:06:40.128	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-14 13:06:40.390	- Info  -	[http call3] id:8, url:https://slapi.oray.net/remote/get-remoteaddr, status code:200
+2023-04-14 13:06:40.394	- Info  -	[mac] local ip:192.168.0.102
+2023-04-14 13:06:40.398	- Info  -	[mac] mac address:02:F4:06:D2:23:AC
+2023-04-14 13:06:40.501	- Info  -	[http call3] new call id:9, url:https://k847855856-1154964656lsdfdc3e74.rc03.oray.com/express_login
+2023-04-14 13:06:40.504	- Info  -	[http call3] id:9 create new connection : https://k847855856-1154964656lsdfdc3e74.rc03.oray.com:443
+2023-04-14 13:06:40.504	- Info  -	attempt to connect server 116.62.220.223:443(116.62.220.223:443)
+2023-04-14 13:06:40.789	- Info  -	[http call3] id:9, url:https://k847855856-1154964656lsdfdc3e74.rc03.oray.com/express_login, status code:200
+2023-04-14 13:06:43.066	- Info  -	[http call3] new call id:10, url:sl-tk.oray.com/track
+2023-04-14 13:06:43.068	- Info  -	[http call3] id:10 create new connection : ://sl-tk.oray.com:80
+2023-04-14 13:06:43.105	- Info  -	attempt to connect server sl-tk.oray.com:80(116.62.45.157:80)
+2023-04-14 13:06:43.208	- Info  -	[http call3] id:10, url:sl-tk.oray.com/track, status code:200
+2023-04-14 13:06:43.208	- Info  -	upload data success!
+2023-04-14 13:06:55.434	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-14 13:06:55.434	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-14 13:07:18.034	+Warning+	[passive:keepalive:] 116.62.220.223:443 disconnect by keepalive timeout(98488578>=98451328+30000)
+2023-04-14 13:07:18.034	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-14 13:07:18.034	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-14 13:07:20.639	+Warning+	[passive:keepalive:] 116.62.45.157:80 disconnect by keepalive timeout(98491187>=98453750+30000)
+2023-04-14 13:07:20.639	+Warning+	[oray][erroCode] errorcode=ORAY_ERROR_PHSTREAM_KEEPALIVE_TIMEOUT(57351), product=0, type=3, inner code=7 [CPassiveKeepAliveHandler::Done:141]
+2023-04-14 13:07:20.639	- Info  -	[http call3] disconnect, error( 57351 )
+2023-04-14 13:11:42.135	* Error *	sensors data send failed!
+2023-04-14 13:11:42.827	- Info  -	[http call3] new call id:11, url:sl-tk.oray.com/track
+2023-04-14 13:11:42.827	- Info  -	[http call3] id:11 create new connection : ://sl-tk.oray.com:80
+2023-04-14 13:11:42.845	- Info  -	attempt to connect server sl-tk.oray.com:80(121.40.184.4:80)
+2023-04-14 13:11:42.887	- Info  -	Control voice return 0
+2023-04-14 13:11:42.898	- Info  -	Control voice return 0
+2023-04-14 13:11:42.921	- Info  -	[http call3] id:11, url:sl-tk.oray.com/track, status code:200
+2023-04-14 13:11:42.921	- Info  -	upload data success!
+2023-04-14 13:11:45.415	- Info  -	Control voice return 0
+2023-04-14 13:11:47.464	* Error *	sensors data send failed!
+2023-04-14 13:11:49.205	- Info  -	[http call3] new call id:12, url:sl-tk.oray.com/track
+2023-04-14 13:11:49.209	- Info  -	[http call3] id:12 use old connection : ://sl-tk.oray.com:80
+2023-04-14 13:11:49.418	- Info  -	[http call3] id:12, url:sl-tk.oray.com/track, status code:200
+2023-04-14 13:11:49.418	- Info  -	upload data success!
+2023-04-14 13:12:05.176	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-14 14:00:09.558	- Info  -	[shell] status_changed:0
+2023-04-15 08:27:05.066	- Info  -	[shell] status_changed:2
+2023-04-15 08:27:35.072	- Info  -	[shell] status_changed:2
+2023-04-15 08:27:35.073	- Info  -	[shell] status_changed:2
+2023-04-15 08:28:05.106	- Info  -	[shell] status_changed:0
+2023-04-15 08:30:05.826	- Info  -	[shell] status_changed:2
+2023-04-15 08:30:06.425	- Info  -	[shell] status_changed:1
+2023-04-15 08:30:06.455	- Info  -	[http call3] new call id:13, url:https://slapi.oray.net/client/free-tips
+2023-04-15 08:30:06.456	- Info  -	[http call3] id:13 create new connection : https://slapi.oray.net:443
+2023-04-15 08:30:06.459	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-15 08:30:06.650	- Info  -	[http call3] id:13, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-04-15 08:30:21.682	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-15 08:30:21.683	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-15 12:18:54.327	- Info  -	[shell] status_changed:0
+2023-04-15 12:19:07.563	- Info  -	[shell] status_changed:2
+2023-04-15 12:19:08.435	- Info  -	[shell] status_changed:1
+2023-04-15 12:19:08.464	- Info  -	[http call3] new call id:14, url:https://slapi.oray.net/client/free-tips
+2023-04-15 12:19:08.475	- Info  -	[http call3] id:14 create new connection : https://slapi.oray.net:443
+2023-04-15 12:19:08.500	- Info  -	attempt to connect server slapi.oray.net:443(121.40.99.129:443)
+2023-04-15 12:19:08.711	- Info  -	[http call3] id:14, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-04-15 12:19:23.708	* Error *	SSLStream::IsWantReadWrite|peer(121.40.99.129:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-15 12:19:23.708	- Info  -	[http call3] disconnect, error( 0 )
+2023-04-15 18:08:01.286	- Info  -	[shell] status_changed:0
+2023-04-16 17:19:00.495	- Info  -	[shell] status_changed:2
+2023-04-16 17:19:30.645	- Info  -	[shell] status_changed:2
+2023-04-16 17:19:30.646	- Info  -	[shell] status_changed:2
+2023-04-16 17:20:00.694	- Info  -	[shell] status_changed:0
+2023-04-16 17:22:02.222	- Info  -	[shell] status_changed:2
+2023-04-16 17:22:32.255	- Info  -	[shell] status_changed:0
+2023-04-16 17:24:33.336	- Info  -	[shell] status_changed:2
+2023-04-16 17:25:03.381	- Info  -	[shell] status_changed:0
+2023-04-16 17:27:04.507	- Info  -	[shell] status_changed:2
+2023-04-16 17:27:34.546	- Info  -	[shell] status_changed:0
+2023-04-16 17:29:35.630	- Info  -	[shell] status_changed:2
+2023-04-16 17:30:05.654	- Info  -	[shell] status_changed:0
+2023-04-16 17:32:06.750	- Info  -	[shell] status_changed:2
+2023-04-16 17:32:36.802	- Info  -	[shell] status_changed:0
+2023-04-16 17:34:37.833	- Info  -	[shell] status_changed:2
+2023-04-16 17:35:07.873	- Info  -	[shell] status_changed:0
+2023-04-16 17:37:08.919	- Info  -	[shell] status_changed:2
+2023-04-16 17:37:38.952	- Info  -	[shell] status_changed:0
+2023-04-16 17:39:40.296	- Info  -	[shell] status_changed:2
+2023-04-16 17:40:10.340	- Info  -	[shell] status_changed:0
+2023-04-16 17:42:11.896	- Info  -	[shell] status_changed:2
+2023-04-16 17:42:41.925	- Info  -	[shell] status_changed:0
+2023-04-16 17:45:09.652	- Info  -	[shell] status_changed:2
+2023-04-16 17:45:39.800	- Info  -	[shell] status_changed:0
+2023-04-16 17:47:42.534	- Info  -	[shell] status_changed:2
+2023-04-16 17:48:12.565	- Info  -	[shell] status_changed:0
+2023-04-16 17:50:14.160	- Info  -	[shell] status_changed:2
+2023-04-16 17:50:44.180	- Info  -	[shell] status_changed:0
+2023-04-16 17:52:45.226	- Info  -	[shell] status_changed:2
+2023-04-16 17:53:15.256	- Info  -	[shell] status_changed:0
+2023-04-16 17:55:16.283	- Info  -	[shell] status_changed:2
+2023-04-16 17:55:46.311	- Info  -	[shell] status_changed:0
+2023-04-16 17:57:47.349	- Info  -	[shell] status_changed:2
+2023-04-16 17:58:17.399	- Info  -	[shell] status_changed:0
+2023-04-16 18:00:18.424	- Info  -	[shell] status_changed:2
+2023-04-16 18:00:48.461	- Info  -	[shell] status_changed:0
+2023-04-16 18:02:49.536	- Info  -	[shell] status_changed:2
+2023-04-16 18:03:19.567	- Info  -	[shell] status_changed:0
+2023-04-16 18:05:20.589	- Info  -	[shell] status_changed:2
+2023-04-16 18:05:50.617	- Info  -	[shell] status_changed:0
+2023-04-16 18:07:51.695	- Info  -	[shell] status_changed:2
+2023-04-16 18:08:21.728	- Info  -	[shell] status_changed:0
+2023-04-16 18:10:22.831	- Info  -	[shell] status_changed:2
+2023-04-16 18:10:52.874	- Info  -	[shell] status_changed:0
+2023-04-16 18:12:53.911	- Info  -	[shell] status_changed:2
+2023-04-16 18:13:23.955	- Info  -	[shell] status_changed:0
+2023-04-16 18:15:25.044	- Info  -	[shell] status_changed:2
+2023-04-16 18:15:55.074	- Info  -	[shell] status_changed:0
+2023-04-16 18:17:56.129	- Info  -	[shell] status_changed:2
+2023-04-16 18:18:26.172	- Info  -	[shell] status_changed:0
+2023-04-16 18:20:27.199	- Info  -	[shell] status_changed:2
+2023-04-16 18:20:57.241	- Info  -	[shell] status_changed:0
+2023-04-16 18:22:58.386	- Info  -	[shell] status_changed:2
+2023-04-16 18:23:28.412	- Info  -	[shell] status_changed:0
+2023-04-16 18:25:29.473	- Info  -	[shell] status_changed:2
+2023-04-16 18:25:59.509	- Info  -	[shell] status_changed:0
+2023-04-16 18:28:01.154	- Info  -	[shell] status_changed:2
+2023-04-16 18:28:31.177	- Info  -	[shell] status_changed:0
+2023-04-16 18:30:32.264	- Info  -	[shell] status_changed:2
+2023-04-16 18:31:02.278	- Info  -	[shell] status_changed:0
+2023-04-16 18:33:03.394	- Info  -	[shell] status_changed:2
+2023-04-16 18:33:33.431	- Info  -	[shell] status_changed:0
+2023-04-16 18:35:34.482	- Info  -	[shell] status_changed:2
+2023-04-16 18:36:04.517	- Info  -	[shell] status_changed:0
+2023-04-16 18:38:05.552	- Info  -	[shell] status_changed:2
+2023-04-16 18:38:35.581	- Info  -	[shell] status_changed:0
+2023-04-16 18:40:36.586	- Info  -	[shell] status_changed:2
+2023-04-16 18:41:06.620	- Info  -	[shell] status_changed:0
+2023-04-16 18:43:07.700	- Info  -	[shell] status_changed:2
+2023-04-16 18:43:37.787	- Info  -	[shell] status_changed:0
+2023-04-16 18:45:38.812	- Info  -	[shell] status_changed:2
+2023-04-16 18:46:08.844	- Info  -	[shell] status_changed:0
+2023-04-16 18:48:10.043	- Info  -	[shell] status_changed:2
+2023-04-16 18:48:40.062	- Info  -	[shell] status_changed:0
+2023-04-16 18:50:42.270	- Info  -	[shell] status_changed:2
+2023-04-16 18:51:12.294	- Info  -	[shell] status_changed:0
+2023-04-16 18:53:13.353	- Info  -	[shell] status_changed:2
+2023-04-16 18:53:43.394	- Info  -	[shell] status_changed:0
+2023-04-16 18:55:44.430	- Info  -	[shell] status_changed:2
+2023-04-16 18:56:14.468	- Info  -	[shell] status_changed:0
+2023-04-16 18:58:15.568	- Info  -	[shell] status_changed:2
+2023-04-16 18:58:45.602	- Info  -	[shell] status_changed:0
+2023-04-16 19:00:47.800	- Info  -	[shell] status_changed:2
+2023-04-16 19:01:17.838	- Info  -	[shell] status_changed:0
+2023-04-16 19:03:19.420	- Info  -	[shell] status_changed:2
+2023-04-16 19:03:49.409	- Info  -	[shell] status_changed:0
+2023-04-16 19:05:52.347	- Info  -	[shell] status_changed:2
+2023-04-16 19:06:22.403	- Info  -	[shell] status_changed:0
+2023-04-16 19:08:24.099	- Info  -	[shell] status_changed:2
+2023-04-16 19:08:54.106	- Info  -	[shell] status_changed:0
+2023-04-16 19:10:55.241	- Info  -	[shell] status_changed:2
+2023-04-16 19:11:25.277	- Info  -	[shell] status_changed:0
+2023-04-16 19:13:26.298	- Info  -	[shell] status_changed:2
+2023-04-16 19:13:56.333	- Info  -	[shell] status_changed:0
+2023-04-16 19:15:58.518	- Info  -	[shell] status_changed:2
+2023-04-16 19:16:28.553	- Info  -	[shell] status_changed:0
+2023-04-16 19:18:30.329	- Info  -	[shell] status_changed:2
+2023-04-16 19:19:00.405	- Info  -	[shell] status_changed:0
+2023-04-16 19:21:02.300	- Info  -	[shell] status_changed:2
+2023-04-16 19:21:32.324	- Info  -	[shell] status_changed:0
+2023-04-16 19:23:35.276	- Info  -	[shell] status_changed:2
+2023-04-16 19:24:05.322	- Info  -	[shell] status_changed:0
+2023-04-16 19:26:06.953	- Info  -	[shell] status_changed:2
+2023-04-16 19:26:37.004	- Info  -	[shell] status_changed:0
+2023-04-16 19:28:38.331	- Info  -	[shell] status_changed:2
+2023-04-16 19:29:08.367	- Info  -	[shell] status_changed:0
+2023-04-16 19:31:09.906	- Info  -	[shell] status_changed:2
+2023-04-16 19:31:39.941	- Info  -	[shell] status_changed:0
+2023-04-16 19:33:42.773	- Info  -	[shell] status_changed:2
+2023-04-16 19:34:12.820	- Info  -	[shell] status_changed:0
+2023-04-16 19:36:14.005	- Info  -	[shell] status_changed:2
+2023-04-16 19:36:44.110	- Info  -	[shell] status_changed:0
+2023-04-16 19:38:46.505	- Info  -	[shell] status_changed:2
+2023-04-16 19:39:16.548	- Info  -	[shell] status_changed:0
+2023-04-16 19:41:20.005	- Info  -	[shell] status_changed:2
+2023-04-16 19:41:50.048	- Info  -	[shell] status_changed:0
+2023-04-16 19:43:51.249	- Info  -	[shell] status_changed:2
+2023-04-16 19:44:21.277	- Info  -	[shell] status_changed:0
+2023-04-16 19:46:22.527	- Info  -	[shell] status_changed:2
+2023-04-16 19:46:52.555	- Info  -	[shell] status_changed:0
+2023-04-16 19:48:53.659	- Info  -	[shell] status_changed:2
+2023-04-16 19:49:23.691	- Info  -	[shell] status_changed:0
+2023-04-16 19:51:24.752	- Info  -	[shell] status_changed:2
+2023-04-16 19:51:54.765	- Info  -	[shell] status_changed:0
+2023-04-16 19:53:55.813	- Info  -	[shell] status_changed:2
+2023-04-16 19:54:25.836	- Info  -	[shell] status_changed:0
+2023-04-16 19:56:26.918	- Info  -	[shell] status_changed:2
+2023-04-16 19:56:56.948	- Info  -	[shell] status_changed:0
+2023-04-16 19:58:58.064	- Info  -	[shell] status_changed:2
+2023-04-16 19:59:28.085	- Info  -	[shell] status_changed:0
+2023-04-16 20:01:29.119	- Info  -	[shell] status_changed:2
+2023-04-16 20:01:59.153	- Info  -	[shell] status_changed:0
+2023-04-16 20:04:00.340	- Info  -	[shell] status_changed:2
+2023-04-16 20:04:30.363	- Info  -	[shell] status_changed:0
+2023-04-16 20:06:31.424	- Info  -	[shell] status_changed:2
+2023-04-16 20:07:01.458	- Info  -	[shell] status_changed:0
+2023-04-16 20:09:02.483	- Info  -	[shell] status_changed:2
+2023-04-16 20:09:32.517	- Info  -	[shell] status_changed:0
+2023-04-16 20:11:33.586	- Info  -	[shell] status_changed:2
+2023-04-16 20:12:03.625	- Info  -	[shell] status_changed:0
+2023-04-16 20:14:04.689	- Info  -	[shell] status_changed:2
+2023-04-16 20:14:34.731	- Info  -	[shell] status_changed:0
+2023-04-16 20:16:35.725	- Info  -	[shell] status_changed:2
+2023-04-16 20:17:05.763	- Info  -	[shell] status_changed:0
+2023-04-16 20:19:06.817	- Info  -	[shell] status_changed:2
+2023-04-16 20:19:36.857	- Info  -	[shell] status_changed:0
+2023-04-16 20:21:38.454	- Info  -	[shell] status_changed:2
+2023-04-16 20:22:08.495	- Info  -	[shell] status_changed:0
+2023-04-16 20:24:09.641	- Info  -	[shell] status_changed:2
+2023-04-16 20:24:39.681	- Info  -	[shell] status_changed:0
+2023-04-16 20:26:40.734	- Info  -	[shell] status_changed:2
+2023-04-16 20:27:10.758	- Info  -	[shell] status_changed:0
+2023-04-16 20:29:11.839	- Info  -	[shell] status_changed:2
+2023-04-16 20:29:41.862	- Info  -	[shell] status_changed:0
+2023-04-16 20:31:42.901	- Info  -	[shell] status_changed:2
+2023-04-16 20:32:12.927	- Info  -	[shell] status_changed:0
+2023-04-16 20:34:13.981	- Info  -	[shell] status_changed:2
+2023-04-16 20:34:44.003	- Info  -	[shell] status_changed:0
+2023-04-16 20:36:45.046	- Info  -	[shell] status_changed:2
+2023-04-16 20:37:15.095	- Info  -	[shell] status_changed:0
+2023-04-16 20:39:16.136	- Info  -	[shell] status_changed:2
+2023-04-16 20:39:46.162	- Info  -	[shell] status_changed:0
+2023-04-16 20:41:47.232	- Info  -	[shell] status_changed:2
+2023-04-16 20:42:17.268	- Info  -	[shell] status_changed:0
+2023-04-16 20:44:18.316	- Info  -	[shell] status_changed:2
+2023-04-16 20:44:48.357	- Info  -	[shell] status_changed:0
+2023-04-16 20:46:49.414	- Info  -	[shell] status_changed:2
+2023-04-16 20:47:19.455	- Info  -	[shell] status_changed:0
+2023-04-16 20:49:20.530	- Info  -	[shell] status_changed:2
+2023-04-16 20:49:50.563	- Info  -	[shell] status_changed:0
+2023-04-16 20:51:51.583	- Info  -	[shell] status_changed:2
+2023-04-16 20:52:21.624	- Info  -	[shell] status_changed:0
+2023-04-16 20:54:22.615	- Info  -	[shell] status_changed:2
+2023-04-16 20:54:52.650	- Info  -	[shell] status_changed:0
+2023-04-16 20:56:53.734	- Info  -	[shell] status_changed:2
+2023-04-16 20:57:23.775	- Info  -	[shell] status_changed:0
+2023-04-16 20:59:30.258	- Info  -	[shell] status_changed:2
+2023-04-16 20:59:34.989	- Info  -	[shell] status_changed:1
+2023-04-16 20:59:35.214	- Info  -	[http call3] new call id:15, url:https://slapi.oray.net/client/free-tips
+2023-04-16 20:59:35.305	- Info  -	[http call3] id:15 create new connection : https://slapi.oray.net:443
+2023-04-16 20:59:35.338	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-04-16 20:59:36.354	- Info  -	[http call3] id:15, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-04-16 20:59:52.494	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-04-16 20:59:52.494	- Info  -	[http call3] disconnect, error( 0 )

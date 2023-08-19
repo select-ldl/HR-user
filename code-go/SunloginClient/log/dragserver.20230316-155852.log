@@ -1,0 +1,46 @@
+2023-03-16 15:58:52.345	- Info  -	version:3.2.1.40406
+2023-03-16 15:58:52.345	- Info  -	[clipboard][client] current session id 1, ProcessID 12352
+
+2023-03-16 15:58:52.347	- Info  -	attempt to connect server 127.0.0.1:51841(127.0.0.1:51841)
+2023-03-16 15:58:52.348	- Info  -	[clipboard][DesktopAgentClient] connect DesktopServer ok.
+2023-03-16 15:58:52.354	- Info  -	[clipboard][client::handler] connected sid(0), thread(9220)
+2023-03-16 15:58:52.354	- Info  -	[clipboard] start clipboard...
+2023-03-16 15:58:52.412	- Info  -	[clipboard][converter] html format 49319
+2023-03-16 15:58:52.414	- Info  -	[clipboard][converter] rtf format 49397
+2023-03-16 15:58:52.415	- Info  -	[clipboard] start clipboard ok.
+2023-03-16 15:58:52.415	- Info  -	[clipboard] stop clipboard...
+2023-03-16 15:58:52.421	- Info  -	[clipboard] recv thread end(1).
+2023-03-16 15:58:52.421	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-03-16 15:58:52.421	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-03-16 15:58:52.423	- Info  -	[clipboard] Stop Clipboard ok
+2023-03-16 15:58:52.773	- Info  -	[clipboard] start clipboard...
+2023-03-16 15:58:52.792	- Info  -	[clipboard][converter] html format 49319
+2023-03-16 15:58:52.792	- Info  -	[clipboard][converter] rtf format 49397
+2023-03-16 15:58:52.792	- Info  -	[clipboard] start clipboard ok.
+2023-03-16 15:58:52.795	- Info  -	[clipboard] recv thread end(2).
+2023-03-16 15:58:55.029	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-03-16 15:58:55.029	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-03-16 15:58:55.029	- Info  -	CClipboardRaw::OnReceiveQueryVersionReq 2
+2023-03-16 15:59:14.451	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2023-03-16 15:59:14.679	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 13
+2023-03-16 15:59:14.679	- Info  -	[clipboard] RenderFormat, win format 13, 109354781
+2023-03-16 15:59:14.698	- Info  -	[clipboard] OnReceiveClipData, type 2692944494605, size 13432
+2023-03-16 15:59:14.698	- Info  -	[clipboard] format 13, data size: 13432
+2023-03-16 15:59:14.698	- Info  -	[clipboard] setClipboardData, format 13, oray format 13
+2023-03-16 15:59:14.699	- Info  -	[clipboard] RenderFormat end
+2023-03-16 15:59:14.699	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 13
+2023-03-16 15:59:14.743	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat begin, uformat 49319
+2023-03-16 15:59:14.743	- Info  -	[clipboard] RenderFormat, win format 49319, oray format 32, 109354843
+2023-03-17 09:57:38.276	- Info  -	[clipboard][client::handler] disconnected
+2023-03-17 09:57:38.441	- Info  -	[clipboard] stop clipboard...
+2023-03-17 09:57:38.456	+Warning+	[clipboard] call CClipboardRaw::WaitForRecvData failed
+2023-03-17 09:57:38.456	- Info  -	[clipboard] RenderFormat end
+2023-03-17 09:57:38.456	- Info  -	[clipboard] CClipboardViewer::OnRenderFormat end, uformat 49319
+2023-03-17 09:57:38.456	- Info  -	[clipboard] CClipboardViewer::OnClipboardUpdate
+2023-03-17 09:57:38.461	- Info  -	[clipboard] push format(2) 49319
+2023-03-17 09:57:38.461	- Info  -	[clipboard] push format(2) 13
+2023-03-17 09:57:38.461	- Info  -	[clipboard] push format(2) 1
+2023-03-17 09:57:39.323	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-03-17 09:57:39.323	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-03-17 09:57:39.324	- Info  -	[clipboard] Stop Clipboard ok
+2023-03-17 09:57:39.325	- Info  -	[clipboard][DesktopAgentClient] on_disconnect ok.

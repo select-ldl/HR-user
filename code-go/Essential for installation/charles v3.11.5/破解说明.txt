@@ -1,0 +1,3 @@
+charles破解：
+1.charles安装完成之后，把charles.jar包放到Charles安装目录的lib文件夹下替换原来的charles.jar包即可破解。
+2.破解之后启动charles，可以看到菜单栏help下面显示已经破解了。

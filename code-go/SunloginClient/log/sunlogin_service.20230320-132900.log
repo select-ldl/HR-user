@@ -1,0 +1,100 @@
+2023-03-20 13:29:00.870	- Info  -	version:3.2.1.40406
+2023-03-20 13:29:00.991	* Error *	SSLStream|Remove temp(C:\Windows\TEMP\u2os.0) file ok
+2023-03-20 13:29:01.777	- Info  -	Initialize OK
+2023-03-20 13:29:01.777	- Info  -	CAcceptorRaw::set_listener
+2023-03-20 13:29:01.793	- Info  -	DesktopAgentServer created with port 0.
+2023-03-20 13:29:01.918	* Error *	[udpstack] bind 0.0.0.0:15761 error , errorno = 10048
+2023-03-20 13:29:01.918	- Info  -	[service] start listen OK,tcp:0.0.0.0:49675,udp:15872
+2023-03-20 13:29:02.027	- Info  -	[discover] Client NotifyDiscover type=5
+2023-03-20 13:29:02.152	- Info  -	[localserver] Not use proxy
+2023-03-20 13:29:02.152	- Info  -	network error, retrying login server
+2023-03-20 13:29:05.199	- Info  -	[mac] local ip:172.16.77.28
+2023-03-20 13:29:05.213	- Info  -	[mac] mac address:02:F4:2F:D2:C4:65
+2023-03-20 13:29:05.213	- Info  -	get mac address: 02:F4:2F:D2:C4:65
+2023-03-20 13:29:08.006	- Info  -	os name:Microsoft Windows 10 专业版
+2023-03-20 13:29:08.605	- Info  -	m_clientinfo.mac: 02:F4:2F:D2:C4:65
+2023-03-20 13:29:08.629	- Info  -	Current client status: 2
+2023-03-20 13:29:08.629	- Info  -	send status_changed notify 2
+2023-03-20 13:29:08.629	- Info  -	Login task time 0
+2023-03-20 13:29:08.629	- Info  -	Do login( type: 2 ) at 379
+2023-03-20 13:29:08.629	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/remote/get-fastcode
+2023-03-20 13:29:08.652	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2023-03-20 13:29:08.663	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-03-20 13:29:08.889	- Info  -	[http call3] id:1, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-03-20 13:29:08.899	- Info  -	attempt to connect server rc10-fc11.oray.com:443(120.55.59.130:443)
+2023-03-20 13:29:09.009	- Info  -	[service] attempted logon
+2023-03-20 13:29:09.040	+Warning+	[service] logon failed: error password(2)
+2023-03-20 13:29:09.040	- Info  -	Current client status: 0
+2023-03-20 13:29:09.040	- Info  -	send status_changed notify 0
+2023-03-20 13:29:09.040	- Info  -	[OnLogout start]
+2023-03-20 13:29:09.040	- Info  -	[service] stop all projections
+2023-03-20 13:29:09.040	* Error *	[Logout] No relogon error is 19
+2023-03-20 13:29:09.040	- Info  -	[OnLogout end]
+2023-03-20 13:29:09.040	* Error *	[oray][erroCode] errorcode=ORAY_ERROR_SL_LOGIN_FAILED(134307841), product=2, type=5, inner code=1 [CLogonHandler::OnLoginRes:251]
+2023-03-20 13:29:09.041	- Info  -	[service] disconnected server(120.55.59.130:443),errorcode:134307841
+2023-03-20 13:29:23.887	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-20 13:29:23.887	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-20 13:29:29.458	- Info  -	[MICRO LIVE] shell send close micro_live_plugin
+2023-03-20 13:29:33.737	- Info  -	Logout ...
+2023-03-20 13:29:33.748	- Info  -	Current client status: 2
+2023-03-20 13:29:33.748	- Info  -	send status_changed notify 2
+2023-03-20 13:29:33.749	- Info  -	Login task time 0
+2023-03-20 13:29:33.780	- Info  -	Do login( type: 2 ) at 379
+2023-03-20 13:29:33.780	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/remote/get-fastcode
+2023-03-20 13:29:33.804	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2023-03-20 13:29:33.805	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-03-20 13:29:34.039	- Info  -	[http call3] id:2, url:https://slapi.oray.net/remote/get-fastcode, status code:200
+2023-03-20 13:29:34.052	- Info  -	attempt to connect server rc10-fc05.oray.com:443(47.118.71.166:443)
+2023-03-20 13:29:34.129	- Info  -	[service] attempted logon
+2023-03-20 13:29:34.163	- Info  -	[service] logon server OK. public ip:223.82.110.30
+2023-03-20 13:29:34.192	- Info  -	[online] attempted client online
+2023-03-20 13:29:34.221	- Info  -	[online] client online OK.
+2023-03-20 13:29:34.221	- Info  -	[online] received name:default , description:default .
+2023-03-20 13:29:34.233	- Info  -	[service] attempted register client to server
+2023-03-20 13:29:34.257	- Info  -	[service] registered client to server
+2023-03-20 13:29:34.257	- Info  -	[http call3] new call id:3, url:https://sl-log.oray.net/slclientlog
+2023-03-20 13:29:34.257	- Info  -	Current client status: 1
+2023-03-20 13:29:34.257	- Info  -	send status_changed notify 1
+2023-03-20 13:29:34.265	- Info  -	[http call3] id:3 create new connection : https://sl-log.oray.net:443
+2023-03-20 13:29:34.266	- Info  -	[discover] Client NotifyDiscover type=5
+2023-03-20 13:29:34.276	- Info  -	[OnLogin start]
+2023-03-20 13:29:34.276	- Info  -	[http call3] new call id:4, url:https://slapi.oray.net/sunlogin/remote-info.update
+2023-03-20 13:29:34.276	- Info  -	[OnLogin end]
+2023-03-20 13:29:34.279	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.162.230:443)
+2023-03-20 13:29:34.280	- Info  -	[http call3] id:4 use old connection : https://slapi.oray.net:443
+2023-03-20 13:29:34.303	- Info  -	[OnLogin] WaittingTask Start
+2023-03-20 13:29:34.306	- Info  -	Set auto_run : true
+2023-03-20 13:29:34.388	- Info  -	[http call3] id:3, url:https://sl-log.oray.net/slclientlog, status code:200
+2023-03-20 13:29:34.402	- Info  -	[OnLogin] WaittingTask end
+2023-03-20 13:29:34.428	- Info  -	[http call3] id:4, url:https://slapi.oray.net/sunlogin/remote-info.update, status code:200
+2023-03-20 13:29:34.428	- Info  -	upload remote info ok
+2023-03-20 13:29:49.427	* Error *	SSLStream::IsWantReadWrite|peer(121.40.200.192:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-20 13:29:49.428	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-20 13:30:04.389	* Error *	SSLStream::IsWantReadWrite|peer(47.97.162.230:443), SSL_read failed( 6 ), error:00000000:lib(0):func(0):reason(0), file( ..\includes\common\phstream\SSLStream.cpp:1898 )
+2023-03-20 13:30:04.389	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-20 17:19:07.515	- Info  -	[ServiceEx] the service control is 5
+2023-03-20 17:19:07.515	- Info  -	SERVICE_CONTROL_SHUTDOWN************
+2023-03-20 17:19:07.515	- Info  -	[discover] Client NotifyDiscover type=6
+2023-03-20 17:19:07.683	- Info  -	Logout ...
+2023-03-20 17:19:07.686	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiplexLogicStream::Disconnect_impl:121]
+2023-03-20 17:19:07.686	- Info  -	[RemoteControl] disconnected server(47.118.71.166:443),error code:0
+2023-03-20 17:19:07.688	* Error *	[online] online disconnected,error code:0
+2023-03-20 17:19:07.689	- Info  -	[oray][erroCode] errorcode=errorcode(0), product=0, type=0, inner code=0 [COnlineHandler::OnDisconnect:86]
+2023-03-20 17:19:07.691	- Info  -	[service] disconnected server(47.118.71.166:443),errorcode:0
+2023-03-20 17:19:07.692	- Info  -	curStatus: 0, m_Status: 1
+2023-03-20 17:19:07.701	- Info  -	[http call3] new call id:5, url:https://sl-log.oray.net/slclientlog
+2023-03-20 17:19:07.703	- Info  -	Current client status: 0
+2023-03-20 17:19:07.717	- Info  -	[http call3] id:5 create new connection : https://sl-log.oray.net:443
+2023-03-20 17:19:07.734	- Info  -	attempt to connect server sl-log.oray.net:443(47.97.106.171:443)
+2023-03-20 17:19:08.112	- Info  -	[CUDPLibWrapper] map size: 0, value: 
+2023-03-20 17:19:08.116	- Info  -	[service] stop listen OK
+2023-03-20 17:19:08.117	- Info  -	[service] stop all projections
+2023-03-20 17:19:08.117	- Info  -	[discover] Client NotifyDiscover type=6
+2023-03-20 17:19:08.784	- Info  -	[http call3] disconnect, error( 10054 )
+2023-03-20 17:19:08.791	- Info  -	[http call3] disconnect id:5, error( 10054 )
+2023-03-20 17:19:11.170	* Error *	[hidden_wnd] Message Thread Exit wrong: 258
+2023-03-20 17:19:11.190	- Info  -	[CUDPLibWrapper] map size: 0, value: 
+2023-03-20 17:19:11.192	- Info  -	Terminate OK
+2023-03-20 17:19:11.197	- Info  -	Terminate OK
+2023-03-20 17:19:11.203	- Info  -	[service] stop all projections
+2023-03-20 17:19:11.234	- Info  -	program service is exit 

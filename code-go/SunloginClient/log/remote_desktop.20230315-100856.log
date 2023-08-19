@@ -1,0 +1,186 @@
+2023-03-15 10:08:56.829	- Info  -	version:3.2.1.40406
+2023-03-15 10:08:56.837	- Info  -	DPIAwareness set 2 success.
+2023-03-15 10:08:56.846	- Info  -	config path: ðrÖI”
+2023-03-15 10:08:56.907	- Info  -	[displayclt] CDisplayClient::CDisplayClient(all)
+2023-03-15 10:08:56.907	- Info  -	[desktop] CRemoteDesktopPlugin::CRemoteDesktopPlugin(all)
+2023-03-15 10:08:56.914	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2023-03-15 10:08:56.932	- Info  -	CMultiChannelStreamImpl::CMultiChannelStreamImpl
+2023-03-15 10:08:56.933	* Error *	sensors data send failed!
+2023-03-15 10:08:56.934	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_FORWARD, error: 0
+2023-03-15 10:08:56.934	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FORWARD, error: 0, oray errorcode: 0
+2023-03-15 10:08:56.934	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:08:57.022	- Info  -	plugin_public access_token is NULL
+2023-03-15 10:08:57.109	- Info  -	attempt to connect server 2064207360.slp2p-east-std203.oray.net:443(122.246.12.46:443)
+2023-03-15 10:08:57.364	- Info  -	[TCPConnector] CCurStream handle client_connect
+2023-03-15 10:08:57.394	- Info  -	[MultiChannel] Forward channel shake handle 122.246.12.46:443
+2023-03-15 10:08:57.394	- Info  -	CMultiChannelStreamImpl::OnConnect()
+2023-03-15 10:08:57.394	- Info  -	CClientStream 122.246.12.46:443 OnConnect
+2023-03-15 10:08:57.394	- Info  -	CConnectorRaw::OnEvent() state: CNTS_LOGIN, error: 0, oray errorcode: 0
+2023-03-15 10:08:57.394	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:08:57.394	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_SHAKEHANDLE, error: 0, oray errorcode: 0
+2023-03-15 10:08:57.394	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:08:57.591	- Info  -	[MultiChannel] Forward channel connected 122.246.12.46:443
+2023-03-15 10:08:57.591	- Info  -	CMultiChannelStreamImpl::OnConnectEvent, status: CNTS_FWD_CONNECTED, isclosed:false, HadFwdConnected: true, HadBeenHolePunch: false
+2023-03-15 10:08:57.591	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_CONNECTED, error: 0, oray errorcode: 0
+2023-03-15 10:08:57.591	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:08:57.591	* Error *	CClientStream receive invalid Logon_OK_Message
+2023-03-15 10:08:57.591	- Info  -	CClientStream 122.246.12.46:443 OnReceive reply 1 
+2023-03-15 10:08:57.591	- Info  -	CClientStream 122.246.12.46:443 start keepalive
+2023-03-15 10:08:57.593	- Info  -	CClientStream 122.246.12.46:443 login OK
+2023-03-15 10:08:57.593	- Info  -	CConnectorRaw::OnEvent() state: CNTS_CONNECTED, error: 0, oray errorcode: 0
+2023-03-15 10:08:57.593	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:08:57.593	- Info  -	CPluginThreadManager start plugin thread
+2023-03-15 10:08:57.731	- Info  -	CActivePlugin prepare to init plugin
+2023-03-15 10:08:57.731	- Info  -	[desktop] create drag server OK
+2023-03-15 10:08:57.731	- Info  -	CActivePlugin prepare to run plugin
+2023-03-15 10:08:57.733	- Info  -	[desktop] sending switch desktop type message...
+2023-03-15 10:08:57.734	- Info  -	[desktop] request enumerate user list.
+2023-03-15 10:08:57.734	- Info  -	[desktop] Separation message loop start.
+2023-03-15 10:08:57.734	- Info  -	[desktop] receive switch host message res = 1 
+2023-03-15 10:08:57.741	- Info  -	[desktop] request enum screen
+2023-03-15 10:08:57.741	- Info  -	[DisplayClient] SetCompression 11/15
+2023-03-15 10:08:57.741	- Info  -	[desktop] request start stream
+2023-03-15 10:08:57.741	- Info  -	[desktop] SetCompressionParam: layer=1;encoding=4;format=1;reserved=0, size: 38
+2023-03-15 10:08:57.797	- Info  -	[desktop] OnQueryConfigRes
+2023-03-15 10:08:57.797	- Info  -	[desktop] OnQueryConfigRes
+2023-03-15 10:08:57.797	- Info  -	[desktop] recv enum screen, number is 1
+2023-03-15 10:08:57.961	* Error *	sensors data send failed!
+2023-03-15 10:08:58.180	- Info  -	[clipboard] start clipboard...
+2023-03-15 10:08:58.201	- Info  -	[clipboard][converter] html format 49319
+2023-03-15 10:08:58.201	- Info  -	[clipboard][converter] rtf format 49397
+2023-03-15 10:08:58.202	- Info  -	[clipboard] start clipboard ok.
+2023-03-15 10:08:58.202	- Info  -	[desktop] sync clipboard enable
+2023-03-15 10:08:58.365	- Info  -	SetDisplayMode() w=1600, h=900, bpp=32
+2023-03-15 10:08:58.365	- Info  -	ResetBitmap width=1600, height=900, bpp=32, srcbpp=32, Size = 5760000
+2023-03-15 10:08:58.365	- Info  -	[DisplayClient] recv image info, width: 1600, height: 900, bpp: 32
+2023-03-15 10:08:58.365	- Info  -	[DisplayClient] OnRecvCompInfo format/quality 11/15
+2023-03-15 10:08:58.366	- Info  -	[desktop][DisplayClient] recv first frame.
+2023-03-15 10:08:58.379	- Info  -	[DisplayClient] recv compimage type: ID_IMAGE_RAPIDCOMP
+2023-03-15 10:08:58.474	- Info  -	[vpx] open codec.
+2023-03-15 10:08:58.567	- Info  -	[desktop][DisplayClient] decode first frame end.
+2023-03-15 10:08:58.568	- Info  -	[desktop] receive first frame message
+2023-03-15 10:08:58.568	- Info  -	CClipboardRaw::OnReceiveQueryVersionReq 2
+2023-03-15 10:08:58.570	- Info  -	SetDisplayMode() w=1600, h=900, bpp=32
+2023-03-15 10:08:58.570	- Info  -	ResetBitmap width=1600, height=900, bpp=32, srcbpp=32, Size = 5760000
+2023-03-15 10:08:58.571	- Info  -	[DisplayClient] recv image info, width: 1600, height: 900, bpp: 32
+2023-03-15 10:08:58.604	- Info  -	[vpx][decoder] close codec.
+2023-03-15 10:08:58.623	- Info  -	[DisplayClient] OnRecvCompInfo format/quality 11/15
+2023-03-15 10:08:58.624	- Info  -	[desktop][DisplayClient] recv first frame.
+2023-03-15 10:08:58.631	- Info  -	[DisplayClient] recv compimage type: ID_IMAGE_RAPIDCOMP
+2023-03-15 10:08:58.714	- Info  -	[vpx] open codec.
+2023-03-15 10:08:58.778	- Info  -	Init D3D2 OK
+2023-03-15 10:08:58.778	- Info  -	[DesktopSurface] Use DirectX Paint mode 2
+2023-03-15 10:08:58.799	- Info  -	[desktop][DisplayClient] decode first frame end.
+2023-03-15 10:08:58.800	- Info  -	[desktop] receive first frame message
+2023-03-15 10:08:58.842	- Info  -	Init D3D2 OK
+2023-03-15 10:08:58.863	- Info  -	CClipboardRaw::OnReceiveQueryVersionReq 2
+2023-03-15 10:08:58.897	- Info  -	[maindialog] draw first frame end
+2023-03-15 10:08:58.976	- Info  -	[desktop] sync clipboard enable
+2023-03-15 10:08:58.976	- Info  -	[http call3] new call id:1, url:https://slapi.oray.net/client/free-tips
+2023-03-15 10:08:58.977	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/remote/get-network
+2023-03-15 10:08:58.977	- Info  -	[http call3] id:1 create new connection : https://slapi.oray.net:443
+2023-03-15 10:08:58.978	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2023-03-15 10:08:58.989	- Info  -	[http call3] id:2 use old connection : https://slapi.oray.net:443
+2023-03-15 10:08:59.210	- Info  -	[http call3] id:1, url:https://slapi.oray.net/client/free-tips, status code:200
+2023-03-15 10:08:59.351	- Info  -	[http call3] id:2, url:https://slapi.oray.net/remote/get-network, status code:200
+2023-03-15 10:08:59.580	- Info  -	CMultiChannelStreamImpl::ConnectP2PServer, thread id: 5368
+2023-03-15 10:08:59.717	- Info  -	CConnectorRaw::OnStreamEvent(1) state: CNTS_P2P, error: 0
+2023-03-15 10:08:59.717	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P, error: 0, oray errorcode: 0
+2023-03-15 10:08:59.717	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:08:59.717	- Info  -	[P2PConnector] attempt to connect server PHSRC://2064207360.slp2p-east-std203.oray.net:4118/desktop(slp2p-east-std203.oray.net:4118) 
+2023-03-15 10:08:59.815	- Info  -	[udp] support straight send in peer : no 122.246.12.46:4118 CConnection::OnConnectRes
+2023-03-15 10:08:59.816	- Info  -	[P2PHelper] detect local ip ...
+2023-03-15 10:08:59.817	- Info  -	[P2PHelper] detect local ip 192.168.2.107
+2023-03-15 10:08:59.817	- Info  -	[P2PHelper] attempt to login P2P Server...
+2023-03-15 10:08:59.841	- Info  -	[P2PHelper] Login P2P Server OK
+2023-03-15 10:08:59.841	- Info  -	[P2PHelper] OnLoginRes, receive public ip 106.5.128.56:5034
+2023-03-15 10:08:59.841	- Info  -	[P2PHelper] sending P2P request ...
+2023-03-15 10:08:59.892	- Info  -	[P2PHelper] receive peer local ip 192.168.0.104:15322, public ip 106.4.221.178:32125
+2023-03-15 10:08:59.892	- Info  -	[P2PStream] EstablishP2P local ip 106.5.128.56:5034/192.168.2.107:15701 ==> peer ip 106.4.221.178:32125/192.168.0.104:15322
+2023-03-15 10:09:00.514	- Info  -	discovery ok, find root devices: http://192.168.2.1:1900/igd.xml
+2023-03-15 10:09:00.560	- Info  -	external ip address 100.66.60.227
+2023-03-15 10:09:00.560	- Info  -	upnpnat_search_thread::ThreadLoop end
+2023-03-15 10:09:00.565	- Info  -	[udpwrapper] attempt to establish P2P connection via: 122.246.12.46:4118, (local)192.168.2.107:15701|(public)106.5.128.56:5034 ==> (local)192.168.0.104:15322|(public)106.4.221.178:32125
+2023-03-15 10:09:00.565	- Info  -	add_port_mapping external port 5034, internalclient ip 192.168.2.107, internal port 15701
+2023-03-15 10:09:00.609	+Warning+	[udpwrapper] add UPNP failed, Fail to add port mapping (slcc/ UDP)
+
+2023-03-15 10:09:00.642	- Info  -	[udp] OnConnectAck working in advanced mode 2
+2023-03-15 10:09:00.642	- Info  -	[udp] support straight send in peer : yes 106.4.221.178:32125 CConnection::OnConnectRes
+2023-03-15 10:09:00.642	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-03-15 10:09:00.642	- Info  -	[udp] Disconnect
+2023-03-15 10:09:00.642	- Info  -	[udp] SendDisconnect
+2023-03-15 10:09:00.643	- Info  -	[P2PHelper] MainServer disconnect
+2023-03-15 10:09:00.643	- Info  -	[MultiChannel] P2P channel shake handle 106.4.221.178:32125
+2023-03-15 10:09:00.643	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_SHAKEHANDLE, error: 0, oray errorcode: 0
+2023-03-15 10:09:00.643	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:09:00.643	- Info  -	[MultiChannel] send SHAKE_HANDLES_MSG, read 449849, write 7778
+2023-03-15 10:09:00.643	- Info  -	[P2PStream] connected (by udp) 0.0.0.0:15701 <--> 106.4.221.178:32125
+2023-03-15 10:09:00.647	- Info  -	write data when p2p state is SHAKE_HANDLES @ 137
+2023-03-15 10:09:00.655	- Info  -	[MultiChannel] Received SHAKE_HANDLES_MSG, read 7718 / (local write 7778), write 450093 / (local read 449849)
+2023-03-15 10:09:00.656	- Info  -	[MultiChannel] P2P channel connected 106.4.221.178:32125
+2023-03-15 10:09:00.656	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_CONNECTED, error: 0, oray errorcode: 0
+2023-03-15 10:09:00.656	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:09:00.656	- Info  -	[MultiChannel] forward stream read data(size:80, 80, left:244) when p2p state is CONNECTED @ 445
+2023-03-15 10:09:00.656	- Info  -	[MultiChannel] forward stream read data(size:20, 20, left:164) when p2p state is CONNECTED @ 445
+2023-03-15 10:09:00.656	- Info  -	[MultiChannel] forward data write completed @ 216
+2023-03-15 10:09:00.671	- Info  -	[MultiChannel] forward stream read data(size:44, 44, left:144) when p2p state is CONNECTED @ 445
+2023-03-15 10:09:00.671	- Info  -	[MultiChannel] forward stream read data(size:20, 20, left:100) when p2p state is CONNECTED @ 445
+2023-03-15 10:09:00.671	- Info  -	[udpwrapper] disconnect reason : 1
+2023-03-15 10:09:00.671	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibWrapper::OnDisconnect:833]
+2023-03-15 10:09:00.671	- Info  -	[MultiChannel] forward stream read data(size:80, 80, left:80) when p2p state is CONNECTED @ 445
+2023-03-15 10:09:00.672	- Info  -	[udpwrapper] Disconnect 122.246.12.46:4118 @ 838
+2023-03-15 10:09:00.672	- Info  -	[MultiChannel] forward data read completed @ 462
+2023-03-15 10:09:00.672	- Info  -	[oray][erroCode] errorcode=oray_errorcode(57354), product=0, type=3, inner code=10 [CUDPLibStream::Disconnect_impl:73]
+2023-03-15 10:09:00.998	- Info  -	[drag] QueryVersionRes is true
+2023-03-15 10:09:01.003	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-03-15 10:09:03.893	* Error *	sensors data send failed!
+2023-03-15 10:09:03.894	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStream::Disconnect_impl:254]
+2023-03-15 10:09:03.895	- Info  -	[TCPConnector] CCurStream handle client_disconnect
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::ForwardHandler::Handle:647]
+2023-03-15 10:09:03.895	- Info  -	CConnectorRaw::OnEvent() state: CNTS_FWD_DISCONNECT, error: 0, oray errorcode: 0
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:09:03.895	+Warning+	[MultiChannel] unbind forward stream(errorcode 0) @ 651
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::Disconnect_impl:678]
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-03-15 10:09:03.895	- Info  -	[udp] Disconnect
+2023-03-15 10:09:03.895	- Info  -	[udp] SendDisconnect
+2023-03-15 10:09:03.895	- Info  -	[MultiChannel] P2P channel disconnect 106.4.221.178:32125
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::P2PHandler::Handle:834]
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=transf(0), product=0, type=0, inner code=0 [CMultiChannelStream::HandleDisconnect:1041]
+2023-03-15 10:09:03.895	- Info  -	CMultiChannelStreamImpl::OnDisconnect()
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CMultiChannelStreamImpl::OnDisconnect:100]
+2023-03-15 10:09:03.895	- Info  -	CClientStream 106.4.221.178:32125 OnDisconnect, errocde:0
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [CClientStream::OnDisconnect:104]
+2023-03-15 10:09:03.895	- Info  -	OnDisconnect, error code 0
+2023-03-15 10:09:03.895	- Info  -	[oray][erroCode] errorcode=errcode(0), product=0, type=0, inner code=0 [BinaryPluginStream::OnDisconnect:404]
+2023-03-15 10:09:03.895	- Info  -	[desktop] Separation message loop stop.
+2023-03-15 10:09:03.895	- Info  -	CPluginThreadManager stop plugin thread
+2023-03-15 10:09:03.896	- Info  -	CActivePlugin prepare to exit plugin
+2023-03-15 10:09:03.896	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. >
+2023-03-15 10:09:03.896	- Info  -	[clipboard] stop clipboard...
+2023-03-15 10:09:03.899	- Info  -	[udpwrapper] udprelay connecting 106.4.221.178:32125 via 122.246.12.46:4118
+2023-03-15 10:09:03.906	- Info  -	[clipboard] recv thread end(1).
+2023-03-15 10:09:03.907	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-03-15 10:09:03.907	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-03-15 10:09:03.908	- Info  -	[clipboard] Stop Clipboard ok
+2023-03-15 10:09:03.920	- Info  -	[desktop] [thread] cancel.
+2023-03-15 10:09:03.920	- Info  -	[desktop] RemoteDesktopPlugin::ExitInstance. <
+2023-03-15 10:09:03.921	- Info  -	CConnectorRaw::OnEvent() state: CNTS_P2P_DISCONNECT, error: 0, oray errorcode: 0
+2023-03-15 10:09:03.921	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:09:03.921	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CTCPStream::Disconnect_impl:1016]
+2023-03-15 10:09:03.921	- Info  -	CConnectorRaw::OnEvent() state: CNTS_DISCONNECTED, error: 0, oray errorcode: 0
+2023-03-15 10:09:03.921	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CConnectorRaw::OnEvent:624]
+2023-03-15 10:09:03.921	- Info  -	CConnectorRaw::Stop in>
+2023-03-15 10:09:03.922	- Info  -	[CUDPLibWrapper] map size: 1, value: [106.4.221.178:32125/15701-2] = 0.0.0.0:15701;
+
+2023-03-15 10:09:03.922	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CP2PStream::CUDPStream::Disconnect_impl:1044]
+2023-03-15 10:09:03.922	- Info  -	[oray][erroCode] errorcode=oray_errorcode(0), product=0, type=0, inner code=0 [CUDPLibStream::Disconnect_impl:73]
+2023-03-15 10:09:03.922	- Info  -	CConnectorRaw::Stop out<
+2023-03-15 10:09:03.922	- Info  -	sensors close
+2023-03-15 10:09:03.929	* Error *	Plugin disconnect with error : 0
+2023-03-15 10:09:03.957	- Info  -	[desktop] CRemoteDesktopPlugin::~CRemoteDesktopPlugin(void)
+2023-03-15 10:09:03.959	- Info  -	[vpx][decoder] close codec.
+2023-03-15 10:09:04.001	- Info  -	CMultiChannelStreamImpl::~CMultiChannelStreamImpl
+2023-03-15 10:09:04.005	- Info  -	[http call3] disconnect, error( 0 )
+2023-03-15 10:09:04.005	- Info  -	program remote_plugin is exit 

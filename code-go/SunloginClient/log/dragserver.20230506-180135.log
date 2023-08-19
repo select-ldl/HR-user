@@ -1,0 +1,29 @@
+2023-05-06 18:01:35.658	- Info  -	version:3.2.1.40406
+2023-05-06 18:01:35.658	- Info  -	[clipboard][client] current session id 1, ProcessID 9868
+
+2023-05-06 18:01:35.659	- Info  -	attempt to connect server 127.0.0.1:25305(127.0.0.1:25305)
+2023-05-06 18:01:35.662	- Info  -	[clipboard][DesktopAgentClient] connect DesktopServer ok.
+2023-05-06 18:01:35.703	- Info  -	[clipboard][client::handler] connected sid(0), thread(4840)
+2023-05-06 18:01:35.704	- Info  -	[clipboard] start clipboard...
+2023-05-06 18:01:35.793	- Info  -	[clipboard][converter] html format 49428
+2023-05-06 18:01:35.798	- Info  -	[clipboard][converter] rtf format 49271
+2023-05-06 18:01:35.798	- Info  -	[clipboard] start clipboard ok.
+2023-05-06 18:01:35.799	- Info  -	[clipboard] stop clipboard...
+2023-05-06 18:01:35.860	- Info  -	[clipboard] recv thread end(2).
+2023-05-06 18:01:35.988	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-05-06 18:01:35.989	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-05-06 18:01:35.990	- Info  -	[clipboard] Stop Clipboard ok
+2023-05-06 18:01:36.125	- Info  -	[clipboard] start clipboard...
+2023-05-06 18:01:36.181	- Info  -	[clipboard][converter] html format 49428
+2023-05-06 18:01:36.181	- Info  -	[clipboard][converter] rtf format 49271
+2023-05-06 18:01:36.182	- Info  -	[clipboard] start clipboard ok.
+2023-05-06 18:01:36.184	- Info  -	[clipboard] recv thread end(2).
+2023-05-06 18:01:38.570	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-05-06 18:01:38.589	- Info  -	CClipboardRaw::OnReceiveQueryVersionRes 2
+2023-05-06 18:01:38.589	- Info  -	CClipboardRaw::OnReceiveQueryVersionReq 2
+2023-05-06 18:04:54.973	- Info  -	[clipboard][client::handler] disconnected
+2023-05-06 18:04:54.974	- Info  -	[clipboard] stop clipboard...
+2023-05-06 18:04:54.990	- Info  -	[clipboard] call CClipboardViewer::DestroyWnd at 190
+2023-05-06 18:04:54.990	- Info  -	[clipboard] recv WM_CLOSE, end thread.
+2023-05-06 18:04:54.991	- Info  -	[clipboard] Stop Clipboard ok
+2023-05-06 18:04:54.991	- Info  -	[clipboard][DesktopAgentClient] on_disconnect ok.

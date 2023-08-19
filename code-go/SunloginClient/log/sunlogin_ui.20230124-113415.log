@@ -1,0 +1,8 @@
+2023-01-24 11:34:15.240	- Info  -	version:3.2.1.40406
+2023-01-24 11:34:15.362	- Info  -	[dlg_main] on_create
+2023-01-24 11:34:15.439	- Info  -	attempt to connect server 127.0.0.1:16308(127.0.0.1:16308)
+2023-01-24 11:34:15.465	- Info  -	[shell] OnConnect
+2023-01-24 11:34:15.468	- Info  -	[shell] status_changed:1
+2023-01-24 11:34:16.536	- Info  -	[dlg_main] init_fastcode_histroy
+2023-01-24 11:34:16.565	- Info  -	[http call3] new call id:1, url:https://ddns.oray.com/checkip?clean=1
+2023-01-24 11:34:16.565	- Info  -	[dlg_main] on_create end

@@ -1,0 +1,16 @@
+2022-12-22 16:25:52.754	- Info  -	version:3.2.1.40406
+2022-12-22 16:25:52.945	- Info  -	[dlg_main] on_create
+2022-12-22 16:25:53.126	- Info  -	attempt to connect server 127.0.0.1:16308(127.0.0.1:16308)
+2022-12-22 16:25:53.250	- Info  -	[shell] OnConnect
+2022-12-22 16:25:53.252	- Info  -	[shell] status_changed:1
+2022-12-22 16:25:54.339	- Info  -	[dlg_main] init_fastcode_histroy
+2022-12-22 16:25:54.472	- Info  -	[http call3] new call id:1, url:https://ddns.oray.com/checkip?clean=1
+2022-12-22 16:25:54.472	- Info  -	[dlg_main] on_create end
+2022-12-22 16:25:54.505	- Info  -	[http call3] id:1 create new connection : https://ddns.oray.com:443
+2022-12-22 16:25:54.587	- Info  -	attempt to connect server ddns.oray.com:443(114.215.199.192:443)
+2022-12-22 16:25:54.702	- Info  -	sensors init with file: C:/ProgramData/Oray/SunloginClient/sensors/datas
+2022-12-22 16:25:54.704	- Info  -	[http call3] new call id:2, url:https://slapi.oray.net/client/free-tips
+2022-12-22 16:25:55.122	- Info  -	[http call3] id:2 create new connection : https://slapi.oray.net:443
+2022-12-22 16:25:55.171	- Info  -	attempt to connect server slapi.oray.net:443(121.40.200.192:443)
+2022-12-22 16:25:55.229	- Info  -	[http call3] id:1, url:https://ddns.oray.com/checkip?clean=1, status code:200
+2022-12-22 16:25:55.345	- Info  -	[http call3] id:2, url:https://slapi.oray.net/client/free-tips, status code:200

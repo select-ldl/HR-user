@@ -1,0 +1,122 @@
+; OrayMir.inf
+;
+; Installation inf for the Mirror graphics adapter.
+;
+; Copyright (x) 2007-xxxx Oray Corporation. All rights reserved
+;
+ 
+ 
+ 
+[Version] 
+Signature = "$Windows NT$" 
+Provider=%Oray% 
+Class=Display
+ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
+DriverVer=10/26/2011,1.0.1.17485
+CatalogFile=OrayMir.cat
+CatalogFile.NTx86=OrayMirX86.cat
+
+[DestinationDirs] 
+DefaultDestDir   = 11
+OrayMir.Files.x86_11 = 11 
+OrayMir.Files.x86_12 = 12 
+
+[SourceDisksNames.x86]
+1 = %DiskId%,,,""
+
+[SourceDisksNames.ia64]
+
+
+[SourceDisksFiles.x86]
+Oraymir.sys=1
+Oraymir.dll=1
+omirhelp.dll=1
+[SourceDisksFiles.ia64]
+
+
+[Manufacturer] 
+%Oray%=Oray
+
+[Oray]
+%OrayMirDesc%=OrayMir_Inst,C50B00D7-AE62-4936-8BC8-20E0B9F0BEFB
+
+[OrayMir_Inst.ntx86] 
+CopyFiles = OrayMir.Files.x86_11, OrayMir.Files.x86_12 
+
+[OrayMir_Inst.ntx86.Services] 
+AddService = Oraymir,0x00000002,OrayMir_Service_Instx86, OrayMir_EventLog_Inst 
+
+[OrayMir_Service_Instx86] 
+ServiceType = %SERVICE_KERNEL_DRIVER% 
+StartType = %SERVICE_SYSTEM_START% 
+ErrorControl = %SERVICE_ERROR_IGNORE% 
+LoadOrderGroup = Video
+ServiceBinary = %12%\Oraymir.sys 
+
+
+[OrayMir.Files.x86_11] 
+omirhelp.dll
+OrayMir.dll
+[OrayMir.Files.x86_12] 
+OrayMir.sys
+
+[OrayMir_EventLog_Inst] 
+AddReg = OrayMir_EventLog_Inst.AddReg 
+ 
+[OrayMir_EventLog_Inst.AddReg] 
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\OrayMir.sys" 
+HKR,,TypesSupported,%REG_DWORD%,7
+
+
+
+;
+; Software Installation
+;
+
+[OrayMir_Inst.SoftwareSettings]
+AddReg = mirror_SoftwareDeviceSettings
+
+[mirror_SoftwareDeviceSettings]
+HKR,, MirrorDriver,                %REG_DWORD%,    1
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, OrayMir
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+HKR,, Attach.ToDesktop,            %REG_DWORD%,    0
+
+[OrayMir_Inst.OpenGLSoftwareSettings]
+AddReg = mirror_OpenGLSoftwareSettings
+
+[mirror_OpenGLSoftwareSettings]
+
+;
+; Not currently used:
+;
+
+[OrayMir_Inst.GeneralConfigData]
+MaximumNumberOfDevices = 1
+KeepExistingDriverEnabled = 1
+
+
+[Strings] 
+
+;  *******Localizable Strings******* 
+Oray= "Shanghai Best Oray Information Technology Co., Ltd." 
+Desc_x860= "Program" 
+OrayMirDesc= "Oray Display Mirror Driver" 
+DiskId       = "Mirror Installation DISK (VIDEO)"
+;  *******Non Localizable Strings******* 
+
+SERVICE_BOOT_START = 0x0 
+SERVICE_SYSTEM_START = 0x1 
+SERVICE_AUTO_START = 0x2 
+SERVICE_DEMAND_START = 0x3 
+SERVICE_DISABLED = 0x4 
+
+SERVICE_KERNEL_DRIVER = 0x1 
+SERVICE_ERROR_IGNORE = 0x0 
+SERVICE_ERROR_NORMAL = 0x1 
+SERVICE_ERROR_SEVERE = 0x2 
+SERVICE_ERROR_CRITICAL = 0x3 
+
+REG_EXPAND_SZ = 0x00020000 
+REG_DWORD = 0x00010001 
+REG_MULTI_SZ = 0x00010000
