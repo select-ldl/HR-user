@@ -1,0 +1,4 @@
+2023-08-02 09:23:57,124 [Level: ERROR] [Thread: 15] [class£ºlogger] [(null)]: PusherHelper _pusher_Error 
+PusherClient.PusherException: App key 4fc436ef36f4026102d7 not in this cluster. Did you forget to specify the cluster?
+2023-08-02 17:05:44,392 [Level: ERROR] [Thread: 16] [class£ºlogger] [(null)]: PusherHelper _pusher_Error 
+PusherClient.PusherException: App key 4fc436ef36f4026102d7 not in this cluster. Did you forget to specify the cluster?

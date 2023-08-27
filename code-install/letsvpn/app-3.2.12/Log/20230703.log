@@ -1,0 +1,8 @@
+2023-07-03 09:21:24,076 [Level: ERROR] [Thread: 14] [class：logger] [(null)]: PusherHelper _pusher_Error 
+PusherClient.PusherException: App key 4fc436ef36f4026102d7 not in this cluster. Did you forget to specify the cluster?
+2023-07-03 09:21:29,181 [Level: ERROR] [Thread: 7] [class：logger] [(null)]: Open VPN failed result：6; errorStr = 程序异常，请重新启动软件。
+2023-07-03 09:21:29,184 [Level: ERROR] [Thread: 26] [class：logger] [(null)]: DLLInterface OnDealFailedFun, status：disconnect; extend = {"errno":102,"message":"The data of the account is run out","name":"Account-Expired"}
+2023-07-03 11:16:54,054 [Level: ERROR] [Thread: 15] [class：logger] [(null)]: PusherHelper _pusher_Error 
+PusherClient.PusherException: App key 4fc436ef36f4026102d7 not in this cluster. Did you forget to specify the cluster?
+2023-07-03 15:22:07,989 [Level: ERROR] [Thread: 15] [class：logger] [(null)]: PusherHelper _pusher_Error 
+PusherClient.PusherException: App key 4fc436ef36f4026102d7 not in this cluster. Did you forget to specify the cluster?
