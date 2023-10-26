@@ -1,0 +1,6 @@
+去官网下jdk:
+https://www.oracle.com/java/technologies/downloads/#java8
+
+
+安装教程可以参考
+https://blog.csdn.net/zhurouwanzi/article/details/127152563

@@ -1,0 +1,11 @@
+1、控制面板里的增加删除程序内进行删除（控制面板里面卸载）
+
+2、删除C盘下的MySQL文件夹（C:\Program Files\MySQL）
+
+3、开始->运行-> regedit 
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eventlog\Application\MySQL 目录删除
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\Eventlog\Application\MySQL 目录删除
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application\MySQL 目录删除
+
+4、C:\ProgramData\MySQL 目录删除 （ProgramData为隐藏文件，需要打开隐藏文件）
+这里还有MySQL的文件，必须要删除

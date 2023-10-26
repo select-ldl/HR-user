@@ -1,0 +1,6 @@
+菜鸟教程https://www.runoob.com/python3/python3-install.html
+Python 官网：https://www.python.org/
+
+PyCharm 下载地址 : https://www.jetbrains.com/pycharm/download/
+
+PyCharm 安装地址：http://www.runoob.com/w3cnote/pycharm-windows-install.html

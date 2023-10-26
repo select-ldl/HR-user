@@ -1,0 +1,32 @@
+echo "# dock_file" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:select-ldl/desktop-filebook.git
+git push -u origin main
+
+git lfs ls-files -a -l
+java -jar bfg.jar --delete-files *wtbdata_245days.csv  .git
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+
+git@github.com:select-ldl/select-code.git
+master
+
+ssh -T git@github.com
+cat ~/.ssh/id_rsa.pub
+上传大文件
+git config --globla user.name "select-ldl"
+git config --globla user.email "1324275690@qq.com"
+ssh-keygen -t rsa -C "1324275690@qq.com"
+git branch -M main
+git init
+git lfs install
+git lfs track *
+git add .gitattributes
+git commit -m ""
+git remote add origin git@github.com:select-ldl/desktop-filebook.git
+git push -u origin main
+git add *
+git commit -m ""
+git push -u origin main
