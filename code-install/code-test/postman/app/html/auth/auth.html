@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Postman</title>
+  <link rel="stylesheet" type="text/css" href="../../js/authentication.css">
+  <script src="../../js/preload.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+    }
+  </style>
+</head>
+<body class="show-footer">
+  <div class="pm-loader">
+    <div class="pm-loader-container">
+      <div class='pm-loader-atoms'>
+        <div class='pm-loader-center-atom'></div>
+        <div class='pm-loader-orbit-1'><div class='pm-loader-atom-1'></div></div>
+        <div class='pm-loader-orbit-2'><div class='pm-loader-atom-2'></div></div>
+        <div class='pm-loader-orbit-3'><div class='pm-loader-atom-3'></div></div>
+      </div>
+    </div>
+  </div>
+
+  <webview partition="authentication"></webview>
+  <p id="footer">
+    <a href="#" id="cancel-btn"></a>
+    <a href="#" id="back-btn">登录/注册 通过电子邮件</a>
+  </p>
+
+  <script type="text/javascript" src="../../js/authentication.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="../../js/authentication.css">
+    <style>
+      body, html {
+        background: #f2f2f2;
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+      }
+      body {
+        display: flex;
+      }
+    </style>
+    <script src="../../js/preload.js"></script>
+  </head>
+  <body>
+    <div class="error-block">
+      <div class="img"></div>
+      <h2>出了些问题!</h2>
+      <h3>我们在连接身份验证服务时遇到了一些困难. 请稍后再试.</h3>
+      <button id="retry-btn">重试</button>
+    </div>
+
+    <script>
+      document.getElementById('retry-btn').onclick = function () {
+        window.location = decodeURIComponent(location.search.substr(1));
+      }
+    </script>
+</body>
+</html>

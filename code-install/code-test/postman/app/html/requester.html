@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; connect-src *; img-src data: *; media-src data: https://skills-assets.pstmn.io; frame-src file: data: https://chart-embed.service.newrelic.com/; script-src 'self' 'unsafe-eval' https://flow.cdn.postman.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; worker-src 'self' blob:;"
+    >
+    <title>Postman Webview</title>
+    <script src="../js/preload.js"></script>
+    <link rel="preload" href="../js/requester.css" as="style">
+    <link rel="preload" href="../js/vendor-ui.js" as='script'>
+    <link rel="preload" href="../js/requester.js" as='script'>
+
+
+    <style>
+      .pm-loader.is-exiting {
+        opacity: 0;
+      }
+
+      .pm-loader.is-hidden {
+        display: none;
+      }
+
+      body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: absolute;
+      }
+
+      .pm-loader {
+        width: 100%;
+        height: 100%;
+        z-index: 300;
+        background: #FFFFFF;
+      }
+
+      .pm-loader-container {
+        height: 100%;
+        display: flex;
+      }
+
+      .app-root {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+      }
+
+      .app-root.is-hidden {
+        display: none;
+      }
+
+      .requester-shell-loading-indicator-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 20px;
+      }
+
+      .requester-shell-loading-indicator-wrapper .loading-indicator{
+        width: 4px;
+        height: 20px;
+        border-radius: var(--border-radius-s);
+        background-color: var(--highlight-background-color-tertiary);
+        position: relative;
+        display: inline-block;
+        -webkit-animation: bounce-middle 0.6s ease 0.1s infinite;
+        animation: bounce-middle 0.6s ease 0.1s infinite;
+      }
+
+      .requester-shell-loading-indicator-wrapper .loading-indicator:before {
+        left: -6px;
+        -webkit-animation: bounce-middle 0.6s ease 0s infinite;
+        animation: bounce-middle 0.6s ease 0s infinite;
+        content: "";
+        position: absolute;
+        display: block;
+        top: 50%;
+        -webkit-transform: translateY(-10px) translateZ(0);
+        transform: translateY(-10px) translateZ(0);
+        width: 4px;
+        height: 20px;
+        border-radius: var(--border-radius-s);
+        background-color: var(--highlight-background-color-tertiary);
+      }
+
+      .requester-shell-loading-indicator-wrapper .loading-indicator:after {
+        left: 6px;
+        -webkit-animation: bounce-middle 0.6s ease 0.2s infinite;
+        animation: bounce-middle 0.6s ease 0.2s infinite;
+        content: "";
+        position: absolute;
+        display: block;
+        top: 50%;
+        -webkit-transform: translateY(-10px) translateZ(0);
+        transform: translateY(-10px) translateZ(0);
+        width: 4px;
+        height: 20px;
+        border-radius: var(--border-radius-s);
+        background-color: var(--highlight-background-color-tertiary);
+      }
+
+      .requester-shell-loader {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .requester-shell-loader-main-header {
+        height: 50px;
+        background-color: #FFFFFF;
+        box-shadow: inset 0 -1px 0 #ECECEC;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .requester-shell-loader-main-header__section-left {
+        padding: var(--spacing-l);
+      }
+      .requester-shell-loader-main-header__section-left, .requester-shell-loader-main-header__section-right {
+        display: flex;
+        align-items: center;
+      }
+
+      .item-tabs {
+        height: var(--size-s);
+        width: 50px;
+        border-radius: var(--border-radius-default);
+        background-color: #F2F2F2;
+        margin-right: var(--spacing-xxl);
+      }
+
+      .item-tabs-home { width: 40px; }
+      .item-tabs-build { width: 103px; }
+      .item-tabs-reports { width: 53px; }
+      .item-tabs-explore { width: 51px; }
+
+      .requester-shell-loader-searchbox {
+        height: var(--size-m);
+        min-width: 160px;
+        width: 15vw;
+        max-width: 320px;
+        position: absolute;
+        left: 50%;
+        top: 8px;
+        transform: translateX(-50%);
+        border-radius: var(--border-radius-default);
+        background-color: #F2F2F2;
+      }
+
+      .item-circle {
+        height: var(--size-s);
+        width: var(--size-s);
+        border-radius: var(--border-radius-max);
+        background-color: #F2F2F2;
+        margin: var(--spacing-zero) var(--spacing-xs);
+        margin-right: var(--spacing-m);
+      }
+      .item-avatar {
+        margin-right: var(--spacing-xs);
+      }
+
+      .item-rectangle {
+        height: var(--size-m);
+        width: 96px;
+        background-color: #F2F2F2;
+        border-radius: var(--border-radius-default);
+        margin: var(--spacing-zero) var(--spacing-s);
+      }
+      .item-invite {
+        height: var(--size-m);
+        width: 62px;
+        background-color: #F2F2F2;
+        border-radius: var(--border-radius-default);
+        margin: var(--spacing-zero) var(--spacing-s);
+      }
+
+      .requester-shell-loader-main-content {
+        display: flex;
+        flex: 1;
+      }
+
+      .requester-shell-loader-main-tab {
+        height: var(--size-m);
+        background-color: #FFFFFF;
+      }
+
+      .requester-shell-loader-tab-content-panes {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+
+      .requester-shell-loader-tab-content-pane {
+        display: flex;
+        flex: 0 0 50%;
+        flex-direction: column;
+      }
+
+      .requester-shell-loader .requester-contents-top {
+        padding-right: var(--spacing-l);
+      }
+
+      .requester-shell-loader .flexed {
+        display: flex;
+      }
+
+      .requester-shell-loader .request-editor__tabs-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        margin-bottom: var(--spacing-xs);
+        flex-direction: column;
+      }
+      .tab-main-content-shell-thumbnail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 350px;
+      }
+      .tab-main-content-shell-thumbnail path {
+        color: #F2F2F2;
+      }
+      .requester-shell-loader .strip {
+        background-color: #F2F2F2;
+        margin: var(--spacing-xs) var(--spacing-m);
+        border-radius: var(--border-radius-default);
+      }
+
+      .requester-shell-loader .url {
+        flex: 1;
+        height: var(--size-m);
+        margin: var(--spacing-m);
+        border-radius: var(--border-radius-default);
+        background-color: #F2F2F2;
+        margin-right: var(--spacing-m);
+        width: 256px;
+      }
+
+      .strip-longest {
+        width: 512px;
+        height: var(--size-m);
+      }
+
+      .strip-shortest {
+        width: 128px;
+        height: var(--size-m);
+      }
+
+      @keyframes fade {
+        0% { opacity: 0.25; }
+        50% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @-webkit-keyframes fade {
+        0% { opacity: 0.25; }
+        50% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @-moz-keyframes fade {
+        0% { opacity: 0.25; }
+        50% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @-o-keyframes fade {
+        0% { opacity: 0.25; }
+        50% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @keyframes fade {
+        0% { opacity: 0.25; }
+        50% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" type="text/css" href="../js/requester.css">
+    <style id='theme'></style>
+    <div class='pm-loader'>
+      <div class="pm-loader-container">
+        <div class='requester-shell-loader'>
+          <div class='requester-shell-loader-main-header'>
+            <div class="requester-shell-loader-main-header__section-left">
+              <div class='item-tabs item-tabs-home'></div>
+              <div class='item-tabs item-tabs-build'></div>
+              <div class='item-tabs item-tabs-reports'></div>
+              <div class='item-tabs item-tabs-explore'></div>
+            </div>
+            <div class="requester-shell-loader-main-header__section-center">
+              <div class="requester-shell-loader-searchbox"></div>
+            </div>
+            <div class="requester-shell-loader-main-header__section-right">
+              <div class="item-circle"></div>
+              <div class="item-circle"></div>
+              <div class="item-circle item-avatar"></div>
+              <div class="item-rectangle"></div>
+            </div>
+          </div>
+          <div class='requester-shell-loader-main-content'>
+            <div class="requester-shell-loading-indicator-wrapper">
+              <div class="loading-indicator"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='app-root' id='app-root'></div>
+    <div class="aether-portals">
+      <div id="aether-toast-notifications__container"></div>
+      <div id="aether-popover-portal"></div>
+      <div id="aether-breadcrumb-portal"></div>
+    </div>
+    <script type="text/javascript" src="../js/vendor-ui.js"></script>
+    <script type="text/javascript" src="../js/requester.js"></script>
+  </body>
+</html>

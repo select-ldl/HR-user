@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[61],{24809:function(e,t,n){"use strict";var a=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=a(n(2)),l=a(n(47)),o=n(9),d=n(8646),r=n(7326),u=l.default.div`
+  padding: var(--spacing-zero) var(--spacing-s);
+`;t.default=function(e){const{id:t}=e.contextData,n={id:t};return i.default.createElement(o.Flex,{direction:"column"},i.default.createElement(r.ContextBarViewHeader,{title:"Flow details",onClose:e.onClose}),i.default.createElement(u,null,i.default.createElement(d.EntityMetaInfoView,{userFriendlyEntityName:"flow",info:n})))}}}]);

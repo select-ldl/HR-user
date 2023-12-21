@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[69],{29763:function(e,t,r){"use strict";r.r(t),r.d(t,"default",(function(){return o}));var s=r(5929);class o{didCreate(){Object(s.getStore)("APIListStore").init(),this.store=Object(s.getStore)("APISidebarStore"),this.store.setSearchQuery("")}beforeDestroy(){this.store=null}}}}]);
